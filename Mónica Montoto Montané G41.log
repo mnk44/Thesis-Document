@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  16 JUN 2022 18:44
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  16 JUN 2022 19:18
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 ("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.tex"
@@ -439,21 +439,10 @@ LaTeX Warning: Citation `anaMailen' on page 2 undefined on input line 44.
 LaTeX Warning: Citation `elena' on page 2 undefined on input line 46.
 
 [2] [3] [4]
-
-LaTeX Warning: Citation `convenciondeinf' on page 5 undefined on input line 102
-.
-
-
-LaTeX Warning: Citation `informatcappt' on page 5 undefined on input line 105.
-
-
-LaTeX Warning: Citation `ladearriba' on page 5 undefined on input line 112.
-
+No file Mónica*Montoto*Montané*G41.bbl.
 [5
 
-]
-No file Mónica*Montoto*Montané*G41.bbl.
-[6] ("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.aux")
+] ("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.aux")
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -462,22 +451,22 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2012 strings out of 494019
- 26036 string characters out of 3143892
+ 2007 strings out of 494019
+ 25959 string characters out of 3143892
  96421 words of memory out of 3000000
- 5311 multiletter control sequences out of 15000+200000
- 7363 words of font info for 26 fonts, out of 3000000 for 9000
+ 5306 multiletter control sequences out of 15000+200000
+ 6758 words of font info for 24 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 25i,4n,27p,911b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,4n,27p,911b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (7 pages, 125906 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (6 pages, 121865 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -95,32 +95,11 @@ De este conjunto, se centra la atención en el \textbf{campo de acción} que com
 Como \textbf{artefacto de salida} se logrará un sistema de entrenamiento (una aplicación práctica) que permite capacitar a los operarios de las Industrias Alimentarias. En una primera prueba, se desea implementar este sistema resultante en las Industrias Azucareras Cubanas, obteniendo un \textbf{valor práctico} de gran importancia para la sociedad.
 
 \chapter*{Capítulo I: Fundamentos Teóricos}
-En el presente capítulo se puede encontrar todo lo referente a los principales temas que se abordan a lo largo de la investigación. En el mismo se explicará qué es un sistema de capacitación, su importancia, las fases que lo comprenden, tipos de preguntas y modo de calificación. Además, se plantea el concepto de sistemas expertos, junto a sus características más notables, los componentes que lo integran, sus principales limitaciones y sus ventajas. También estarán detalladas la implementación de algunas de las funcionalidades del Sistema de Entrenamiento SECPROIT, sus componentes y su rendimiento.
+El presente capítulo abarca los principales temas que se abordan a lo largo de la investigación. Se detalla qué es un sistema de capacitación, las fases que lo comprenden, los tipos de preguntas más abundantes, los modelos de calificación y la importancia de estos sistemas. Además, se plantea el concepto de sistemas expertos, junto a sus características más notables, los componentes que lo integran y su importancia. También estarán explicadas algunas de las funcionalidades del Sistema de Entrenamiento SECPROIT, sus componentes y su rendimiento.
 Al final del capítulo se observarán conclusiones parciales a modo de resumen del mismo.
 
 \section*{1.1 Sistemas de Capacitación}
-Una capacitación, según \cite{convenciondeinf}, es toda aquella actividad realizada en una organización a partir de las necesidades que tenga, para mejorar la actitud, conocimiento, habilidades o conductas de su personal. Busca perfeccionar al colaborador en su puesto de trabajo, en un proceso estructurado bien definido.
-La necesidad de capacitación surge cuando hay marcadas diferencias entre lo que una persona debería saber para desempeñar una tarea, y lo que realmente sabe.
 
-Existen cuatro campos fundamentales donde la capacitación puede ser aplicada. El campo más conocido es el entrenamiento, que se aplica al personal operativo, a la vez que este ocupa su puesto laboral. Es a partir de este campo que se dan a conocer los sistemas de capacitación o sistemas de entrenamiento \cite{informatcappt}.
-Entonces, un sistema de capacitación no es más que un mecanismo para lograr recursos humanos mejor calificados, con mayor competitividad. 
- 
-\subsection*{1.1.1 Importancia de los Sistemas de Capacitación} 
-Los sistemas de capacitación permiten evitar la obsolescencia de los conocimientos del personal, adaptarse a los rápidos cambios sociales, disminuir la tasa de rotación de los trabajadores y entrenar sustitutos que puedan ocupar nuevas funciones rápida y eficazmente. Es por ello que, las inversiones en sistemas para la capacitación de trabajadores, redundan en beneficios tanto para la persona entrenada como para la empresa entera.
- 
-\subsection*{1.1.2 Tipos de Sistemas de Capacitación Laboral}
-Actualmente se conocen tres tipos de sistemas para la capacitación laboral, tal y como se plantea en \cite{ladearriba}:
-\begin{itemize}
-\item Sistema de Capacitación en la Práctica (CEP)
-\item Sistema de Capacitación para Enseñar en Trabajo (CET)
-\item Sistema de Capacitación por Computadora (CPC)
-\end{itemize}
-
-El primer tipo de sistema, Sistema de Capacitación en la Práctica (CEP), consiste en capacitar a una persona mientras ejecuta el trabajo. Para ello se cuenta con un trabajador experto o supervisor, que controla en todo momento la acciones del capacitado. Tiene como ventajas que es relativamente barato, que los educandos aprenden mientras producen y que reciben retroalimentación proactiva sobre su desempeño laboral. Pero a su vez, trae consigo la desventaja de que se debe poseer un amplio repertorio de trabajadores para poder asignar un experto a los educandos.
-
-El segundo sistema, Sistema de Capacitación para Enseñar en Trabajo (CET), provee una lista de tareas básicas para cada puesto laboral. Cada acción contiene los puntos claves necesarios para que los empleados logren un aprendizaje efectivo paso a paso. En este sistema no existe supervisión continua. Tiene como ventajas que es relativamente barato y que no existen riesgos de desastre porque los capacitados no trabajan. Sin embargo, las estadísticas muestran que este es el sistema menos efectivo, porque al final de las etapas muchos educandos no logran comprender a solas la práctica laboral.
-
-En el tercer sistema, Sistema de Capacitación por Computadora (CPC), el operario usa un sistema computarizado para aumentar, de forma interactiva, sus conocimientos o habilidades. La capacitación de vestíbulo o simulada no siempre depende de la computarización. Tiene como ventajas que no se necesitan trabajadores expertos  la hora de realizar el entrenamiento, que el supervisor solo debe revisar los resultados y actuar conforme a ellos y que la capacitación se realiza de manera interactiva, lo que estimula el aprendizaje. Como única desventaja se encuentra el inconveniente de pagar el servicio de creación de este sistema.
 
 \nocite{*}
 \bibliographystyle{ieeetr}

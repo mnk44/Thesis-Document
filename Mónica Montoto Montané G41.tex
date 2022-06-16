@@ -1,0 +1,129 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+{\includegraphics[width=0.5\textwidth]{imagen/cujae}\par}
+\vspace{4cm}
+{\bfseries\scshape\Huge Informe de Prácticas Profesionales II \par}
+\vspace{1cm}
+{\itshape\Large Sistema para el entrenamiento de operarios en la Industria Alimentaria Cubana \par}
+\vspace{4cm}
+{\bfseries\Large Autor:} { \Large Mónica Montoto Montané \par}
+{\bfseries\Large Tutor: }{\Large Dra. Raisa Socorro Llanes \par}
+\vfill
+{\Large La Habana, Cuba \par}
+\vspace{0.3cm}
+\small{\mifecha\today}
+\end{titlepage}
+
+\chapter*{Introducción}
+En la actualidad, el desarrollo tecnológico se ha convertido prácticamente en una obligación para la mayoría de los entornos laborales, industriales y sociales. En un mundo tan globalizado, que avanza y se supera con una rapidez vertiginosa, no resulta de extrañar que se exijan mejores condiciones y prestaciones. A partir de estas demandas, surge la necesidad de establecer nuevas técnicas en las grandes empresas que, de manera automática, faciliten todo tipo de actividades, desde lo laboral y comercial, hasta lo cotidiano \cite{avanceTecnologico}.
+Estas exigencias requieren nuevos retos, además de los tecnológicos. Los avances técnicos traen consigo la necesidad de contar con factores humanos capacitados para responder ante el nuevo desarrollo científico \cite{invstCibernCuba}. Estadísticamente, la tarea no resulta sencilla para aquellos trabajadores que su vida ha sido lejos de un ordenador.
+
+Cuba no está ajena a esta nueva revolución tecnológica. El país está abocado a la creación y fortalecimiento de programas de posgrado que consoliden, complementen, profundicen y originen nuevos conocimientos, inmersos en áreas relacionadas con estos cambios de la era digital. De esta forma se proporcionan herramientas para afrontar retos, tomar decisiones y solucionar problemas de la sociedad cubana en general \cite{avanceTecnologico}.
+El empleo de una tecnología de software propia reduce el tiempo de desarrollo y puesta marcha de la misma, minimiza el costo, aporta gran flexibilidad y eficiencia en las operaciones, mejora significativamente la trazabilidad de los procesos y facilita el trabajo a partir de diseños amigables de la interfaz hombre-máquina \cite{industriaCubana}.
+Es por ello que, nuestro país, constantemente trabaja en función de desarrollar nuevos sistemas que permitan un avance técnico.
+
+Por citar un ejemplo, la Industria Farmacéutica Cubana está compuesta por procesos tecnológicos de elevada complejidad, que necesitan cumplir con exigentes indicadores de calidad en la producción de medicamentos. A esta industria se le empleó una metodología que permitió automatizar la mayoría de sus procesos. Esta, ha significado un ahorro al país superior a tres millones y medio en moneda convertible en los últimos cinco años, un gran beneficio gracias al avance tecnológico \cite{industriaFarmceutica}.
+
+En ocasiones, las ventajas competitivas que se obtienen con el uso de la tecnología, pueden verse afectadas por diversos riesgos, lo que provoca una posibilidad de pérdida hacia el futuro. Aunque son un hecho probabilístico sobre el que se tiene cierta incertidumbre, porque pueden ser provocados por factores internos o externos a la organización, tienen el poder de originar efectos indeseados en el cumplimiento de los objetivos de las instituciones. 
+Ante esta realidad, ha surgido como necesidad la gestión de riesgos, con el propósito de lograr ejercicios de planeación y ejecución más acertados.
+De esta situación no escapa la Industria Cubana y como parte de ella la Industria Alimentaria \cite{CONVENCION2019}.
+
+La Industria Alimentaria Cubana juega un rol muy importante dentro de la economía del país. Se caracteriza por trabajar de manera ininterrumpida, con un personal que cambia frecuentemente. Esta situación dificulta el entrenamiento de sus procesos productivos, ya que no cuenta con suficientes especialistas para la capacitación de los trabajadores. Al generarse una falla en un proceso, existe el inconveniente de una posible ausencia de expertos que encuentren una solución al problema, ya que todos los técnicos no tienen el mismo nivel de preparación para tomar decisiones ante fallas en determinadas circunstancias. En este caso, resulta entonces necesario paralizar el proceso productivo hasta localizar al experto que solucione el problema detectado, lo que genera pérdidas de recursos e incumplimiento del tiempo de producción \cite{gestorBases}.
+
+El Instituto de Investigación de la Industria Alimentaria (IIIA) posee un capital humano especializado y de prestigio que, a lo largo de los años, logró resultados científico-técnicos consistentes en la creación de aditivos, extensores alimenticios y la fortificación con vitaminas y minerales de alimentos seleccionados. El propósito de esta institución es lograr ventajas competitivas sostenibles en las industrias de nuestro país \citep{anaMailen}.
+Para darle solución al problema de la Industria Alimentaria Cubana, este instituto, en conjunto con las facultades de Ingeniería Química e Ingeniería Informática (ambas de la CUJAE), desarrolló un Sistema Experto para el Control de Procesos Químicos (SECPROIT) y un Generador de Bases de Conocimientos. Estos sistemas fueron diseñados para capacitar a los operadores de las plantas de producción ante las diferentes fallas que se puedan presentar, solucionando la problemática inicial planteada anteriormente.
+
+El Generador de Bases de Conocimientos es el encargado de crear las bases de información para los diferentes procesos químicos que ocurren en una fábrica. Cada base contiene un grupo de variables, cada una con sus características y clasificaciones. De cada variable se conocen las causas que pueden provocar un estado de riesgo o alarma en las mismas. De cada causa, se conocen las recomendaciones a seguir para minimizar los riesgos en el proceso productivo. A partir de estos datos, el generador elabora un conjunto de ficheros que luego serán utilizados por el sistema SECPROIT \cite{anaMailen}.
+
+El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como objetivo asesorar la toma de decisiones durante la ejecución de un proceso. A partir de los datos obtenidos por el Generador de Bases de Conocimiento, este sistema produce un conjunto de entrenamientos para los operarios de la fábrica. En cada prueba, el usuario debe escoger las variables que considere en estado de alarma, señalar sus posibles causas y seleccionar las recomendaciones a seguir. Cada prueba contiene tres etapas: variables, causas y recomendaciones. Estas evaluaciones son utilizadas para advertir los conocimientos de los trabajadores y la capacidad que posee cada uno \cite{elena}.
+
+Actualmente el sistema posee ciertas limitaciones que afectan el resultado final buscado:
+\begin{itemize}
+\item el operario solo puede realizar el entrenamiento una vez, es decir, solo se evalúa el contenido de un proceso una vez, lo que limita la capacidad de superación del trabajador
+\item todas las etapas de evaluación se encuentran continúas y no influyen de manera determinante en el resultado final, es decir, se puede suspender una etapa y aprobar dos, sin importar la relevancia de la primera
+\item la última etapa (las recomendaciones) no se evalúan correctamente, ni muestran los resultados obtenidos
+\item la interfaz de usuario no es intuitiva, por lo que algunos usuarios no llegan a comprender su funcionamiento
+\item las interfaces del sistema son poco atractivas con colores muy oscuros, lo que provoca que el usuario niegue su uso
+\end{itemize}
+
+Partiendo de esta \textbf{situación problemática} resulta necesario desarrollar un nuevo sistema, tomando como base el SECPROIT. Esta actualización debe poder resolver el \textbf{problema de investigación} principal: \textsf{Lograr una correcta y completa capacitación de los operarios ante los procesos productivos de la fábrica.}
+
+Es por ello que, como \textbf{objetivo general} de la investigación, se tiene:
+\begin{itemize}
+\item Generar un nuevo sistema que no contenga las limitaciones del SECPROIT, pero que realice las mismas funciones que este.
+\end{itemize}
+
+Para poder conseguir este objetivo general, se deben cumplir los siguientes \textbf{objetivos específicos}:
+\begin{itemize}
+\item Analizar el sistema SECPROIT para definir las operaciones que se pueden aprovechar y las limitaciones que se deben eliminar
+\item Modelar el nuevo sistema e identificar los requisitos que debe cumplir
+\item Diseñar la base de datos del nuevo sistema a partir del modelado anteriormente realizado
+\item Completar el diseño de la solución a partir de los resultados obtenidos en los objetivos anteriores
+\item Programar el nuevo sistema
+\item Realizar diseño y ejecución de pruebas al nuevo sistema creado
+\item Desplegar la nueva aplicación en la facultad de Ingeniería Química
+\end{itemize}
+
+Con estos objetivos se deben cumplir un conjunto de tareas que facilitarán el proceso de desarrollo del sistema. Estas \textbf{tareas específicas} son:
+\begin{itemize}
+\item Investigar los tipos de sistemas de entrenamientos existentes, así como ejemplos de evaluaciones y calificaciones que se pueden aplicar en los mismos
+\item Realizar diagrama de casos de uso, diagrama de base de datos, diagrama de clases y algún otro tipo de diagrama necesario para un mejor entendimiento de los diseños propuestos
+\item Implementar la carga de la base de conocimiento, que permite realizar los entrenamientos en el nuevo sistema
+\item Implementar generación de preguntas asociadas a la evaluación del estado de las variables
+\item Implementar generación de preguntas asociadas a la evaluación de las causas asociadas a las causas del estado de una variable
+\item Implementar generación de preguntas asociadas a la evaluación de las recomendaciones asociadas al estado de una variable
+\item Implementar la configuración del proceso de evaluación asociado a un proceso específico
+\item Implementar el proceso de conexión con el JBOSS para obtener las respuestas correctas para las preguntas asociadas a las causas y recomendaciones
+\item Implementar el proceso de evaluación parcial de cada etapa
+\item Implementar la funcionalidad que permita obtener los reportes asociados a los avances de cada operario, proceso y área
+\item Implementar el proceso de evaluación integral del operario en un proceso
+\item Implementar la funcionalidad que permita gestionar la administración del sistema
+\item Ejecución de las pruebas y experimentos al nuevo sistema
+\end{itemize}
+
+Los \textbf{objetos de estudio} de esta investigación son los sistemas de entrenamiento, los sistemas expertos y los sistemas de información inteligentes basados en reglas de producción.
+De este conjunto, se centra la atención en el \textbf{campo de acción} que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
+
+Como \textbf{artefacto de salida} se logrará un sistema de entrenamiento (una aplicación práctica) que permite capacitar a los operarios de las Industrias Alimentarias. En una primera prueba, se desea implementar este sistema resultante en las Industrias Azucareras Cubanas, obteniendo un \textbf{valor práctico} de gran importancia para la sociedad.
+
+\chapter*{Capítulo I: Fundamentos Teóricos}
+En el presente capítulo se puede encontrar todo lo referente a los principales temas que se abordan a lo largo de la investigación. En el mismo se explicará qué es un sistema de capacitación, su importancia, las fases que lo comprenden, tipos de preguntas y modo de calificación. Además, se plantea el concepto de sistemas expertos, junto a sus características más notables, los componentes que lo integran, sus principales limitaciones y sus ventajas. También estarán detalladas la implementación de algunas de las funcionalidades del Sistema de Entrenamiento SECPROIT, sus componentes y su rendimiento.
+Al final del capítulo se observarán conclusiones parciales a modo de resumen del mismo.
+
+\section*{1.1 Sistemas de Capacitación}
+Una capacitación, según \cite{convenciondeinf}, es toda aquella actividad realizada en una organización a partir de las necesidades que tenga, para mejorar la actitud, conocimiento, habilidades o conductas de su personal. Busca perfeccionar al colaborador en su puesto de trabajo, en un proceso estructurado bien definido.
+La necesidad de capacitación surge cuando hay marcadas diferencias entre lo que una persona debería saber para desempeñar una tarea, y lo que realmente sabe.
+
+Existen cuatro campos fundamentales donde la capacitación puede ser aplicada. El campo más conocido es el entrenamiento, que se aplica al personal operativo, a la vez que este ocupa su puesto laboral. Es a partir de este campo que se dan a conocer los sistemas de capacitación o sistemas de entrenamiento \cite{informatcappt}.
+Entonces, un sistema de capacitación no es más que un mecanismo para lograr recursos humanos mejor calificados, con mayor competitividad. 
+ 
+\subsection*{1.1.1 Importancia de los Sistemas de Capacitación} 
+Los sistemas de capacitación permiten evitar la obsolescencia de los conocimientos del personal, adaptarse a los rápidos cambios sociales, disminuir la tasa de rotación de los trabajadores y entrenar sustitutos que puedan ocupar nuevas funciones rápida y eficazmente. Es por ello que, las inversiones en sistemas para la capacitación de trabajadores, redundan en beneficios tanto para la persona entrenada como para la empresa entera.
+ 
+\subsection*{1.1.2 Tipos de Sistemas de Capacitación Laboral}
+Actualmente se conocen tres tipos de sistemas para la capacitación laboral, tal y como se plantea en \cite{ladearriba}:
+\begin{itemize}
+\item Sistema de Capacitación en la Práctica (CEP)
+\item Sistema de Capacitación para Enseñar en Trabajo (CET)
+\item Sistema de Capacitación por Computadora (CPC)
+\end{itemize}
+
+El primer tipo de sistema, Sistema de Capacitación en la Práctica (CEP), consiste en capacitar a una persona mientras ejecuta el trabajo. Para ello se cuenta con un trabajador experto o supervisor, que controla en todo momento la acciones del capacitado. Tiene como ventajas que es relativamente barato, que los educandos aprenden mientras producen y que reciben retroalimentación proactiva sobre su desempeño laboral. Pero a su vez, trae consigo la desventaja de que se debe poseer un amplio repertorio de trabajadores para poder asignar un experto a los educandos.
+
+El segundo sistema, Sistema de Capacitación para Enseñar en Trabajo (CET), provee una lista de tareas básicas para cada puesto laboral. Cada acción contiene los puntos claves necesarios para que los empleados logren un aprendizaje efectivo paso a paso. En este sistema no existe supervisión continua. Tiene como ventajas que es relativamente barato y que no existen riesgos de desastre porque los capacitados no trabajan. Sin embargo, las estadísticas muestran que este es el sistema menos efectivo, porque al final de las etapas muchos educandos no logran comprender a solas la práctica laboral.
+
+En el tercer sistema, Sistema de Capacitación por Computadora (CPC), el operario usa un sistema computarizado para aumentar, de forma interactiva, sus conocimientos o habilidades. La capacitación de vestíbulo o simulada no siempre depende de la computarización. Tiene como ventajas que no se necesitan trabajadores expertos  la hora de realizar el entrenamiento, que el supervisor solo debe revisar los resultados y actuar conforme a ellos y que la capacitación se realiza de manera interactiva, lo que estimula el aprendizaje. Como única desventaja se encuentra el inconveniente de pagar el servicio de creación de este sistema.
+
+\nocite{*}
+\bibliographystyle{ieeetr}
+\bibliography{referencias/Referencias}
+
+\end{document}

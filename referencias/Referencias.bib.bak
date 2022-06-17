@@ -179,6 +179,16 @@ Este trabajo fin de grado se ha basado en la unificación de todas las normas qu
   file        = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Prácticas 3ro.Data\\PDF\\4043663521\\141_255408.pdf:PDF},
 }
 
+@Article{softDoit,
+  author  = {Edu Salado},
+  title   = {Los 6 mejores software de capacitación de personal y formaci[on para empleados},
+  journal = {SoftDoit},
+  year    = {2022},
+  month   = jun,
+  note    = {Es una consultora online de software oficial en España para empresas profesionales y trabajadores. Es un buen referente en la búsqueda online de soluciones empresariales de software. Muy útil porque contiene un capítulo de softwres de capacitación que me sirve para el capítulo I},
+  url     = {https://www.softwaredoit.es/recursos-humanos/software-formacion.html},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectory:C:\\Monik\\Escuela\\Practicas\\Prácticas 3ro\\JabRef\\Bibliografías;}

@@ -186,7 +186,7 @@ Este trabajo fin de grado se ha basado en la unificación de todas las normas qu
   year    = {2022},
   month   = jun,
   note    = {Es una consultora online de software oficial en España para empresas profesionales y trabajadores. Es un buen referente en la búsqueda online de soluciones empresariales de software. Muy útil porque contiene un capítulo de softwres de capacitación que me sirve para el capítulo I},
-  url     = {https://www.softwaredoit.es/recursos-humanos/software-formacion.html},
+  url     = {h},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  16 JUN 2022 19:18
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  17 JUN 2022 04:16
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 ("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.tex"
@@ -393,34 +393,7 @@ and I'll forget about whatever was undefined.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Monik/Escuela/Practica
-s/Tesis/Informe/imagen/cujae.png>]
-
-LaTeX Warning: Citation `avanceTecnologico' on page 1 undefined on input line 2
-6.
-
-
-LaTeX Warning: Citation `invstCibernCuba' on page 1 undefined on input line 27.
-
-
-
-LaTeX Warning: Citation `avanceTecnologico' on page 1 undefined on input line 2
-9.
-
-
-LaTeX Warning: Citation `industriaCubana' on page 1 undefined on input line 30.
-
-
-
-LaTeX Warning: Citation `industriaFarmceutica' on page 1 undefined on input lin
-e 33.
-
-
-LaTeX Warning: Citation `CONVENCION2019' on page 1 undefined on input line 37.
-
-
-LaTeX Warning: Citation `gestorBases' on page 1 undefined on input line 39.
-
-[1
+s/Tesis/Informe/imagen/cujae.png>] [1
 
 ]
 ! Undefined control sequence.
@@ -432,41 +405,35 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Citation `anaMailen' on page 2 undefined on input line 44.
-
-
-LaTeX Warning: Citation `elena' on page 2 undefined on input line 46.
-
 [2] [3] [4]
-No file Mónica*Montoto*Montané*G41.bbl.
+("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.bbl"
 [5
 
-] ("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.aux")
+] [6
+
+]) [7]
+("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.aux")
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 2007 strings out of 494019
- 25959 string characters out of 3143892
- 96421 words of memory out of 3000000
- 5306 multiletter control sequences out of 15000+200000
- 6758 words of font info for 24 fonts, out of 3000000 for 9000
+ 2036 strings out of 494019
+ 26481 string characters out of 3143892
+ 96467 words of memory out of 3000000
+ 5333 multiletter control sequences out of 15000+200000
+ 7363 words of font info for 26 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 25i,4n,27p,911b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,4n,27p,909b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (6 pages, 121865 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (8 pages, 137545 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

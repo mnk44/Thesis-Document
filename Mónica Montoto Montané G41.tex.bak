@@ -95,11 +95,17 @@ De este conjunto, se centra la atención en el \textbf{campo de acción} que com
 Como \textbf{artefacto de salida} se logrará un sistema de entrenamiento (una aplicación práctica) que permite capacitar a los operarios de las Industrias Alimentarias. En una primera prueba, se desea implementar este sistema resultante en las Industrias Azucareras Cubanas, obteniendo un \textbf{valor práctico} de gran importancia para la sociedad.
 
 \chapter*{Capítulo I: Fundamentos Teóricos}
-El presente capítulo abarca los principales temas que se abordan a lo largo de la investigación. Se detalla qué es un sistema de capacitación, las fases que lo comprenden, los tipos de preguntas más abundantes, los modelos de calificación y la importancia de estos sistemas. Además, se plantea el concepto de sistemas expertos, junto a sus características más notables, los componentes que lo integran y su importancia. También estarán explicadas algunas de las funcionalidades del Sistema de Entrenamiento SECPROIT, sus componentes y su rendimiento.
-Al final del capítulo se observarán conclusiones parciales a modo de resumen del mismo.
+El presente capítulo abarca los principales temas que se abordan a lo largo de la investigación. Se detalla qué es un sistema de capacitación, las fases que lo comprenden, los tipos de preguntas más abundantes, los modelos de calificación y la importancia de estos sistemas. Además, se plantea el concepto de sistemas expertos, junto a sus características más notables y su importancia. También estarán explicadas algunas de las funcionalidades del Sistema de Entrenamiento SECPROIT, sus componentes y su rendimiento.
+Al final del capítulo se observan conclusiones parciales a modo de resumen del mismo.
 
 \section*{1.1 Sistemas de Capacitación}
+La capacitación laboral es un método aplicado por las empresas para que su personal adquiera nuevos conocimientos profesionales. Por lo general, se produce ante un ascenso o incorporación, aunque no son los únicos motivos. Lo ideal es que se desarrolle de forma continúa, ya que la constante formación del personal deriva en resultados positivos tanto para el grupo de trabajo como para la organización en la que se realiza \cite{blogBizneo}.
+Surge en el mundo como respuesta a la necesidad de mejorar permanentemente la calidad y pertinencia de la educación y la formación de recursos humanos.
 
+A partir del concepto anterior se puede deducir que, un sistema de capacitación, también conocido como sistema de entrenamiento, es un método de enseñanza alternativo creado para el adiestramiento de los trabajadores. Se basa, principalmente, en un sistema automatizado que permite el aprendizaje de los usuarios sin necesidad de una supervisión constante. En algunos casos, resulta más efectivo que las prácticas de enseñanza-aprendizaje presencial, debido a que el estudiante trabaja solo y puede determinar su propia velocidad de aprendizaje usando una amplia variedad de herramientas y métodos para la transferencia del conocimiento \cite{seguridadMinera}.
+
+\subsection*{1.1.1 Importancia de los Sistemas de Capacitación}
+Un sistema de entrenamiento asistido por computadora permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas de la capacitación de los empleados de manera presencial, es que las sesiones son frecuentemente inconsistentes, y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimientos, y ya se puede garantizar el mismo nivel de entrenamiento para todos los capacitados.
 
 \nocite{*}
 \bibliographystyle{ieeetr}

@@ -121,6 +121,40 @@
   keywords  = {Calidad; Gestión de Riesgos, Industria Cárnica�},
 }
 
+@Article{blogBizneo,
+  title   = {Cómo crear un buen plan de capacitación laboral},
+  journal = {Bizneo Blog},
+  year    = {2022},
+  volume  = {1},
+  number  = {1},
+  pages   = {5},
+  month   = jun,
+  note    = {Es un blog español de tecnología que habla sobre la correcta capacitación laboral Me sirve para en el capítulo I hablar sobre las capacitaciones},
+  url     = {https://www.bizneo.com/blog/capacitacion-laboral/#Que_es_la_capacitacion_laboral},
+}
+
+@Article{seguridadMinera,
+  author  = {Instituto de Seguridad Minera ISEM},
+  title   = {Entrenamiento basado en computador para operadores y mantenedores de planta},
+  journal = {Seguridad Minera},
+  year    = {2022},
+  month   = jun,
+  note    = {Es una revista oficial de Perú que habla de los sistemas capacitadores computarizados. Me sirve como documentación para el capítulo I},
+  url     = {https://www.revistaseguridadminera.com/capacitacion/entrenamiento-basado-en-computador-para-operadores-y-mantenedores-de-planta/},
+}
+
+@Book{cap2002,
+  title     = {Sistema de capacitación asistido por computadora, accesible vía Internet},
+  publisher = {Aplicaciones tecnológicas},
+  year      = {2002},
+  author    = {Rogelio E. Martínez R., Guillermo Romero J., Kenia Hernández C.},
+  editor    = {Boletín IIE},
+  month     = jun,
+  note      = {Se refiere a los sistemas de entrenamiento automtizados. Ideal para el capítulo I},
+  abstract  = {La naturaleza asíncrona de los STI los convierte en candidatos apropiados para su implantación en la Web dado que facilitan la instrucción a cualquier parte donde se cuente con acceso a Internet, a cualquier persona y sin restricción en los temas o dominios de aplicación.},
+  file      = {:C\:\\Users\\HP\\Downloads\\silo.tips_la-creciente-popularidad-y-el-facil-acceso-a-la.pdf:PDF},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectory:C:\\Monik\\Escuela\\Practicas\\Prácticas 3ro\\JabRef\\Bibliografías;}

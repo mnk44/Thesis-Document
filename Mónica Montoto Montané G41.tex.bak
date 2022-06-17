@@ -107,8 +107,17 @@ A partir del concepto anterior se puede deducir que, un sistema de capacitación
 \subsection*{1.1.1 Importancia de los Sistemas de Capacitación}
 Un sistema de entrenamiento asistido por computadora permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas de la capacitación de los empleados de manera presencial, es que las sesiones son frecuentemente inconsistentes, y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimientos para garantizar el mismo nivel de entrenamiento para todos los capacitados \cite{cap2002}.
 
-\subsection*{1.1.2 Tipos de Preguntas  un Sistema de Capacitación}
-
+\subsection*{1.1.2 Tipos de Preguntas en un Sistema de Capacitación}
+A medida que avanza el tiempo, se generan nuevos métodos de estudio, y con estos, nuevas formas de preguntar y calificar. Sin embargo, a la hora de diseñar un sistema automatizado, no es menos cierto que existen algunas variantes más sencillas y por ende, más utilizadas. Según \cite{referencia12} los tipos de preguntas que mayormente se emplean en un sistema son:
+\begin{itemize}
+\item \textsl{Verdadero o Falso:} contienen una declaración que se debe indicar si es verdadera o no. Permiten responder en poco tiempo, son fáciles, rápidos de calificar y se corrigen de forma automática.
+\item \textsl{Opción Múltiple:} se componen de una pregunta (raíz) con
+múltiples respuestas posibles. Pueden incluir múltiples opciones válidas, en cuyo caso, podrían darse por superada al marcar cualquiera de ellas o cuando se marquen todas. Se caracterizan por ser fáciles y rápidas de calificar, se
+corrigen automáticamente y se pueden utilizar para evaluar los conocimientos en una amplia gama de contenidos.
+\item \textsl{Emparejar, Relacionar u Ordenar:} por lo general se emparejan cada una de las opciones del primer bloque con las opciones dadas en el segundo bloque, o se ordenan bloques de modo que quede una secuencia correcta de acuerdo a un patrón previamente establecido. Se suelen usar en aquellos cursos donde la adquisición de conocimientos muy detallados es un objetivo importante. Son preguntas fáciles de diseñar, rápidas de calificar y se corrigen
+automáticamente. Estadísticamente, se tarda más en responder que las preguntas anteriores.
+\item \textsl{Respuesta Corta:} basta con que se escriban un par de palabras o una frase sencilla. Una alternativa más común a este tipo de preguntas es la de cubrir espacios en blanco con una palabra. Este tipo de preguntas son muy útiles para que se demuestren los conocimientos basados en hechos o palabras claves. La dificultad para calificarlas depende del estilo que se decida emplear.
+\end{itemize}
 
 \nocite{*}
 \bibliographystyle{ieeetr}

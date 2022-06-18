@@ -1,140 +1,89 @@
-\documentclass[12pt,a4paper]{report}
+\documentclass[12pt,letterpaper]{report}
+
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[breaklinks,colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=black]{hyperref}
 
+\makeindex
+
+\title{Título tesis}
+
+\renewcommand{\baselinestretch}{1.2}
 \begin{document}
+	\pagenumbering{roman}	
+	\renewcommand{\listtablename}{Índice de tablas}
+	\renewcommand{\tablename}{Tabla}
+	\renewcommand{\bibname}{Referencias bibliográficas}
+	
+%	esto es para que las listas anidadas salgan con numeros
+	\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+	\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+	\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+	
+	
+	\pagestyle{empty}		
+	\thispagestyle{empty} 
+	
+ 	\include{portada}
+	%\include{dec_autoria}
+	%\include{opinion_tutor}
+	%\include{dedicatoria}
+	%\include{agradecimientos}
+	%\include{resumen}
+	%\include{abstrac}
+	
+	\pagestyle{plain}	
+	
+	\tableofcontents	
+	\pagebreak	
+	
+	%\listoftables
+	%\pagebreak
+	
+	%\listoffigures	
+ 	%\clearpage 
 
-\begin{titlepage}
-\centering
-{\includegraphics[width=0.5\textwidth]{imagen/cujae}\par}
-\vspace{4cm}
-{\bfseries\scshape\Huge Informe de Prácticas Profesionales II \par}
-\vspace{1cm}
-{\itshape\Large Sistema para el entrenamiento de operarios en la Industria Alimentaria Cubana \par}
-\vspace{4cm}
-{\bfseries\Large Autor:} { \Large Mónica Montoto Montané \par}
-{\bfseries\Large Tutor: }{\Large Dra. Raisa Socorro Llanes \par}
-\vfill
-{\Large La Habana, Cuba \par}
-\vspace{0.3cm}
-\small{\mifecha\today}
-\end{titlepage}
+	\pagenumbering{arabic}
+	
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Introducción}
+	\pagestyle{fancy} 
+	
+	\include{introduccion}	
+	
+	%\renewcommand{\chaptermark}[1]{\markboth{\chaptername \, \thechapter. #1}{}}
+	
+	\include{cap1}
+	%\include{cap2}
+	%\include{cap3}
+	    
+    %\cleardoublepage
+  %  \phantomsection
+	%\addcontentsline{toc}{chapter}{Conclusiones}
+    
+    %\include{conc}
+    
+    %\cleardoublepage
+  %  \phantomsection
+	%\addcontentsline{toc}{chapter}{Recomendaciones}
+	
+	%\include{rec}
+	
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Referencias bibliográficas}
+	
+	\nocite{*}
+    \bibliographystyle{ieeetr}
+	
+	\bibliography{referencias/Referencias}
 
-\chapter*{Introducción}
-En la actualidad, el desarrollo tecnológico se ha convertido prácticamente en una obligación para la mayoría de los entornos laborales, industriales y sociales. En un mundo tan globalizado, que avanza y se supera con una rapidez vertiginosa, no resulta de extrañar que se exijan mejores condiciones y prestaciones. A partir de estas demandas, surge la necesidad de establecer nuevas técnicas en las grandes empresas que, de manera automática, faciliten todo tipo de actividades, desde lo laboral y comercial, hasta lo cotidiano \cite{avanceTecnologico}.
-Estas exigencias requieren nuevos retos, además de los tecnológicos. Los avances técnicos traen consigo la necesidad de contar con factores humanos capacitados para responder ante el nuevo desarrollo científico \cite{invstCibernCuba}. Estadísticamente, la tarea no resulta sencilla para aquellos trabajadores que su vida ha sido lejos de un ordenador.
-
-Cuba no está ajena a esta nueva revolución tecnológica. El país está abocado a la creación y fortalecimiento de programas de posgrado que consoliden, complementen, profundicen y originen nuevos conocimientos, inmersos en áreas relacionadas con estos cambios de la era digital. De esta forma se proporcionan herramientas para afrontar retos, tomar decisiones y solucionar problemas de la sociedad cubana en general \cite{avanceTecnologico}.
-El empleo de una tecnología de software propia reduce el tiempo de desarrollo y puesta marcha de la misma, minimiza el costo, aporta gran flexibilidad y eficiencia en las operaciones, mejora significativamente la trazabilidad de los procesos y facilita el trabajo a partir de diseños amigables de la interfaz hombre-máquina \cite{industriaCubana}.
-Es por ello que, nuestro país, constantemente trabaja en función de desarrollar nuevos sistemas que permitan un avance técnico.
-
-Por citar un ejemplo, la Industria Farmacéutica Cubana está compuesta por procesos tecnológicos de elevada complejidad, que necesitan cumplir con exigentes indicadores de calidad en la producción de medicamentos. A esta industria se le empleó una metodología que permitió automatizar la mayoría de sus procesos. Esta, ha significado un ahorro al país superior a tres millones y medio en moneda convertible en los últimos cinco años, un gran beneficio gracias al avance tecnológico \cite{industriaFarmceutica}.
-
-En ocasiones, las ventajas competitivas que se obtienen con el uso de la tecnología, pueden verse afectadas por diversos riesgos, lo que provoca una posibilidad de pérdida hacia el futuro. Aunque son un hecho probabilístico sobre el que se tiene cierta incertidumbre, porque pueden ser provocados por factores internos o externos a la organización, tienen el poder de originar efectos indeseados en el cumplimiento de los objetivos de las instituciones. 
-Ante esta realidad, ha surgido como necesidad la gestión de riesgos, con el propósito de lograr ejercicios de planeación y ejecución más acertados.
-De esta situación no escapa la Industria Cubana y como parte de ella la Industria Alimentaria \cite{CONVENCION2019}.
-
-La Industria Alimentaria Cubana juega un rol muy importante dentro de la economía del país. Se caracteriza por trabajar de manera ininterrumpida, con un personal que cambia frecuentemente. Esta situación dificulta el entrenamiento de sus procesos productivos, ya que no cuenta con suficientes especialistas para la capacitación de los trabajadores. Al generarse una falla en un proceso, existe el inconveniente de una posible ausencia de expertos que encuentren una solución al problema, ya que todos los técnicos no tienen el mismo nivel de preparación para tomar decisiones ante fallas en determinadas circunstancias. En este caso, resulta entonces necesario paralizar el proceso productivo hasta localizar al experto que solucione el problema detectado, lo que genera pérdidas de recursos e incumplimiento del tiempo de producción \cite{gestorBases}.
-
-El Instituto de Investigación de la Industria Alimentaria (IIIA) posee un capital humano especializado y de prestigio que, a lo largo de los años, logró resultados científico-técnicos consistentes en la creación de aditivos, extensores alimenticios y la fortificación con vitaminas y minerales de alimentos seleccionados. El propósito de esta institución es lograr ventajas competitivas sostenibles en las industrias de nuestro país \citep{anaMailen}.
-Para darle solución al problema de la Industria Alimentaria Cubana, este instituto, en conjunto con las facultades de Ingeniería Química e Ingeniería Informática (ambas de la CUJAE), desarrolló un Sistema Experto para el Control de Procesos Químicos (SECPROIT) y un Generador de Bases de Conocimientos. Estos sistemas fueron diseñados para capacitar a los operadores de las plantas de producción ante las diferentes fallas que se puedan presentar, solucionando la problemática inicial planteada anteriormente.
-
-El Generador de Bases de Conocimientos es el encargado de crear las bases de información para los diferentes procesos químicos que ocurren en una fábrica. Cada base contiene un grupo de variables, cada una con sus características y clasificaciones. De cada variable se conocen las causas que pueden provocar un estado de riesgo o alarma en las mismas. De cada causa, se conocen las recomendaciones a seguir para minimizar los riesgos en el proceso productivo. A partir de estos datos, el generador elabora un conjunto de ficheros que luego serán utilizados por el sistema SECPROIT \cite{anaMailen}.
-
-El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como objetivo asesorar la toma de decisiones durante la ejecución de un proceso. A partir de los datos obtenidos por el Generador de Bases de Conocimiento, este sistema produce un conjunto de entrenamientos para los operarios de la fábrica. En cada prueba, el usuario debe escoger las variables que considere en estado de alarma, señalar sus posibles causas y seleccionar las recomendaciones a seguir. Cada prueba contiene tres etapas: variables, causas y recomendaciones. Estas evaluaciones son utilizadas para advertir los conocimientos de los trabajadores y la capacidad que posee cada uno \cite{elena}.
-
-Actualmente el sistema posee ciertas limitaciones que afectan el resultado final buscado:
-\begin{itemize}
-\item el operario solo puede realizar el entrenamiento una vez, es decir, solo se evalúa el contenido de un proceso una vez, lo que limita la capacidad de superación del trabajador
-\item todas las etapas de evaluación se encuentran continúas y no influyen de manera determinante en el resultado final, es decir, se puede suspender una etapa y aprobar dos, sin importar la relevancia de la primera
-\item la última etapa (las recomendaciones) no se evalúan correctamente, ni muestran los resultados obtenidos
-\item la interfaz de usuario no es intuitiva, por lo que algunos usuarios no llegan a comprender su funcionamiento
-\item las interfaces del sistema son poco atractivas con colores muy oscuros, lo que provoca que el usuario niegue su uso
-\end{itemize}
-
-Partiendo de esta \textbf{situación problemática} resulta necesario desarrollar un nuevo sistema, tomando como base el SECPROIT. Esta actualización debe poder resolver el \textbf{problema de investigación} principal: \textsf{Lograr una correcta y completa capacitación de los operarios ante los procesos productivos de la fábrica.}
-
-Es por ello que, como \textbf{objetivo general} de la investigación, se tiene:
-\begin{itemize}
-\item Generar un nuevo sistema que no contenga las limitaciones del SECPROIT, pero que realice las mismas funciones que este.
-\end{itemize}
-
-Para poder conseguir este objetivo general, se deben cumplir los siguientes \textbf{objetivos específicos}:
-\begin{itemize}
-\item Analizar el sistema SECPROIT para definir las operaciones que se pueden aprovechar y las limitaciones que se deben eliminar
-\item Modelar el nuevo sistema e identificar los requisitos que debe cumplir
-\item Diseñar la base de datos del nuevo sistema a partir del modelado anteriormente realizado
-\item Completar el diseño de la solución a partir de los resultados obtenidos en los objetivos anteriores
-\item Programar el nuevo sistema
-\item Realizar diseño y ejecución de pruebas al nuevo sistema creado
-\item Desplegar la nueva aplicación en la facultad de Ingeniería Química
-\end{itemize}
-
-Con estos objetivos se deben cumplir un conjunto de tareas que facilitarán el proceso de desarrollo del sistema. Estas \textbf{tareas específicas} son:
-\begin{itemize}
-\item Investigar los tipos de sistemas de entrenamientos existentes, así como ejemplos de evaluaciones y calificaciones que se pueden aplicar en los mismos
-\item Realizar diagrama de casos de uso, diagrama de base de datos, diagrama de clases y algún otro tipo de diagrama necesario para un mejor entendimiento de los diseños propuestos
-\item Implementar la carga de la base de conocimiento, que permite realizar los entrenamientos en el nuevo sistema
-\item Implementar generación de preguntas asociadas a la evaluación del estado de las variables
-\item Implementar generación de preguntas asociadas a la evaluación de las causas asociadas a las causas del estado de una variable
-\item Implementar generación de preguntas asociadas a la evaluación de las recomendaciones asociadas al estado de una variable
-\item Implementar la configuración del proceso de evaluación asociado a un proceso específico
-\item Implementar el proceso de conexión con el JBOSS para obtener las respuestas correctas para las preguntas asociadas a las causas y recomendaciones
-\item Implementar el proceso de evaluación parcial de cada etapa
-\item Implementar la funcionalidad que permita obtener los reportes asociados a los avances de cada operario, proceso y área
-\item Implementar el proceso de evaluación integral del operario en un proceso
-\item Implementar la funcionalidad que permita gestionar la administración del sistema
-\item Ejecución de las pruebas y experimentos al nuevo sistema
-\end{itemize}
-
-Los \textbf{objetos de estudio} de esta investigación son los sistemas de entrenamiento, los sistemas expertos y los sistemas de información inteligentes basados en reglas de producción.
-De este conjunto, se centra la atención en el \textbf{campo de acción} que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
-
-Como \textbf{artefacto de salida} se logrará un sistema de entrenamiento (una aplicación práctica) que permite capacitar a los operarios de las Industrias Alimentarias. En una primera prueba, se desea implementar este sistema resultante en las Industrias Azucareras Cubanas, obteniendo un \textbf{valor práctico} de gran importancia para la sociedad.
-
-\chapter*{Capítulo I: Fundamentos Teóricos}
-El presente capítulo abarca los principales temas que se abordan a lo largo de la investigación. Se detalla qué es un sistema de capacitación, su importancia, sus tipos de preguntas y los modelos de calificación que siguen. Además, se plantea el concepto de sistemas expertos, junto a sus características más notables y su importancia. También estarán explicadas algunas de las funcionalidades del Sistema de Entrenamiento SECPROIT, sus componentes y rendimiento.
-Al final del capítulo se observan conclusiones parciales a modo de resumen del mismo.
-
-\section*{1.1 Sistemas de Capacitación}
-La capacitación laboral es un método aplicado por las empresas para que su personal adquiera nuevos conocimientos profesionales. Por lo general, se produce ante un ascenso o incorporación, aunque no son los únicos motivos. Lo ideal es que se desarrolle de forma continúa, ya que la constante formación del personal deriva en resultados positivos tanto para el grupo de trabajo como para la organización en la que se realiza \cite{blogBizneo}.
-Surge en el mundo como respuesta a la necesidad de mejorar permanentemente la calidad y formación de recursos humanos.
-
-A partir del concepto anterior se puede deducir que, un sistema de capacitación, también conocido como sistema de entrenamiento, es un método de enseñanza alternativo creado para el adiestramiento de los trabajadores. Se basa, principalmente, en un sistema automatizado que permite el aprendizaje de los usuarios sin necesidad de una supervisión constante. En algunos casos, resulta más efectivo que las prácticas de enseñanza-aprendizaje presencial, debido a que el estudiante trabaja solo y puede determinar su propia velocidad de aprendizaje usando una amplia variedad de herramientas y métodos para la transferencia del conocimiento \cite{seguridadMinera}.
-
-A modo de resumen, un sistema de capacitación es un software que brinda una solución de recursos humanos, porque ayuda en la formación de los trabajadores, con el objetivo de aumentar la productividad y alcanzar las metas empresariales propuestas.
-
-\subsection*{1.1.1 Importancia de los Sistemas de Capacitación}
-Un sistema de entrenamiento asistido por computadora permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas de la capacitación de los empleados de manera presencial, es que las sesiones son frecuentemente inconsistentes, y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimientos para garantizar el mismo nivel de entrenamiento para todos los capacitados \cite{cap2002}.
-
-\subsection*{1.1.2 Características de un Sistema de Capacitación}
-Un sistema de capacitación ofrece diferentes aplicaciones en función del modelo de negocio que utiliza. Su versatilidad permite adaptarse a las necesidades particulares de cada sector. Sin embargo, la mayoría de los sistemas contienen las mismas características \cite{softDoit}:
-\begin{itemize}
-\item Son capaces de gestionar los distintos cursos impartidos, la asistencia y la inversión en formación de la empresa.
-\item Asignan a los empleados que deberán asistir y los profesionales responsables de analizar sus resultados.
-\item Detectan las carencias formativas del personal antes de que influyan en el desarrollo del trabajo.
-\item Clasifican las distintas actividades formativas en base a su categoría y catálogo.
-\item Registran y consultan el progreso del aprendizaje de los empleados en tiempo real.
-\end{itemize}
-
-\subsection*{1.1.3 Tipos de Preguntas en un Sistema de Capacitación Automatizado}
-A medida que avanza el tiempo, se generan nuevos métodos de estudio, y con estos, nuevas formas de preguntar y calificar. Sin embargo, a la hora de diseñar un sistema automatizado, no es menos cierto que existen algunas variantes más sencillas y por ende, más utilizadas. Según \cite{referencia12} los tipos de preguntas que mayormente se emplean en un sistema son:
-\begin{itemize}
-\item \textsl{Verdadero o Falso:} contienen una declaración que se debe indicar si es verdadera o no. Permiten responder en poco tiempo, son fáciles, rápidos de calificar y se corrigen de forma automática.
-\item \textsl{Opción Múltiple:} se componen de una pregunta (raíz) con
-múltiples respuestas posibles. Pueden incluir múltiples opciones válidas, en cuyo caso, podrían darse por superada al marcar cualquiera de ellas o cuando se marquen todas. Se caracterizan por ser fáciles y rápidas de calificar, se
-corrigen automáticamente y se pueden utilizar para evaluar los conocimientos en una amplia gama de contenidos.
-\item \textsl{Emparejar, Relacionar u Ordenar:} por lo general se emparejan cada una de las opciones del primer bloque con las opciones dadas en el segundo bloque, o se ordenan bloques de modo que quede una secuencia correcta de acuerdo a un patrón previamente establecido. Se suelen usar en aquellos cursos donde la adquisición de conocimientos muy detallados es un objetivo importante. Son preguntas fáciles de diseñar, rápidas de calificar y se corrigen
-automáticamente. Estadísticamente, se tarda más en responder que las preguntas anteriores.
-\item \textsl{Respuesta Corta:} basta con que se escriban un par de palabras o una frase sencilla. Una alternativa más común a este tipo de preguntas es la de cubrir espacios en blanco con una palabra. Este tipo de preguntas son muy útiles para que se demuestren los conocimientos basados en hechos o palabras claves. La dificultad para calificarlas depende del estilo que se decida emplear.
-\end{itemize}
-
-\subsection*{1.1.4 Formas de Calificar las Pruebas del Sistema}
-
-\nocite{*}
-\bibliographystyle{ieeetr}
-\bibliography{referencias/Referencias}
-
+	\cleardoublepage
+	\phantomsection
+	%\addcontentsline{toc}{chapter}{Anexos}
+	
+	%\include{anexo}
+	
 \end{document}

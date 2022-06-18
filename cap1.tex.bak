@@ -1,0 +1,38 @@
+\chapter{Fundamentos Teóricos}
+El presente capítulo abarca los principales temas que se abordan a lo largo de la investigación. Se detalla qué es un sistema de capacitación, su importancia, sus tipos de preguntas y los modelos de calificación que siguen. Además, se plantea el concepto de sistemas expertos, junto a sus características más notables y su importancia. También estarán explicadas algunas de las funcionalidades del Sistema de Entrenamiento SECPROIT, sus componentes y rendimiento.
+Al final del capítulo se observan conclusiones parciales a modo de resumen del mismo.
+
+\section{Sistemas de Capacitación}
+La capacitación laboral es un método aplicado por las empresas para que su personal adquiera nuevos conocimientos profesionales. Por lo general, se produce ante un ascenso o incorporación, aunque no son los únicos motivos. Lo ideal es que se desarrolle de forma continúa, ya que la constante formación del personal deriva en resultados positivos tanto para el grupo de trabajo como para la organización en la que se realiza \cite{blogBizneo}.
+Surge en el mundo como respuesta a la necesidad de mejorar permanentemente la calidad y formación de recursos humanos.
+
+A partir del concepto anterior se puede deducir que, un sistema de capacitación, también conocido como sistema de entrenamiento, es un método de enseñanza alternativo creado para el adiestramiento de los trabajadores. Se basa, principalmente, en un sistema automatizado que permite el aprendizaje de los usuarios sin necesidad de una supervisión constante. En algunos casos, resulta más efectivo que las prácticas de enseñanza-aprendizaje presencial, debido a que el estudiante trabaja solo y puede determinar su propia velocidad de aprendizaje usando una amplia variedad de herramientas y métodos para la transferencia del conocimiento \cite{seguridadMinera}.
+
+A modo de resumen, un sistema de capacitación es un software que brinda una solución de recursos humanos, porque ayuda en la formación de los trabajadores, con el objetivo de aumentar la productividad y alcanzar las metas empresariales propuestas.
+
+\subsection{Importancia de los Sistemas de Capacitación}
+Un sistema de entrenamiento asistido por computadora permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas de la capacitación de los empleados de manera presencial, es que las sesiones son frecuentemente inconsistentes, y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimientos para garantizar el mismo nivel de entrenamiento para todos los capacitados \cite{cap2002}.
+
+\subsection{Características de un Sistema de Capacitación}
+Un sistema de capacitación ofrece diferentes aplicaciones en función del modelo de negocio que utiliza. Su versatilidad permite adaptarse a las necesidades particulares de cada sector. Sin embargo, según \cite{softDoit}, la mayoría de los sistemas contienen las mismas características:
+\begin{itemize}
+\item Son capaces de gestionar los distintos cursos impartidos, la asistencia y la inversión en formación de la empresa.
+\item Asignan a los empleados que deberán asistir y los profesionales responsables de analizar sus resultados.
+\item Detectan las carencias formativas del personal antes de que influyan en el desarrollo del trabajo.
+\item Clasifican las distintas actividades formativas en base a su categoría y catálogo.
+\item Registran y consultan el progreso del aprendizaje de los empleados en tiempo real.
+\end{itemize}
+
+\subsection{Tipos de Preguntas en un Sistema de Capacitación Automatizado}
+A medida que avanza el tiempo, se generan nuevos métodos de estudio, y con estos, nuevas formas de preguntar y calificar. Sin embargo, a la hora de diseñar un sistema automatizado, no es menos cierto que existen algunas variantes más sencillas y por ende, más utilizadas. Según \cite{referencia12} los tipos de preguntas que mayormente se emplean en un sistema son:
+\begin{itemize}
+\item \textsl{Verdadero o Falso:} contienen una declaración que se debe indicar si es verdadera o no. Permiten responder en poco tiempo, son fáciles, rápidos de calificar y se corrigen de forma automática.
+\item \textsl{Opción Múltiple:} se componen de una pregunta (raíz) con
+múltiples respuestas posibles. Pueden incluir múltiples opciones válidas, en cuyo caso, podrían darse por superada al marcar cualquiera de ellas o cuando se marquen todas. Se caracterizan por ser fáciles y rápidas de calificar, se
+corrigen automáticamente y se pueden utilizar para evaluar los conocimientos en una amplia gama de contenidos.
+\item \textsl{Emparejar, Relacionar u Ordenar:} por lo general se emparejan cada una de las opciones del primer bloque con las opciones dadas en el segundo bloque, o se ordenan bloques de modo que quede una secuencia correcta de acuerdo a un patrón previamente establecido. Se suelen usar en aquellos cursos donde la adquisición de conocimientos muy detallados es un objetivo importante. Son preguntas fáciles de diseñar, rápidas de calificar y se corrigen
+automáticamente. Estadísticamente, se tarda más en responder que las preguntas anteriores.
+\item \textsl{Respuesta Corta:} basta con que se escriban un par de palabras o una frase sencilla. Una alternativa más común a este tipo de preguntas es la de cubrir espacios en blanco con una palabra. Este tipo de preguntas son muy útiles para que se demuestren los conocimientos basados en hechos o palabras claves. La dificultad para calificarlas depende del estilo que se decida emplear.
+\end{itemize}
+
+\subsection{Formas de Calificar Pruebas en un Sistema de Capacitación}

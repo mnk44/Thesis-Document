@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  18 JUN 2022 17:56
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  21 JUN 2022 23:15
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
-("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.tex"
+
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.t
+ex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -460,10 +462,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \@indexfile=\write3
 
 Writing index file Mónica*Montoto*Montané*G41.idx
-("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.aux"
-(C:\Monik\Escuela\Practicas\Tesis\Informe\portada.aux)
-(C:\Monik\Escuela\Practicas\Tesis\Informe\introduccion.aux)
-(C:\Monik\Escuela\Practicas\Tesis\Informe\cap1.aux))
+
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.a
+ux" ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\introduccion.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap1.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
@@ -539,12 +542,13 @@ LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
 
-("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.out")
-("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.out")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.o
+ut")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.o
+ut")
 \@outlinefile=\write4
-
-(C:\Monik\Escuela\Practicas\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=35, 202.356pt x 125.0271pt>
+ ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.tex"
+<imagen/cujae.png, id=39, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 
@@ -563,9 +567,10 @@ and I'll forget about whatever was undefined.
 [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Monik/Escuela/Practica
-s/Tesis/Informe/imagen/cujae.png>])
-("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.toc"
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <E:/Escuela/Practicas/Tesi
+s/Prácticas 4to/Informe/imagen/cujae.png>])
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.t
+oc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -583,6 +588,12 @@ l.41
 
 
 ]
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.l
+of")
+\tf@lof=\write6
+ [2
+
+]
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
@@ -594,7 +605,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(C:\Monik\Escuela\Practicas\Tesis\Informe\introduccion.tex [1
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\introduccion.tex" [1
+
 
 
 ]
@@ -607,26 +619,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2] [3]) [4] [5] (C:\Monik\Escuela\Practicas\Tesis\Informe\cap1.tex
+[2] [3]) [4] [5] ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap1.tex"
 Cap\'{\i }tulo 1.
 [6
 
 
 
-] [7]) [8]
-("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.bbl"
-[9
+] [7] <imagen/FasesEva.jpg, id=132, 722.7pt x 406.51875pt>
+File: imagen/FasesEva.jpg Graphic file (type jpg)
+
+<use imagen/FasesEva.jpg> [8 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/
+imagen/FasesEva.jpg>]) [9]
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.b
+bl" [10
 
 
 
-] [10]) [11]
+]) [11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
-("C:\Monik\Escuela\Practicas\Tesis\Informe\Mónica Montoto Montané G41.aux"
-(C:\Monik\Escuela\Practicas\Tesis\Informe\portada.aux)
-(C:\Monik\Escuela\Practicas\Tesis\Informe\introduccion.aux)
-(C:\Monik\Escuela\Practicas\Tesis\Informe\cap1.aux))
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.a
+ux" ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\introduccion.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap1.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package rerunfilecheck Info: File `Mónica*Montoto*Montané*G41.out' has not chan
 ged.
@@ -637,24 +653,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5809 strings out of 494019
- 86387 string characters out of 3143892
- 178679 words of memory out of 3000000
- 8948 multiletter control sequences out of 15000+200000
- 10454 words of font info for 36 fonts, out of 3000000 for 9000
+ 5826 strings out of 494019
+ 87033 string characters out of 3143892
+ 178794 words of memory out of 3000000
+ 8956 multiletter control sequences out of 15000+200000
+ 10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,5n,30p,938b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,6n,30p,938b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (13 pages, 177758 bytes).
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Mónica Montoto Montané G41.pdf" (14 pages, 214318 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

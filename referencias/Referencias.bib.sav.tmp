@@ -160,47 +160,4 @@
   year        = {2016},
   month       = jul,
   type        = {candthesis},
-  abstract    = {Un panel es un instrumento fundamental hoy en día en la industria alimentaria, este instrumento es un grupo de personas (jueces) que han sido entrenados en las distintas pruebas de análisis sensorial. El análisis sensorial es una ciencia que cuantifica la interacción entre los alimentos y las personas. Estos ensayos son ensayos rigurosos que están fundamentados en pruebas, permitiendo evaluar diferentes propiedades y atributos de un producto solo utilizando los sentidos. Todas estas pruebas están elaboradas en distintas normas, estas normas son fundamentales puesto que permiten disponer de dicha herramienta y tenerla siempre en las mejores condiciones. Es necesario tenerla a punto siempre y para ello los jueces deben de estar sometidos a continuos entrenamientos con los productos para los cuales se haya creado el panel, dicho entrenamiento se encuentra regulado en distintas UNES e ISOS, pero se apoya fundamentalmente en la UNE-EN ISO 8586. Sin estas unes no nos permitirán crear paneles  iables. Este panel está basado en la ciencia del análisis sensorial, dicha disciplina científica se utiliza para provocar, medir, analizar e interpretar reacciones a características de los alimentos y otros materiales tal como son percibidas por los sentidos la vista, el gusto, el tacto y el oído. La base fundamental que hará que el panel entienda esta ciencia, su metodología y disponga de los conocimientos básicos para realizar de una manera correcta cada prueba será un entrenamiento básico común para cualquier tipo de producto con el cual queramos especializar al panel. Este trabajo se ha fundamentado en el desarrollo de una metodología estándar que permita el entrenamiento básico a través del apoyo en las distintas normas disponibles para ello, que será la base de la formación del panel. Este entrenamiento está basado en principalmente:
-Pruebas triangulares: donde a cada juez se le presenta tres muestras y tienen que decir que muestra es la distinta, siendo importante para la detección de estímulos es decir para aprender a reconocer los distintos sabores básicos. UNE- EN ISO 4120
-- Pruebas de ordenación: donde se le presentan al juez tres muestras en caso de sabores básico o diez muestras en el caso de la las texturas, donde tienen que colocarla de menor a mayor concentración o de más firme a menos firme, con esta prueba aprenderá a diferenciar y a ordenar distintas concentraciones o intensidades de un atributo. UNE- EN ISO 8587
-- Entrenamiento en escalas: para medir la intensidad de un atributo en el alimento se utilizan escalas de medida por lo que es fundamental que el juez sea capaz de entrenar su memoria espacial, ya que se le pide que cuantifiquen la percepción en cuanto a la intensidad frente a un estímulo. UNE- ISO 4121
-- Pruebas descriptivas: donde se les pide a cada juez que prueben o huelan una serie de muestras sin verlas y tienen que decir o describir a que les recuerda o que les evoca. Este tipo de pruebas nos permitirá conocer el vocabulario del que dispone el panel.
-El desarrollo de un entrenamiento básico es un trabajo que requiere de mucho esfuerzo y de un trabajo grande por todo el equipo y los jueces, llegando a durar en el tiempo hasta 8 meses de trabajo, si se entran entre 2 y 3 veces al mes. Es importante que se controle toda la calidad implícita en estos ensayos, desde la elaboración de unos buenos cuestionarios que dejen claras las instrucciones de la prueba como procedimientos que indiquen al personal responsable como se debe de llevar a cabo cada sesión. Dicho trabajo sería mucho más difícil y se prologaría mucho más en el tiempo si no se dispusiera de unas herramientas fundamentales como lo son las normas.
-Un panel entrenado es una herramienta fundamental en el sector alimentario, entre muchas de sus funciones nos va a servir para:
-- Detectar cambios en la materia prima utilizada para la elaboración de un producto, evitando el rechazo por parte del consumidor y con ello la gran pérdida económica que con llevaría a la empresa.
-- Son capaces de dar información útil y detalla del producto que evalúen facilitando la formación de fichas técnicas del producto.
-- Permiten identificar cambios en la formulación del producto, evitando así que dicho producto llegue al consumidor y pueda ser retirado del mercado.
-- Permite detectar cambio a lo largo de la vida útil del producto, definiendo hasta cuando un producto es no solo seguro si no que sea organolépticamente adecuado para el consumidor.
-- Permite el control de la calidad de un producto detectando sabores u olores atípicos.
-Este trabajo fin de grado se ha basado en la unificación de todas las normas que permiten la formación de un panel y su entrenamiento básico, convirtiéndose en una guía para el sector alimentario fácil y sencilla, con un vocabulario que permite su comprensión sin la necesidad de poseer una base previa en esta disciplina.},
-  comment     = {Se habla de los tipos de pregutas que se pueden emplear en un entrenamiento Sirve para mi capítulo1},
-  file        = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Prácticas 3ro.Data\\PDF\\4043663521\\141_255408.pdf:PDF},
-}
-
-@Article{softDoit,
-  author  = {Edu Salado},
-  journal = {SoftDoit},
-  title   = {Los 6 mejores software de capacitación de personal y formaci[on para empleados},
-  year    = {2022},
-  month   = jun,
-  comment = {Es una consultora online de software oficial en España para empresas profesionales y trabajadores. Es un buen referente en la búsqueda online de soluciones empresariales de software. Muy útil porque contiene un capítulo de softwres de capacitación que me sirve para el capítulo I},
-  url     = {https://www.softwaredoit.es/recursos-humanos/software-formacion.html},
-}
-
-@Article{garcia1994,
-  author  = {García Aretio},
-  journal = {Contextos universitarios mediados},
-  title   = {Etapas de la evaluación de calidad de los aprendizajes},
-  year    = {2020},
-  issn    = {2340-552X},
-  month   = may,
-  note    = {García es un Catedrático Emérito de la UNED. Director/Editor de la RIED. Revista Iberoamericana de Educación a Distancia. Presidente de Honor - Cátedra UNESCO de Educación a Distancia (CUED).},
-  pages   = {3},
-  comment = {Esta referencia me ayuda a comprender los entrenamientos, con sus fses y buenas prácticas.},
-  file    = {:E\:/Escuela/Practicas/Tesis/Prácticas 2do/Prácticas 3ro.Data/PDF/1402578674/Etapas de la evaluación de calidad de los apr.html:URL},
-  url     = {https://aretio.hypotheses.org/4168},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-@Comment{jabref-meta: fileDirectory:C:\\Monik\\Escuela\\Practicas\\Prácticas 3ro\\JabRef\\Bibliografías;}
+  abstract    = {Un panel es un instrumento fundamental hoy en día en la industria alimentaria, este instrumento es un grupo de personas (jueces) que han sido entrenados en las distintas pruebas de análisis sensorial. El análisis sensorial es una ciencia que cuantifica la interacción entre los alime

@@ -42,8 +42,8 @@
 	%\listoftables
 	%\pagebreak
 	
-	%\listoffigures	
- 	%\clearpage 
+	\listoffigures	
+ 	\clearpage 
 
 	\pagenumbering{arabic}
 	
@@ -54,10 +54,6 @@
 	\include{introduccion}	
 	
 	%\renewcommand{\chaptermark}[1]{\markboth{\chaptername \, \thechapter. #1}{}}
-
-   \cleardoublepage
-	\phantomsection
-	\addcontentsline{toc}{chapter}{Capítulos}	
 	
 	\include{cap1}
 	%\include{cap2}

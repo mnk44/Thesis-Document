@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  2 JUL 2022 16:01
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  2 JUL 2022 16:43
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 
@@ -548,7 +548,7 @@ ut")
 ut")
 \@outlinefile=\write4
  ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.tex"
-<imagen/cujae.png, id=51, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=59, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 
@@ -625,18 +625,18 @@ Cap\'{\i }tulo 1.
 
 
 
-] [7] <imagen/FasesEva.jpg, id=149, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=159, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [8 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/
 imagen/FasesEva.jpg>] [9] [10]
-<imagen/ComponentesSE.png, id=178, 464.4853pt x 166.37157pt>
+<imagen/ComponentesSE.png, id=188, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
-<use imagen/ComponentesSE.png>) [11 <E:/Escuela/Practicas/Tesis/Prácticas 4to/I
-nforme/imagen/ComponentesSE.png>]
+<use imagen/ComponentesSE.png> [11 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
+forme/imagen/ComponentesSE.png>]) [12]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.b
-bl" [12
+bl" [13
 
 
 
@@ -683,7 +683,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13]) [14]
+[14]) [15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
@@ -701,10 +701,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5864 strings out of 494019
- 87698 string characters out of 3143892
+ 5869 strings out of 494019
+ 87773 string characters out of 3143892
  179133 words of memory out of 3000000
- 8979 multiletter control sequences out of 15000+200000
+ 8981 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,6n,30p,938b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -715,9 +715,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (17 pages, 261039 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (18 pages, 265709 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

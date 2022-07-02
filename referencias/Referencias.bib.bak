@@ -280,6 +280,35 @@ Este trabajo fin de grado se ha basado en la unificación de todas las normas qu
   url      = {https://www.sciencedirect.com/science/article/pii/S0957417421002062},
 }
 
+@Article{RonaldL.Jacobs2012,
+  author   = {Ronald L. Jacobs, Mohammad Jaseem Bu‐Rahmah},
+  journal  = {Industrial and Commercial Training},
+  title    = {Developing employee expertise through structured on‐the‐job training (S‐OJT): an introduction to this training approach and the KNPC experience},
+  year     = {2012},
+  issn     = {0019-7858},
+  month    = mar,
+  number   = {2},
+  pages    = {75-84},
+  volume   = {44},
+  abstract = {Purpose
+This paper aims to describe how structured on‐the‐job training (S‐OJT) was implemented to develop new‐hire engineers at the Kuwait National Petroleum Company.
+
+Design/methodology/approach
+The paper describes a case study on the development, implementation, and evaluation results of an extensive case study in an organization.
+
+Findings
+The results show a reduction in development time and increased confidence in the skills of the new‐hire engineers, among other outcomes reported.
+
+Practical implications
+The case study can assist other advanced training and human resource development practitioners to develop high‐skilled technical employees who may require different approaches to ensure a depth of conceptual and job‐related information.
+
+Originality/value
+The intent of the case study is to assist other advanced training and human resource development practitioners in developing high‐skilled technical employees. Such employees require different approaches to ensure a depth of conceptual and job‐related information. The case study shows how one organization addressed this issue.},
+  comment  = {Publicado por Emerald Group Publishing Limited, habla acerca de los sistemas de capacitacion. Muy util para tratar como se evaluan.},
+  keywords = {Structure on the job training, Employee competence, High-skilled training},
+  url      = {https://doi.org/10.1108/00197851211202902},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectory:C:\\Monik\\Escuela\\Practicas\\Prácticas 3ro\\JabRef\\Bibliografías;}

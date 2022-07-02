@@ -77,11 +77,11 @@ G.~Aretio, ``Etapas de la evaluación de calidad de los aprendizajes,'' {\em
 E.~V. Laguna, ``Metodología estándar para el entrenamiento básico de un
   panel de catadores,'' candthesis, Universidad: Rey Juan Carlos, July 2016.
 
-\bibitem{RonaldL.Jacobs2012}
-M.~J.~B. Ronald L.~Jacobs, ``Developing employee expertise through structured
-  on‐the‐job training (s‐ojt): an introduction to this training approach
-  and the knpc experience,'' {\em Industrial and Commercial Training}, vol.~44,
-  pp.~75--84, Mar. 2012.
+\bibitem{Christmann2022}
+G.~W. Philipp~Christmann, Rishiraj Saha~Roy, ``Beyond ned: Fast and effective
+  search space reduction for complex question answering over knowledge bases,''
+  {\em Proceedings of the Fifteenth ACM International Conference on Web Search
+  and Data Mining}, pp.~172--180, Feb. 2022.
 
 \bibitem{AltyJL1984}
 C.~M.~J. Alty J~L, {\em Expert systems: concepts and examples}.
@@ -90,6 +90,12 @@ C.~M.~J. Alty J~L, {\em Expert systems: concepts and examples}.
   SCIENCE; EXPERT SYSTEMS; REVIEWS; ARTIFICIAL INTELLIGENCE; C CODES; COMPUTER
   CALCULATIONS; COMPUTER CODES; DATA PROCESSING; I CODES; M CODES; P CODES; R
   CODES; DOCUMENT TYPES; PROCESSING; 990200.
+
+\bibitem{RonaldL.Jacobs2012}
+M.~J.~B. Ronald L.~Jacobs, ``Developing employee expertise through structured
+  on‐the‐job training (s‐ojt): an introduction to this training approach
+  and the knpc experience,'' {\em Industrial and Commercial Training}, vol.~44,
+  pp.~75--84, Mar. 2012.
 
 \bibitem{Rasheed2021}
 F.~Rasheed and A.~Wahid, ``Learning style detection in e-learning systems using

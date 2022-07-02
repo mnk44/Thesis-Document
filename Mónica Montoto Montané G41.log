@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  2 JUL 2022 12:37
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  2 JUL 2022 15:24
 entering extended mode
 **MÛnica*Montoto*MontanÈ*G41.tex
 
@@ -548,7 +548,7 @@ ut")
 ut")
 \@outlinefile=\write4
  ("E:\Escuela\Practicas\Tesis\Pr·cticas 4to\Informe\portada.tex"
-<imagen/cujae.png, id=43, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=47, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 
@@ -625,7 +625,7 @@ Cap\'{\i }tulo 1.
 
 
 
-] [7] <imagen/FasesEva.jpg, id=137, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=142, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [8 <E:/Escuela/Practicas/Tesis/Pr·cticas 4to/Informe/
@@ -643,7 +643,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82   on‚Äê
+l.96   on‚Äê
             the‚Äêjob training (s‚Äêojt): an introduction to this training a...
 
 Your command was ignored.
@@ -657,7 +657,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82   on‚Äêthe‚Äê
+l.96   on‚Äêthe‚Äê
                   job training (s‚Äêojt): an introduction to this training a...
 
 Your command was ignored.
@@ -671,7 +671,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82   on‚Äêthe‚Äêjob training (s‚Äê
+l.96   on‚Äêthe‚Äêjob training (s‚Äê
                                     ojt): an introduction to this training a...
 
 Your command was ignored.
@@ -696,13 +696,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5850 strings out of 494019
- 87427 string characters out of 3143892
- 179015 words of memory out of 3000000
- 8971 multiletter control sequences out of 15000+200000
+ 5854 strings out of 494019
+ 87496 string characters out of 3143892
+ 179053 words of memory out of 3000000
+ 8973 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,6n,30p,938b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,6n,30p,938b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
@@ -710,9 +710,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "MÛnica Montoto MontanÈ G41.pdf" (16 pages, 223995 bytes).
+Output written on "MÛnica Montoto MontanÈ G41.pdf" (16 pages, 226859 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 220 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

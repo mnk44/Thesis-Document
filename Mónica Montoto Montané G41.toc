@@ -6,6 +6,7 @@
 \contentsline {subsection}{\numberline {1.1.2}Importancia de los Software de Capacitaci\IeC {\'o}n}{7}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Fases de un Proceso de Evaluaci\IeC {\'o}n de Conocimiento}{7}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Tipos de Preguntas en un Sistema de Capacitaci\IeC {\'o}n Automatizado}{8}{subsection.1.1.4}
-\contentsline {subsection}{\numberline {1.1.5}\IeC {\textquestiondown }C\IeC {\'o}mo se eval\IeC {\'u}a una Capacitaci\IeC {\'o}n?}{9}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.5}\IeC {\textquestiondown }C\IeC {\'o}mo verificar la validez de las respuestas?}{9}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}\IeC {\textquestiondown }C\IeC {\'o}mo se eval\IeC {\'u}a una Capacitaci\IeC {\'o}n?}{10}{subsection.1.1.6}
 \contentsline {section}{\numberline {1.2}Sistemas Expertos}{10}{section.1.2}
 \contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{11}{section*.5}

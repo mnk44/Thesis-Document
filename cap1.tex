@@ -65,9 +65,32 @@ Una evaluación posee dos objetivos principales: analizar en qué medida se han 
 
 A modo de resumen, para realizar una correcta evaluación se deben tener en cuenta tantas herramientas como parámetros influyan. En este caso en particular: la puntuación de las respuestas y la cantidad de intentos.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistemas Expertos}
 Los sistemas expertos resuelven problemas que normalmente son solucionados por expertos humanos. Para resolverlos, estos sistemas necesitan acceder a una importante base de conocimiento sobre el dominio, que debe construirse de la manera más eficiente posible.
 Utilizan uno o más mecanismos de razonamiento, para aplicar este conocimiento a los problemas que se le proponen. Cuentan con un mecanismo para explicar a los usuarios, que han confiado en ellos, lo que han hecho \cite{AltyJL1984}.
 
 Una forma de contemplar los sistemas expertos es que representan la mayor parte de la Inteligencia Artificial (IA) aplicada. Un sistema experto en IA se define como un programa informático que tiene la capacidad de representar y razonar sobre el conocimiento \cite{Rasheed2021}.
+
+\subsection{Componentes de un Sistema Experto}
+En \cite{OdhiamboOmuya2021} se comentan los diferentes componentes que integran un sistema experto. Aunque pueden contar con un número mayor de componentes, los mínimos requeridos son (Figura \ref{fig:componentesSE}):
+
+\begin{itemize}
+\item \textsl{Motor de Inferencia:} es el corazón del sistema experto. Su cometido principal es sacar conclusiones aplicando el conocimiento a los datos. Estas conclusiones pueden estar basadas en conocimiento determinista o conocimiento probabilístico.
+\item \textsl{Base de Conocimientos:} consiste en un conjunto de objetos y un conjunto de reglas, que gobiernan las relaciones entre esos objetos. La información que almacena es de naturaleza permanente y estática, es
+decir, no cambia de una aplicación a otra. Se debe diferenciar entre los datos y
+el conocimiento. El conocimiento se refiere a afirmaciones de validez general tales como reglas, distribuciones de probabilidad, entre otras. Los datos se refieren a información relacionada con una aplicación en particular \cite{Potapova2021}.
+\item \textsl{Mecanismo de Aprendizaje:} controla el flujo del nuevo conocimiento que va del experto humano a la base de conocimiento. El sistema determina qué nuevo conocimiento se necesita, o si el conocimiento es realidad, es decir, si debe incluirse, y en caso necesario incorporar dicho
+conocimiento.
+\item \textsl{Interfaz de Usuario:} se constituye como la interfaz entre el sistema experto y el usuario. Para que sea efectiva debe incorporar mecanismos para mostrar y obtener información de forma sencilla y agradable.
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.5\linewidth]{imagen/ComponentesSE.png}
+ \caption{Componentes mínimos requeridos en un Sistema Experto.}
+ \label{fig:componentesSE} 
+\end{figure}
+
+\subsection{¿Cómo funciona un Sistema Experto?}

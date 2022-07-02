@@ -274,7 +274,7 @@ Este trabajo fin de grado se ha basado en la unificación de todas las normas qu
   pages    = {114765},
   volume   = {174},
   abstract = {Feature Selection and classification have previously been widely applied in various areas like business, medical and media fields. High dimensionality in datasets is one of the main challenges that has been experienced in classifying data, data mining and sentiment analysis. Irrelevant and redundant attributes have also had a negative impact on the complexity and operation of algorithms for classifying data. Consequently, the algorithms record poor results or performance. Some existing work use all attributes for classification, some of which are insignificant for the task, thereby leading to poor performance. This paper therefore develops a hybrid filter model for feature selection based on principal component analysis and information gain. The hybrid model is then applied to support classification using machine learning techniques e.g. the Naïve Bayes technique. Experimental results demonstrate that the hybrid filter model reduces data dimensions, selects appropriate feature sets, and reduces training time, hence providing better classification performance as measured by accuracy, precision and recall..},
-  comment  = {Selección de características para la clasificación mediante el análisis de componentes principales y la obtención de información es el tema de esta bibliografía. Decidí usarla porque hay un momento en el que explica detalladamente los omponentes de un sistema experto y los explica de una manera clara y precisa.},
+  comment  = {Selección de características para la clasificación mediante el análisis de componentes principales y la obtención de información es el tema de esta bibliografía. Decidí usarla porque hay un momento en el que explica detalladamente los componentes de un sistema experto y los explica de una manera clara y precisa.},
   doi      = {https://doi.org/10.1016/j.eswa.2021.114765},
   keywords = {Feature selection, Classification, Dimensionality reduction, Filter model, Information gain, Principal component analysis},
   url      = {https://www.sciencedirect.com/science/article/pii/S0957417421002062},
@@ -291,4 +291,4 @@ Este trabajo fin de grado se ha basado en la unificación de todas las normas qu
   pages    = {75-84},
   volume   = {44},
   abstract = {Purpose
-This paper aims to describe how structured on‐the‐job training (S‐OJT) was i
+This paper aims to describe how structured on‐the‐job training (S‐OJT) was 

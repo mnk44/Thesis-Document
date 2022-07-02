@@ -57,14 +57,14 @@ R.~S.~L. Elena Acosta~Gil, {\em SISTEMA PARA EL ENTRENAMIENTO DE OPERARIOS EN
 I.~de~Seguridad Minera~ISEM, ``Entrenamiento basado en computador para
   operadores y mantenedores de planta,'' {\em Seguridad Minera}, June 2022.
 
+\bibitem{softDoit}
+E.~Salado, ``Los 6 mejores software de capacitación de personal y formación
+  para empleados,'' {\em SoftDoit}, June 2022.
+
 \bibitem{cap2002}
 K.~H.~C. Rogelio E. Martínez~R., Guillermo Romero~J., {\em Sistema de
   capacitación asistido por computadora, accesible vía Internet}.
 \newblock Aplicaciones tecnológicas, June 2002.
-
-\bibitem{softDoit}
-E.~Salado, ``Los 6 mejores software de capacitación de personal y formación
-  para empleados,'' {\em SoftDoit}, June 2022.
 
 \bibitem{garcia1994}
 G.~Aretio, ``Etapas de la evaluación de calidad de los aprendizajes,'' {\em
@@ -76,5 +76,42 @@ G.~Aretio, ``Etapas de la evaluación de calidad de los aprendizajes,'' {\em
 \bibitem{referencia12}
 E.~V. Laguna, ``Metodología estándar para el entrenamiento básico de un
   panel de catadores,'' candthesis, Universidad: Rey Juan Carlos, July 2016.
+
+\bibitem{RonaldL.Jacobs2012}
+M.~J.~B. Ronald L.~Jacobs, ``Developing employee expertise through structured
+  on‐the‐job training (s‐ojt): an introduction to this training approach
+  and the knpc experience,'' {\em Industrial and Commercial Training}, vol.~44,
+  pp.~75--84, Mar. 2012.
+
+\bibitem{AltyJL1984}
+C.~M.~J. Alty J~L, {\em Expert systems: concepts and examples}.
+\newblock John Wiley and Sons Inc., New York, NY, Jan. 1984.
+\newblock 99 GENERAL AND MISCELLANEOUS//MATHEMATICS, COMPUTING, AND INFORMATION
+  SCIENCE; EXPERT SYSTEMS; REVIEWS; ARTIFICIAL INTELLIGENCE; C CODES; COMPUTER
+  CALCULATIONS; COMPUTER CODES; DATA PROCESSING; I CODES; M CODES; P CODES; R
+  CODES; DOCUMENT TYPES; PROCESSING; 990200.
+
+\bibitem{Rasheed2021}
+F.~Rasheed and A.~Wahid, ``Learning style detection in e-learning systems using
+  machine learning techniques,'' {\em Expert Systems with Applications},
+  vol.~174, p.~114774, 2021.
+
+\bibitem{KandulaNeha2020}
+S.~J.~S. Kandula~Neha, ``Analysis of student academic performance through
+  expert systems,'' {\em International Research Journal on Advanced Science
+  Hub}, vol.~2, no.~Special Issue ICIES 9S, pp.~48--54, 2020.
+
+\bibitem{Potapova2021}
+A.~V. Potapova, G.~S. Tibilova, A.~V. Ovcharenko, and N.~V. Diachenko,
+  ``Designing a network of expert systems for identifying recipients of public
+  services,'' in {\em Knowledge in the Information Society} (D.~Bylieva,
+  A.~Nordmann, O.~Shipunova, and V.~Volkova, eds.), (Cham), pp.~136--148,
+  Springer International Publishing, 2021.
+
+\bibitem{OdhiamboOmuya2021}
+E.~{Odhiambo Omuya}, G.~{Onyango Okeyo}, and M.~{Waema Kimwele}, ``Feature
+  selection for classification using principal component analysis and
+  information gain,'' {\em Expert Systems with Applications}, vol.~174,
+  p.~114765, 2021.
 
 \end{thebibliography}

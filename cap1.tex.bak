@@ -55,12 +55,13 @@ automáticamente. Estadísticamente, se tarda más en responder que las pregunta
 
 \subsection{¿Cómo se evalúa una Capacitación?}
 La evaluación y la calificación de una prueba, no pueden depender de un solo instrumento o técnica, ya que de esa forma solo se mide un tipo de aprendizaje. Los criterios para calificar que se designen, serán los porcentajes de valor que se establezcan a cada resultado de las actividades realizadas y a su resultado final. Se debe tomar en cuenta tanto la exactitud de la respuesta, como el proceso que se siguió para llegar a la misma, así como la cantidad de intentos necesarios utilizados para hallar la solución correcta.
-Una evaluación posee dos objetivos principales: analizar en qué medida se han cumplido los objetivos, para detectar posibles fallas en el proceso y poder superarlas, y proporcionar la reflexión de los que realizaron el entrenamiento en torno a su propio proceso de aprendizaje (metacognición) \cite{otracitaAca}.
+Una evaluación posee dos objetivos principales: analizar en qué medida se han cumplido los objetivos, para detectar posibles fallas en el proceso y poder superarlas, y proporcionar la reflexión de los que realizaron el entrenamiento en torno a su propio proceso de aprendizaje (metacognición) \cite{}.
 
 A modo de resumen, para realizar una correcta evaluación se deben tener en cuenta tantas herramientas como parámetros influyan. En este caso en particular: la puntuación de las respuestas y la cantidad de intentos.
 
 
 \section{Sistemas Expertos}
-Los sistemas expertos resuelven problemas que normalmente son solucionados por expertos humanos. Para resolver problemas a nivel de experto, estos sistemas necesitan acceder a una importante base de conocimiento sobre el dominio que debe construirse de la manera más eficiente posible. También necesitan utilizar uno o más mecanismos de razonamiento para aplicar su conocimiento a los problemas que se le proponen. También necesitan un mecanismo para explicar a los usuarios que han confiado en ellos sobre lo que han hecho. Una forma de contemplar los sistemas expertos es que representan la mayor parte de la IA aplicada. Tienden a estar varios
-años retrasados respecto a los avances en la investigación.
-Un sistema experto en inteligencia artificial se define como un programa informático que tiene la capacidad de representar y razonar sobre el conocimiento.
+Los sistemas expertos resuelven problemas que normalmente son solucionados por expertos humanos. Para resolverlos, estos sistemas necesitan acceder a una importante base de conocimiento sobre el dominio, que debe construirse de la manera más eficiente posible.
+Utilizan uno o más mecanismos de razonamiento, para aplicar este conocimiento a los problemas que se le proponen. Cuentan con un mecanismo para explicar a los usuarios, que han confiado en ellos, lo que han hecho \cite{AltyJL1984}.
+
+Una forma de contemplar los sistemas expertos es que representan la mayor parte de la Inteligencia Artificial (IA) aplicada. Un sistema experto en IA se define como un programa informático que tiene la capacidad de representar y razonar sobre el conocimiento \cite{Rasheed2021}.

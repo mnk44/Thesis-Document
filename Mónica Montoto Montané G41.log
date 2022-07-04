@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 03:59
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 04:17
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 
@@ -638,10 +638,10 @@ forme/imagen/ComponentesSE.png>] [12] [13]
 <imagen/EstructuraDRL.png, id=241, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
-<use imagen/EstructuraDRL.png>) [14 <E:/Escuela/Practicas/Tesis/Prácticas 4to/I
-nforme/imagen/EstructuraDRL.png (PNG copy)>]
+<use imagen/EstructuraDRL.png> [14 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
+forme/imagen/EstructuraDRL.png (PNG copy)>]) [15]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.b
-bl" [15
+bl" [16
 
 
 
@@ -688,7 +688,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[16]) [17]
+[17]) [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
@@ -706,8 +706,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5890 strings out of 494019
- 88125 string characters out of 3143892
+ 5891 strings out of 494019
+ 88132 string characters out of 3143892
  179191 words of memory out of 3000000
  8992 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
@@ -720,9 +720,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (20 pages, 289916 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (21 pages, 291603 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

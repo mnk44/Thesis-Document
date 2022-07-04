@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 16:32
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 17:44
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 
@@ -549,7 +549,7 @@ ut")
 ut")
 \@outlinefile=\write4
  ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.tex"
-<imagen/cujae.png, id=99, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=103, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 
@@ -626,24 +626,24 @@ Cap\'{\i }tulo 1.
 
 
 
-] [7] <imagen/FasesEva.jpg, id=213, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=220, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [8 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/
 imagen/FasesEva.jpg>] [9] [10]
-<imagen/ComponentesSE.png, id=242, 464.4853pt x 166.37157pt>
+<imagen/ComponentesSE.png, id=249, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png> [11 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/ComponentesSE.png>] [12] [13]
-<imagen/EstructuraDRL.png, id=263, 214.55156pt x 108.405pt>
+<imagen/EstructuraDRL.png, id=270, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png> [14 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/EstructuraDRL.png (PNG copy)>] [15]) [16]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap2.tex"
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=279, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=286, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -654,9 +654,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-]) [18 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/dominio.png>]
+] [18 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/dominio.png>] <i
+magen/actividades.png, id=298, 841.64438pt x 515.67656pt>
+File: imagen/actividades.png Graphic file (type png)
+
+<use imagen/actividades.png>) [19 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Inf
+orme/imagen/actividades.png>]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.b
-bl" [19
+bl" [20
 
 
 
@@ -703,7 +708,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20]) [21]
+[21]) [22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
@@ -722,10 +727,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5918 strings out of 494019
- 88750 string characters out of 3143892
- 179632 words of memory out of 3000000
- 9003 multiletter control sequences out of 15000+200000
+ 5928 strings out of 494019
+ 88940 string characters out of 3143892
+ 179700 words of memory out of 3000000
+ 9009 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,6n,30p,1006b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -736,9 +741,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (24 pages, 422813 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (25 pages, 591708 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,7 +13,7 @@ Las áreas de color verde, indica que se ha modificado la entidad para ajustarla
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.5\linewidth]{imagen/dominio.png}
+ \includegraphics[width=0.8\linewidth]{imagen/dominio.png}
  \caption{Modelo de Dominio del Nuevo Sistema.}
  \label{fig:modelD} 
 \end{figure} 
@@ -43,7 +43,7 @@ En esta propuesta de solución, el flujo del administrador resulta el mismo que 
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.5\linewidth]{imagen/actividades.png}
+ \includegraphics[width=0.8\linewidth]{imagen/actividades.png}
  \caption{Diagrama de Actividades del Nuevo Sistema.}
  \label{fig:actividades} 
 \end{figure} 
@@ -61,13 +61,11 @@ capacidades o condiciones que se deben cumplir. Las funcionalidades del nuevo si
 \item \textsl{Gestionar Usuarios:} es una actividad desarrollada por los administradores. Se basa en introducir, modificar y desactivar usuarios en el sistema. También cuentan con una opción para restablecer la contraseña de los usuarios, en caso de que estos las hayan olvidado.
 \item \textsl{Gestionar Áreas:}  es una actividad desarrollada por los administradores. Se basa en introducir, modificar y eliminar las áreas del sistema. Para poder eliminar un área laboral, esta debe estar vacía, es decir, que de ella no dependan ni procesos ni usuarios.
 \item \textsl{Ver Acciones de los Usuarios:}  es una actividad desarrollada por los administradores, que les permite ver todas las actividades relacionadas con el sistema, realizadas por los usuarios. A modo de resumen, registra los camios realizados junto al nombre del usuario que lo hizo.
-
 \item \textsl{Cambiar Contraseña:} es una acción que todos los usuarios pueden realizar.
 \item \textsl{Entrar en el Sistema:} es una acción que todos los usuarios pueden realizar. Consiste en introducir las credenciales (nombre de usuario y contraseña) en el sistema.
-
 \item \textsl{Gestionar Procesos:} es una actividad desarrollada por los jefes de área. Se basa en introducir, modificar y eliminar los procesos en un área laboral. Si se elimina un proceso, queda registro del mismo y los entrenamientos que se hayan realizado no se pierden.
 \item \textsl{Configurar Entrenamiento:}  es una actividad desarrollada por los jefes de área. Consiste en asignar para cada proceso, la cantidad de pruebas por etapas, los estilos de pregunta que se pueden aplicar, la cantidad general de intentos que se pueden realizar y los usuarios que pueden entrenar este proceso.
-
-\item \textsl{Entrar en el Sistema:} es una acción que todos los usuarios pueden realizar. Consiste en introducir las credenciales (nombre de usuario y contraseña) en el sistema.
+\item \textsl{Realizar Entrenamiento:} es una acción desarrollada por los operarios. Consiste en responder las preguntas de los entrenamientos.
 \end{itemize}
 
+\subsection{Requisitos No Funcionales}

@@ -159,14 +159,24 @@ Actualmente el sistema posee ciertas limitaciones que afectan la experiencia de 
 \begin{itemize}
 \item Los entrenamientos de un proceso son únicos, es decir, solo se evalúa ese contenido una vez, sin brindar la posibilidad de mejorar o aprender.
 \item Las etapas del entrenamiento son continuas, sin posibilidad de pausa o descanso.
-\item Si no se suspende una de las etapas del entrenamiento, el operario debrá concluirlo aunque y
-\item la última etapa (las recomendaciones) no se evalúan correctamente, ni muestran los resultados obtenidos
-\item la interfaz de usuario no es intuitiva, por lo que algunos usuarios no llegan a comprender su funcionamiento
-\item las interfaces del sistema son poco atractivas con colores muy oscuros, lo que provoca que el usuario niegue su uso
+\item Si no se aprueba una de las etapas del entrenamiento, el operario deberá continuar y concluirlo, aunque ya esté suspenso.
+\item En la última etapa de evaluación (escoger las recomendaciones), no se muestran los errores cometidos o el resultado obtenido.
+\item La nota final está dada de manera general (aprobado o no) sin hacer énfasis en los errores cometidos.
+\item No presenta una interfaz de usuario intuitiva.
+\item El usuario debe realizar numerosos toques en pantalla para completar una acción y, debido a que el sistema se utilizará en personas de avanzada edad, dificulta el manejo del sistema.
+\item Los colores del sistema son muy oscuros, lo que provoca que el usuario niegue la experiencia.
 \end{itemize}
 
 \subsection{Nuevas Acciones Sugeridas}
+A partir de los señalamientos realizados anteriormente, se proponen un grupo de cambios o acciones a implementar en la nueva versión que se desea hacer de este sistema:
 
+\begin{itemize}
+\item Cada entrenamiento será dividido en tres etapas diferentes, que se evalúen en pruebas apartes (variables, causas y recomendaciones). Solo si se aprueban los entrenamientos de la primera etapa, se podrán realizar los de la segunda, y así sucesivamente.
+\item Se vincularán varios tipos de preguntas, para variar la forma de enfocar los pensamientos de los operadores y así contribuir a su aprendizaje.
+\item Las notas se verán por etapas, evaluando el rendimiento de las pruebas así como la cantidad de intentos. La nota final será la suma de las tres etapas.
+\item Las visuales tendrán un cambio radical, con botones y carteles de ayuda para indicar al usuario lo que debe hacer.
+\item El color predominante será el naranja. Esto se debe a que ese color ayuda en el subconsciente al aprendizaje.
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

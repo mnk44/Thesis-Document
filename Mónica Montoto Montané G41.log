@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 18:54
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 18:58
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 
@@ -549,7 +549,7 @@ ut")
 ut")
 \@outlinefile=\write4
  ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.tex"
-<imagen/cujae.png, id=115, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=123, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 
@@ -578,21 +578,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
-\tf@toc=\write5
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 
-      [1
+l.31 ...s bibliogr\IeC {\'a}ficas}{22}{section*.5}
+                                                   [1
 
 
-]
+])
+\tf@toc=\write5
+ [2]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.l
 of")
 \tf@lof=\write6
- [2
+ [3
 
 ]
 ! Undefined control sequence.
@@ -626,24 +626,24 @@ Cap\'{\i }tulo 1.
 
 
 
-] [7] <imagen/FasesEva.jpg, id=235, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=249, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [8 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/
 imagen/FasesEva.jpg>] [9] [10]
-<imagen/ComponentesSE.png, id=264, 464.4853pt x 166.37157pt>
+<imagen/ComponentesSE.png, id=278, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png> [11 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/ComponentesSE.png>] [12] [13]
-<imagen/EstructuraDRL.png, id=285, 214.55156pt x 108.405pt>
+<imagen/EstructuraDRL.png, id=299, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png> [14 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/EstructuraDRL.png (PNG copy)>] [15]) [16]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap2.tex"
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=301, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=315, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -655,7 +655,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [18 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/dominio.png>] <i
-magen/actividades.png, id=313, 841.64438pt x 515.67656pt>
+magen/actividades.png, id=327, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [19 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Info
@@ -727,13 +727,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5936 strings out of 494019
- 89046 string characters out of 3143892
+ 5941 strings out of 494019
+ 89112 string characters out of 3143892
  180700 words of memory out of 3000000
- 9012 multiletter control sequences out of 15000+200000
+ 9014 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,6n,30p,1006b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,6n,30p,1006b,567s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
@@ -741,9 +741,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (27 pages, 600516 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (28 pages, 602771 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -135,6 +135,30 @@ Si se analiza en conjunto los datos que se tienen y las necesidades que se desea
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistema de Entrenamiento SECPROIT}
-Para brindar una solución a la principal problemática de esta investigación, en el año 2018 se crearon dos aplicaciones que trabajarían de manera conjunta. La primera es un Gestor de Bases de Conocimiento que permite crear las bases de información que se necesitan para evaluar a los trabajadores. La segunda es conocida como Sistema Experto para el Control de Procesos Químicos (SECPROIT), que es un sistema diseñado para capacitar a los operarios de las fábricas. Ambos sistemas fueron desarrollados en la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), entre las facultades de Ingeniería Química e Ingeniería Informática. Ambas aplicaciones sirvieron para defender el título de Ingeniería.
+Para brindar una solución a la principal problemática de esta investigación, en el año 2018 se crearon dos aplicaciones que trabajarían de manera conjunta. La primera es un Gestor de Bases de Conocimientos que permite crear las bases de información que se necesitan para evaluar a los trabajadores. La segunda es conocida como Sistema Experto para el Control de Procesos Químicos (SECPROIT), que es un sistema diseñado para capacitar a los operarios de las fábricas. Ambos sistemas fueron desarrollados en la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), entre las facultades de Ingeniería Química e Ingeniería Informática. Ambas aplicaciones sirvieron para defender el título de Ingeniería.
 
 Aunque estas aplicaciones se encuentren estrechamente vinculadas a este trabajo, en la mismo se abordará más, el sistema SECPROIT. El objetivo principal es lograr un sistema semejante con mejores prestaciones y funcionalidades, una actualización.
+
+\subsection{¿Cómo funciona el SECPROIT?}
+En el sistema existen tres roles fundamentales: el administrador que se encarga de llenar los datos de los usuarios, el especialista que inserta los procesos para los entrenamientos y supervisa los resultados obtenidos por los trabajadores de su área laboral, y el operario que realiza la capacitación. Cada usuario tiene un nombre y una contraseña, y con cada rol aparecen funcionalidades únicas. Un rol no puede realizar las acciones de otro.
+
+En el caso de los especialistas, deben registrar de cada proceso el nombre, una imagen si la posee, un fichero tipo \textsl{anm} y un archivo \textsl{drl}. Los ficheros \textsl{anm} contienen los nombres de todas las variables que influyen en el proceso, las características, todas las causas que pueden afectar el proceso y todas las recomendaciones para todas las causas descritas. El archivo \textsl{drl} contiene las reglas que enlazan las variables con sus causas y las causas con sus recomendaciones. Dichas reglas siguen una estructura específica: comienza con un patrón para el nombre de la regla, luego presenta los posibles atributos que posee, la sentencia que se debe cumplir y las acciones que realizar si se cumple la sentencia (Figura \ref{fig:drools}). Este archivo es lo que se conoce como Motor de Reglas (\textsl{Drools}). Esta información es extraída del sistema Gestor de Bases de Conocimientos \cite{anaMailen}.
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.5\linewidth]{imagen/EstructuraDRL.png}
+ \caption{Estructura de un archivo \textsl{drl}.}
+ \label{fig:drools} 
+\end{figure}
+
+Por su parte, el operario entrará a realizar aquellos entrenamientos que el especialista haya validado. Una vez comenzado, deberá señalar, de un grupo de variables, las que por su estado estén en peligro de inestabilidad. Si ha seleccionado correctamente pasa a la siguiente etapa, donde debe escoger qué causa el estado de las variables que prefirió. Por último deberá seleccionar qué recomendaciones seguir para cada causa que señaló. Este entrenamiento es un proceso continuo donde, si decides abandonar sin haber terminado, no se guardarán los cambios y aparecerá como prueba no superada. La puntuación está dada de manera genral, como porcentaje entre las notas de las tres etapas \cite{elena}.
+
+\subsection{Limitaciones Actuales del Sistema}
+
+
+\subsection{Nuevas Acciones Sugeridas}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusiones del Capítulo}

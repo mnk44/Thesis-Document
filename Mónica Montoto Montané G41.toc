@@ -12,4 +12,6 @@
 \contentsline {subsection}{\numberline {1.2.1}Componentes de un Sistema Experto}{10}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Ventajas de un Sistema Experto}{11}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Desventajas de un Sistema Experto}{12}{subsection.1.2.3}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{13}{section*.5}
+\contentsline {subsection}{\numberline {1.2.4}\IeC {\textquestiondown }Por qu\IeC {\'e} usar un Sistema Experto en este Entrenador?}{12}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Sistema de Entrenamiento SECPROIT}{13}{section.1.3}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{14}{section*.5}

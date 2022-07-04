@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 04:32
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 04:45
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 
@@ -639,9 +639,9 @@ forme/imagen/ComponentesSE.png>] [12] [13]
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png> [14 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
-forme/imagen/EstructuraDRL.png (PNG copy)>]) [15]
+forme/imagen/EstructuraDRL.png (PNG copy)>] [15]) [16]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.b
-bl" [16
+bl" [17
 
 
 
@@ -688,7 +688,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[17]) [18]
+[18]) [19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
@@ -706,8 +706,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5891 strings out of 494019
- 88132 string characters out of 3143892
+ 5892 strings out of 494019
+ 88139 string characters out of 3143892
  179191 words of memory out of 3000000
  8992 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
@@ -720,9 +720,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (21 pages, 292534 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (22 pages, 293998 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -173,11 +173,26 @@ A partir de los señalamientos realizados anteriormente, se proponen un grupo de
 \begin{itemize}
 \item Cada entrenamiento será dividido en tres etapas diferentes, que se evalúen en pruebas apartes (variables, causas y recomendaciones). Solo si se aprueban los entrenamientos de la primera etapa, se podrán realizar los de la segunda, y así sucesivamente.
 \item Se vincularán varios tipos de preguntas, para variar la forma de enfocar los pensamientos de los operadores y así contribuir a su aprendizaje.
-\item Las notas se verán por etapas, evaluando el rendimiento de las pruebas así como la cantidad de intentos. La nota final será la suma de las tres etapas.
+\item Las notas se verán por etapas, teniendo en cuenta el rendimiento de las pruebas así como la cantidad de intentos. La nota final será la suma de las tres etapas.
 \item Las visuales tendrán un cambio radical, con botones y carteles de ayuda para indicar al usuario lo que debe hacer.
+\item Se incorporarán imágenes en las visuales, para crear un ambiente amistoso e intuitivo.
 \item El color predominante será el naranja. Esto se debe a que ese color ayuda en el subconsciente al aprendizaje.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Conclusiones del Capítulo}
+\section{Conclusiones Parciales}
+A partir del estudio realizado y los aspectos detallados a lo largo del capítulo:
+
+\begin{itemize}
+\item Se hizo un estudio detallado de los sistemas de capacitación existentes, llegando a concluir que, por las condiciones que presentan, el sistema de capacitación que más se ajusta a la Industria Alimentaria Cubana es el digital.
+\item Se vincularán varios tipos de preguntas, para variar la forma de enfocar los pensamientos de los operadores y así contribuir a su aprendizaje.
+\item Las notas se verán por etapas, teniendo en cuenta el rendimiento de las pruebas así como la cantidad de intentos. La nota final será la suma de las tres etapas.
+\item Las visuales tendrán un cambio radical, con botones y carteles de ayuda para indicar al usuario lo que debe hacer.
+\item Se incorporarán imágenes en las visuales, para crear un ambiente amistoso e intuitivo.
+\item El color predominante será el naranja. Esto se debe a que ese color ayuda en el subconsciente al aprendizaje.
+\end{itemize}
+
+ Se realizó un análisis de ambos procesos tecnológicos para así arribar a la conclusión que existen similitudes entre ambos por lo que se puede realizar un sistema de entrenamiento que englobe dichos procesos.
+ La propuesta de solución se encuentra enmarcada dentro de la rama software educativo cumpliendo de esta forma con las principales características de los mismos.
+ Los sistemas evaluadores consultados cuentan con el módulo de creación de exámenes en este caso en particular no hace falta porque los exámenes se generan de forma aleatoria a partir de una situación crítica determinada.

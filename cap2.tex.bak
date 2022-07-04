@@ -7,9 +7,9 @@ Los modelos se crean con el objetivo de entender mejor la entidad real que se va
 \subsection{Modelo de Dominio}
 El modelo de dominio es una representación de las clases conceptuales del mundo real, no de componentes de software. Se muestran los conceptos significativos en un dominio del problema. Para una mejor comprensión del modelo, es necesario entender las entidades que influyen en el negocio.
 
-En la Figura \ref{fig:modelD}, se puede apreciar el modelo de dominio para este nuevo sistema. Es muy semejante, en cuanto a lógica del negocio, al modelo del sistema SECPROT.
+En la Figura \ref{fig:modelD}, se puede apreciar el modelo de dominio para este nuevo sistema. Es muy semejante, en cuanto a lógica del negocio, al modelo del SECPROT.
 
-Las áreas de color verde, indica que se ha modificado la entidad para ajustar. Los cambios más significativos son aquellas entidades que se modificaron casi en su totalidad o aquellas que fueron agregadas de cero. Estas últimas están representadas con color 
+Las áreas de color verde, indica que se ha modificado la entidad para ajustarla a los nuevos cambios que se decidieron hacer. Los cambios más significativos son aquellas entidades que se modificaron casi en su totalidad o aquellas que fueron agregadas de cero. Estas últimas están representadas con un color amarillo. 
 
 \begin{figure}[h]
 \centering
@@ -17,3 +17,19 @@ Las áreas de color verde, indica que se ha modificado la entidad para ajustar. 
  \caption{Modelo de Dominio del Nuevo Sistema.}
  \label{fig:modelD} 
 \end{figure} 
+
+Como bien se aprecia, el diagrama indica que se han creado cuatro nuevas entidades: configuración de entrenamiento, entrenamiento de variables, entrenamiento de causas y entrenamiento de recomendaciones. Estas entidades fueron creadas para un mejor manejo de la información de la capacitación, y para introducir una nueva regla: separar los entrenamientos por etapas.
+
+\subsection{Reglas del Negocio}
+Cada negocio posee un conjunto de restricciones que permiten su correcto funcionamiento. Estas restricciones son conocidas como reglas del negocio.
+Las reglas a cumplir en este nuevo sistemas son:
+
+\begin{itemize}
+\item Antes de crear un usuario, deben haberse creado los roles del sistema y las áreas laborales.
+\item Antes de crear un proceso, deben haberse creado las áreas laborales.
+\item Antes de crear un entrenamiento debe existir un proceso y al menos un operario.
+\item Antes de realizar el entrenamiento de las causas se debe haber aprobado el entrenami
+\item Los usuarios solo pueden poseer un rol.
+\item Los procesos solo pueden pertenecer a un área a la vez.
+\item 
+\end{itemize} 

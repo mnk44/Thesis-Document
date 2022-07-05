@@ -165,14 +165,14 @@ En la Figura \ref{fig:paquetes} se muestra la arquitectura de paquetes utilizada
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.3\linewidth]{imagen/estructura.png}
+ \includegraphics[width=0.143\linewidth]{imagen/estructura.png}
  \caption{Paquetes del Sistema en Eclipse.}
  \label{fig:paquetes} 
 \end{figure}
 
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{ | c | p{7.8cm} | }
+\begin{tabular}{ | c | p{11cm} | }
 \hline
 \textbf{Paquete} & \textbf{Descripción} \\
 \hline
@@ -198,12 +198,49 @@ visual & Contiene toda la vista de cara al usuario (visuales). \\
 \end{center}
 \end{table}
 
-\subsection{Patrones y Principios de Diseño}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Patrones y Principios de Diseño}
+Los patrones de diseño son descripciones de objetos y clases comunicantes, que son ajustadas a resolver un problema general de diseño. Definen micro arquitecturas de subsistemas de componentes. Resuelven problemas de diseño que permiten darle claridad al sistema, multiplicación de clases y adaptabilidad a requerimientos cambiantes.
+
+\subsection{Patrón Singleton}
+El propósito del patrón Singleton es asegurarse que solo existe una instancia de una clase y que existe un único punto de acceso a este objeto. Para esto en lugar de tener una variable global, la instancia se almacena en un atributo estático de la clase y se accede a ella a través del método \textsl{getInstance()}. Se utiliza en el sistema para generar una única instancia de la clase principal.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Interfaz de Usuario}
+Para la interfaz de usuario se tuvieron en cuenta varias metas de diseño que, en su mayoría, están orientadas a la usabilidad, y en una menor parte, a la experiencia del usuario. Las metas de usabilidad tienen como objetivo diseñar un sistema eficaz que permita que los usuarios sean productivos en el entrenamiento. Siguen normas orientadas a cuestiones éticas como, uso de lenguaje técnico y profesional, ausencia de palabras vulgares y omisión de insultos.
+
+La mayoría de estas pantallas siguen el mismo principio:
+
+\begin{itemize}
+\item Los colores utilizados son cálidos para generar un estado de tranquilidad en el usuario (Figura \ref{fig:login}).
+\item El color que predomina en el sistema es el naranja, debido a que es el color asociado al aprendizaje.
+\item Los textos son cortos pero se entienden.
+\item Las pantallas pertenecientes a las mismas familias poseen los mismos tamaños y la pantalla más grande es de 860x440 (Figura \ref{fig:admin}).
+\item El sistema está reforzado con mensajes de alertas y preguntas para ayudar al usuario (Figura \ref{fig:help}).
+\item El sistema está completamente en español.
+\item Las visuales vienen acompañadas de imágenes sugerentes para ayudar en la tranquilidad del usuario (Figura \ref{fig:img}).
+\item Todas las vistas de gestión se distribuyen de la misma manera (Figura \ref{fig:img}).
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conclusiones Parciales}
+Concluido el capítulo de la propuesta de solución, se arriban a las conclusiones siguientes:
+
+
+Se identificaron los principales elementos de análisis de la solución.
+Se obtuvo una solución que debe ser escalable y reutilizable que puede ser fácilmente
+adaptada y extendida a nuevas funcionalidades.
+SQLite se utilizó como una alternativa de almacenamiento de datos espaciales eficaz,
+que con la extensión SpatiaLite, logra brindar muchas facilidades para la obtención de
+geometrías y cálculo de rutas.
+Al aplicar principios en el diseño de las pantallas, la interacción humano computadora es
+eficaz.
+Se les agregaron a los vehículos los comportamientos para que actuaran según el estado
+del ambiente y de las calles.
+Se les agregaron a los vehículos los comportamientos para que pudieran sufrir desperfectos
+técnicos durante su ruta.
+Se añadieron a los vehículos comportamientos para que actúen sus características y las de
+su conductor.

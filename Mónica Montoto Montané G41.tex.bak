@@ -78,11 +78,12 @@
     \bibliographystyle{ieeetr}
 	
 	\bibliography{referencias/Referencias}
-
-	\cleardoublepage
-	\phantomsection
-	%\addcontentsline{toc}{chapter}{Anexos}
+	\breakpage
 	
-	%\include{anexo}
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Anexos}
+	\pagestyle{fancy}
+	
+	\include{anexo}
 	
 \end{document}

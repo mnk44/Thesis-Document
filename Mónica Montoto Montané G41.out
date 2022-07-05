@@ -33,7 +33,10 @@
 \BOOKMARK [2][-]{subsection.2.4.2}{Modelo F\355sico de la Base de Datos}{section.2.4}% 33
 \BOOKMARK [1][-]{section.2.5}{Vista de la Arquitectura}{chapter.2}% 34
 \BOOKMARK [2][-]{subsection.2.5.1}{Descripci\363n de los Paquetes}{section.2.5}% 35
-\BOOKMARK [2][-]{subsection.2.5.2}{Patrones y Principios de Dise\361o}{section.2.5}% 36
-\BOOKMARK [1][-]{section.2.6}{Interfaz de Usuario}{chapter.2}% 37
-\BOOKMARK [1][-]{section.2.7}{Conclusiones Parciales}{chapter.2}% 38
-\BOOKMARK [0][-]{section*.8}{Referencias bibliogr\341ficas}{}% 39
+\BOOKMARK [1][-]{section.2.6}{Patrones y Principios de Dise\361o}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.6.1}{Patr\363n Singleton}{section.2.6}% 37
+\BOOKMARK [1][-]{section.2.7}{Interfaz de Usuario}{chapter.2}% 38
+\BOOKMARK [1][-]{section.2.8}{Conclusiones Parciales}{chapter.2}% 39
+\BOOKMARK [0][-]{section*.8}{Referencias bibliogr\341ficas}{}% 40
+\BOOKMARK [0][-]{section*.10}{Anexos}{}% 41
+\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de Usuario del Nuevo Sistema}{}% 42

@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Modelo F\IeC {\'\i }sico de la Base de Datos}{24}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Vista de la Arquitectura}{25}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Descripci\IeC {\'o}n de los Paquetes}{25}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Patrones y Principios de Dise\IeC {\~n}o}{25}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Interfaz de Usuario}{25}{section.2.6}
-\contentsline {section}{\numberline {2.7}Conclusiones Parciales}{25}{section.2.7}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{26}{section*.8}
+\contentsline {subsection}{\numberline {2.5.2}Patrones y Principios de Dise\IeC {\~n}o}{26}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Interfaz de Usuario}{26}{section.2.6}
+\contentsline {section}{\numberline {2.7}Conclusiones Parciales}{26}{section.2.7}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{27}{section*.8}

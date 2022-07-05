@@ -161,6 +161,42 @@ El patrón arquitectónico de capas ayuda a estructurar las aplicaciones, que pu
 Debido a que este sistema es una actualización del SECPROIT, y que en un futuro se piensa utilizar, por lo que hay oportunidades futuras de despliegue, se decidió mantener una estructura en capas semejante a la que había.
 
 \subsection{Descripción de los Paquetes}
+En la Figura \ref{fig:paquetes} se muestra la arquitectura de paquetes utilizada en esta solución, y siguiente a esta, en la Tabla \ref{tab:actores}, se describe el uso de cada uno.
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.143\linewidth]{imagen/estructura.png}
+ \caption{Paquetes del Sistema en Eclipse.}
+ \label{fig:paquetes} 
+\end{figure}
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ | c | p{11cm} | }
+\hline
+\textbf{Paquete} & \textbf{Descripción} \\
+\hline
+connectionDB & Contiene las clases que permiten la conexión con la base de datos. \\
+\hline
+contentClass & Contiene todas las clases del sistema. \\
+\hline
+drools & Contiene los métodos y clases necesarios para utilizar el sistema experto en el entrenador. \\
+\hline
+img & Contiene todas las imágenes e iconos que se usan e el sistema. \\
+\hline
+logic & Contiene un grupo de clases extras que ayudan en la lógica del sistema. \\
+\hline
+services & Contiene los servicios, es decir, la conexión entre las clases del sistema y la base de datos. \\
+\hline
+utils & Contiene varios \textsl{enum} que ayudan en las visuales. \\
+\hline
+visual & Contiene toda la vista de cara al usuario (visuales). \\
+\hline
+\end{tabular}
+\caption{Actores del Nuevo Sistema.}
+\label{tab:actores}
+\end{center}
+\end{table}
 
 \subsection{Patrones y Principios de Diseño}
 

@@ -31,4 +31,5 @@
 \contentsline {subsection}{\numberline {2.3.2}Diagrama de Casos de Uso del Nuevo Sistema}{22}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Modelo de Datos}{23}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Diagrama de Entidades y Relaciones (DER)}{23}{subsection.2.4.1}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{24}{section*.8}
+\contentsline {subsection}{\numberline {2.4.2}Modelo F\IeC {\'\i }sico de la Base de Datos}{23}{subsection.2.4.2}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{25}{section*.8}

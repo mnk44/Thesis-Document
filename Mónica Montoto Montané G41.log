@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 21:00
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 21:09
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 
@@ -466,6 +466,7 @@ Writing index file Mónica*Montoto*Montané*G41.idx
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.a
 ux" ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\resumen.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\abstrac.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\introduccion.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap1.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap2.aux"))
@@ -581,6 +582,10 @@ l.33 	\include{resumen}
 
 
 ]
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\abstrac.tex") [2
+
+
+]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.t
 oc"
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -589,22 +594,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
- [2
+ [3
 
 
 ])
 \tf@toc=\write5
- [3]
+ [4]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.l
 ot")
 \tf@lot=\write6
- [4
+ [5
 
 ]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.l
 of")
 \tf@lof=\write7
- [5
+ [6
 
 ]
 ! Undefined control sequence.
@@ -638,24 +643,24 @@ Cap\'{\i }tulo 1.
 
 
 
-] [7] <imagen/FasesEva.jpg, id=279, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=285, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [8 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/
 imagen/FasesEva.jpg>] [9] [10]
-<imagen/ComponentesSE.png, id=307, 464.4853pt x 166.37157pt>
+<imagen/ComponentesSE.png, id=313, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png> [11 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/ComponentesSE.png>] [12] [13]
-<imagen/EstructuraDRL.png, id=329, 214.55156pt x 108.405pt>
+<imagen/EstructuraDRL.png, id=335, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png> [14 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/EstructuraDRL.png (PNG copy)>] [15]) [16]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap2.tex"
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=344, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=350, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -667,12 +672,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [18 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/dominio.png>] <i
-magen/actividades.png, id=356, 841.64438pt x 515.67656pt>
+magen/actividades.png, id=363, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [19 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Info
 rme/imagen/actividades.png>] [20] [21]
-<imagen/casoUso.png, id=373, 766.36313pt x 450.18187pt>
+<imagen/casoUso.png, id=379, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
@@ -736,6 +741,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.a
 ux" ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\resumen.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\abstrac.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\introduccion.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap1.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap2.aux"))
@@ -749,23 +755,29 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5973 strings out of 494019
- 89937 string characters out of 3143892
- 182142 words of memory out of 3000000
- 9024 multiletter control sequences out of 15000+200000
+ 5985 strings out of 494019
+ 90351 string characters out of 3143892
+ 182464 words of memory out of 3000000
+ 9025 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1006b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané G41.pdf" (32 pages, 740120 bytes).
+pdfTeX warning (dest): name{section*.7} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
+ replaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Mónica Montoto Montané G41.pdf" (33 pages, 742575 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
  300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

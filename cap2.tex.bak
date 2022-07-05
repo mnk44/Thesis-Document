@@ -120,7 +120,7 @@ El diagrama, en general, tiene como base el sistema SECPROIT, pero con algunas m
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.8\linewidth]{imagen/casoUso.png}
+ \includegraphics[width=0.\linewidth]{imagen/casoUso.png}
  \caption{Diagrama de Casos de Uso del Nuevo Sistema.}
  \label{fig:casoUso} 
 \end{figure}
@@ -133,12 +133,41 @@ En el desarrollo de esta herramienta se utiliza: una bases de datos en PostgreSQ
 \subsection{Diagrama de Entidades y Relaciones (DER)}
 Un Diagrama de Entidades y Relaciones (DER) representa las clases del sistema, con sus atributos, y las relaciones existentes entre ellas.
 
+A lo largo de este capítulo se han comentado las principales modificaciones que se incorporarán en la solución propuesta. Sabiendo que toma como base el SECPROIT, y conociendo los cambios que se realizarán, la Figura \ref{fig:der} muestra el DER básico a partir del cual se desarrollan los nuevos cambios. 
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.7\linewidth]{imagen/der.png}
+ \caption{Diagrama de Entidades y Relaciones del Sistema.}
+ \label{fig:der} 
+\end{figure}
+
 \subsection{Modelo Físico de la Base de Datos}
 El modelo físico de la base de datos (Figura \ref{fig:baseD}) muestra la relación entre las entidades que conforman la base de datos estadística, con los atributos que poseen, sus relaciones y sus llaves primarias y secundarias.
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.8\linewidth]{imagen/baseD.png}
- \caption{Modelo Físico de la Base de Datos del Sis.}
+ \includegraphics[width=1\linewidth]{imagen/baseD.png}
+ \caption{Modelo Físico de la Base de Datos del Nuevo Sistema.}
  \label{fig:baseD} 
 \end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Vista de la Arquitectura}
+El patrón arquitectónico de capas ayuda a estructurar las aplicaciones, que pueden ser descompuestas en grupos de subtareas, en las que cada grupo de subtareas se encuentra a un nivel particular de abstracción. Se basa en una distribución jerárquica de los roles y las responsabilidades para proporcionar una división efectiva de los problemas a resolver. Los roles indican el tipo y la forma de la interacción con otras capas, y las responsabilidades y la funcionalidad que implementan.
+
+Debido a que este sistema es una actualización del SECPROIT, y que en un futuro se piensa utilizar, por lo que hay oportunidades futuras de despliegue, se decidió mantener una estructura en capas semejante a la que había.
+
+\subsection{Descripción de los Paquetes}
+
+\subsection{Patrones y Principios de Diseño}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Interfaz de Usuario}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusiones Parciales}

@@ -89,3 +89,26 @@ Los requisitos no funcionales son propiedades, características y restricciones 
 Los casos de uso del sistema establecen un acuerdo entre clientes y desarrolladores sobre las condiciones y requisitos que debe cumplir la aplicación. Es un artefacto narrativo que describe, bajo la forma de acciones y reacciones, el comportamiento del sistema desde el punto de vista del usuario.
 
 \subsection{Actores del Sistema} 
+Un actor del sistema es una entidad externa relacionada con el mismo y que demanda una funcionalidad. Esto incluye a los operadores humanos, pero también incluye a todos los sistemas externos. En la Tabla \ref{tab:actores}, se muestran todos los actores del nuevo sistema y una breve explicación de los mismos:
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ | c | p{7.8cm} | }
+\hline
+\textbf{Actor} & \textbf{Descripción} \\
+\hline
+Usuario & Es el actor genérico que hace uso de las funcionalidades que son comunes. \\
+\hline
+Operario & Es el actor que se evalúa a partir de los entrenamientos de los procesos. \\
+\hline
+Jefe de Área & Es el actor que vincula los procesos en las áreas y los configura, decidiendo qué usuarios se entrenarán y las características que deberán cumplir para aprobar. Anteriormente era conocido como Especialista. \\
+\hline
+Administrador & Es el actor que gestiona las áreas, los usuarios y visualiza las operaciones realizadas por los mismos. \\
+\hline
+Generador de Bases de Conocimientos & Es un sistema externo que genera las bases de conocimientos con las que se trabaja en los entrenamientos (procesos). \\
+\hline
+\end{tabular}
+\caption{Actores del Nuevo Sistema.}
+\label{tab:actores}
+\end{center}
+\end{table}

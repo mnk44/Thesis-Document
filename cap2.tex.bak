@@ -77,12 +77,38 @@ Los requisitos no funcionales son propiedades, características y restricciones 
 \item \textsl{Confiabilidad:} se debe evitar los enlaces rotos. La información contenida en los ficheros de los procesos, se debe validar antes de ser usada, para evitar errores. Se debe garantizar la confidencialidad de la información.
 \item \textsl{Disponibilidad:} la aplicación de mecanismos de seguridad no debe constituir un retraso para el uso del sistema. El software siempre debe estar disponible, así como brindar su información actualizada.
 \item \textsl{Software:} se debe tener instalado el JDK versión 1.8 y la aplicación PostgreSQL versión 9.1 (como mínimo). Esta última se utiliza como gestor de base de datos.
-\item \textsl{Hardware:} se necesitan 64MB de memoria RAM, un microprocesador Pentium II a 450 MHz como mínimo, y un disco duro con capacidad libre mínima de 2 GB, para almacenar la nueva información incorporada. Además, es necesario un sistema operativo de entorno gráfico como Windows y Linux y que estén establecidas las condiciones necesarias para el acceso al servidor.
+\item \textsl{Hardware:} se necesitan 64MB de memoria RAM, un microprocesador Pentium II a 450 MHz como mínimo, y un disco duro con capacidad libre mínima de 4 GB, para almacenar la nueva información incorporada. Además, es necesario un sistema operativo de entorno gráfico como Windows y Linux y que estén establecidas las condiciones necesarias para el acceso al servidor.
+\item \textsl{Portabilidad:} debe ser utilizado bajo sistemas operativos Windows o Linux, por lo que su desarrollo debe realizarse con un lenguaje y tecnologías capaces de brindar este soporte. Además, el hecho de ser multiplataforma permite que el sistema llegue a un mayor número de personas. 
+\item \textsl{Restricciones en el diseño y la implementación:} debe desarrollarse sobre plataformas de software libre y código abierto. Además, se utiliza la herramienta \textsl{Drools}, por lo tanto, el lenguaje de programación debe ser Java.
+\item \textsl{Políticos/Culturales:} debe encontrarse en idioma español.
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	Software: 
-	Hardware: para el uso de este sistema se debe tener en cuenta que se necesita 512MB de memoria RAM para instalar el servidor de Base de Datos, un microprocesador Pentium IV a 2.8 GHz y un disco duro con capacidad libre de 40 GB como mínimo, para almacenar la nueva información incorporada. Además, es necesario un sistema operativo de entorno gráfico como Windows y Linux y que estén establecidas las condiciones necesarias para el acceso al servidor.
-	Portabilidad: debe ser utilizado bajo sistemas operativos Windows o Linux, por lo que su desarrollo debe realizarse con un lenguaje y tecnologías capaces de brindar este soporte. Además, el hecho de ser multiplataforma permite que el sistema llegue a un mayor número de personas. 
-	Restricciones en el diseño y la implementación: debe desarrollarse sobre plataformas de software libre y código abierto. Además, se utiliza la herramienta Drools, por tanto, el lenguaje de programación que se debe usar para la implementación del sistema es Java y se utilizan las bibliotecas de clases tanto de Drools como de Java. 
-	Políticos/Culturales: debe encontrarse en idioma español.
+\section{Casos de Uso del Nuevo Sistema}
+Los casos de uso del sistema establecen un acuerdo entre clientes y desarrolladores sobre las condiciones y requisitos que debe cumplir la aplicación. Es un artefacto narrativo que describe, bajo la forma de acciones y reacciones, el comportamiento del sistema desde el punto de vista del usuario.
+
+\subsection{Actores del Sistema} 
+Un actor del sistema es una entidad externa relacionada con el mismo y que demanda una funcionalidad. Esto incluye a los operadores humanos, pero también incluye a todos los sistemas externos. En la \ref{tab:actores}, se muestran todos los actores del nuevo sistema y una breve explicación de los mismos:
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ | cp{4cm} | cp{5cm} | }
+\hline
+\textbf{Actor} & \textbf{Descripción} \\
+\hline
+Usuario & Es el actor genérico que hace uso de las funcionalidades que son comunes. \\
+\hline
+Operario & Es el actor que se evalúa a partir de los entrenamientos de los procesos. \\
+\hline
+Jefe de Área & Es el actor que vincula los procesos en las áreas y los configura, decidiendo qué usuarios se entrenarán y las características que deberán cumplir para aprobar. \\
+\hline
+Administrador & Es el actor que gestiona las áreas, los usuarios y visualiza las operaciones realizadas por los mismos. \\
+\hline
+Generador de Bases de Conocimientos & Es un sistema externo que genera las bases de conocimientos con las que se trabaja en los entrenamientos (procesos). \\
+\hline
+\end{tabular}
+\caption{Actores del Nuevo Sistema.}
+\label{tab:actores}
+\end{center}
+\end{table}

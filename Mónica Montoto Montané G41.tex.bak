@@ -15,8 +15,7 @@
 	\pagenumbering{roman}	
 	\renewcommand{\listtablename}{Índice de tablas}
 	\renewcommand{\tablename}{Tabla}
-	\renewcommand{\bibname}{Referencias bibliográficas}
-	
+	\renewcommand{\bibname}{Referencias bibliográficas}	
 %	esto es para que las listas anidadas salgan con numeros
 	\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
 	\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
@@ -39,8 +38,8 @@
 	\tableofcontents	
 	\pagebreak	
 	
-	%\listoftables
-	%\pagebreak
+	\listoftables
+	\pagebreak
 	
 	\listoffigures	
  	\clearpage 

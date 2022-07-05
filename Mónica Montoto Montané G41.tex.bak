@@ -31,7 +31,7 @@
 	%\include{dedicatoria}
 	%\include{agradecimientos}
 	\include{resumen}
-	%\include{abstrac}
+	\include{abstrac}
 	
 	\pagestyle{plain}	
 	

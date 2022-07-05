@@ -11,8 +11,14 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Modelo F\IeC {\'\i }sico de la Base de Datos del Nuevo Sistema.}}{24}{figure.2.5}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Paquetes del Sistema en Eclipse.}}{25}{figure.2.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Colores c\IeC {\'a}lidos en el Sistema.}}{31}{figure.Alph1.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Sistema reforzado con mensajes de ayuda.}}{31}{figure.Alph1.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Pantalla m\IeC {\'a}s grande de 860x440.}}{32}{figure.Alph1.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Pantalla acompa\IeC {\~n}adas de im\IeC {\'a}genes.}}{32}{figure.Alph1.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Ejemplo de distribuci\IeC {\'o}n de una vista de gesti\IeC {\'o}n.}}{33}{figure.Alph1.5}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caso de Prueba para Introducir Usuario.}}{29}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caso de Prueba para Modificar Usuario.}}{29}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Caso de Prueba para Introducir \IeC {\'A}rea.}}{29}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Caso de Prueba para Modificar \IeC {\'A}rea.}}{30}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Caso de Prueba para Eliminar \IeC {\'A}rea.}}{30}{figure.3.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Colores c\IeC {\'a}lidos en el Sistema.}}{35}{figure.Alph1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sistema reforzado con mensajes de ayuda.}}{35}{figure.Alph1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Pantalla m\IeC {\'a}s grande de 860x440.}}{36}{figure.Alph1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Pantalla acompa\IeC {\~n}adas de im\IeC {\'a}genes.}}{36}{figure.Alph1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Ejemplo de distribuci\IeC {\'o}n de una vista de gesti\IeC {\'o}n.}}{37}{figure.Alph1.5}

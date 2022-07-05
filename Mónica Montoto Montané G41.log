@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  4 JUL 2022 23:31
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  5 JUL 2022 00:01
 entering extended mode
 **Mónica*Montoto*Montané*G41.tex
 
@@ -473,7 +473,9 @@ ux" ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.aux")
 
 LaTeX Warning: Label `tab:actores' multiply defined.
 
-) ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\anexo.aux"))
+) ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap3.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\conc.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\anexo.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
@@ -555,7 +557,7 @@ ut")
 ut")
 \@outlinefile=\write4
  ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.tex"
-<imagen/cujae.png, id=171, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=199, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 
@@ -647,24 +649,24 @@ Cap\'{\i }tulo 1.
 
 
 
-] [7] <imagen/FasesEva.jpg, id=347, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=392, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [8 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/
 imagen/FasesEva.jpg>] [9] [10]
-<imagen/ComponentesSE.png, id=375, 464.4853pt x 166.37157pt>
+<imagen/ComponentesSE.png, id=420, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png> [11 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/ComponentesSE.png>] [12] [13]
-<imagen/EstructuraDRL.png, id=397, 214.55156pt x 108.405pt>
+<imagen/EstructuraDRL.png, id=442, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png> [14 <E:/Escuela/Practicas/Tesis/Prácticas 4to/In
 forme/imagen/EstructuraDRL.png (PNG copy)>] [15]) [16]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap2.tex"
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=412, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=457, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -676,28 +678,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [18 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/dominio.png>] <i
-magen/actividades.png, id=425, 841.64438pt x 515.67656pt>
+magen/actividades.png, id=470, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [19 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Info
 rme/imagen/actividades.png>] [20] [21]
-<imagen/casoUso.png, id=441, 766.36313pt x 450.18187pt>
+<imagen/casoUso.png, id=486, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] <imagen/der.png, id=447, 657.2053pt x 333.49594pt>
+[22] <imagen/der.png, id=492, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [23 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/casoUso.png> <E:/E
 scuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/der.png (PNG copy)>]
-<imagen/baseD.png, id=454, 2524.43124pt x 2791.42876pt>
+<imagen/baseD.png, id=499, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
 [24 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=463, 141.52875pt x 183.68625pt>
+<imagen/estructura.png, id=508, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
 <use imagen/estructura.png> [25 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Infor
@@ -707,9 +709,57 @@ Overfull \hbox (14.9237pt too wide) in paragraph at lines 237--238
 a in-ter-ac-cion humano-computadora
  []
 
-) [27]
+) [27] ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap3.tex"
+Cap\'{\i }tulo 3.
+<imagen/introducirU.png, id=527, 1136.74687pt x 412.54124pt>
+File: imagen/introducirU.png Graphic file (type png)
+
+<use imagen/introducirU.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/modificarU.png, id=528, 1124.70187pt x 389.95688pt>
+File: imagen/modificarU.png Graphic file (type png)
+
+<use imagen/modificarU.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/introducirA.png, id=530, 1055.44313pt x 305.64188pt>
+File: imagen/introducirA.png Graphic file (type png)
+
+<use imagen/introducirA.png> [28
+
+
+
+]
+<imagen/modificarA.png, id=535, 1020.81375pt x 325.96782pt>
+File: imagen/modificarA.png Graphic file (type png)
+
+<use imagen/modificarA.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/eliminarA.png, id=536, 1091.57813pt x 119.69719pt>
+File: imagen/eliminarA.png Graphic file (type png)
+
+<use imagen/eliminarA.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/introducirU.png> <
+E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/modificarU.png> <E:/Esc
+uela/Practicas/Tesis/Prácticas 4to/Informe/imagen/introducirA.png>]) [30 <E:/Es
+cuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/modificarA.png> <E:/Escuela/
+Practicas/Tesis/Prácticas 4to/Informe/imagen/eliminarA.png>]
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\conc.tex") [31
+
+
+
+
+]
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\Mónica Montoto Montané G41.b
-bl" [28
+bl" [32
 
 
 
@@ -756,7 +806,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[29])
+[33])
 ! Undefined control sequence.
 l.81 	\breakpage
                 
@@ -777,40 +827,40 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[30] ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\anexo.tex"
+[34] ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\anexo.tex"
 Anexo A.
-<imagen/login.png, id=496, 438.13687pt x 380.92313pt>
+<imagen/login.png, id=570, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
  <use imagen/login.png>
-<imagen/help.png, id=497, 341.77687pt x 137.7647pt>
+<imagen/help.png, id=571, 341.77687pt x 137.7647pt>
 File: imagen/help.png Graphic file (type png)
  <use imagen/help.png>
-<imagen/admin.png, id=498, 951.555pt x 674.52pt>
+<imagen/admin.png, id=572, 951.555pt x 674.52pt>
 File: imagen/admin.png Graphic file (type png)
  <use imagen/admin.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/img.png, id=499, 952.30782pt x 678.28406pt>
+<imagen/img.png, id=573, 952.30782pt x 678.28406pt>
 File: imagen/img.png Graphic file (type png)
  <use imagen/img.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/dist.png, id=500, 755.82375pt x 617.30624pt>
+<imagen/dist.png, id=574, 755.82375pt x 617.30624pt>
 File: imagen/dist.png Graphic file (type png)
  <use imagen/dist.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [31
+) [35
 
 
 
  <E:/Escuela/Practicas/Tesis/Prácticas 4to/Informe/imagen/login.png> <E:/Escuel
-a/Practicas/Tesis/Prácticas 4to/Informe/imagen/help.png>] [32 <E:/Escuela/Pract
+a/Practicas/Tesis/Prácticas 4to/Informe/imagen/help.png>] [36 <E:/Escuela/Pract
 icas/Tesis/Prácticas 4to/Informe/imagen/admin.png> <E:/Escuela/Practicas/Tesis/
-Prácticas 4to/Informe/imagen/img.png>] [33 <E:/Escuela/Practicas/Tesis/Práctica
+Prácticas 4to/Informe/imagen/img.png>] [37 <E:/Escuela/Practicas/Tesis/Práctica
 s 4to/Informe/imagen/dist.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
@@ -822,6 +872,8 @@ ux" ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\portada.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\introduccion.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap1.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap2.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\cap3.aux")
+("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\conc.aux")
 ("E:\Escuela\Practicas\Tesis\Prácticas 4to\Informe\anexo.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package rerunfilecheck Info: File `Mónica*Montoto*Montané*G41.out' has not chan
@@ -840,10 +892,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6073 strings out of 494019
- 91918 string characters out of 3143892
- 183376 words of memory out of 3000000
- 9075 multiletter control sequences out of 15000+200000
+ 6144 strings out of 494019
+ 93576 string characters out of 3143892
+ 184401 words of memory out of 3000000
+ 9110 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1006b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -855,9 +907,9 @@ cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 
-Output written on "Mónica Montoto Montané G41.pdf" (40 pages, 1389135 bytes).
+Output written on "Mónica Montoto Montané G41.pdf" (44 pages, 1569727 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 126 named destinations out of 1000 (max. 500000)
- 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 493 words of extra memory for PDF output out of 10000 (max. 10000000)
 

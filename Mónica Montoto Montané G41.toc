@@ -38,6 +38,13 @@
 \contentsline {subsection}{\numberline {2.6.1}Patr\IeC {\'o}n Singleton}{26}{subsection.2.6.1}
 \contentsline {section}{\numberline {2.7}Interfaz de Usuario}{26}{section.2.7}
 \contentsline {section}{\numberline {2.8}Conclusiones Parciales}{27}{section.2.8}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{28}{section*.8}
-\contentsline {chapter}{Anexos}{30}{section*.10}
-\contentsline {chapter}{\numberline {A}Interfaz de Usuario del Nuevo Sistema}{31}{appendix.Alph1}
+\contentsline {chapter}{\numberline {3}Validaci\IeC {\'o}n de la Soluci\IeC {\'o}n Propuesta}{28}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pruebas Funcionales}{28}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Caso de Prueba: Gestionar Usuario}{28}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Caso de Prueba: Gestionar \IeC {\'A}rea}{29}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}An\IeC {\'a}lisis del Resultado de las Pruebas}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Conclusiones Parciales}{30}{section.3.3}
+\contentsline {chapter}{Conclusiones}{31}{section*.8}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{32}{section*.10}
+\contentsline {chapter}{Anexos}{34}{section*.12}
+\contentsline {chapter}{\numberline {A}Interfaz de Usuario del Nuevo Sistema}{35}{appendix.Alph1}

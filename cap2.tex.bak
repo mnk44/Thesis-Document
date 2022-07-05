@@ -229,18 +229,10 @@ La mayoría de estas pantallas siguen el mismo principio:
 \section{Conclusiones Parciales}
 Concluido el capítulo de la propuesta de solución, se arriban a las conclusiones siguientes:
 
-
-Se identificaron los principales elementos de análisis de la solución.
-Se obtuvo una solución que debe ser escalable y reutilizable que puede ser fácilmente
-adaptada y extendida a nuevas funcionalidades.
-SQLite se utilizó como una alternativa de almacenamiento de datos espaciales eficaz,
-que con la extensión SpatiaLite, logra brindar muchas facilidades para la obtención de
-geometrías y cálculo de rutas.
-Al aplicar principios en el diseño de las pantallas, la interacción humano computadora es
-eficaz.
-Se les agregaron a los vehículos los comportamientos para que actuaran según el estado
-del ambiente y de las calles.
-Se les agregaron a los vehículos los comportamientos para que pudieran sufrir desperfectos
-técnicos durante su ruta.
-Se añadieron a los vehículos comportamientos para que actúen sus características y las de
-su conductor.
+\begin{itemize}
+\item Se identificaron los principales elementos de análisis de la solución.
+\item Se obtuvo una solución que debe ser escalable y reutilizable que puede ser fácilmente adaptada y extendida a nuevas funcionalidades.
+\item Se utiliza una base de datos del sistema muy eficaz que brinda facilidades al mismo.
+\item Se diseño en base a solucionar las limitaciones que posee el SECPROIT y se logró un diseño que lo resuelve.
+\item Al aplicar principios en el diseño de las pantallas, la interacción humano-computadora es eficaz.
+\end{itemize}

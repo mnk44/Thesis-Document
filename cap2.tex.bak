@@ -89,11 +89,11 @@ Los requisitos no funcionales son propiedades, características y restricciones 
 Los casos de uso del sistema establecen un acuerdo entre clientes y desarrolladores sobre las condiciones y requisitos que debe cumplir la aplicación. Es un artefacto narrativo que describe, bajo la forma de acciones y reacciones, el comportamiento del sistema desde el punto de vista del usuario.
 
 \subsection{Actores del Sistema} 
-Un actor del sistema es una entidad externa relacionada con el mismo y que demanda una funcionalidad. Esto incluye a los operadores humanos, pero también incluye a todos los sistemas externos. En la \ref{tab:actores}, se muestran todos los actores del nuevo sistema y una breve explicación de los mismos:
+Un actor del sistema es una entidad externa relacionada con el mismo y que demanda una funcionalidad. Esto incluye a los operadores humanos, pero también incluye a todos los sistemas externos. En la Tabla \ref{tab:actores}, se muestran todos los actores del nuevo sistema y una breve explicación de los mismos:
 
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{ | cp{4cm} | cp{5cm} | }
+\begin{tabular}{ | c | p{7.8cm} | }
 \hline
 \textbf{Actor} & \textbf{Descripción} \\
 \hline
@@ -101,7 +101,7 @@ Usuario & Es el actor genérico que hace uso de las funcionalidades que son comu
 \hline
 Operario & Es el actor que se evalúa a partir de los entrenamientos de los procesos. \\
 \hline
-Jefe de Área & Es el actor que vincula los procesos en las áreas y los configura, decidiendo qué usuarios se entrenarán y las características que deberán cumplir para aprobar. \\
+Jefe de Área & Es el actor que vincula los procesos en las áreas y los configura, decidiendo qué usuarios se entrenarán y las características que deberán cumplir para aprobar. Anteriormente era conocido como Especialista. \\
 \hline
 Administrador & Es el actor que gestiona las áreas, los usuarios y visualiza las operaciones realizadas por los mismos. \\
 \hline
@@ -112,3 +112,15 @@ Generador de Bases de Conocimientos & Es un sistema externo que genera las bases
 \label{tab:actores}
 \end{center}
 \end{table}
+
+\subsection{Diagrama de Casos de Uso del Nuevo Sistema}
+Un caso de uso es una secuencia de interacciones entre un sistema y alguien o algo que usa alguno de sus servicios. Describen tanto lo que hace el actor como la repuesta que recibe, aunque el énfasis está puesto en la interacción. Es iniciado por un actor y, a partir de ese momento, se intercambian datos. En la Figura \ref{fig:casoUso}, se puede observar el diagrama de casos de uso del nuevo sistema.
+
+El diagrama, en general, tiene como base el sistema SECPROIT, pero con algunas modificaciones incluidas. Los casos de uso que se encuentran de color verde, indican que, en principio, realizan las mismas operaciones, pero con cambios incorporados. El actor del mismo color se debe a que cambió de nombre, de especialista a jefe de área. El caso de uso de color amarillo, es completamente nuevo.
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.8\linewidth]{imagen/casoUso.png}
+ \caption{Diagrama de Casos de Uso del Nuevo Sistema.}
+ \label{fig:casoUso} 
+\end{figure}

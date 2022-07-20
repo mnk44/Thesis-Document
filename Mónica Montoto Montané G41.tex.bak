@@ -58,11 +58,11 @@
 	\include{cap2}
 	\include{cap3}
 	    
-    %\cleardoublepage
-  %  \phantomsection
-	%\addcontentsline{toc}{chapter}{Conclusiones}
+    \cleardoublepage
+  \phantomsection
+	\addcontentsline{toc}{chapter}{Conclusiones}
     
-    %\include{conc}
+   \include{conc}
     
     %\cleardoublepage
   %  \phantomsection

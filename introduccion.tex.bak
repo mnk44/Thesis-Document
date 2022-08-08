@@ -1,10 +1,10 @@
 \chapter*{Introducción}
 En la actualidad, el desarrollo tecnológico se ha convertido prácticamente en una obligación para la mayoría de los entornos laborales, industriales y sociales. En un mundo tan globalizado, que avanza y se supera con una rapidez vertiginosa, no resulta de extrañar que se exijan mejores condiciones y prestaciones. A partir de estas demandas, surge la necesidad de establecer nuevas técnicas en las grandes empresas que, de manera automática, faciliten todo tipo de actividades, desde lo laboral y comercial, hasta lo cotidiano \cite{avanceTecnologico}.
-Estas exigencias requieren nuevos retos, además de los tecnológicos. Los avances técnicos traen consigo la necesidad de contar con factores humanos capacitados para responder ante el nuevo desarrollo científico \cite{invstCibernCuba}. Estadísticamente, la tarea no resulta sencilla para aquellos trabajadores que su vida ha sido lejos de un ordenador.
+Estas exigencias requieren nuevos retos, además de los tecnológicos. Los avances técnicos traen consigo la necesidad de contar con factores humanos capacitados para responder ante el nuevo desarrollo científico \cite{invstCibernCuba}.
 
 Cuba no está ajena a esta nueva revolución tecnológica. El país está abocado a la creación y fortalecimiento de programas de posgrado que consoliden, complementen, profundicen y originen nuevos conocimientos, inmersos en áreas relacionadas con estos cambios de la era digital. De esta forma se proporcionan herramientas para afrontar retos, tomar decisiones y solucionar problemas de la sociedad cubana en general \cite{avanceTecnologico}.
 El empleo de una tecnología de software propia reduce el tiempo de desarrollo y puesta marcha de la misma, minimiza el costo, aporta gran flexibilidad y eficiencia en las operaciones, mejora significativamente la trazabilidad de los procesos y facilita el trabajo a partir de diseños amigables de la interfaz hombre-máquina \cite{industriaCubana}.
-Es por ello que, nuestro país, constantemente trabaja en función de desarrollar nuevos sistemas que permitan un avance técnico.
+Es por ello que en Cuba, constantemente se trabaja en función de desarrollar nuevos sistemas que permitan un avance técnico significativo.
 
 Por citar un ejemplo, la Industria Farmacéutica Cubana está compuesta por procesos tecnológicos de elevada complejidad, que necesitan cumplir con exigentes indicadores de calidad en la producción de medicamentos. A esta industria se le empleó una metodología que permitió automatizar la mayoría de sus procesos. Esta, ha significado un ahorro al país superior a tres millones y medio en moneda convertible en los últimos cinco años, un gran beneficio gracias al avance tecnológico \cite{industriaFarmceutica}.
 
@@ -59,7 +59,6 @@ Con estos objetivos se deben cumplir un conjunto de tareas que facilitarán el p
 \item Implementar la configuración del proceso de evaluación asociado a un proceso específico
 \item Implementar el proceso de conexión con el JBOSS para obtener las respuestas correctas para las preguntas asociadas a las causas y recomendaciones
 \item Implementar el proceso de evaluación parcial de cada etapa
-\item Implementar la funcionalidad que permita obtener los reportes asociados a los avances de cada operario, proceso y área
 \item Implementar el proceso de evaluación integral del operario en un proceso
 \item Implementar la funcionalidad que permita gestionar la administración del sistema
 \item Ejecución de las pruebas y experimentos al nuevo sistema

@@ -10,7 +10,7 @@
 \vspace{1cm}
 
 {\bfseries\Large Trabajo de Diploma para Optar por el Título de Ingeniería en Informática\par}
-\vspace{4cm}
+\vspace{3cm}
 
 {\bfseries\Large Autor:} { \Large Mónica Montoto Montané \par}
 {\bfseries\Large Tutor: }{\Large Dra. Raisa Socorro Llanes \par}
@@ -18,7 +18,7 @@
 
 {\Large La Habana, Cuba \par}
 
-\small{\mifecha\today}
+\large{\mifecha\today}
 
 \end{titlepage}
 

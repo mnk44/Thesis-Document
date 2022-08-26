@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 18:38
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 18:56
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -550,7 +550,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=199, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=207, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 ! Undefined control sequence.
@@ -633,21 +633,21 @@ Cap\'{\i }tulo 1.
 
 
 
-] [6] <imagen/FasesEva.jpg, id=386, 722.7pt x 406.51875pt>
+] [6] <imagen/FasesEva.jpg, id=396, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
-[8] [9] <imagen/ComponentesSE.png, id=414, 464.4853pt x 166.37157pt>
+[8] [9] <imagen/ComponentesSE.png, id=424, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png> [10 <E:/Escuela/Tesis/Informe/imagen/Componentes
-SE.png>] [11] [12] <imagen/EstructuraDRL.png, id=436, 214.55156pt x 108.405pt>
+SE.png>] [11] [12] <imagen/EstructuraDRL.png, id=446, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png> [13 <E:/Escuela/Tesis/Informe/imagen/EstructuraD
 RL.png (PNG copy)>] [14]) [15] (E:\Escuela\Tesis\Informe\cap2.tex
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=451, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=461, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -659,31 +659,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [17 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
-<imagen/actividades.png, id=463, 841.64438pt x 515.67656pt>
+<imagen/actividades.png, id=473, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [18 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [19] [20] <imagen/casoUso.png, id=480, 766.36313pt x 450.18187pt>
+ng>] [19] [20] <imagen/casoUso.png, id=490, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] <imagen/der.png, id=486, 657.2053pt x 333.49594pt>
+[21] <imagen/der.png, id=496, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [22 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
 gen/der.png (PNG copy)>]
-<imagen/baseD.png, id=493, 2524.43124pt x 2791.42876pt>
+<imagen/baseD.png, id=503, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
 [23 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=501, 141.52875pt x 183.68625pt>
+<imagen/estructura.png, id=511, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
-<use imagen/estructura.png> [24 <E:/Escuela/Tesis/Informe/imagen/estructura.png
->] [25]
+<use imagen/estructura.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <E:/Escuela/Tesis/Informe/imagen/estructura.png>] [25]
 Overfull \hbox (14.9237pt too wide) in paragraph at lines 237--238
 []\OT1/cmr/m/n/12 Al apli-car prin-ci-pios en el di-se~no de las pan-ta-llas, l
 a in-ter-ac-cion humano-computadora
@@ -691,21 +694,21 @@ a in-ter-ac-cion humano-computadora
 
 ) [26] (E:\Escuela\Tesis\Informe\cap3.tex
 Cap\'{\i }tulo 3.
-<imagen/introducirU.png, id=521, 1136.74687pt x 412.54124pt>
+<imagen/introducirU.png, id=531, 1136.74687pt x 412.54124pt>
 File: imagen/introducirU.png Graphic file (type png)
 
 <use imagen/introducirU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/modificarU.png, id=522, 1124.70187pt x 389.95688pt>
+<imagen/modificarU.png, id=532, 1124.70187pt x 389.95688pt>
 File: imagen/modificarU.png Graphic file (type png)
 
 <use imagen/modificarU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/introducirA.png, id=524, 1055.44313pt x 305.64188pt>
+<imagen/introducirA.png, id=534, 1055.44313pt x 305.64188pt>
 File: imagen/introducirA.png Graphic file (type png)
 
 <use imagen/introducirA.png> [27
@@ -713,14 +716,14 @@ File: imagen/introducirA.png Graphic file (type png)
 
 
 ]
-<imagen/modificarA.png, id=529, 1020.81375pt x 325.96782pt>
+<imagen/modificarA.png, id=539, 1020.81375pt x 325.96782pt>
 File: imagen/modificarA.png Graphic file (type png)
 
 <use imagen/modificarA.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/eliminarA.png, id=530, 1091.57813pt x 119.69719pt>
+<imagen/eliminarA.png, id=540, 1091.57813pt x 119.69719pt>
 File: imagen/eliminarA.png Graphic file (type png)
 
 <use imagen/eliminarA.png>
@@ -811,25 +814,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [34] (E:\Escuela\Tesis\Informe\anexo.tex
-<imagen/login.png, id=571, 438.13687pt x 380.92313pt>
+Anexo A.
+<imagen/login.png, id=581, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
  <use imagen/login.png>
-<imagen/help.png, id=572, 341.77687pt x 137.7647pt>
+<imagen/help.png, id=582, 341.77687pt x 137.7647pt>
 File: imagen/help.png Graphic file (type png)
  <use imagen/help.png>
-<imagen/admin.png, id=573, 951.555pt x 674.52pt>
+<imagen/admin.png, id=583, 951.555pt x 674.52pt>
 File: imagen/admin.png Graphic file (type png)
  <use imagen/admin.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/img.png, id=574, 952.30782pt x 678.28406pt>
+<imagen/img.png, id=584, 952.30782pt x 678.28406pt>
 File: imagen/img.png Graphic file (type png)
  <use imagen/img.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/dist.png, id=575, 755.82375pt x 617.30624pt>
+<imagen/dist.png, id=585, 755.82375pt x 617.30624pt>
 File: imagen/dist.png Graphic file (type png)
  <use imagen/dist.png>
 
@@ -866,23 +870,25 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6152 strings out of 494019
- 91907 string characters out of 3143892
- 184718 words of memory out of 3000000
- 9107 multiletter control sequences out of 15000+200000
+ 6154 strings out of 494019
+ 91945 string characters out of 3143892
+ 184753 words of memory out of 3000000
+ 9109 multiletter control sequences out of 15000+200000
  9801 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1002b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
-fb>
-Output written on "Mónica Montoto Montané.pdf" (44 pages, 1562366 bytes).
+pdfTeX warning (dest): name{section.Alph1.1} has been reference
+d but does not exist, replaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Mónica Montoto Montané.pdf" (44 pages, 1563368 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
+ 659 PDF objects out of 1000 (max. 8388607)
  147 named destinations out of 1000 (max. 500000)
- 493 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 509 words of extra memory for PDF output out of 10000 (max. 10000000)
 

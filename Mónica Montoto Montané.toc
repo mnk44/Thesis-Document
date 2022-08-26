@@ -34,8 +34,8 @@
 \contentsline {subsection}{\numberline {2.4.2}Modelo F\IeC {\'\i }sico de la Base de Datos}{23}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Vista de la Arquitectura}{24}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Descripci\IeC {\'o}n de los Paquetes}{24}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Patrones y Principios de Dise\IeC {\~n}o}{25}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Patr\IeC {\'o}n Singleton}{25}{subsection.2.6.1}
+\contentsline {section}{\numberline {2.6}Patrones y Principios de Dise\IeC {\~n}o}{24}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Patr\IeC {\'o}n Singleton}{24}{subsection.2.6.1}
 \contentsline {section}{\numberline {2.7}Interfaz de Usuario}{25}{section.2.7}
 \contentsline {section}{\numberline {2.8}Conclusiones Parciales}{26}{section.2.8}
 \contentsline {chapter}{\numberline {3}Validaci\IeC {\'o}n de la Soluci\IeC {\'o}n Propuesta}{27}{chapter.3}
@@ -48,3 +48,4 @@
 \contentsline {chapter}{Recomendaciones}{31}{section*.10}
 \contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{32}{section*.12}
 \contentsline {chapter}{Anexos}{34}{section*.14}
+\contentsline {chapter}{\numberline {A}Interfaz de Usuario del Nuevo Sistema}{35}{appendix.Alph1}

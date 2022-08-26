@@ -1,0 +1,89 @@
+\documentclass[12pt,letterpaper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[breaklinks,colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=black]{hyperref}
+
+\makeindex
+
+\title{Título tesis}
+
+\renewcommand{\baselinestretch}{1.2}
+\begin{document}
+	\pagenumbering{roman}	
+	\renewcommand{\listtablename}{Índice de tablas}
+	\renewcommand{\tablename}{Tabla}
+	\renewcommand{\bibname}{Referencias bibliográficas}	
+%	esto es para que las listas anidadas salgan con numeros
+	\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+	\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+	\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+	
+	
+	\pagestyle{empty}		
+	\thispagestyle{empty} 
+	
+ 	\include{portada}
+	%\include{dec_autoria}
+	%\include{opinion_tutor}
+	%\include{dedicatoria}
+	%\include{agradecimientos}
+	\include{resumen}
+	\include{abstrac}
+	
+	\pagestyle{plain}	
+	
+	\tableofcontents	
+	\pagebreak	
+	
+	\listoftables
+	\pagebreak
+	
+	\listoffigures	
+ 	\clearpage 
+
+	\pagenumbering{arabic}
+	
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Introducción}
+	\pagestyle{fancy} 
+	
+	\include{introduccion}	
+	
+	\renewcommand{\chaptermark}[1]{\markboth{\chaptername \, \thechapter. #1}{}}
+	
+	\include{cap1}
+	\include{cap2}
+	\include{cap3}
+	    
+    \cleardoublepage
+  \phantomsection
+	\addcontentsline{toc}{chapter}{Conclusiones}
+    
+   \include{conc}
+    
+    %\cleardoublepage
+  %  \phantomsection
+	%\addcontentsline{toc}{chapter}{Recomendaciones}
+	
+	%\include{rec}
+	
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Referencias bibliográficas}
+	
+	\nocite{*}
+    \bibliographystyle{ieeetr}
+	
+	\bibliography{referencias/Referencias}
+	\breakpage
+	
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Anexos}
+	\pagestyle{fancy}
+	
+	\include{anexo}
+	
+\end{document}

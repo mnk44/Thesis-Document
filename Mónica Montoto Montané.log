@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 16:05
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 17:03
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -553,12 +553,8 @@ LaTeX Info: Redefining \nameref on input line 14.
 <imagen/cujae.png, id=199, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 9.
-
 ! Undefined control sequence.
-l.21 \small{\mifecha
+l.21 \large{\mifecha
                     \today}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -684,7 +680,7 @@ LaTeX Warning: Citation `cap2002' on page 6 undefined on input line 24.
 
 LaTeX Warning: Citation `garcia1994' on page 6 undefined on input line 27.
 
-[6] <imagen/FasesEva.jpg, id=361, 722.7pt x 406.51875pt>
+[6] <imagen/FasesEva.jpg, id=359, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg>
@@ -716,7 +712,7 @@ LaTeX Warning: Citation `OdhiamboOmuya2021' on page 9 undefined on input line 7
 
 LaTeX Warning: Citation `Potapova2021' on page 9 undefined on input line 83.
 
-[9] <imagen/ComponentesSE.png, id=375, 464.4853pt x 166.37157pt>
+[9] <imagen/ComponentesSE.png, id=373, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png>
@@ -736,7 +732,7 @@ LaTeX Warning: Citation `gestorBases' on page 11 undefined on input line 127.
 
 LaTeX Warning: Citation `anaMailen' on page 13 undefined on input line 145.
 
-<imagen/EstructuraDRL.png, id=391, 214.55156pt x 108.405pt>
+<imagen/EstructuraDRL.png, id=389, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png>
@@ -746,7 +742,7 @@ LaTeX Warning: Citation `elena' on page 13 undefined on input line 154.
 [13 <E:/Escuela/Tesis/Informe/imagen/EstructuraDRL.png (PNG copy)>] [14])
 [15] (E:\Escuela\Tesis\Informe\cap2.tex
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=405, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=403, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -761,27 +757,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Citation `elena' on page 18 undefined on input line 42.
 
-<imagen/actividades.png, id=416, 841.64438pt x 515.67656pt>
+<imagen/actividades.png, id=414, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [18 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [19] [20] <imagen/casoUso.png, id=433, 766.36313pt x 450.18187pt>
+ng>] [19] [20] <imagen/casoUso.png, id=431, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] <imagen/der.png, id=439, 657.2053pt x 333.49594pt>
+[21] <imagen/der.png, id=437, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [22 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
 gen/der.png (PNG copy)>]
-<imagen/baseD.png, id=446, 2524.43124pt x 2791.42876pt>
+<imagen/baseD.png, id=444, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
 [23 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=454, 141.52875pt x 183.68625pt>
+<imagen/estructura.png, id=452, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
 <use imagen/estructura.png> [24 <E:/Escuela/Tesis/Informe/imagen/estructura.png
@@ -793,21 +789,21 @@ a in-ter-ac-cion humano-computadora
 
 ) [26] (E:\Escuela\Tesis\Informe\cap3.tex
 Cap\'{\i }tulo 3.
-<imagen/introducirU.png, id=474, 1136.74687pt x 412.54124pt>
+<imagen/introducirU.png, id=472, 1136.74687pt x 412.54124pt>
 File: imagen/introducirU.png Graphic file (type png)
 
 <use imagen/introducirU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/modificarU.png, id=475, 1124.70187pt x 389.95688pt>
+<imagen/modificarU.png, id=473, 1124.70187pt x 389.95688pt>
 File: imagen/modificarU.png Graphic file (type png)
 
 <use imagen/modificarU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/introducirA.png, id=477, 1055.44313pt x 305.64188pt>
+<imagen/introducirA.png, id=475, 1055.44313pt x 305.64188pt>
 File: imagen/introducirA.png Graphic file (type png)
 
 <use imagen/introducirA.png> [27
@@ -815,14 +811,14 @@ File: imagen/introducirA.png Graphic file (type png)
 
 
 ]
-<imagen/modificarA.png, id=482, 1020.81375pt x 325.96782pt>
+<imagen/modificarA.png, id=480, 1020.81375pt x 325.96782pt>
 File: imagen/modificarA.png Graphic file (type png)
 
 <use imagen/modificarA.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/eliminarA.png, id=483, 1091.57813pt x 119.69719pt>
+<imagen/eliminarA.png, id=481, 1091.57813pt x 119.69719pt>
 File: imagen/eliminarA.png Graphic file (type png)
 
 <use imagen/eliminarA.png>
@@ -861,25 +857,25 @@ and I'll forget about whatever was undefined.
 
 (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-<imagen/login.png, id=504, 438.13687pt x 380.92313pt>
+<imagen/login.png, id=502, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
  <use imagen/login.png>
-<imagen/help.png, id=505, 341.77687pt x 137.7647pt>
+<imagen/help.png, id=503, 341.77687pt x 137.7647pt>
 File: imagen/help.png Graphic file (type png)
  <use imagen/help.png>
-<imagen/admin.png, id=506, 951.555pt x 674.52pt>
+<imagen/admin.png, id=504, 951.555pt x 674.52pt>
 File: imagen/admin.png Graphic file (type png)
  <use imagen/admin.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/img.png, id=507, 952.30782pt x 678.28406pt>
+<imagen/img.png, id=505, 952.30782pt x 678.28406pt>
 File: imagen/img.png Graphic file (type png)
  <use imagen/img.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/dist.png, id=508, 755.82375pt x 617.30624pt>
+<imagen/dist.png, id=506, 755.82375pt x 617.30624pt>
 File: imagen/dist.png Graphic file (type png)
  <use imagen/dist.png>
 
@@ -909,9 +905,6 @@ Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
 LaTeX Warning: There were undefined references.
 
 
@@ -923,24 +916,22 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6086 strings out of 494019
- 90754 string characters out of 3143892
+ 6080 strings out of 494019
+ 90668 string characters out of 3143892
  183661 words of memory out of 3000000
- 9080 multiletter control sequences out of 15000+200000
- 10147 words of font info for 35 fonts, out of 3000000 for 9000
+ 9075 multiletter control sequences out of 15000+200000
+ 9454 words of font info for 33 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1002b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-
-Output written on "Mónica Montoto Montané.pdf" (40 pages, 1544430 bytes).
+cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
+.pfb>
+Output written on "Mónica Montoto Montané.pdf" (40 pages, 1524384 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
+ 570 PDF objects out of 1000 (max. 8388607)
  117 named destinations out of 1000 (max. 500000)
  493 words of extra memory for PDF output out of 10000 (max. 10000000)
 

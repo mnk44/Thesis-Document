@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  18 JUN 2022 17:10
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 17:03
 entering extended mode
 **portada.tex
-(C:\Monik\Escuela\Practicas\Tesis\Informe\portada.tex
+(E:\Escuela\Tesis\Informe\portada.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -91,13 +91,9 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no j in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no e in font nullfont!
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 9.
-
 ! Undefined control sequence.
-l.9 {\bfseries\scshape\Huge
-                            Informe de Pr√°cticas Profesionales II \par}
+l.9 {\scshape\Large
+                    SISTEMA PARA EL ENTRENAMIENTO DE OPERARIOS EN LA INDUSTR...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -111,193 +107,223 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 {\bfseries\scshape\Huge I
-                             nforme de Pr√°cticas Profesionales II \par}
+l.9 {\scshape\Large S
+                     ISTEMA PARA EL ENTRENAMIENTO DE OPERARIOS EN LA INDUSTR...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (49.58278pt too wide) in paragraph at lines 9--9
+ []\OT1/cmr/m/sc/10 SISTEMA 
+ []
+
+
+Overfull \hbox (30.81912pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 PARA 
+ []
+
+
+Overfull \hbox (14.24985pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 EL 
+ []
+
+
+Overfull \hbox (19.33313pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 EN- 
+ []
+
+
+Overfull \hbox (27.05528pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 TRE- 
+ []
+
+
+Overfull \hbox (62.08269pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 NAMIENTO 
+ []
+
+
+Overfull \hbox (15.70818pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 DE 
+ []
+
+
+Overfull \hbox (19.63869pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 OP- 
+ []
+
+
+Overfull \hbox (19.19424pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 ER- 
+ []
+
+
+Overfull \hbox (19.91647pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 AR- 
+ []
+
+
+Overfull \hbox (18.6109pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 IOS 
+ []
+
+
+Overfull \hbox (15.55539pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 EN 
+ []
+
+
+Overfull \hbox (14.97208pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 LA 
+ []
+
+
+Overfull \hbox (15.97205pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 IN- 
+ []
+
+
+Overfull \hbox (26.31918pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 DUS- 
+ []
+
+
+Overfull \hbox (28.05527pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 TRIA 
+ []
+
+
+Overfull \hbox (18.74982pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 AL- 
+ []
+
+
+Overfull \hbox (7.83324pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 I- 
+ []
+
+
+Overfull \hbox (29.22191pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 MEN- 
+ []
+
+
+Overfull \hbox (18.90259pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 TA- 
+ []
+
+
+Overfull \hbox (20.19423pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/sc/10 RIA 
+ []
+
+! Undefined control sequence.
+l.12 {\bfseries\Large
+                      Trabajo de Diploma para Optar por el T√≠tulo de Ingeni...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 {\bfseries\Large T
+                       rabajo de Diploma para Optar por el T√≠tulo de Ingeni...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no √ in font cmbx10!
+Missing character: There is no ≠ in font cmbx10!
+Missing character: There is no √ in font cmbx10!
+Missing character: There is no ≠ in font cmbx10!
+Missing character: There is no √ in font cmbx10!
 Missing character: There is no ° in font cmbx10!
 
-Overfull \hbox (39.60397pt too wide) in paragraph at lines 9--9
- []\OT1/cmr/bx/n/10 Informe 
+Overfull \hbox (39.24976pt too wide) in paragraph at lines 12--12
+ []\OT1/cmr/bx/n/10 Trabajo 
  []
 
 
-Overfull \hbox (11.65967pt too wide) in paragraph at lines 9--9
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 12--12
  \OT1/cmr/bx/n/10 de 
  []
 
 
-Overfull \hbox (21.54156pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 Prc- 
+Overfull \hbox (42.52058pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 Diploma 
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 ti- 
+Overfull \hbox (22.3054pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 para 
  []
 
 
-Overfull \hbox (15.23738pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 cas 
+Overfull \hbox (18.86101pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 Op- 
  []
 
 
-Overfull \hbox (22.18045pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 Pro- 
+Overfull \hbox (14.79852pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 tar 
  []
 
 
-Overfull \hbox (12.618pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 fe- 
+Overfull \hbox (17.19437pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 por 
  []
 
 
-Overfull \hbox (23.70264pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 sion- 
+Overfull \hbox (8.46524pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 el 
  []
 
 
-Overfull \hbox (18.59154pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 ales 
+Overfull \hbox (27.8054pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 Ttulo 
  []
 
 
-Overfull \hbox (9.04161pt too wide) in paragraph at lines 9--9
- \OT1/cmr/bx/n/10 II 
- []
-
-! Undefined control sequence.
-l.12 {\itshape\Large
-                     Sistema para el entrenamiento de operarios en la Indust...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 {\itshape\Large S
-                      istema para el entrenamiento de operarios en la Indust...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (33.98868pt too wide) in paragraph at lines 12--12
- []\OT1/cmr/m/it/10 Sistema 
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 de 
  []
 
 
-Overfull \hbox (18.52763pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 para 
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 In- 
  []
 
 
-Overfull \hbox (7.1555pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 el 
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 ge- 
  []
 
 
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 en- 
+Overfull \hbox (25.18042pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 niera 
  []
 
 
-Overfull \hbox (15.2054pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 tre- 
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 en 
  []
 
 
-Overfull \hbox (40.63309pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 namiento 
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 In- 
  []
 
 
-Overfull \hbox (9.71104pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 de 
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 op- 
- []
-
-
-Overfull \hbox (12.39433pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 er- 
- []
-
-
-Overfull \hbox (12.90546pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 ar- 
- []
-
-
-Overfull \hbox (12.2666pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 ios 
- []
-
-
-Overfull \hbox (10.22215pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 en 
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 la 
- []
-
-
-Overfull \hbox (13.05547pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 In- 
- []
-
-
-Overfull \hbox (18.14433pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 dus- 
- []
-
-
-Overfull \hbox (15.71655pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 tria 
- []
-
-
-Overfull \hbox (13.311pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 Al- 
- []
-
-
-Overfull \hbox (6.6444pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 i- 
- []
-
-
-Overfull \hbox (21.97763pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 men- 
- []
-
-
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 ta- 
- []
-
-
-Overfull \hbox (12.39436pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 ria 
- []
-
-
-Overfull \hbox (32.45534pt too wide) in paragraph at lines 12--12
- \OT1/cmr/m/it/10 Cubana 
+Overfull \hbox (41.63171pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 formtica 
  []
 
 ! Undefined control sequence.
@@ -449,7 +475,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.21 \small
+l.21 \large
            {\mifecha\today}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -458,7 +484,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.21 \small{\mifecha
+l.21 \large{\mifecha
                     \today}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -467,7 +493,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.21 \small{\mifecha\today
+l.21 \large{\mifecha\today
                           }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -496,11 +522,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 16 strings out of 494019
- 306 string characters out of 3143892
+ 14 strings out of 494019
+ 230 string characters out of 3143892
  49862 words of memory out of 3000000
- 3402 multiletter control sequences out of 15000+200000
- 4294 words of font info for 16 fonts, out of 3000000 for 9000
+ 3400 multiletter control sequences out of 15000+200000
+ 4249 words of font info for 16 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 12i,0n,9p,129b,98s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 12i,0n,9p,127b,77s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

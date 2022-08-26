@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 16:01
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 16:05
 entering extended mode
-**MÛnica*Montoto*MontanÈ*G41.tex
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.tex"
+**MÛnica*Montoto*MontanÈ.tex
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.tex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -459,8 +459,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \@indexfile=\write3
 
-Writing index file MÛnica*Montoto*MontanÈ*G41.idx
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.aux"
+Writing index file MÛnica*Montoto*MontanÈ.idx
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.aux"
 (E:\Escuela\Tesis\Informe\portada.aux) (E:\Escuela\Tesis\Informe\resumen.aux)
 (E:\Escuela\Tesis\Informe\abstrac.aux)
 (E:\Escuela\Tesis\Informe\introduccion.aux) (E:\Escuela\Tesis\Informe\cap1.aux)
@@ -545,8 +545,8 @@ LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
 
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.out")
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.out")
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.out")
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.out")
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
@@ -583,7 +583,7 @@ l.33 	\include{resumen}
 
 
 ]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.toc"
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -596,12 +596,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ])
 \tf@toc=\write5
  [4]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.lot")
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.lot")
 \tf@lot=\write6
  [5
 
 ]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.lof")
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.lof")
 \tf@lof=\write7
  [6
 
@@ -617,11 +617,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(E:\Escuela\Tesis\Informe\introduccion.tex [1
+(E:\Escuela\Tesis\Informe\introduccion.tex
+
+LaTeX Warning: Citation `avanceTecnologico' on page 1 undefined on input line 2
+.
+
+
+LaTeX Warning: Citation `invstCibernCuba' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `avanceTecnologico' on page 1 undefined on input line 5
+.
+
+
+LaTeX Warning: Citation `industriaCubana' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `industriaFarmceutica' on page 1 undefined on input lin
+e 9.
+
+
+LaTeX Warning: Citation `CONVENCION2019' on page 1 undefined on input line 13.
+
+[1
 
 
 
 ]
+
+LaTeX Warning: Citation `gestorBases' on page 2 undefined on input line 15.
+
 ! Undefined control sequence.
 l.17 ... en las industrias de nuestro pa√≠s \citep
                                                   {anaMailen}.
@@ -631,27 +656,97 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation `anaMailen' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `elena' on page 2 undefined on input line 22.
+
 [2] [3]) [4] (E:\Escuela\Tesis\Informe\cap1.tex
 Cap\'{\i }tulo 1.
+
+LaTeX Warning: Citation `blogBizneo' on page 5 undefined on input line 6.
+
+
+LaTeX Warning: Citation `seguridadMinera' on page 5 undefined on input line 9.
+
+
+LaTeX Warning: Citation `softDoit' on page 5 undefined on input line 14.
+
 [5
 
 
 
-] [6] <imagen/FasesEva.jpg, id=388, 722.7pt x 406.51875pt>
+]
+
+LaTeX Warning: Citation `cap2002' on page 6 undefined on input line 24.
+
+
+LaTeX Warning: Citation `garcia1994' on page 6 undefined on input line 27.
+
+[6] <imagen/FasesEva.jpg, id=361, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
-<use imagen/FasesEva.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
-[8] [9] <imagen/ComponentesSE.png, id=416, 464.4853pt x 166.37157pt>
+<use imagen/FasesEva.jpg>
+
+LaTeX Warning: Citation `referencia12' on page 7 undefined on input line 45.
+
+[7 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
+
+LaTeX Warning: Citation `Christmann2022' on page 8 undefined on input line 58.
+
+
+LaTeX Warning: Citation `AltyJL1984' on page 8 undefined on input line 60.
+
+
+LaTeX Warning: Citation `RonaldL.Jacobs2012' on page 8 undefined on input line 
+64.
+
+[8]
+
+LaTeX Warning: Citation `AltyJL1984' on page 9 undefined on input line 72.
+
+
+LaTeX Warning: Citation `Rasheed2021' on page 9 undefined on input line 74.
+
+
+LaTeX Warning: Citation `OdhiamboOmuya2021' on page 9 undefined on input line 7
+7.
+
+
+LaTeX Warning: Citation `Potapova2021' on page 9 undefined on input line 83.
+
+[9] <imagen/ComponentesSE.png, id=375, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
-<use imagen/ComponentesSE.png> [10 <E:/Escuela/Tesis/Informe/imagen/Componentes
-SE.png>] [11] [12] <imagen/EstructuraDRL.png, id=438, 214.55156pt x 108.405pt>
+<use imagen/ComponentesSE.png>
+
+LaTeX Warning: Citation `KandulaNeha2020' on page 10 undefined on input line 97
+.
+
+[10 <E:/Escuela/Tesis/Informe/imagen/ComponentesSE.png>]
+
+LaTeX Warning: Citation `KandulaNeha2020' on page 11 undefined on input line 11
+1.
+
+
+LaTeX Warning: Citation `gestorBases' on page 11 undefined on input line 127.
+
+[11] [12]
+
+LaTeX Warning: Citation `anaMailen' on page 13 undefined on input line 145.
+
+<imagen/EstructuraDRL.png, id=391, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
-<use imagen/EstructuraDRL.png> [13 <E:/Escuela/Tesis/Informe/imagen/EstructuraD
-RL.png (PNG copy)>] [14]) [15] (E:\Escuela\Tesis\Informe\cap2.tex
+<use imagen/EstructuraDRL.png>
+
+LaTeX Warning: Citation `elena' on page 13 undefined on input line 154.
+
+[13 <E:/Escuela/Tesis/Informe/imagen/EstructuraDRL.png (PNG copy)>] [14])
+[15] (E:\Escuela\Tesis\Informe\cap2.tex
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=453, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=405, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -663,27 +758,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [17 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
-<imagen/actividades.png, id=465, 841.64438pt x 515.67656pt>
+
+LaTeX Warning: Citation `elena' on page 18 undefined on input line 42.
+
+<imagen/actividades.png, id=416, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [18 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [19] [20] <imagen/casoUso.png, id=482, 766.36313pt x 450.18187pt>
+ng>] [19] [20] <imagen/casoUso.png, id=433, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] <imagen/der.png, id=488, 657.2053pt x 333.49594pt>
+[21] <imagen/der.png, id=439, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [22 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
 gen/der.png (PNG copy)>]
-<imagen/baseD.png, id=495, 2524.43124pt x 2791.42876pt>
+<imagen/baseD.png, id=446, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
 [23 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=503, 141.52875pt x 183.68625pt>
+<imagen/estructura.png, id=454, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
 <use imagen/estructura.png> [24 <E:/Escuela/Tesis/Informe/imagen/estructura.png
@@ -695,21 +793,21 @@ a in-ter-ac-cion humano-computadora
 
 ) [26] (E:\Escuela\Tesis\Informe\cap3.tex
 Cap\'{\i }tulo 3.
-<imagen/introducirU.png, id=523, 1136.74687pt x 412.54124pt>
+<imagen/introducirU.png, id=474, 1136.74687pt x 412.54124pt>
 File: imagen/introducirU.png Graphic file (type png)
 
 <use imagen/introducirU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/modificarU.png, id=524, 1124.70187pt x 389.95688pt>
+<imagen/modificarU.png, id=475, 1124.70187pt x 389.95688pt>
 File: imagen/modificarU.png Graphic file (type png)
 
 <use imagen/modificarU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/introducirA.png, id=526, 1055.44313pt x 305.64188pt>
+<imagen/introducirA.png, id=477, 1055.44313pt x 305.64188pt>
 File: imagen/introducirA.png Graphic file (type png)
 
 <use imagen/introducirA.png> [27
@@ -717,14 +815,14 @@ File: imagen/introducirA.png Graphic file (type png)
 
 
 ]
-<imagen/modificarA.png, id=531, 1020.81375pt x 325.96782pt>
+<imagen/modificarA.png, id=482, 1020.81375pt x 325.96782pt>
 File: imagen/modificarA.png Graphic file (type png)
 
 <use imagen/modificarA.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/eliminarA.png, id=532, 1091.57813pt x 119.69719pt>
+<imagen/eliminarA.png, id=483, 1091.57813pt x 119.69719pt>
 File: imagen/eliminarA.png Graphic file (type png)
 
 <use imagen/eliminarA.png>
@@ -740,54 +838,7 @@ imagen/eliminarA.png>] (E:\Escuela\Tesis\Informe\conc.tex) [30
 
 
 ]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.bbl" [31
-
-
-
-]
-
-! Package inputenc Error: Unicode char \u8:‚Äê not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96   on‚Äê
-            the‚Äêjob training (s‚Äêojt): an introduction to this training a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:‚Äê not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96   on‚Äêthe‚Äê
-                  job training (s‚Äêojt): an introduction to this training a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:‚Äê not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96   on‚Äêthe‚Äêjob training (s‚Äê
-                                    ojt): an introduction to this training a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[32])
+No file MÛnica*Montoto*MontanÈ.bbl.
 ! Undefined control sequence.
 l.81 	\breakpage
                 
@@ -808,55 +859,60 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[33] (E:\Escuela\Tesis\Informe\anexo.tex
+(E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-<imagen/login.png, id=566, 438.13687pt x 380.92313pt>
+<imagen/login.png, id=504, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
  <use imagen/login.png>
-<imagen/help.png, id=567, 341.77687pt x 137.7647pt>
+<imagen/help.png, id=505, 341.77687pt x 137.7647pt>
 File: imagen/help.png Graphic file (type png)
  <use imagen/help.png>
-<imagen/admin.png, id=568, 951.555pt x 674.52pt>
+<imagen/admin.png, id=506, 951.555pt x 674.52pt>
 File: imagen/admin.png Graphic file (type png)
  <use imagen/admin.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/img.png, id=569, 952.30782pt x 678.28406pt>
+<imagen/img.png, id=507, 952.30782pt x 678.28406pt>
 File: imagen/img.png Graphic file (type png)
  <use imagen/img.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/dist.png, id=570, 755.82375pt x 617.30624pt>
+<imagen/dist.png, id=508, 755.82375pt x 617.30624pt>
 File: imagen/dist.png Graphic file (type png)
  <use imagen/dist.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [34
+) [31
+
+
 
 
 
  <E:/Escuela/Tesis/Informe/imagen/login.png> <E:/Escuela/Tesis/Informe/imagen/h
-elp.png>] [35 <E:/Escuela/Tesis/Informe/imagen/admin.png> <E:/Escuela/Tesis/Inf
-orme/imagen/img.png>] [36 <E:/Escuela/Tesis/Informe/imagen/dist.png>]
+elp.png>] [32 <E:/Escuela/Tesis/Informe/imagen/admin.png> <E:/Escuela/Tesis/Inf
+orme/imagen/img.png>] [33 <E:/Escuela/Tesis/Informe/imagen/dist.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ G41.aux"
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.aux"
 (E:\Escuela\Tesis\Informe\portada.aux) (E:\Escuela\Tesis\Informe\resumen.aux)
 (E:\Escuela\Tesis\Informe\abstrac.aux)
 (E:\Escuela\Tesis\Informe\introduccion.aux) (E:\Escuela\Tesis\Informe\cap1.aux)
 (E:\Escuela\Tesis\Informe\cap2.aux) (E:\Escuela\Tesis\Informe\cap3.aux)
 (E:\Escuela\Tesis\Informe\conc.aux) (E:\Escuela\Tesis\Informe\anexo.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package rerunfilecheck Info: File `MÛnica*Montoto*MontanÈ*G41.out' has not chan
-ged.
+Package rerunfilecheck Info: File `MÛnica*Montoto*MontanÈ.out' has not changed.
+
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -867,13 +923,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6143 strings out of 494019
- 91817 string characters out of 3143892
- 184401 words of memory out of 3000000
- 9110 multiletter control sequences out of 15000+200000
+ 6086 strings out of 494019
+ 90754 string characters out of 3143892
+ 183661 words of memory out of 3000000
+ 9080 multiletter control sequences out of 15000+200000
  10147 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,11n,30p,1006b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,11n,30p,1002b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
@@ -882,9 +938,9 @@ cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 
-Output written on "MÛnica Montoto MontanÈ G41.pdf" (43 pages, 1569535 bytes).
+Output written on "MÛnica Montoto MontanÈ.pdf" (40 pages, 1544430 bytes).
 PDF statistics:
- 645 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
  493 words of extra memory for PDF output out of 10000 (max. 10000000)
 

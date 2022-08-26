@@ -45,6 +45,6 @@
 \contentsline {section}{\numberline {3.2}An\IeC {\'a}lisis del Resultado de las Pruebas}{28}{section.3.2}
 \contentsline {section}{\numberline {3.3}Conclusiones Parciales}{29}{section.3.3}
 \contentsline {chapter}{Conclusiones}{30}{section*.8}
+\contentsline {chapter}{\numberline {A}Interfaz de Usuario del Nuevo Sistema}{31}{appendix.Alph1}
 \contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{31}{section*.10}
-\contentsline {chapter}{Anexos}{33}{section*.12}
-\contentsline {chapter}{\numberline {A}Interfaz de Usuario del Nuevo Sistema}{34}{appendix.Alph1}
+\contentsline {chapter}{Anexos}{31}{section*.11}

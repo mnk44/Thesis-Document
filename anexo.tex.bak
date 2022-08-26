@@ -1,7 +1,9 @@
 \appendix
 \clearpage{\renewcommand{\appendixname}{Anexo}
 
-\chapter{Interfaz de Usuario del Nuevo Sistema}
+
+
+\chapter*{Interfaz de Usuario del Nuevo Sistema}
 \begin{figure}[h]
 \centering
  \includegraphics[width=0.5\linewidth]{imagen/login.png}

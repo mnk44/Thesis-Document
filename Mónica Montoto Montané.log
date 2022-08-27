@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 18:56
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  26 AUG 2022 20:12
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -550,7 +550,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=207, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=203, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 ! Undefined control sequence.
@@ -617,35 +617,26 @@ and I'll forget about whatever was undefined.
 
 
 
-]
-! Undefined control sequence.
-l.17 ... en las industrias de nuestro paÃ­s \citep
-                                                  {anaMailen}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[2] [3]) [4] (E:\Escuela\Tesis\Informe\cap1.tex
+] [2] [3]) [4] [5]
+(E:\Escuela\Tesis\Informe\cap1.tex
 Cap\'{\i }tulo 1.
-[5
+[6
 
 
 
-] [6] <imagen/FasesEva.jpg, id=396, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=396, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
-<use imagen/FasesEva.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
-[8] [9] <imagen/ComponentesSE.png, id=424, 464.4853pt x 166.37157pt>
+<use imagen/FasesEva.jpg> [8 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
+[9] [10] <imagen/ComponentesSE.png, id=424, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
-<use imagen/ComponentesSE.png> [10 <E:/Escuela/Tesis/Informe/imagen/Componentes
-SE.png>] [11] [12] <imagen/EstructuraDRL.png, id=446, 214.55156pt x 108.405pt>
+<use imagen/ComponentesSE.png> [11 <E:/Escuela/Tesis/Informe/imagen/Componentes
+SE.png>] [12] [13] <imagen/EstructuraDRL.png, id=446, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
-<use imagen/EstructuraDRL.png> [13 <E:/Escuela/Tesis/Informe/imagen/EstructuraD
-RL.png (PNG copy)>] [14]) [15] (E:\Escuela\Tesis\Informe\cap2.tex
+<use imagen/EstructuraDRL.png> [14 <E:/Escuela/Tesis/Informe/imagen/EstructuraD
+RL.png (PNG copy)>] [15]) [16] (E:\Escuela\Tesis\Informe\cap2.tex
 Cap\'{\i }tulo 2.
 <imagen/dominio.png, id=461, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
@@ -654,45 +645,45 @@ File: imagen/dominio.png Graphic file (type png)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16
+[17
 
 
 
-] [17 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
-<imagen/actividades.png, id=473, 841.64438pt x 515.67656pt>
+] [18 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
+<imagen/actividades.png, id=474, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
-<use imagen/actividades.png> [18 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [19] [20] <imagen/casoUso.png, id=490, 766.36313pt x 450.18187pt>
+<use imagen/actividades.png> [19 <E:/Escuela/Tesis/Informe/imagen/actividades.p
+ng>] [20] [21] <imagen/casoUso.png, id=490, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] <imagen/der.png, id=496, 657.2053pt x 333.49594pt>
+[22] <imagen/der.png, id=496, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
-[22 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
+[23 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
 gen/der.png (PNG copy)>]
 <imagen/baseD.png, id=503, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
-[23 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=511, 141.52875pt x 183.68625pt>
+[24 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
+<imagen/estructura.png, id=512, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
 <use imagen/estructura.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <E:/Escuela/Tesis/Informe/imagen/estructura.png>] [25]
+[25 <E:/Escuela/Tesis/Informe/imagen/estructura.png>] [26]
 Overfull \hbox (14.9237pt too wide) in paragraph at lines 237--238
 []\OT1/cmr/m/n/12 Al apli-car prin-ci-pios en el di-se~no de las pan-ta-llas, l
 a in-ter-ac-cion humano-computadora
  []
 
-) [26] (E:\Escuela\Tesis\Informe\cap3.tex
+) [27] (E:\Escuela\Tesis\Informe\cap3.tex
 Cap\'{\i }tulo 3.
 <imagen/introducirU.png, id=531, 1136.74687pt x 412.54124pt>
 File: imagen/introducirU.png Graphic file (type png)
@@ -711,7 +702,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <imagen/introducirA.png, id=534, 1055.44313pt x 305.64188pt>
 File: imagen/introducirA.png Graphic file (type png)
 
-<use imagen/introducirA.png> [27
+<use imagen/introducirA.png> [28
 
 
 
@@ -730,22 +721,22 @@ File: imagen/eliminarA.png Graphic file (type png)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28 <E:/Escuela/Tesis/Informe/imagen/introducirU.png> <E:/Escuela/Tesis/Informe
+[29 <E:/Escuela/Tesis/Informe/imagen/introducirU.png> <E:/Escuela/Tesis/Informe
 /imagen/modificarU.png> <E:/Escuela/Tesis/Informe/imagen/introducirA.png>])
-[29 <E:/Escuela/Tesis/Informe/imagen/modificarA.png> <E:/Escuela/Tesis/Informe/
-imagen/eliminarA.png>] (E:\Escuela\Tesis\Informe\conc.tex) [30
+[30 <E:/Escuela/Tesis/Informe/imagen/modificarA.png> <E:/Escuela/Tesis/Informe/
+imagen/eliminarA.png>] (E:\Escuela\Tesis\Informe\conc.tex) [31
 
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\rec.tex) [31
+(E:\Escuela\Tesis\Informe\rec.tex) [32
 
 
 
 
 ]
-("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.bbl" [32
+("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.bbl" [33
 
 
 
@@ -792,7 +783,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[33])
+[34])
 ! Undefined control sequence.
 l.81 	\breakpage
                 
@@ -813,7 +804,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[34] (E:\Escuela\Tesis\Informe\anexo.tex
+[35] (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
 <imagen/login.png, id=581, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
@@ -839,13 +830,13 @@ File: imagen/dist.png Graphic file (type png)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [35
+) [36
 
 
 
  <E:/Escuela/Tesis/Informe/imagen/login.png> <E:/Escuela/Tesis/Informe/imagen/h
-elp.png>] [36 <E:/Escuela/Tesis/Informe/imagen/admin.png> <E:/Escuela/Tesis/Inf
-orme/imagen/img.png>] [37 <E:/Escuela/Tesis/Informe/imagen/dist.png>]
+elp.png>] [37 <E:/Escuela/Tesis/Informe/imagen/admin.png> <E:/Escuela/Tesis/Inf
+orme/imagen/img.png>] [38 <E:/Escuela/Tesis/Informe/imagen/dist.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
@@ -870,25 +861,23 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6154 strings out of 494019
- 91945 string characters out of 3143892
+ 6153 strings out of 494019
+ 91920 string characters out of 3143892
  184753 words of memory out of 3000000
- 9109 multiletter control sequences out of 15000+200000
+ 9108 multiletter control sequences out of 15000+200000
  9801 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1002b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.Alph1.1} has been reference
-d but does not exist, replaced by a fixed one
-
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané.pdf" (44 pages, 1563368 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on "Mónica Montoto Montané.pdf" (45 pages, 1563695 bytes).
 PDF statistics:
  659 PDF objects out of 1000 (max. 8388607)
  147 named destinations out of 1000 (max. 500000)
- 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

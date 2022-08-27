@@ -1,12 +1,14 @@
 \section*{Abstract}
-The Food Industry in Cuba plays a very important role in the economy, so a problem in this sector should be avoided at all costs. It currently presents the need to train all its operators in the production processes that are developed, since it consists of many irregularities when working on them. When there is a fault, experts are not always present for its possible solution, since not all technicians are prepared to make the correct decisions in certain circumstances. In this case, the production process is stopped until an expert appears who can resolve the fault that has occurred, causing losses in many areas and thus affecting the economy.
+The Food Industry in Cuba plays a very important role in the country's economy. When there is a fault in your production process, experts are not always present for its possible solution, since not all technicians are prepared to make the correct decisions in certain circumstances. In this case, production is stopped until the worker who can solve the fault that has occurred appears, causing losses in numerous areas and sectors. That is why this industry presents the need to train all its operators before the processes that are developed in it.
 
-As a result of this situation, the Food Industry Research Institute (IIIA), in conjunction with the Faculty of Computer Engineering and Chemical Engineering of CUJAE, in search of a solution, developed an Expert System for the Control of Chemical Processes ( SECPROIT) and a Knowledge Base Generator.
+To provide a solution to this problem, the Food Industry Research Institute (IIIA) and the Faculty of Computer Engineering and Chemical Engineering of CUJAE developed an Expert System for the Control of Chemical Processes (SECPROIT) and a Generator of Knowledge Bases.
 
-The SECPROIT expert system aims to evaluate the decisions made by operators in different critical situations and provides managers with their results and how their workers improve in each process. At this time, the system has certain limitations that prevent it from working properly, so it is necessary to update it. Once this objective has been achieved, the problems of the Food Industry, raised at the beginning of this summary, can be resolved.
+This SECPROIT expert system aims to evaluate the decisions made by operators in different critical situations and provides managers with the results thereof and how their workers are improving in each process. Currently, this system has certain limitations that prevent it from working properly, so it is necessary to update it.
+
+Once this objective has been achieved, the problems of the Food Industry, raised at the beginning of this summary, can be resolved. A practical value is attributed to this research, since this system (exit device) will be implemented in the Cuban Sugar Industries.
 
 \vfill
 
 \begin{description}
-	\item[Keywords:]{Food Industry, production process, operator, Food Industry Research Institute (IIIA), critical situation, Expert System for the Control of Chemical Processes (SECPROIT), Knowledge Base Generator, expert system.}
+	\item[Keywords:]{Food Industry, production process, operator, Food Industry Research Institute (IIIA), critical situation, Expert System for the Control of Chemical Processes (SECPROIT), Knowledge Base Generator, expert system, exit device.}
 \end{description}

@@ -21,19 +21,24 @@ El Generador de Bases de Conocimiento es el encargado de crear las bases de info
 
 El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como objetivo asesorar la toma de decisiones durante la ejecución de un proceso. A partir de los datos obtenidos por el Generador de Bases de Conocimiento, este sistema produce un conjunto de entrenamientos para los operarios de la fábrica. En cada prueba, el usuario debe escoger las variables que considere en estado de alarma, señalar sus posibles causas y seleccionar las recomendaciones a seguir. Cada prueba contiene tres etapas: variables, causas y recomendaciones. Estas evaluaciones son utilizadas para advertir los conocimientos de los trabajadores y la capacidad que posee cada uno \cite{elena}.
 
-Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las fábricas:
+Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado y utilizado en las industrias:
 \begin{itemize}
-\item a la hora de generar o evaluar los entrenamientos, la información utilizada se extrae directamente de los ficheros generados por el Generador de Bases de Conocimiento, lo que resulta una demora extra
+\item a la hora de generar o evaluar los entrenamientos, la información utilizada se extrae directamente de los ficheros obtenidos por el Generador de Bases de Conocimiento, lo que resulta una demora extra
 \item solo existe un método de pregunta
 \item el resultado del entrenamiento está dado por la cantidad de preguntas correctas que se respondieron, sin tener en cuenta el tiempo utilizado
-\item en la última etapa, las recomendaciones, no se evalúan correctamente os resultados ni se muestra la puntuación obtenida
+\item en la última etapa, las recomendaciones, no se evalúan correctamente los resultados ni se muestra la puntuación obtenida
 \item los entrenamientos se realizan de manera continua, sin posibilidad de pausa
-\item las etapas aparecen de manera consecutiva, sin importar si la etapa anterior fue aprobada o no, ya que los resultados solo influyen en la evaluación final (aparecen etapas innecesariamente)
+\item las etapas aparecen de manera consecutiva, sin importar si la anterior fue aprobada o no, ya que los resultados solo influyen en la evaluación final (aparecen etapas innecesariamente)
 \item los procesos se pueden evaluar una sola vez, es decir, por cada proceso existe un único entrenamiento, lo que limita la capacidad de aprendizaje del trabajador
-\item los reportes del sistema no b
+\item los reportes del sistema no brindan toda la información requerida para conocer la capacidad del trabajador
+\item las visuales del sistema son poco intuitivas, con colores oscuros y de diversos tamaños, lo que resulta poco amigable para el usuario
 \end{itemize}
 
-Partiendo de esta \textbf{situación problemática} resulta necesario desarrollar un nuevo sistema, tomando como base el SECPROIT. Esta actualización debe poder resolver el \textbf{problema de investigación} principal: \textsl{¿Cómo lograr una correcta y completa capacitación de los operarios ante los procesos productivos de la fábrica?}
+%%%%%%%%%%%%%%%%
+
+
+
+Partiendo de esta situación problemática resulta necesario desarrollar un nuevo sistema, tomando como base el SECPROIT. Esta actualización debe poder resolver el \textbf{problema de investigación} principal: \textsl{¿Cómo lograr una correcta y completa capacitación de los operarios ante los procesos productivos de la fábrica?}
 
 Es por ello que, como \textbf{objetivo general} de la investigación, se tiene:
 \begin{itemize}

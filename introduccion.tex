@@ -21,7 +21,7 @@ El Generador de Bases de Conocimiento es el encargado de crear las bases de info
 
 El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como objetivo asesorar la toma de decisiones durante la ejecución de un proceso. A partir de los datos obtenidos por el Generador de Bases de Conocimiento, este sistema produce un conjunto de entrenamientos para los operarios de la fábrica. En cada prueba, el usuario debe escoger las variables que considere en estado de alarma, señalar sus posibles causas y seleccionar las recomendaciones a seguir. Cada prueba contiene tres etapas: variables, causas y recomendaciones. Estas evaluaciones son utilizadas para advertir los conocimientos de los trabajadores y la capacidad que posee cada uno \cite{elena}.
 
-Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado y utilizado en las industrias:
+Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
 \begin{itemize}
 \item a la hora de generar o evaluar los entrenamientos, la información utilizada se extrae directamente de los ficheros obtenidos por el Generador de Bases de Conocimiento, lo que resulta una demora extra
 \item solo existe un método de pregunta
@@ -36,14 +36,18 @@ Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea i
 
 %%%%%%%%%%%%%%%%
 
+A partir de estas restricciones se intuyen un número de cambios necesarios a realizar. Estas modificaciones deben abarcar tanto la lógica programada, como su base de datos, sus interfaces de usuario y la estructura del sistema. Es decir, son requeridas diversas transformaciones en todas las capas internas del SECPROIT.
+Es por ello que, una actualización desde el propio sistema, resulta más trabajosa que realizar un proyecto nuevo. Esto se debe a que modificar un código escrito, para adaptarlo a una nueva estructura y una nueva base de datos, resulta más complejo que elaborarlo de cero \cite{Plecka2013}.
 
+%%%%%%%%%%%%%%%%
 
-Partiendo de esta situación problemática resulta necesario desarrollar un nuevo sistema, tomando como base el SECPROIT. Esta actualización debe poder resolver el \textbf{problema de investigación} principal: \textsl{¿Cómo lograr una correcta y completa capacitación de los operarios ante los procesos productivos de la fábrica?}
+Partiendo de este principio, resulta evidente que, la solución a esta situación problemática, es desarrollar un nuevo sistema tomando como origen el SECPROIT.
+Esta actualización debe poder resolver el problema de investigación que se planteaba al principio: 
+\textsl{¿Cómo lograr una completa capacitación de los operarios de la Industria Alimentaria, ante la toma de decisiones en una situación crítica?}
 
-Es por ello que, como \textbf{objetivo general} de la investigación, se tiene:
-\begin{itemize}
-\item Generar un nuevo sistema que no contenga las limitaciones del SECPROIT, pero que realice las mismas funciones que este.
-\end{itemize}
+Por lo tanto, el objetivo general de esta investigación es: \textsl{generar un sistema capaz de adiestrar a los operarios de la Industria Alimentaria, siguiendo como guía el sistema SECPROIT y solucionando las limitaciones que este presenta}.
+
+%%%%%%%%%%%%%%%
 
 Para poder conseguir este objetivo general, se deben cumplir los siguientes \textbf{objetivos específicos}:
 \begin{itemize}
@@ -73,6 +77,6 @@ Con estos objetivos se deben cumplir un conjunto de tareas que facilitarán el p
 \end{itemize}
 
 Los \textbf{objetos de estudio} de esta investigación son los sistemas de entrenamiento, los sistemas expertos y los sistemas de información inteligentes basados en reglas de producción.
-De este conjunto, se centra la atención en el \textbf{campo de acción} que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
+De este conjunto, se centra la atención en el \textsl{campo de acción} que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
 
 Como \textbf{artefacto de salida} se logrará un sistema de entrenamiento (una aplicación práctica) que permite capacitar a los operarios de las Industrias Alimentarias. En una primera prueba, se desea implementar este sistema resultante en las Industrias Azucareras Cubanas, obteniendo un \textbf{valor práctico} de gran importancia para la sociedad.

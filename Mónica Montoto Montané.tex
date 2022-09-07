@@ -52,6 +52,38 @@
 	
 	\include{introduccion}	
 	
-
+	\renewcommand{\chaptermark}[1]{\markboth{\chaptername \, \thechapter. #1}{}}
+	
+	\include{cap1}
+	\include{cap2}
+	\include{cap3}
+	    
+    \cleardoublepage
+  \phantomsection
+	\addcontentsline{toc}{chapter}{Conclusiones}
+    
+   \include{conc}
+    
+   \cleardoublepage
+   \phantomsection
+	\addcontentsline{toc}{chapter}{Recomendaciones}
+	
+	\include{rec}
+	
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Referencias bibliográficas}
+	
+	\nocite{*}
+    \bibliographystyle{ieeetr}
+	
+	\bibliography{referencias/Referencias}
+	\breakpage
+	
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Anexos}
+	\pagestyle{fancy}
+	
+	\include{anexo}
 	
 \end{document}

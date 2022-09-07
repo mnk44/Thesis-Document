@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 SEP 2022 03:12
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 SEP 2022 03:15
 entering extended mode
 **MÛnica*Montoto*MontanÈ.tex
 ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.tex"
@@ -463,7 +463,13 @@ Writing index file MÛnica*Montoto*MontanÈ.idx
 ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.aux"
 (E:\Escuela\Tesis\Informe\portada.aux) (E:\Escuela\Tesis\Informe\resumen.aux)
 (E:\Escuela\Tesis\Informe\abstrac.aux)
-(E:\Escuela\Tesis\Informe\introduccion.aux))
+(E:\Escuela\Tesis\Informe\introduccion.aux) (E:\Escuela\Tesis\Informe\cap1.aux)
+(E:\Escuela\Tesis\Informe\cap2.aux
+
+LaTeX Warning: Label `tab:actores' multiply defined.
+
+) (E:\Escuela\Tesis\Informe\cap3.aux) (E:\Escuela\Tesis\Informe\conc.aux)
+(E:\Escuela\Tesis\Informe\rec.aux) (E:\Escuela\Tesis\Informe\anexo.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
@@ -544,7 +550,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=7, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=203, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 ! Undefined control sequence.
@@ -573,20 +579,27 @@ l.33 	\include{resumen}
 
 
 ]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.toc")
-\tf@toc=\write5
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
  [3
 
 
-]
+])
+\tf@toc=\write5
+ [4]
 ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.lot")
 \tf@lot=\write6
- [4
+ [5
 
 ]
 ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.lof")
 \tf@lof=\write7
- [5
+ [6
 
 ]
 ! Undefined control sequence.
@@ -600,49 +613,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(E:\Escuela\Tesis\Informe\introduccion.tex
-
-LaTeX Warning: Citation `avanceTecnologico' on page 1 undefined on input line 2
-.
-
-
-LaTeX Warning: Citation `invstCibernCuba' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `avanceTecnologico' on page 1 undefined on input line 5
-.
-
-
-LaTeX Warning: Citation `industriaCubana' on page 1 undefined on input line 7.
-
-
-LaTeX Warning: Citation `industriaFarmceutica' on page 1 undefined on input lin
-e 9.
-
-
-LaTeX Warning: Citation `CONVENCION2019' on page 1 undefined on input line 13.
-
-[1
+(E:\Escuela\Tesis\Informe\introduccion.tex [1
 
 
 
-]
-
-LaTeX Warning: Citation `gestorBases' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Citation `anaMailen' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Citation `anaMailen' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation `elena' on page 2 undefined on input line 22.
-
-[2]
-
-LaTeX Warning: Citation `Plecka2013' on page 3 undefined on input line 38.
-
+] [2]
 
 ! LaTeX Error: \begin{itemize} on input line 45 ended by \end{enumerate}.
 
@@ -656,38 +631,293 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3] [4]) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
- ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.aux"
+[3] [4]) [5] (E:\Escuela\Tesis\Informe\cap1.tex
+Cap\'{\i }tulo 1.
+[6
+
+
+
+] [7] <imagen/FasesEva.jpg, id=406, 722.7pt x 406.51875pt>
+File: imagen/FasesEva.jpg Graphic file (type jpg)
+
+<use imagen/FasesEva.jpg> [8 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
+[9] [10] <imagen/ComponentesSE.png, id=434, 464.4853pt x 166.37157pt>
+File: imagen/ComponentesSE.png Graphic file (type png)
+
+<use imagen/ComponentesSE.png> [11 <E:/Escuela/Tesis/Informe/imagen/Componentes
+SE.png>] [12] [13] <imagen/EstructuraDRL.png, id=456, 214.55156pt x 108.405pt>
+File: imagen/EstructuraDRL.png Graphic file (type png)
+
+<use imagen/EstructuraDRL.png> [14 <E:/Escuela/Tesis/Informe/imagen/EstructuraD
+RL.png (PNG copy)>] [15]) [16] (E:\Escuela\Tesis\Informe\cap2.tex
+Cap\'{\i }tulo 2.
+<imagen/dominio.png, id=471, 846.91406pt x 514.92375pt>
+File: imagen/dominio.png Graphic file (type png)
+
+<use imagen/dominio.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17
+
+
+
+] [18 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
+<imagen/actividades.png, id=484, 841.64438pt x 515.67656pt>
+File: imagen/actividades.png Graphic file (type png)
+
+<use imagen/actividades.png> [19 <E:/Escuela/Tesis/Informe/imagen/actividades.p
+ng>] [20] [21] <imagen/casoUso.png, id=500, 766.36313pt x 450.18187pt>
+File: imagen/casoUso.png Graphic file (type png)
+
+<use imagen/casoUso.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22] <imagen/der.png, id=506, 657.2053pt x 333.49594pt>
+File: imagen/der.png Graphic file (type png)
+ <use imagen/der.png>
+[23 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
+gen/der.png (PNG copy)>]
+<imagen/baseD.png, id=513, 2524.43124pt x 2791.42876pt>
+File: imagen/baseD.png Graphic file (type png)
+ <use imagen/baseD.png>
+[24 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
+<imagen/estructura.png, id=522, 141.52875pt x 183.68625pt>
+File: imagen/estructura.png Graphic file (type png)
+
+<use imagen/estructura.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25 <E:/Escuela/Tesis/Informe/imagen/estructura.png>] [26]
+Overfull \hbox (14.9237pt too wide) in paragraph at lines 237--238
+[]\OT1/cmr/m/n/12 Al apli-car prin-ci-pios en el di-se~no de las pan-ta-llas, l
+a in-ter-ac-cion humano-computadora
+ []
+
+) [27] (E:\Escuela\Tesis\Informe\cap3.tex
+Cap\'{\i }tulo 3.
+<imagen/introducirU.png, id=541, 1136.74687pt x 412.54124pt>
+File: imagen/introducirU.png Graphic file (type png)
+
+<use imagen/introducirU.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/modificarU.png, id=542, 1124.70187pt x 389.95688pt>
+File: imagen/modificarU.png Graphic file (type png)
+
+<use imagen/modificarU.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/introducirA.png, id=544, 1055.44313pt x 305.64188pt>
+File: imagen/introducirA.png Graphic file (type png)
+
+<use imagen/introducirA.png> [28
+
+
+
+]
+<imagen/modificarA.png, id=549, 1020.81375pt x 325.96782pt>
+File: imagen/modificarA.png Graphic file (type png)
+
+<use imagen/modificarA.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/eliminarA.png, id=550, 1091.57813pt x 119.69719pt>
+File: imagen/eliminarA.png Graphic file (type png)
+
+<use imagen/eliminarA.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <E:/Escuela/Tesis/Informe/imagen/introducirU.png> <E:/Escuela/Tesis/Informe
+/imagen/modificarU.png> <E:/Escuela/Tesis/Informe/imagen/introducirA.png>])
+[30 <E:/Escuela/Tesis/Informe/imagen/modificarA.png> <E:/Escuela/Tesis/Informe/
+imagen/eliminarA.png>] (E:\Escuela\Tesis\Informe\conc.tex) [31
+
+
+
+
+]
+(E:\Escuela\Tesis\Informe\rec.tex) [32
+
+
+
+
+]
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.bbl" [33
+
+
+
+]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54   modifications,'' {\em Zarz{\k
+                                    {a}}dzanie Przedsi{\k{e}}biorstwem}, vol...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...tions,'' {\em Zarz{\k{a}}dzanie Przedsi{\k
+                                                  {e}}biorstwem}, vol.~16,
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:‚Äê not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101   on‚Äê
+             the‚Äêjob training (s‚Äêojt): an introduction to this training ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:‚Äê not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101   on‚Äêthe‚Äê
+                   job training (s‚Äêojt): an introduction to this training ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:‚Äê not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101   on‚Äêthe‚Äêjob training (s‚Äê
+                                     ojt): an introduction to this training ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[34])
+! Undefined control sequence.
+l.81 	\breakpage
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.85 	\pagestyle{fancy}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[35] (E:\Escuela\Tesis\Informe\anexo.tex
+Anexo A.
+<imagen/login.png, id=591, 438.13687pt x 380.92313pt>
+File: imagen/login.png Graphic file (type png)
+ <use imagen/login.png>
+<imagen/help.png, id=592, 341.77687pt x 137.7647pt>
+File: imagen/help.png Graphic file (type png)
+ <use imagen/help.png>
+<imagen/admin.png, id=593, 951.555pt x 674.52pt>
+File: imagen/admin.png Graphic file (type png)
+ <use imagen/admin.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/img.png, id=594, 952.30782pt x 678.28406pt>
+File: imagen/img.png Graphic file (type png)
+ <use imagen/img.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagen/dist.png, id=595, 755.82375pt x 617.30624pt>
+File: imagen/dist.png Graphic file (type png)
+ <use imagen/dist.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [36
+
+
+
+ <E:/Escuela/Tesis/Informe/imagen/login.png> <E:/Escuela/Tesis/Informe/imagen/h
+elp.png>] [37 <E:/Escuela/Tesis/Informe/imagen/admin.png> <E:/Escuela/Tesis/Inf
+orme/imagen/img.png>] [38 <E:/Escuela/Tesis/Informe/imagen/dist.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.aux"
 (E:\Escuela\Tesis\Informe\portada.aux) (E:\Escuela\Tesis\Informe\resumen.aux)
 (E:\Escuela\Tesis\Informe\abstrac.aux)
-(E:\Escuela\Tesis\Informe\introduccion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+(E:\Escuela\Tesis\Informe\introduccion.aux) (E:\Escuela\Tesis\Informe\cap1.aux)
+(E:\Escuela\Tesis\Informe\cap2.aux) (E:\Escuela\Tesis\Informe\cap3.aux)
+(E:\Escuela\Tesis\Informe\conc.aux) (E:\Escuela\Tesis\Informe\rec.aux)
+(E:\Escuela\Tesis\Informe\anexo.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package rerunfilecheck Info: File `MÛnica*Montoto*MontanÈ.out' has not changed.
 
 (rerunfilecheck)             Checksum: <no file>.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 2 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 5749 strings out of 494019
- 85114 string characters out of 3143892
- 178553 words of memory out of 3000000
- 8898 multiletter control sequences out of 15000+200000
- 6709 words of font info for 24 fonts, out of 3000000 for 9000
+ 6165 strings out of 494019
+ 92003 string characters out of 3143892
+ 184786 words of memory out of 3000000
+ 9111 multiletter control sequences out of 15000+200000
+ 9801 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,5n,27p,936b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
-Output written on "MÛnica Montoto MontanÈ.pdf" (11 pages, 123615 bytes).
+ 31i,11n,30p,1002b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on "MÛnica Montoto MontanÈ.pdf" (45 pages, 1565657 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 670 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

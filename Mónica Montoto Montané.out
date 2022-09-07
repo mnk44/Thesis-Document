@@ -1,1 +1,50 @@
 \BOOKMARK [0][-]{section*.6}{Introducci\363n}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Fundamentos Te\363ricos}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Sistemas de Capacitaci\363n Automatizados}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.1}{Caracter\355sticas de un Sistema de Capacitaci\363n}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.2}{Importancia de los Software de Capacitaci\363n}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.3}{Fases de un Proceso de Evaluaci\363n de Conocimiento}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.4}{Tipos de Preguntas en un Sistema de Capacitaci\363n Automatizado}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.5}{\277C\363mo verificar la validez de las respuestas?}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.6}{\277C\363mo se eval\372a una Capacitaci\363n?}{section.1.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Sistemas Expertos}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.2.1}{Componentes de un Sistema Experto}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.2}{Ventajas de un Sistema Experto}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.3}{Desventajas de un Sistema Experto}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.4}{\277Por qu\351 usar un Sistema Experto en este Entrenador?}{section.1.2}% 14
+\BOOKMARK [1][-]{section.1.3}{Sistema de Entrenamiento SECPROIT}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.3.1}{\277C\363mo funciona el SECPROIT?}{section.1.3}% 16
+\BOOKMARK [2][-]{subsection.1.3.2}{Limitaciones Actuales del Sistema}{section.1.3}% 17
+\BOOKMARK [2][-]{subsection.1.3.3}{Nuevas Acciones Sugeridas}{section.1.3}% 18
+\BOOKMARK [1][-]{section.1.4}{Conclusiones Parciales}{chapter.1}% 19
+\BOOKMARK [0][-]{chapter.2}{Nuevo Sistema de Entrenamiento}{}% 20
+\BOOKMARK [1][-]{section.2.1}{Modelado del Negocio}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.1.1}{Modelo de Dominio}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.2}{Reglas del Negocio}{section.2.1}% 23
+\BOOKMARK [2][-]{subsection.2.1.3}{Diagrama de Actividades}{section.2.1}% 24
+\BOOKMARK [1][-]{section.2.2}{Captura de Requisitos}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.1}{Requisitos Funcionales}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.2}{Requisitos No Funcionales}{section.2.2}% 27
+\BOOKMARK [1][-]{section.2.3}{Casos de Uso del Nuevo Sistema}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.3.1}{Actores del Sistema}{section.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.3.2}{Diagrama de Casos de Uso del Nuevo Sistema}{section.2.3}% 30
+\BOOKMARK [1][-]{section.2.4}{Modelo de Datos}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.4.1}{Diagrama de Entidades y Relaciones \(DER\)}{section.2.4}% 32
+\BOOKMARK [2][-]{subsection.2.4.2}{Modelo F\355sico de la Base de Datos}{section.2.4}% 33
+\BOOKMARK [1][-]{section.2.5}{Vista de la Arquitectura}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.5.1}{Descripci\363n de los Paquetes}{section.2.5}% 35
+\BOOKMARK [1][-]{section.2.6}{Patrones y Principios de Dise\361o}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.6.1}{Patr\363n Singleton}{section.2.6}% 37
+\BOOKMARK [1][-]{section.2.7}{Interfaz de Usuario}{chapter.2}% 38
+\BOOKMARK [1][-]{section.2.8}{Conclusiones Parciales}{chapter.2}% 39
+\BOOKMARK [0][-]{chapter.3}{Validaci\363n de la Soluci\363n Propuesta}{}% 40
+\BOOKMARK [1][-]{section.3.1}{Pruebas Funcionales}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.1.1}{Caso de Prueba: Gestionar Usuario}{section.3.1}% 42
+\BOOKMARK [2][-]{subsection.3.1.2}{Caso de Prueba: Gestionar \301rea}{section.3.1}% 43
+\BOOKMARK [1][-]{section.3.2}{An\341lisis del Resultado de las Pruebas}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.3}{Conclusiones Parciales}{chapter.3}% 45
+\BOOKMARK [0][-]{section*.8}{Conclusiones}{}% 46
+\BOOKMARK [0][-]{section*.10}{Recomendaciones}{}% 47
+\BOOKMARK [0][-]{section*.12}{Referencias bibliogr\341ficas}{}% 48
+\BOOKMARK [0][-]{section*.14}{Anexos}{}% 49
+\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de Usuario del Nuevo Sistema}{}% 50

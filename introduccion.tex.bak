@@ -58,9 +58,9 @@ Para poder cumplir con el objetivo de esta investigación, deben completarse los
 \item Desplegar la aplicación en la Facultad de Ingeniería Química, para luego implementarla en las industrias
 \end{enumerate}
 
-Cada objetivo específico presenta un grupo de tareas a realizar, las cuales permitirán completar dichos objetivos. A continuación se presenta la lista de tareas general:
+Cada objetivo específico presenta un grupo de tareas a realizar, las cuales permitirán completar dichos objetivos. A continuación, el listado de tareas específicas:
 \begin{itemize}
-\item Analizar los requisitos funcionales que debe cumplir el sistema, para seleccionar las tecnologías con las que se trabajará
+\item Analizar los requisitos funcionales que debe cumplir el sistema, para seleccionar las tecnologías con las que se trabajarán
 \item Realizar diagramas auxiliares para comprender y estructurar el nuevo sistema (diagrama de caso de uso, modelo de dominio, diagrama de actividades, entre otros)
 \item Diseñar la nueva base de datos
 \item Implementar la nueva base de datos
@@ -71,8 +71,16 @@ Cada objetivo específico presenta un grupo de tareas a realizar, las cuales per
 \item Implementar la generación de preguntas asociadas a la evaluación de las causas del estado de una variable (fase de entrenamiento)
 \item Implementar la generación de preguntas asociadas a la evaluación de las recomendaciones del estado de una variable (fase de entrenamiento)
 \item Implementar la configuración del proceso de evaluación asociado a un proceso en específico
-\item Implementar el proceso de conexión con el JBOSS
+\item Implementar la conexión con el JBOSS para obtener las respuestas correctas para las preguntas asociadas a las causas y recomendaciones
+\item Implementar proceso de evaluación parcial para cada etapa
+\item Implementar evaluación integral del operario en un proceso
+\item Diseño de las pruebas al sistema
+\item Ejecución de las pruebas y experimentos al sistema
+\item Crear un manual de usuario del nuevo sistema
+\item Desplegar el nuevo sistema en la Faculta de Ingeniería Química
 \end{itemize}
+
+Esta investigación tiene como objeto de estudio: los sistemas de entrenamiento automatizados, los sistemas expertos y los sistemas de información basados en reglas de producción. De ellos, el campo de acc
 
 Los \textbf{objetos de estudio} de esta investigación son los sistemas de entrenamiento, los sistemas expertos y los sistemas de información inteligentes basados en reglas de producción.
 De este conjunto, se centra la atención en el \textsl{campo de acción} que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).

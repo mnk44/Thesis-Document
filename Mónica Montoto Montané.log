@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  3 SEP 2022 23:33
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 SEP 2022 03:02
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -617,28 +617,41 @@ and I'll forget about whatever was undefined.
 
 
 
-] [2] [3] [4]) [5]
-(E:\Escuela\Tesis\Informe\cap1.tex
+] [2]
+
+! LaTeX Error: \begin{itemize} on input line 45 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \end{enumerate}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3] [4]) [5] (E:\Escuela\Tesis\Informe\cap1.tex
 Cap\'{\i }tulo 1.
 [6
 
 
 
-] [7] <imagen/FasesEva.jpg, id=398, 722.7pt x 406.51875pt>
+] [7] <imagen/FasesEva.jpg, id=406, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
 
 <use imagen/FasesEva.jpg> [8 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
-[9] [10] <imagen/ComponentesSE.png, id=426, 464.4853pt x 166.37157pt>
+[9] [10] <imagen/ComponentesSE.png, id=434, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png> [11 <E:/Escuela/Tesis/Informe/imagen/Componentes
-SE.png>] [12] [13] <imagen/EstructuraDRL.png, id=448, 214.55156pt x 108.405pt>
+SE.png>] [12] [13] <imagen/EstructuraDRL.png, id=456, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png> [14 <E:/Escuela/Tesis/Informe/imagen/EstructuraD
 RL.png (PNG copy)>] [15]) [16] (E:\Escuela\Tesis\Informe\cap2.tex
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=463, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=471, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -650,27 +663,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [18 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
-<imagen/actividades.png, id=476, 841.64438pt x 515.67656pt>
+<imagen/actividades.png, id=484, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [19 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [20] [21] <imagen/casoUso.png, id=492, 766.36313pt x 450.18187pt>
+ng>] [20] [21] <imagen/casoUso.png, id=500, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] <imagen/der.png, id=498, 657.2053pt x 333.49594pt>
+[22] <imagen/der.png, id=506, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [23 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
 gen/der.png (PNG copy)>]
-<imagen/baseD.png, id=505, 2524.43124pt x 2791.42876pt>
+<imagen/baseD.png, id=513, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
 [24 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=514, 141.52875pt x 183.68625pt>
+<imagen/estructura.png, id=522, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
 <use imagen/estructura.png>
@@ -685,21 +698,21 @@ a in-ter-ac-cion humano-computadora
 
 ) [27] (E:\Escuela\Tesis\Informe\cap3.tex
 Cap\'{\i }tulo 3.
-<imagen/introducirU.png, id=533, 1136.74687pt x 412.54124pt>
+<imagen/introducirU.png, id=541, 1136.74687pt x 412.54124pt>
 File: imagen/introducirU.png Graphic file (type png)
 
 <use imagen/introducirU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/modificarU.png, id=534, 1124.70187pt x 389.95688pt>
+<imagen/modificarU.png, id=542, 1124.70187pt x 389.95688pt>
 File: imagen/modificarU.png Graphic file (type png)
 
 <use imagen/modificarU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/introducirA.png, id=536, 1055.44313pt x 305.64188pt>
+<imagen/introducirA.png, id=544, 1055.44313pt x 305.64188pt>
 File: imagen/introducirA.png Graphic file (type png)
 
 <use imagen/introducirA.png> [28
@@ -707,14 +720,14 @@ File: imagen/introducirA.png Graphic file (type png)
 
 
 ]
-<imagen/modificarA.png, id=541, 1020.81375pt x 325.96782pt>
+<imagen/modificarA.png, id=549, 1020.81375pt x 325.96782pt>
 File: imagen/modificarA.png Graphic file (type png)
 
 <use imagen/modificarA.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/eliminarA.png, id=542, 1091.57813pt x 119.69719pt>
+<imagen/eliminarA.png, id=550, 1091.57813pt x 119.69719pt>
 File: imagen/eliminarA.png Graphic file (type png)
 
 <use imagen/eliminarA.png>
@@ -833,25 +846,25 @@ and I'll forget about whatever was undefined.
 
 [35] (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-<imagen/login.png, id=583, 438.13687pt x 380.92313pt>
+<imagen/login.png, id=591, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
  <use imagen/login.png>
-<imagen/help.png, id=584, 341.77687pt x 137.7647pt>
+<imagen/help.png, id=592, 341.77687pt x 137.7647pt>
 File: imagen/help.png Graphic file (type png)
  <use imagen/help.png>
-<imagen/admin.png, id=585, 951.555pt x 674.52pt>
+<imagen/admin.png, id=593, 951.555pt x 674.52pt>
 File: imagen/admin.png Graphic file (type png)
  <use imagen/admin.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/img.png, id=586, 952.30782pt x 678.28406pt>
+<imagen/img.png, id=594, 952.30782pt x 678.28406pt>
 File: imagen/img.png Graphic file (type png)
  <use imagen/img.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/dist.png, id=587, 755.82375pt x 617.30624pt>
+<imagen/dist.png, id=595, 755.82375pt x 617.30624pt>
 File: imagen/dist.png Graphic file (type png)
  <use imagen/dist.png>
 
@@ -888,8 +901,8 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6157 strings out of 494019
- 91955 string characters out of 3143892
+ 6165 strings out of 494019
+ 92003 string characters out of 3143892
  184786 words of memory out of 3000000
  9111 multiletter control sequences out of 15000+200000
  9801 words of font info for 34 fonts, out of 3000000 for 9000
@@ -902,9 +915,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on "Mónica Montoto Montané.pdf" (45 pages, 1564866 bytes).
+Output written on "Mónica Montoto Montané.pdf" (45 pages, 1565807 bytes).
 PDF statistics:
- 661 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
+ 670 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

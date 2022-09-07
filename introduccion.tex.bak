@@ -34,45 +34,44 @@ Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea i
 \item las visuales del sistema son poco intuitivas, con colores oscuros y de diversos tamaños, lo que resulta poco amigable para el usuario
 \end{itemize}
 
-%%%%%%%%%%%%%%%%
-
 A partir de estas restricciones se intuyen un número de cambios necesarios a realizar. Estas modificaciones deben abarcar tanto la lógica programada, como su base de datos, sus interfaces de usuario y la estructura del sistema. Es decir, son requeridas diversas transformaciones en todas las capas internas del SECPROIT.
-Es por ello que, una actualización desde el propio sistema, resulta más trabajosa que realizar un proyecto nuevo. Esto se debe a que modificar un código escrito, para adaptarlo a una nueva estructura y una nueva base de datos, resulta más complejo que elaborarlo de cero, con los parámetros que se desean \cite{Plecka2013}.
-
-%%%%%%%%%%%%%%%%
+Es por ello que, una actualización desde el propio sistema, resulta más trabajosa que realizar un proyecto nuevo. Esto se debe a que modificar un código escrito, para adaptarlo a una nueva estructura y una nueva base de datos, resulta más complejo que elaborarlo de cero \cite{Plecka2013}.
 
 Partiendo de este principio, resulta evidente que, la solución a esta situación problemática, es desarrollar un nuevo sistema tomando como origen el SECPROIT.
 Esta actualización debe poder resolver el problema de investigación que se planteaba al principio: 
 \textsl{¿Cómo lograr una completa capacitación de los operarios de la Industria Alimentaria, ante la toma de decisiones en una situación crítica?}
 
-Por lo tanto, el objetivo general de esta investigación es \textsl{generar un sistema capaz de adiestrar a los operarios de la Industria Alimentaria, siguiendo como guía el sistema SECPROIT y solucionando las limitaciones que este presenta}.
-
-
-Para poder conseguir este objetivo general, se deben cumplir los siguientes \textbf{objetivos específicos}:
+Por lo tanto, el objetivo general de esta investigación es: 
 \begin{itemize}
-\item Analizar el sistema SECPROIT para definir las operaciones que se pueden aprovechar y las limitaciones que se deben eliminar
-\item Modelar el nuevo sistema e identificar los requisitos que debe cumplir
-\item Diseñar la base de datos del nuevo sistema a partir del modelado anteriormente realizado
-\item Completar el diseño de la solución a partir de los resultados obtenidos en los objetivos anteriores
-\item Programar el nuevo sistema
-\item Realizar diseño y ejecución de pruebas al nuevo sistema creado
-\item Desplegar la nueva aplicación en la facultad de Ingeniería Química
-\end{itemize}
+\item Generar un sistema capaz de adiestrar a los operarios de la Industria Alimentaria, tomando como guía el sistema SECPROIT, pero solucionando las limitaciones que este actualmente presenta.
+\end{enumerate}
 
-Con estos objetivos se deben cumplir un conjunto de tareas que facilitarán el proceso de desarrollo del sistema. Estas \textbf{tareas específicas} son:
+Para poder cumplir con el objetivo de esta investigación, deben completarse los siguientes objetivos específicos:
+\begin{enumerate}
+\item Analizar y decidir con qué tecnologías se realizará el nuevo sistema
+\item Modelar la actualización del SECPROIT, tomando como base el sistema anterior
+\item Diseñar la nueva base de datos a partir del modelo resultante en el objetivo anterior
+\item Programar el sistema en cuestión, teniendo en cuenta las limitaciones presentes en la versión actual
+\item Diseñar e implementar las nuevas interfaces, rectificando lo señalado en el sistema anterior
+\item Programar el entrenamiento de los operarios a partir de la información recibida por el Generador de Bases de Conocimiento
+\item Diseñar y realizar pruebas al nuevo sistema resultante
+\item Desplegar la aplicación en la Facultad de Ingeniería Química, para luego implementarla en las industrias
+\end{enumerate}
+
+Cada objetivo específico presenta un grupo de tareas a realizar, las cuales permitirán completar dichos objetivos. A continuación se presenta la lista de tareas general:
 \begin{itemize}
-\item Investigar los tipos de sistemas de entrenamientos existentes, así como ejemplos de evaluaciones y calificaciones que se pueden aplicar en los mismos
-\item Realizar diagrama de casos de uso, diagrama de base de datos, diagrama de clases y algún otro tipo de diagrama necesario para un mejor entendimiento de los diseños propuestos
-\item Implementar la carga de la base de conocimiento, que permite realizar los entrenamientos en el nuevo sistema
-\item Implementar generación de preguntas asociadas a la evaluación del estado de las variables
-\item Implementar generación de preguntas asociadas a la evaluación de las causas asociadas a las causas del estado de una variable
-\item Implementar generación de preguntas asociadas a la evaluación de las recomendaciones asociadas al estado de una variable
-\item Implementar la configuración del proceso de evaluación asociado a un proceso específico
-\item Implementar el proceso de conexión con el JBOSS para obtener las respuestas correctas para las preguntas asociadas a las causas y recomendaciones
-\item Implementar el proceso de evaluación parcial de cada etapa
-\item Implementar el proceso de evaluación integral del operario en un proceso
-\item Implementar la funcionalidad que permita gestionar la administración del sistema
-\item Ejecución de las pruebas y experimentos al nuevo sistema
+\item Analizar los requisitos funcionales que debe cumplir el sistema, para seleccionar las tecnologías con las que se trabajará
+\item Realizar diagramas auxiliares para comprender y estructurar el nuevo sistema (diagrama de caso de uso, modelo de dominio, diagrama de actividades, entre otros)
+\item Diseñar la nueva base de datos
+\item Implementar la nueva base de datos
+\item Implementar las funcionalidades que permitan la administración del sistema
+\item Realizar el diseño de las nuevas interfaces
+\item Desarrollar e implementar las nuevas interfaces
+\item Implementar la generación de preguntas asociadas a la evaluación del estado de las variables (fase de entrenamiento)
+\item Implementar la generación de preguntas asociadas a la evaluación de las causas del estado de una variable (fase de entrenamiento)
+\item Implementar la generación de preguntas asociadas a la evaluación de las recomendaciones del estado de una variable (fase de entrenamiento)
+\item Implementar la configuración del proceso de evaluación asociado a un proceso en específico
+\item Implementar el proceso de conexión con el JBOSS
 \end{itemize}
 
 Los \textbf{objetos de estudio} de esta investigación son los sistemas de entrenamiento, los sistemas expertos y los sistemas de información inteligentes basados en reglas de producción.

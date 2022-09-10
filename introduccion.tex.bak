@@ -23,7 +23,7 @@ El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como o
 
 Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
 \begin{itemize}
-\item a la hora de generar o evaluar los entrenamientos, la información utilizada se extrae directamente de los ficheros obtenidos por el Generador de Bases de Conocimiento, lo que resulta una demora extra
+\item al generar o evaluar los entrenamientos, la información utilizada se extrae directamente de los ficheros obtenidos por el Generador de Bases de Conocimiento, lo que resulta una demora extra
 \item solo existe un método de pregunta
 \item el resultado del entrenamiento está dado por la cantidad de preguntas correctas que se respondieron, sin tener en cuenta el tiempo utilizado
 \item en la última etapa, las recomendaciones, no se evalúan correctamente los resultados ni se muestra la puntuación obtenida
@@ -43,30 +43,37 @@ Esta actualización debe poder resolver el problema de investigación que se pla
 
 Por lo tanto, el objetivo general de esta investigación es: 
 \begin{itemize}
-\item Generar un sistema capaz de adiestrar a los operarios de la Industria Alimentaria, tomando como guía el sistema SECPROIT, pero solucionando las limitaciones que este actualmente presenta.
+\item Desarrollar un sistema capaz de adiestrar a los operarios de la Industria Alimentaria, tomando como guía el sistema SECPROIT, pero solucionando las limitaciones que este actualmente presenta.
 \end{enumerate}
 
-Para poder cumplir con el objetivo de esta investigación, deben completarse los siguientes objetivos específicos:
+Para poder cumplir con el objetivo de esta investigación, deben completarse una serie de objetivos específicos, y cada uno, presenta un grupo de tareas a desarrollar:
 \begin{enumerate}
 \item Analizar y decidir con qué tecnologías se realizará el nuevo sistema
+\begin{itemize}
+\item Analizar los requisitos funcionales que debe cumplir el sistema
+\item Seleccionar las tecnologías con las que se trabajará
+\end{itemize}
 \item Modelar la actualización del SECPROIT, tomando como base el sistema anterior
+\begin{itemize}
+\item Realizar diagramas auxiliares para comprender y estructurar el nuevo sistema (diagrama de caso de uso, modelo de dominio, diagrama de actividades, entre otros)
+\end{itemize}
 \item Diseñar la nueva base de datos a partir del modelo resultante en el objetivo anterior
+\begin{itemize}
+\item Implementar la nueva base de datos
+\end{itemize}
 \item Programar el sistema en cuestión, teniendo en cuenta las limitaciones presentes en la versión actual
-\item Diseñar e implementar las nuevas interfaces, rectificando lo señalado en el sistema anterior
+\begin{itemize}
+\item Implementar las funcionalidades que permitan la administración del sistema
+\end{itemize}
+\item Implementar las nuevas interfaces, rectificando lo señalado en el sistema anterior
 \item Programar el entrenamiento de los operarios a partir de la información recibida por el Generador de Bases de Conocimiento
 \item Diseñar y realizar pruebas al nuevo sistema resultante
 \item Desplegar la aplicación en la Facultad de Ingeniería Química, para luego implementarla en las industrias
 \end{enumerate}
 
-Cada objetivo específico presenta un grupo de tareas a realizar, las cuales permitirán completar dichos objetivos. A continuación, el listado de tareas específicas:
-\begin{itemize}
-\item Analizar los requisitos funcionales que debe cumplir el sistema, para seleccionar las tecnologías con las que se trabajarán
-\item Realizar diagramas auxiliares para comprender y estructurar el nuevo sistema (diagrama de caso de uso, modelo de dominio, diagrama de actividades, entre otros)
-\item Diseñar la nueva base de datos
-\item Implementar la nueva base de datos
-\item Implementar las funcionalidades que permitan la administración del sistema
+
 \item Realizar el diseño de las nuevas interfaces
-\item Desarrollar e implementar las nuevas interfaces
+
 \item Implementar la generación de preguntas asociadas a la evaluación del estado de las variables (fase de entrenamiento)
 \item Implementar la generación de preguntas asociadas a la evaluación de las causas del estado de una variable (fase de entrenamiento)
 \item Implementar la generación de preguntas asociadas a la evaluación de las recomendaciones del estado de una variable (fase de entrenamiento)
@@ -80,9 +87,6 @@ Cada objetivo específico presenta un grupo de tareas a realizar, las cuales per
 \item Desplegar el nuevo sistema en la Faculta de Ingeniería Química
 \end{itemize}
 
-Esta investigación tiene como objeto de estudio: los sistemas de entrenamiento automatizados, los sistemas expertos y los sistemas de información basados en reglas de producción. De ellos, el campo de acc
+Esta investigación tiene como objeto de estudio: los sistemas de entrenamiento automatizados, los sistemas expertos y los sistemas de información basados en reglas de producción. De ellos, se centra la atención en el campo de acción que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
 
-Los \textbf{objetos de estudio} de esta investigación son los sistemas de entrenamiento, los sistemas expertos y los sistemas de información inteligentes basados en reglas de producción.
-De este conjunto, se centra la atención en el \textsl{campo de acción} que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
-
-Como \textbf{artefacto de salida} se logrará un sistema de entrenamiento (una aplicación práctica) que permite capacitar a los operarios de las Industrias Alimentarias. En una primera prueba, se desea implementar este sistema resultante en las Industrias Azucareras Cubanas, obteniendo un \textbf{valor práctico} de gran importancia para la sociedad.
+Como artefacto de salida se obtiene la actualización de un sistema de entrenamiento (una aplicación práctica). Esta aplicación permitirá capacitar a los operarios de las industrias, específicamente a los de la Industria Alimentaria Cubana, por lo que se obtiene un valor práctico de gran importancia para la sociedad.

@@ -193,7 +193,7 @@ utils & Contiene varios \textsl{enum} que ayudan en las visuales. \\
 visual & Contiene toda la vista de cara al usuario (visuales). \\
 \hline
 \end{tabular}
-\caption{Actores del Nuevo Sistema.}
+\caption{Descripción de la arquitectura de paquetes utilizada.}
 \label{tab:actores}
 \end{center}
 \end{table}

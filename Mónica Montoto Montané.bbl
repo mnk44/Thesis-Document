@@ -14,17 +14,21 @@ I.~D. Mateo and A.~P. Salgueiro, ``Vinculación de la formación doctoral con
   y física (icimaf),'' {\em Revista Control, Cibernética y Automatización},
   vol.~9, p.~61, Jan. 2021.
 
+\bibitem{Denby2010}
+S.~Denby, ``The importance of training needs analysis,'' {\em Industrial and
+  commercial training}, vol.~42, pp.~147--150, Apr. 2010.
+
 \bibitem{industriaCubana}
 A.~S. García, ``Trabajo en la agroindustria cañera cubana, 1898-1914:
   estrategias para aumentar la producción con escasez de mano de obra,'' {\em
-  Consejo Superior de Investigaciones Científicas (España)}, pp.~171--206,
-  Apr. 2022.
+  Consejo Superior de Investigaciones Científicas (España)}, vol.~3,
+  pp.~171--206, Apr. 2022.
 
 \bibitem{industriaFarmceutica}
 F.~S. Concepción, R.~P. Aguilar, A.~P. Moreno, A.~A. Cordoví, J.~C. Castro,
   and O.~L. Santiago, ``Metodología para la automatización de procesos
   tecnológicos en la industria farmacéutica cubana,'' {\em Ingeniería
-  Industrial}, vol.~43, Feb. 2022.
+  Industrial}, vol.~43, pp.~179--230, Feb. 2022.
 
 \bibitem{CONVENCION2019}
 T.~de~las Mercedes Escoriza~Martínez, ``Aplicación de un procedimiento para
@@ -54,6 +58,12 @@ P.~Plecka, ``Selected methods of cost estimation of erp systems.
   modifications,'' {\em Zarz{\k{a}}dzanie Przedsi{\k{e}}biorstwem}, vol.~16,
   no.~4, 2013.
 
+\bibitem{OdhiamboOmuya2021}
+E.~{Odhiambo Omuya}, G.~{Onyango Okeyo}, and M.~{Waema Kimwele}, ``Feature
+  selection for classification using principal component analysis and
+  information gain,'' {\em Expert Systems with Applications}, vol.~174,
+  p.~114765, 2021.
+
 \bibitem{blogBizneo}
 ``Cómo crear un buen plan de capacitación laboral,'' {\em Bizneo Blog},
   vol.~1, p.~5, June 2022.
@@ -62,14 +72,18 @@ P.~Plecka, ``Selected methods of cost estimation of erp systems.
 I.~de~Seguridad Minera~ISEM, ``Entrenamiento basado en computador para
   operadores y mantenedores de planta,'' {\em Seguridad Minera}, June 2022.
 
-\bibitem{softDoit}
-E.~Salado, ``Los 6 mejores software de capacitación de personal y formación
-  para empleados,'' {\em SoftDoit}, June 2022.
-
 \bibitem{cap2002}
 K.~H.~C. Rogelio E. Martínez~R., Guillermo Romero~J., {\em Sistema de
   capacitación asistido por computadora, accesible vía Internet}.
 \newblock Aplicaciones tecnológicas, June 2002.
+
+\bibitem{referencia12}
+E.~V. Laguna, ``Metodología estándar para el entrenamiento básico de un
+  panel de catadores,'' candthesis, Universidad: Rey Juan Carlos, July 2016.
+
+\bibitem{softDoit}
+E.~Salado, ``Los 6 mejores software de capacitación de personal y formación
+  para empleados,'' {\em SoftDoit}, June 2022.
 
 \bibitem{garcia1994}
 G.~Aretio, ``Etapas de la evaluación de calidad de los aprendizajes,'' {\em
@@ -77,16 +91,6 @@ G.~Aretio, ``Etapas de la evaluación de calidad de los aprendizajes,'' {\em
 \newblock García es un Catedrático Emérito de la UNED. Director/Editor de la
   RIED. Revista Iberoamericana de Educación a Distancia. Presidente de Honor -
   Cátedra UNESCO de Educación a Distancia (CUED).
-
-\bibitem{referencia12}
-E.~V. Laguna, ``Metodología estándar para el entrenamiento básico de un
-  panel de catadores,'' candthesis, Universidad: Rey Juan Carlos, July 2016.
-
-\bibitem{Christmann2022}
-G.~W. Philipp~Christmann, Rishiraj Saha~Roy, ``Beyond ned: Fast and effective
-  search space reduction for complex question answering over knowledge bases,''
-  {\em Proceedings of the Fifteenth ACM International Conference on Web Search
-  and Data Mining}, pp.~172--180, Feb. 2022.
 
 \bibitem{AltyJL1984}
 C.~M.~J. Alty J~L, {\em Expert systems: concepts and examples}.
@@ -96,22 +100,10 @@ C.~M.~J. Alty J~L, {\em Expert systems: concepts and examples}.
   CALCULATIONS; COMPUTER CODES; DATA PROCESSING; I CODES; M CODES; P CODES; R
   CODES; DOCUMENT TYPES; PROCESSING; 990200.
 
-\bibitem{RonaldL.Jacobs2012}
-M.~J.~B. Ronald L.~Jacobs, ``Developing employee expertise through structured
-  on‐the‐job training (s‐ojt): an introduction to this training approach
-  and the knpc experience,'' {\em Industrial and Commercial Training}, vol.~44,
-  pp.~75--84, Mar. 2012.
-
-\bibitem{Rasheed2021}
-F.~Rasheed and A.~Wahid, ``Learning style detection in e-learning systems using
-  machine learning techniques,'' {\em Expert Systems with Applications},
-  vol.~174, p.~114774, 2021.
-
-\bibitem{OdhiamboOmuya2021}
-E.~{Odhiambo Omuya}, G.~{Onyango Okeyo}, and M.~{Waema Kimwele}, ``Feature
-  selection for classification using principal component analysis and
-  information gain,'' {\em Expert Systems with Applications}, vol.~174,
-  p.~114765, 2021.
+\bibitem{KandulaNeha2020}
+S.~J.~S. Kandula~Neha, ``Analysis of student academic performance through
+  expert systems,'' {\em International Research Journal on Advanced Science
+  Hub}, vol.~2, no.~Special Issue ICIES 9S, pp.~48--54, 2020.
 
 \bibitem{Potapova2021}
 A.~V. Potapova, G.~S. Tibilova, A.~V. Ovcharenko, and N.~V. Diachenko,
@@ -120,9 +112,21 @@ A.~V. Potapova, G.~S. Tibilova, A.~V. Ovcharenko, and N.~V. Diachenko,
   A.~Nordmann, O.~Shipunova, and V.~Volkova, eds.), (Cham), pp.~136--148,
   Springer International Publishing, 2021.
 
-\bibitem{KandulaNeha2020}
-S.~J.~S. Kandula~Neha, ``Analysis of student academic performance through
-  expert systems,'' {\em International Research Journal on Advanced Science
-  Hub}, vol.~2, no.~Special Issue ICIES 9S, pp.~48--54, 2020.
+\bibitem{Rasheed2021}
+F.~Rasheed and A.~Wahid, ``Learning style detection in e-learning systems using
+  machine learning techniques,'' {\em Expert Systems with Applications},
+  vol.~174, p.~114774, 2021.
+
+\bibitem{RonaldL.Jacobs2012}
+M.~J.~B. Ronald L.~Jacobs, ``Developing employee expertise through structured
+  on‐the‐job training (s‐ojt): an introduction to this training approach
+  and the knpc experience,'' {\em Industrial and Commercial Training}, vol.~44,
+  pp.~75--84, Mar. 2012.
+
+\bibitem{Christmann2022}
+G.~W. Philipp~Christmann, Rishiraj Saha~Roy, ``Beyond ned: Fast and effective
+  search space reduction for complex question answering over knowledge bases,''
+  {\em Proceedings of the Fifteenth ACM International Conference on Web Search
+  and Data Mining}, pp.~172--180, Feb. 2022.
 
 \end{thebibliography}

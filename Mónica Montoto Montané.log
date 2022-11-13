@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  13 NOV 2022 06:09
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  13 NOV 2022 07:46
 entering extended mode
 **M�nica*Montoto*Montan�.tex
 ("E:\Escuela\Tesis\Informe\M�nica Montoto Montan�.tex"
@@ -617,25 +617,22 @@ and I'll forget about whatever was undefined.
 
 
 
-] [2]
+] [2] [3]
 
-! LaTeX Error: \begin{itemize} on input line 45 ended by \end{enumerate}.
+! LaTeX Error: \begin{itemize} on input line 47 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \end{enumerate}
+l.49 \end{enumerate}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3] [4]) [5] (E:\Escuela\Tesis\Informe\cap1.tex
+[4]) [5] (E:\Escuela\Tesis\Informe\cap1.tex
 Cap\'{\i }tulo 1.
-
-LaTeX Warning: Citation `Denby2010' on page 6 undefined on input line 7.
-
 
 LaTeX Warning: Citation `GarciaPaez2022' on page 6 undefined on input line 10.
 
@@ -661,7 +658,7 @@ LaTeX Warning: Citation `EtapasEntrenamiento' on page 7 undefined on input line
 LaTeX Warning: Citation `EtapasEntrenamiento' on page 8 undefined on input line
  41.
 
-<imagen/FasesEva.jpg, id=416, 722.7pt x 406.51875pt>
+<imagen/FasesEva.jpg, id=419, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
  <use imagen/FasesEva.jpg>
 
@@ -692,7 +689,7 @@ LaTeX Warning: Citation `VonRueden2019' on page 10 undefined on input line 91.
 
 LaTeX Warning: Citation `SEdiagramas' on page 11 undefined on input line 93.
 
-<imagen/ComponentesSE.png, id=436, 464.4853pt x 166.37157pt>
+<imagen/ComponentesSE.png, id=439, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png>
@@ -722,7 +719,7 @@ LaTeX Warning: Citation `SECPROIT' on page 13 undefined on input line 156.
 LaTeX Warning: Citation `BaseConocimiento' on page 13 undefined on input line 1
 58.
 
-[13] <imagen/EstructuraDRL.png, id=453, 214.55156pt x 108.405pt>
+[13] <imagen/EstructuraDRL.png, id=456, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png>
@@ -736,7 +733,7 @@ LaTeX Warning: Citation `BaseConocimiento' on page 15 undefined on input line 1
 
 [15]) [16] (E:\Escuela\Tesis\Informe\cap2.tex
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=467, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=470, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -748,27 +745,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [18 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
-<imagen/actividades.png, id=480, 841.64438pt x 515.67656pt>
+<imagen/actividades.png, id=483, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [19 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [20] [21] <imagen/casoUso.png, id=496, 766.36313pt x 450.18187pt>
+ng>] [20] [21] <imagen/casoUso.png, id=499, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] <imagen/der.png, id=502, 657.2053pt x 333.49594pt>
+[22] <imagen/der.png, id=505, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [23 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
 gen/der.png (PNG copy)>]
-<imagen/baseD.png, id=509, 2524.43124pt x 2791.42876pt>
+<imagen/baseD.png, id=512, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
 [24 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=518, 141.52875pt x 183.68625pt>
+<imagen/estructura.png, id=521, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
 <use imagen/estructura.png>
@@ -783,21 +780,21 @@ a in-ter-ac-cion humano-computadora
 
 ) [27] (E:\Escuela\Tesis\Informe\cap3.tex
 Cap\'{\i }tulo 3.
-<imagen/introducirU.png, id=537, 1136.74687pt x 412.54124pt>
+<imagen/introducirU.png, id=540, 1136.74687pt x 412.54124pt>
 File: imagen/introducirU.png Graphic file (type png)
 
 <use imagen/introducirU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/modificarU.png, id=538, 1124.70187pt x 389.95688pt>
+<imagen/modificarU.png, id=541, 1124.70187pt x 389.95688pt>
 File: imagen/modificarU.png Graphic file (type png)
 
 <use imagen/modificarU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/introducirA.png, id=540, 1055.44313pt x 305.64188pt>
+<imagen/introducirA.png, id=543, 1055.44313pt x 305.64188pt>
 File: imagen/introducirA.png Graphic file (type png)
 
 <use imagen/introducirA.png> [28
@@ -805,14 +802,14 @@ File: imagen/introducirA.png Graphic file (type png)
 
 
 ]
-<imagen/modificarA.png, id=545, 1020.81375pt x 325.96782pt>
+<imagen/modificarA.png, id=548, 1020.81375pt x 325.96782pt>
 File: imagen/modificarA.png Graphic file (type png)
 
 <use imagen/modificarA.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/eliminarA.png, id=546, 1091.57813pt x 119.69719pt>
+<imagen/eliminarA.png, id=549, 1091.57813pt x 119.69719pt>
 File: imagen/eliminarA.png Graphic file (type png)
 
 <use imagen/eliminarA.png>
@@ -846,7 +843,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54   modifications,'' {\em Zarz{\k
+l.58   modifications,'' {\em Zarz{\k
                                     {a}}dzanie Przedsi{\k{e}}biorstwem}, vol...
 
 Your command was ignored.
@@ -860,12 +857,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...tions,'' {\em Zarz{\k{a}}dzanie Przedsi{\k
+l.58 ...tions,'' {\em Zarz{\k{a}}dzanie Przedsi{\k
                                                   {e}}biorstwem}, vol.~16,
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[34]
 
 ! Package inputenc Error: Unicode char \u8:‐ not set up for use with LaTeX.
 
@@ -873,7 +871,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101   on‐
+l.122   on‐
              the‐job training (s‐ojt): an introduction to this training ...
 
 Your command was ignored.
@@ -887,7 +885,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101   on‐the‐
+l.122   on‐the‐
                    job training (s‐ojt): an introduction to this training ...
 
 Your command was ignored.
@@ -901,14 +899,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101   on‐the‐job training (s‐
+l.122   on‐the‐job training (s‐
                                      ojt): an introduction to this training ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34])
+)
 ! Undefined control sequence.
 l.81 	\breakpage
                 
@@ -931,25 +929,25 @@ and I'll forget about whatever was undefined.
 
 [35] (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-<imagen/login.png, id=599, 438.13687pt x 380.92313pt>
+<imagen/login.png, id=602, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
  <use imagen/login.png>
-<imagen/help.png, id=600, 341.77687pt x 137.7647pt>
+<imagen/help.png, id=603, 341.77687pt x 137.7647pt>
 File: imagen/help.png Graphic file (type png)
  <use imagen/help.png>
-<imagen/admin.png, id=601, 951.555pt x 674.52pt>
+<imagen/admin.png, id=604, 951.555pt x 674.52pt>
 File: imagen/admin.png Graphic file (type png)
  <use imagen/admin.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/img.png, id=602, 952.30782pt x 678.28406pt>
+<imagen/img.png, id=605, 952.30782pt x 678.28406pt>
 File: imagen/img.png Graphic file (type png)
  <use imagen/img.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/dist.png, id=603, 755.82375pt x 617.30624pt>
+<imagen/dist.png, id=606, 755.82375pt x 617.30624pt>
 File: imagen/dist.png Graphic file (type png)
  <use imagen/dist.png>
 
@@ -989,13 +987,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6195 strings out of 494019
- 92426 string characters out of 3143892
- 183759 words of memory out of 3000000
+ 6196 strings out of 494019
+ 92440 string characters out of 3143892
+ 183791 words of memory out of 3000000
  9132 multiletter control sequences out of 15000+200000
  9799 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,11n,30p,939b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,11n,30p,976b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
@@ -1003,9 +1001,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on "M�nica Montoto Montan�.pdf" (45 pages, 1559304 bytes).
+Output written on "M�nica Montoto Montan�.pdf" (45 pages, 1560026 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
+ 683 PDF objects out of 1000 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
  533 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,40 +1,40 @@
 \chapter*{Introducción}
-En la actualidad, el desarrollo tecnológico se ha convertido prácticamente en una obligación para la mayoría de los entornos laborales, industriales y sociales. En un mundo tan globalizado, que avanza y se supera con una rapidez vertiginosa, no resulta de extrañar que se exijan mejores condiciones y prestaciones. A partir de estas demandas, surge la necesidad de establecer nuevas técnicas en las grandes empresas que, de manera automática, faciliten todo tipo de actividades, desde lo laboral y comercial, hasta lo cotidiano \cite{avanceTecnologico}. 
-Estas exigencias requieren nuevos desafíos, sin incluir los retos tecnológicos ya mencionados. Los avances técnicos traen consigo la necesidad de contar con factores humanos capacitados para responder ante este nuevo desarrollo científico \cite{invstCibernCuba}. 
+En la actualidad, el desarrollo tecnológico se ha convertido prácticamente en una obligación para la mayoría de los entornos laborales, industriales y sociales. En un mundo donde la ciencia avanza y se supera con una rapidez vertiginosa, no resulta de extrañar que se exijan mejores condiciones y prestaciones. A partir de estas demandas, surge la obligación de establecer nuevas técnicas en las grandes empresas que, de manera automática, faciliten todo tipo de actividades: desde lo laboral y comercial, hasta lo cotidiano \cite{avanceTecnologico}. 
+Estas exigencias requieren nuevos desafíos. Los avances técnicos traen consigo la necesidad de contar con factores humanos capacitados para responder ante este reciente desarrollo \cite{invstCibernCuba}. 
+Cuba no está ajena a esta revolución tecnológica. El país está abocado a la creación y fortalecimiento de programas de posgrado que consoliden, complementen, profundicen y originen nuevos conocimientos, inmersos en áreas relacionadas con estos cambios de la era digital. De esta forma se proporcionan herramientas para afrontar retos, tomar decisiones y solucionar problemas de la sociedad cubana en general \cite{avanceTecnologico}.
 
-Cuba no está ajena a esta nueva revolución tecnológica. El país está abocado a la creación y fortalecimiento de programas de posgrado que consoliden, complementen, profundicen y originen nuevos conocimientos, inmersos en áreas relacionadas con estos cambios de la era digital. De esta forma se proporcionan herramientas para afrontar retos, tomar decisiones y solucionar problemas de la sociedad cubana en general \cite{avanceTecnologico}.
+Cuando uno o varios trabajadores de un centro laboral presentan dificultades debido a la falta de conocimiento, es necesario realizar una capacitación. La capacitación laboral es un método aplicado por las empresas, para que los empleados adquiera nuevos conocimientos profesionales. Busca perfeccionar al colaborador en su puesto laboral, en función de las necesidades que se tengan \cite{Denby2010}. En un ambiente donde el tiempo es primordial, contar con un sistema de capacitación automatizado puede notar grandes diferencias.
 
-El empleo de una tecnología de software propia reduce el tiempo de desarrollo y puesta marcha de la misma, minimiza el costo, aporta gran flexibilidad y eficiencia en las operaciones, mejora significativamente la trazabilidad de los procesos y facilita el trabajo a partir de diseños amigables de la interfaz hombre-máquina \cite{industriaCubana}.
-Es por ello que, en Cuba, constantemente se trabaja en función de desarrollar nuevos sistemas que permitan un avance técnico significativo.
-Por citar un ejemplo, la Industria Farmacéutica Cubana está compuesta por procesos tecnológicos de elevada complejidad, que necesitan cumplir con exigentes indicadores de calidad en la producción de medicamentos. A esta industria se le empleó una metodología que permitió automatizar la mayoría de sus procesos. Esta, ha significado un ahorro al país superior a tres millones y medio en moneda convertible en los últimos cinco años, un gran beneficio gracias al avance tecnológico \cite{industriaFarmceutica}.
+El empleo de una tecnología de software propia reduce el tiempo de desarrollo y puesta marcha de la misma, minimiza el costo, aporta gran flexibilidad y eficiencia en las operaciones, mejora significativamente la trazabilidad de los procesos y facilita el trabajo \cite{industriaCubana}.
+Es por esa razón que, constantemente, se trabaja en función de desarrollar nuevos sistemas que permitan un avance técnico significativo.
+Por citar un ejemplo: la Industria Farmacéutica Cubana está compuesta por procesos tecnológicos de elevada complejidad, que necesitan cumplir con exigentes indicadores de calidad en la producción de medicamentos. A esta industria se le empleó una metodología que permitió automatizar un conjunto de procesos y ha significado un ahorro al país superior a tres millones y medio en moneda convertible en los últimos cinco año \cite{industriaFarmceutica}.
 
-En ocasiones, las ventajas competitivas que se obtienen con el uso de la tecnología, pueden verse afectadas por diversos riesgos, lo que provoca una posibilidad de pérdida hacia el futuro. Aunque son un hecho probabilístico sobre el que se tiene cierta incertidumbre, porque pueden ser provocados por factores internos o externos a la organización, tienen el poder de originar efectos indeseados en el cumplimiento de los objetivos de las instituciones. 
-Ante esta realidad, ha surgido como necesidad la gestión de riesgos, con el propósito de lograr ejercicios de planeación y ejecución más acertados.
-De esta situación no escapa la Industria Cubana y como parte de ella, la Industria Alimentaria \cite{CONVENCION2019}.
+En ocasiones, las ventajas competitivas que se obtienen con el uso de la tecnología pueden verse afectadas por diversos factores, lo que provoca una posibilidad de pérdida hacia el futuro. Aunque son un hecho probabilístico sobre el que se tiene cierta incertidumbre, porque pueden ser provocados por circunstancias internas o externas a la organización, tienen el poder de originar efectos indeseados en el cumplimiento de los objetivos de las instituciones. 
+Ante esta realidad, ha surgido como prioridad la gestión de riesgos, con el propósito de lograr ejercicios de planeación y ejecución más acertados.
+De esta situación no escapa la Industria Cubana y como parte de ella, la industria alimentaria \cite{CONVENCION2019}.
 
-La Industria Alimentaria Cubana juega un rol muy importante dentro de la economía del país. Se caracteriza por trabajar de manera ininterrumpida, con un personal que cambia frecuentemente. Esta situación dificulta el entrenamiento de sus procesos productivos, ya que no cuenta con suficientes especialistas para la capacitación de los trabajadores. Al generarse una falla en un proceso, existe el inconveniente de una posible ausencia de expertos que encuentren una solución al problema, ya que todos los técnicos no tienen el mismo nivel de preparación para tomar decisiones ante fallas en determinadas circunstancias. En este caso, resulta entonces necesario paralizar el proceso productivo hasta localizar al experto que solucione el problema detectado, lo que genera pérdidas de recursos y un incumplimiento en el tiempo de producción \cite{gestorBases}.
+La Industria Alimentaria Cubana juega un rol muy importante dentro de la economía del país. Se caracteriza por trabajar de manera ininterrumpida, con un personal que cambia frecuentemente. Esta situación dificulta el entrenamiento de sus procesos productivos, ya que no cuenta con suficientes especialistas para la capacitación de todos sus trabajadores. Como consecuencia, todos los técnicos de la industria no tienen el mismo nivel de preparación, por lo que no todos pueden tomar decisiones ante errores en determinadas circunstancias. Al generarse una falla en un proceso, existe el inconveniente de una posible ausencia de expertos que encuentren una solución al problema. En estos casos, se paraliza la producción hasta localizar a la persona que solucione el problema detectado, lo que genera pérdidas de recursos y un incumplimiento en el tiempo de ejeución planeado \cite{gestorBases}.
 
 El Instituto de Investigación de la Industria Alimentaria (IIIA) posee un capital humano especializado y de prestigio que a lo largo de los años, logró resultados científico-técnicos consistentes en la creación de aditivos, extensores alimenticios y la fortificación con vitaminas y minerales de alimentos seleccionados. El propósito de esta institución es lograr ventajas competitivas sostenibles en las industrias cubanas \cite{anaMailen}. 
-Para darle solución al problema de la Industria Alimentaria, planteado anteriormente, este instituto, en conjunto con las facultades de Ingeniería Química e Ingeniería Informática (ambas de la CUJAE), desarrolló un Sistema Experto para el Control de Procesos Químicos (SECPROIT) y un Generador de Bases de Conocimiento.
+Para darle solución al problema de la Industria Alimentaria, este instituto, en conjunto con las facultades de Ingeniería Química e Ingeniería Informática (ambas de la CUJAE), desarrolló dos nuevos sistemas: un Generador de Bases de Conocimiento y  un Sistema Experto para el Control de Procesos Químicos (SECPROIT).
 
-El Generador de Bases de Conocimiento es el encargado de crear las bases de información para los diferentes procesos químicos que ocurren en una fábrica. Cada base contiene un grupo de variables, cada una con sus características y clasificaciones. De cada variable se conocen las causas que pueden provocar un estado de riesgo o alarma. De cada causa, se conocen las recomendaciones a seguir para minimizar los riesgos en el proceso productivo. A partir de estos datos, el generador elabora un conjunto de ficheros que luego serán utilizados por el SECPROIT \cite{anaMailen}.
+El Generador de Bases de Conocimiento es el encargado de crear las bases de información sobre los diferentes procesos químicos que ocurren en una fábrica. Cada base contiene un grupo de variables, cada una con sus características y clasificaciones. De cada variable se conocen las causas que pueden provocar un estado de riesgo o alarma, y de cada causa, se conocen las recomendaciones a seguir para minimizar los riesgos en el proceso productivo. A partir de estos datos, el generador elabora un conjunto de ficheros que luego serán utilizados por el SECPROIT \cite{anaMailen}.
 
-El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como objetivo asesorar la toma de decisiones durante la ejecución de un proceso. A partir de los datos obtenidos por el Generador de Bases de Conocimiento, este sistema produce un conjunto de entrenamientos para los operarios de la fábrica. En cada prueba, el usuario debe escoger las variables que considere en estado de alarma, señalar sus posibles causas y seleccionar las recomendaciones a seguir. Cada prueba contiene tres etapas: variables, causas y recomendaciones. Estas evaluaciones son utilizadas para advertir los conocimientos de los trabajadores y la capacidad que posee cada uno \cite{elena}.
+El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como objetivo asesorar la toma de decisiones durante la ejecución de un proceso. A partir de los datos obtenidos por el Generador de Bases de Conocimiento, este sistema produce un conjunto de entrenamientos para los operarios de la fábrica. Cada prueba contiene tres etapas: variables, causas y recomendaciones. En cada una, el usuario debe escoger las variables que considere en estado de alarma, señalar sus posibles causas y seleccionar las recomendaciones a seguir. Estas evaluaciones son utilizadas para advertir los conocimientos de los trabajadores y la capacidad que posee cada uno \cite{elena}.
 
-Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
+Actualmente el SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
 \begin{itemize}
-\item al generar o evaluar los entrenamientos, la información utilizada se extrae directamente de los ficheros obtenidos por el Generador de Bases de Conocimiento, lo que resulta una demora extra
-\item solo existe un método de pregunta
-\item el resultado del entrenamiento está dado por la cantidad de preguntas correctas que se respondieron, sin tener en cuenta el tiempo utilizado
-\item en la última etapa, las recomendaciones, no se evalúan correctamente los resultados ni se muestra la puntuación obtenida
-\item los entrenamientos se realizan de manera continua, sin posibilidad de pausa
-\item las etapas aparecen de manera consecutiva, sin importar si la anterior fue aprobada o no, ya que los resultados solo influyen en la evaluación final (aparecen etapas innecesariamente)
-\item los procesos se pueden evaluar una sola vez, es decir, por cada proceso existe un único entrenamiento, lo que limita la capacidad de aprendizaje del trabajador
-\item los reportes del sistema no brindan toda la información requerida para conocer la capacidad del trabajador
-\item las visuales del sistema son poco intuitivas, con colores oscuros y de diversos tamaños, lo que resulta poco amigable para el usuario
+\item Cada vez que se desea utilizar la información obtenida por el generador es extraída directamente desde sus ficheros, lo que genera una demora extra en el sistema.
+\item Solo existe un modo de pregunta, por lo que resulta redundante el método de evaluación.
+\item El tiempo tardado en responder no influye en la nota final del entrenamiento.
+\item La etapa de las recomendaciones no se evalúa correctamente, ni muestra los puntos recibidos.
+\item Cada etapa se evalúa de manera continúa sin oportunidad de una pausa.
+\item Si se suspende una etapa el entrenamiento continúa hasta el final, por lo que aparecen etapas innecesariamente.
+\item Por cada proceso existe un único entrenamiento.
+\item Presenta visuales poco vistosas y de colores muy oscuros que generan desagrado en los usuarios.
 \end{itemize}
 
-A partir de estas restricciones se intuyen un número de cambios necesarios a realizar. Estas modificaciones deben abarcar tanto la lógica programada, como su base de datos, sus interfaces de usuario y la estructura del sistema. Es decir, son requeridas diversas transformaciones en todas las capas internas del SECPROIT.
+A partir de estas restricciones se intuyen un número de cambios necesarios a realizar. Estas modificaciones deben abarcar tanto la lógica programada, como la base de datos, las interfaces de usuario y la estructura del sistema. Es decir, son requeridas algunas transformaciones que abarca en todas las capas internas del SECPROIT.
 Es por ello que, una actualización desde el propio sistema, resulta más trabajosa que realizar un proyecto nuevo. Esto se debe a que modificar un código escrito, para adaptarlo a una nueva estructura y una nueva base de datos, resulta más complejo que elaborarlo de cero \cite{Plecka2013}.
 
 Partiendo de este principio, resulta evidente que, la solución a esta situación problemática, es desarrollar un nuevo sistema tomando como origen el SECPROIT.
@@ -48,7 +48,7 @@ Por lo tanto, el objetivo general de esta investigación es:
 
 Para poder cumplir con el objetivo de esta investigación, deben completarse una serie de objetivos específicos, y cada uno, presenta un grupo de tareas a desarrollar:
 \begin{enumerate}
-\item Analizar y decidir con qué tecnologías se realizará el nuevo sistema
+\item Decidir con qué tecnologías se realizará el nuevo sistema
 \begin{itemize}
 \item Analizar los requisitos funcionales que debe cumplir el sistema
 \item Seleccionar las tecnologías con las que se trabajará
@@ -57,23 +57,20 @@ Para poder cumplir con el objetivo de esta investigación, deben completarse una
 \begin{itemize}
 \item Realizar diagramas auxiliares para comprender y estructurar el nuevo sistema (diagrama de caso de uso, modelo de dominio, diagrama de actividades, entre otros)
 \end{itemize}
-\item Diseñar la nueva base de datos a partir del modelo resultante en el objetivo anterior
+\item Implementar la nueva base de datos a partir del modelo resultante en el objetivo anterior
 \begin{itemize}
-\item Implementar la nueva base de datos
+\item Diseñar la nueva base de datos
 \end{itemize}
 \item Programar el sistema en cuestión, teniendo en cuenta las limitaciones presentes en la versión actual
 \begin{itemize}
 \item Implementar las funcionalidades que permitan la administración del sistema
 \end{itemize}
 \item Implementar las nuevas interfaces, rectificando lo señalado en el sistema anterior
-\item Programar el entrenamiento de los operarios a partir de la información recibida por el Generador de Bases de Conocimiento
-\item Diseñar y realizar pruebas al nuevo sistema resultante
-\item Desplegar la aplicación en la Facultad de Ingeniería Química, para luego implementarla en las industrias
-\end{enumerate}
-
-
+\begin{itemize}
 \item Realizar el diseño de las nuevas interfaces
-
+\end{itemize}
+\item Programar el entrenamiento de los operarios a partir de la información recibida por el Generador de Bases de Conocimiento
+\begin{itemize}
 \item Implementar la generación de preguntas asociadas a la evaluación del estado de las variables (fase de entrenamiento)
 \item Implementar la generación de preguntas asociadas a la evaluación de las causas del estado de una variable (fase de entrenamiento)
 \item Implementar la generación de preguntas asociadas a la evaluación de las recomendaciones del estado de una variable (fase de entrenamiento)
@@ -81,11 +78,17 @@ Para poder cumplir con el objetivo de esta investigación, deben completarse una
 \item Implementar la conexión con el JBOSS para obtener las respuestas correctas para las preguntas asociadas a las causas y recomendaciones
 \item Implementar proceso de evaluación parcial para cada etapa
 \item Implementar evaluación integral del operario en un proceso
+\end{itemize}
+\item Realizar pruebas al nuevo sistema resultante
+\begin{itemize}
 \item Diseño de las pruebas al sistema
 \item Ejecución de las pruebas y experimentos al sistema
-\item Crear un manual de usuario del nuevo sistema
-\item Desplegar el nuevo sistema en la Faculta de Ingeniería Química
 \end{itemize}
+\item Desplegar la aplicación en la Facultad de Ingeniería Química, para luego implementarla en las industrias
+\begin{itemize}
+\item Crear un manual de usuario del nuevo sistema
+\end{itemize}
+\end{enumerate}
 
 Esta investigación tiene como objeto de estudio: los sistemas de entrenamiento automatizados, los sistemas expertos y los sistemas de información basados en reglas de producción. De ellos, se centra la atención en el campo de acción que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
 

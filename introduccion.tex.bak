@@ -34,62 +34,95 @@ Actualmente el SECPROIT posee ciertas limitaciones que impiden que sea implement
 \item Presenta visuales poco vistosas y de colores muy oscuros que generan desagrado en los usuarios.
 \end{itemize}
 
-A partir de estas restricciones se intuyen un número de cambios necesarios a realizar. Estas modificaciones deben abarcar tanto la lógica programada, como la base de datos, las interfaces de usuario y la estructura del sistema. Es decir, son requeridas algunas transformaciones que abarca en todas las capas internas del SECPROIT.
-Es por ello que, una actualización desde el propio sistema, resulta más trabajosa que realizar un proyecto nuevo. Esto se debe a que modificar un código escrito, para adaptarlo a una nueva estructura y una nueva base de datos, resulta más complejo que elaborarlo de cero \cite{Plecka2013}.
+A partir de estas restricciones se intuyen un número de cambios que son necesarios llevar a cabo. Estas modificaciones deben realizarse tanto en la lógica programada, como en la base de datos, en las interfaces de usuario y en la estructura del sistema. Es decir, son requeridas algunas transformaciones que abarcan todas las capas del SECPROIT.
+Es por ello que, una actualización desde el propio sistema, resulta más trabajosa que realizar un proyecto nuevo. Esto se debe a que modificar un código escrito, para adaptarlo a una nueva estructura y a una nueva base de datos, resulta más complejo que elaborarlo de cero, según \cite{Plecka2013}.
 
-Partiendo de este principio, resulta evidente que, la solución a esta situación problemática, es desarrollar un nuevo sistema tomando como origen el SECPROIT.
-Esta actualización debe poder resolver el problema de investigación que se planteaba al principio: 
-\textsl{¿Cómo lograr una completa capacitación de los operarios de la Industria Alimentaria, ante la toma de decisiones en una situación crítica?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+La situación problemática presente en la Industria Alimentaria sigue siendo la misma, puesto que no se ha podido implementar un sistema de entrenamiento estable que solucione el problema. Partiendo de este principio, una solución viable sería desarrollar un sistema funcional tomando como base el SECPROIT, que pueda resolver el problema de investigación inicial: 
+¿Cómo lograr una capacitación total de los operarios, ante la toma de decisiones en una situación crítica?
 
 Por lo tanto, el objetivo general de esta investigación es: 
 \begin{itemize}
-\item Desarrollar un sistema capaz de adiestrar a los operarios de la Industria Alimentaria, tomando como guía el sistema SECPROIT, pero solucionando las limitaciones que este actualmente presenta.
+Rectificar las limitaciones existentes en el sistema SECPROIT para capacitar a los operarios ante los procesos productivos de la fábrica.
 \end{enumerate}
 
-Para poder cumplir con el objetivo de esta investigación, deben completarse una serie de objetivos específicos, y cada uno, presenta un grupo de tareas a desarrollar:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A partir de este objetivo general, deben cumplirse una serie de objetivos y tareas específicas que asegurarán el cumplimiento del mismo:
 \begin{enumerate}
-\item Decidir con qué tecnologías se realizará el nuevo sistema
+\item Analizar los diferentes esquemas que permiten evaluar integralmente un
+proceso 
 \begin{itemize}
-\item Analizar los requisitos funcionales que debe cumplir el sistema
+\item Investigar sobre los diferentes tipos de preguntas existentes en un
+sistemas de entrenamiento
+\item Seleccionar los que mejor se ajusten al proceso evaluativo realizado por el SECPROIT
+\end{itemize}
+
+\item Escoger las tecnologías con las que se realizará el nuevo sistema
+\begin{itemize}
+\item Extraer los requisitos funcionales y no funcionales que debe cumplir el sistema
 \item Seleccionar las tecnologías con las que se trabajará
 \end{itemize}
-\item Modelar la actualización del SECPROIT, tomando como base el sistema anterior
+
+\item Modelar el nuevo sistema teniendo en cuenta sus requisitos y tomando como base el SECPROIT
 \begin{itemize}
-\item Realizar diagramas auxiliares para comprender y estructurar el nuevo sistema (diagrama de caso de uso, modelo de dominio, diagrama de actividades, entre otros)
+\item Realizar diagramas auxiliares para comprender y modelados UML (diagrama de caso de uso, modelo de dominio, diagrama de actividades, entre otros)
 \end{itemize}
-\item Implementar la nueva base de datos a partir del modelo resultante en el objetivo anterior
+
+\item Implementar una nueva base de datos a partir del modelado resultante
 \begin{itemize}
 \item Diseñar la nueva base de datos
+\item Realizar modelo de base de datos
+\item Implementar la base de datos
 \end{itemize}
-\item Programar el sistema en cuestión, teniendo en cuenta las limitaciones presentes en la versión actual
+
+\item Programar el nuevo sistema, implementando las funcionalidades básicas con las que debe contar
 \begin{itemize}
 \item Implementar las funcionalidades que permitan la administración del sistema
-\end{itemize}
-\item Implementar las nuevas interfaces, rectificando lo señalado en el sistema anterior
-\begin{itemize}
-\item Realizar el diseño de las nuevas interfaces
-\end{itemize}
-\item Programar el entrenamiento de los operarios a partir de la información recibida por el Generador de Bases de Conocimiento
-\begin{itemize}
-\item Implementar la generación de preguntas asociadas a la evaluación del estado de las variables (fase de entrenamiento)
-\item Implementar la generación de preguntas asociadas a la evaluación de las causas del estado de una variable (fase de entrenamiento)
-\item Implementar la generación de preguntas asociadas a la evaluación de las recomendaciones del estado de una variable (fase de entrenamiento)
 \item Implementar la configuración del proceso de evaluación asociado a un proceso en específico
-\item Implementar la conexión con el JBOSS para obtener las respuestas correctas para las preguntas asociadas a las causas y recomendaciones
+\item Implementar la generación de preguntas asociadas a la evaluación del estado de las variables (primera fase de entrenamiento)
+\item Implementar la generación de preguntas asociadas a la evaluación de las causas del estado de una variable (segunda fase de entrenamiento)
+\item Implementar la generación de preguntas asociadas a la evaluación de las recomendaciones del estado de una variable (tercera fase de entrenamiento)
+\item Implementar la conexión con el JBOSS para obtener las respuestas correctas
 \item Implementar proceso de evaluación parcial para cada etapa
 \item Implementar evaluación integral del operario en un proceso
 \end{itemize}
-\item Realizar pruebas al nuevo sistema resultante
+
+\item Implementar reportes del sistema
 \begin{itemize}
-\item Diseño de las pruebas al sistema
-\item Ejecución de las pruebas y experimentos al sistema
+\item Implementar reportes de usuarios para un mejor control y una mejor seguridad en el sistema
+\item Implementar reportes de jefes donde se den a conocer los resultados de los operarios de su área
+\item Implementar reportes del operario donde se conozcan las notas obtenidas por el usuario
 \end{itemize}
-\item Desplegar la aplicación en la Facultad de Ingeniería Química, para luego implementarla en las industrias
+
+\item Implementar las nuevas interfaces del sistema
 \begin{itemize}
-\item Crear un manual de usuario del nuevo sistema
+\item Analizar los colores y tonalidades utilizados en sistemas de entrenamiento 
+\item Escoger paleta de colores a utilizar
+\item Diseñar las nuevas interfaces del sistema y el flujo que manejan
+\item Implementar las interfaces
+\end{itemize}
+
+\item Realizar diseño y ejecución de pruebas
+\begin{itemize}
+\item Diseñar las pruebas que se le realizarán al sistema
+\item Ejecutar las pruebas y/o experimentos
+\item Documentar los resultados obtenidos en dichas pruebas
+\end{itemize}
+
+\item Desplegar la aplicación en la facultad de Ingeniería Química
+\begin{itemize}
+\item Redactar la documentación del sistema
+\item Diseñar un manual de instalación y un manual de usuario
+\item Implementar esta nueva solución en la facultad de Ingeniería Química
 \end{itemize}
 \end{enumerate}
 
-Esta investigación tiene como objeto de estudio: los sistemas de entrenamiento automatizados, los sistemas expertos y los sistemas de información basados en reglas de producción. De ellos, se centra la atención en el campo de acción que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Como artefacto de salida se obtiene la actualización de un sistema de entrenamiento (una aplicación práctica). Esta aplicación permitirá capacitar a los operarios de las industrias, específicamente a los de la Industria Alimentaria Cubana, por lo que se obtiene un valor práctico de gran importancia para la sociedad.
+Esta investigación posee como objeto de estudio: los sistemas de entrenamiento automatizados, los sistemas expertos y los sistemas de información basados en reglas de producción. De ellos, se centra la atención en el campo de acción que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
+
+El aporte de este proyecto está dado tanto en el marco teórico como en el práctico. Para el primero, se construye un sistema de entrenamiento capaz de ejercitar sobre cualquier información que se brinde en sus bases de conocimiento. En la práctica, queda un sistema de software para la capacitación de los operarios de las industrias alimentarias cubanas.
+
+En cuanto a la estructura de este trabajo, está dividido en tres capítulos. En el Capítulo 1: Fundamentos teóricos, se encuentran los conceptos fundamentales y los antecedentes de esta investigación. El Capítulo 2: Nuevo sistema de entrenamiento, describe el diseño e implementación de la solución de esta problemática, utilizando diferentes artefactos UML, describiendo los requisitos del sistema y mostrando la vista de la arquitectura y los patrones utilizados. Por último, en el Capítulo 3: Validación de la solución propuesta, se presenta la documentación de las pruebas que se le realizaron al software.

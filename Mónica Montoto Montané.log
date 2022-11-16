@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  13 NOV 2022 07:46
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  15 NOV 2022 23:05
 entering extended mode
 **MÛnica*Montoto*MontanÈ.tex
 ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.tex"
@@ -617,79 +617,92 @@ and I'll forget about whatever was undefined.
 
 
 
-] [2] [3]
+] [2]
 
-! LaTeX Error: \begin{itemize} on input line 47 ended by \end{enumerate}.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \end{enumerate}
+l.48 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3]
+
+! LaTeX Error: \begin{itemize} on input line 46 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \end{enumerate}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4]) [5] (E:\Escuela\Tesis\Informe\cap1.tex
+[4] [5]) [6] (E:\Escuela\Tesis\Informe\cap1.tex
 Cap\'{\i }tulo 1.
 
-LaTeX Warning: Citation `GarciaPaez2022' on page 6 undefined on input line 10.
+LaTeX Warning: Citation `GarciaPaez2022' on page 7 undefined on input line 10.
 
-[6
+[7
 
 
 
 ]
 
-LaTeX Warning: Citation `SistemasCapAsistidos' on page 7 undefined on input lin
+LaTeX Warning: Citation `SistemasCapAsistidos' on page 8 undefined on input lin
 e 21.
 
 
-LaTeX Warning: Citation `CapTrabajadores' on page 7 undefined on input line 34.
+LaTeX Warning: Citation `CapTrabajadores' on page 8 undefined on input line 34.
 
 
-
-LaTeX Warning: Citation `EtapasEntrenamiento' on page 7 undefined on input line
- 36.
-
-[7]
 
 LaTeX Warning: Citation `EtapasEntrenamiento' on page 8 undefined on input line
+ 36.
+
+[8]
+
+LaTeX Warning: Citation `EtapasEntrenamiento' on page 9 undefined on input line
  41.
 
-<imagen/FasesEva.jpg, id=419, 722.7pt x 406.51875pt>
+<imagen/FasesEva.jpg, id=424, 722.7pt x 406.51875pt>
 File: imagen/FasesEva.jpg Graphic file (type jpg)
  <use imagen/FasesEva.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `SEdiagramas' on page 8 undefined on input line 59.
+LaTeX Warning: Citation `SEdiagramas' on page 9 undefined on input line 59.
 
-[8]
+[9]
 
-LaTeX Warning: Citation `CapacitacionAuto' on page 9 undefined on input line 65
-.
-
-
-LaTeX Warning: Citation `SistemaCapAut' on page 9 undefined on input line 70.
+LaTeX Warning: Citation `CapacitacionAuto' on page 10 undefined on input line 6
+5.
 
 
-LaTeX Warning: Citation `Catadores' on page 9 undefined on input line 75.
-
-[9 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
-
-LaTeX Warning: Citation `ExpertSystem' on page 10 undefined on input line 85.
+LaTeX Warning: Citation `SistemaCapAut' on page 10 undefined on input line 70.
 
 
-LaTeX Warning: Citation `VonRueden2019' on page 10 undefined on input line 91.
+LaTeX Warning: Citation `Catadores' on page 10 undefined on input line 75.
 
-[10]
+[10 <E:/Escuela/Tesis/Informe/imagen/FasesEva.jpg>]
 
-LaTeX Warning: Citation `SEdiagramas' on page 11 undefined on input line 93.
+LaTeX Warning: Citation `ExpertSystem' on page 11 undefined on input line 85.
 
-<imagen/ComponentesSE.png, id=439, 464.4853pt x 166.37157pt>
+
+LaTeX Warning: Citation `VonRueden2019' on page 11 undefined on input line 91.
+
+[11]
+
+LaTeX Warning: Citation `SEdiagramas' on page 12 undefined on input line 93.
+
+<imagen/ComponentesSE.png, id=444, 464.4853pt x 166.37157pt>
 File: imagen/ComponentesSE.png Graphic file (type png)
 
 <use imagen/ComponentesSE.png>
@@ -697,141 +710,141 @@ File: imagen/ComponentesSE.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Mitchell1990' on page 11 undefined on input line 113.
+LaTeX Warning: Citation `Mitchell1990' on page 12 undefined on input line 113.
 
-[11]
+[12]
 
-LaTeX Warning: Citation `SystemExpertsEstudents' on page 12 undefined on input 
+LaTeX Warning: Citation `SystemExpertsEstudents' on page 13 undefined on input 
 line 127.
 
-[12 <E:/Escuela/Tesis/Informe/imagen/ComponentesSE.png>]
+[13 <E:/Escuela/Tesis/Informe/imagen/ComponentesSE.png>]
 
-LaTeX Warning: Citation `Barham2019' on page 13 undefined on input line 141.
+LaTeX Warning: Citation `Barham2019' on page 14 undefined on input line 141.
 
 
-LaTeX Warning: Citation `BasesConocimientoArt' on page 13 undefined on input li
+LaTeX Warning: Citation `BasesConocimientoArt' on page 14 undefined on input li
 ne 145.
 
 
-LaTeX Warning: Citation `SECPROIT' on page 13 undefined on input line 156.
+LaTeX Warning: Citation `SECPROIT' on page 14 undefined on input line 156.
 
 
-LaTeX Warning: Citation `BaseConocimiento' on page 13 undefined on input line 1
+LaTeX Warning: Citation `BaseConocimiento' on page 14 undefined on input line 1
 58.
 
-[13] <imagen/EstructuraDRL.png, id=456, 214.55156pt x 108.405pt>
+[14] <imagen/EstructuraDRL.png, id=461, 214.55156pt x 108.405pt>
 File: imagen/EstructuraDRL.png Graphic file (type png)
 
 <use imagen/EstructuraDRL.png>
 
-LaTeX Warning: Citation `SECPROIT' on page 14 undefined on input line 167.
+LaTeX Warning: Citation `SECPROIT' on page 15 undefined on input line 167.
 
-[14 <E:/Escuela/Tesis/Informe/imagen/EstructuraDRL.png (PNG copy)>]
+[15 <E:/Escuela/Tesis/Informe/imagen/EstructuraDRL.png (PNG copy)>]
 
-LaTeX Warning: Citation `BaseConocimiento' on page 15 undefined on input line 1
+LaTeX Warning: Citation `BaseConocimiento' on page 16 undefined on input line 1
 87.
 
-[15]) [16] (E:\Escuela\Tesis\Informe\cap2.tex
+[16]) [17] (E:\Escuela\Tesis\Informe\cap2.tex
 Cap\'{\i }tulo 2.
-<imagen/dominio.png, id=470, 846.91406pt x 514.92375pt>
+<imagen/dominio.png, id=475, 846.91406pt x 514.92375pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17
+[18
 
 
 
-] [18 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
-<imagen/actividades.png, id=483, 841.64438pt x 515.67656pt>
+] [19 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
+<imagen/actividades.png, id=488, 841.64438pt x 515.67656pt>
 File: imagen/actividades.png Graphic file (type png)
 
-<use imagen/actividades.png> [19 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [20] [21] <imagen/casoUso.png, id=499, 766.36313pt x 450.18187pt>
+<use imagen/actividades.png> [20 <E:/Escuela/Tesis/Informe/imagen/actividades.p
+ng>] [21] [22] <imagen/casoUso.png, id=504, 766.36313pt x 450.18187pt>
 File: imagen/casoUso.png Graphic file (type png)
 
 <use imagen/casoUso.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] <imagen/der.png, id=505, 657.2053pt x 333.49594pt>
+[23] <imagen/der.png, id=510, 657.2053pt x 333.49594pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
-[23 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
+[24 <E:/Escuela/Tesis/Informe/imagen/casoUso.png> <E:/Escuela/Tesis/Informe/ima
 gen/der.png (PNG copy)>]
-<imagen/baseD.png, id=512, 2524.43124pt x 2791.42876pt>
+<imagen/baseD.png, id=518, 2524.43124pt x 2791.42876pt>
 File: imagen/baseD.png Graphic file (type png)
  <use imagen/baseD.png>
-[24 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
-<imagen/estructura.png, id=521, 141.52875pt x 183.68625pt>
+[25 <E:/Escuela/Tesis/Informe/imagen/baseD.png>]
+<imagen/estructura.png, id=526, 141.52875pt x 183.68625pt>
 File: imagen/estructura.png Graphic file (type png)
 
 <use imagen/estructura.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25 <E:/Escuela/Tesis/Informe/imagen/estructura.png>] [26]
+[26 <E:/Escuela/Tesis/Informe/imagen/estructura.png>] [27]
 Overfull \hbox (14.9237pt too wide) in paragraph at lines 237--238
 []\OT1/cmr/m/n/12 Al apli-car prin-ci-pios en el di-se~no de las pan-ta-llas, l
 a in-ter-ac-cion humano-computadora
  []
 
-) [27] (E:\Escuela\Tesis\Informe\cap3.tex
+) [28] (E:\Escuela\Tesis\Informe\cap3.tex
 Cap\'{\i }tulo 3.
-<imagen/introducirU.png, id=540, 1136.74687pt x 412.54124pt>
+<imagen/introducirU.png, id=545, 1136.74687pt x 412.54124pt>
 File: imagen/introducirU.png Graphic file (type png)
 
 <use imagen/introducirU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/modificarU.png, id=541, 1124.70187pt x 389.95688pt>
+<imagen/modificarU.png, id=546, 1124.70187pt x 389.95688pt>
 File: imagen/modificarU.png Graphic file (type png)
 
 <use imagen/modificarU.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/introducirA.png, id=543, 1055.44313pt x 305.64188pt>
+<imagen/introducirA.png, id=548, 1055.44313pt x 305.64188pt>
 File: imagen/introducirA.png Graphic file (type png)
 
-<use imagen/introducirA.png> [28
+<use imagen/introducirA.png> [29
 
 
 
 ]
-<imagen/modificarA.png, id=548, 1020.81375pt x 325.96782pt>
+<imagen/modificarA.png, id=553, 1020.81375pt x 325.96782pt>
 File: imagen/modificarA.png Graphic file (type png)
 
 <use imagen/modificarA.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/eliminarA.png, id=549, 1091.57813pt x 119.69719pt>
+<imagen/eliminarA.png, id=554, 1091.57813pt x 119.69719pt>
 File: imagen/eliminarA.png Graphic file (type png)
 
 <use imagen/eliminarA.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <E:/Escuela/Tesis/Informe/imagen/introducirU.png> <E:/Escuela/Tesis/Informe
+[30 <E:/Escuela/Tesis/Informe/imagen/introducirU.png> <E:/Escuela/Tesis/Informe
 /imagen/modificarU.png> <E:/Escuela/Tesis/Informe/imagen/introducirA.png>])
-[30 <E:/Escuela/Tesis/Informe/imagen/modificarA.png> <E:/Escuela/Tesis/Informe/
-imagen/eliminarA.png>] (E:\Escuela\Tesis\Informe\conc.tex) [31
+[31 <E:/Escuela/Tesis/Informe/imagen/modificarA.png> <E:/Escuela/Tesis/Informe/
+imagen/eliminarA.png>] (E:\Escuela\Tesis\Informe\conc.tex) [32
 
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\rec.tex) [32
+(E:\Escuela\Tesis\Informe\rec.tex) [33
 
 
 
 
 ]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.bbl" [33
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.bbl" [34
 
 
 
@@ -863,7 +876,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34]
+[35]
 
 ! Package inputenc Error: Unicode char \u8:‚Äê not set up for use with LaTeX.
 
@@ -927,39 +940,39 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[35] (E:\Escuela\Tesis\Informe\anexo.tex
+[36] (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-<imagen/login.png, id=602, 438.13687pt x 380.92313pt>
+<imagen/login.png, id=608, 438.13687pt x 380.92313pt>
 File: imagen/login.png Graphic file (type png)
  <use imagen/login.png>
-<imagen/help.png, id=603, 341.77687pt x 137.7647pt>
+<imagen/help.png, id=609, 341.77687pt x 137.7647pt>
 File: imagen/help.png Graphic file (type png)
  <use imagen/help.png>
-<imagen/admin.png, id=604, 951.555pt x 674.52pt>
+<imagen/admin.png, id=610, 951.555pt x 674.52pt>
 File: imagen/admin.png Graphic file (type png)
  <use imagen/admin.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/img.png, id=605, 952.30782pt x 678.28406pt>
+<imagen/img.png, id=611, 952.30782pt x 678.28406pt>
 File: imagen/img.png Graphic file (type png)
  <use imagen/img.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagen/dist.png, id=606, 755.82375pt x 617.30624pt>
+<imagen/dist.png, id=612, 755.82375pt x 617.30624pt>
 File: imagen/dist.png Graphic file (type png)
  <use imagen/dist.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [36
+) [37
 
 
 
  <E:/Escuela/Tesis/Informe/imagen/login.png> <E:/Escuela/Tesis/Informe/imagen/h
-elp.png>] [37 <E:/Escuela/Tesis/Informe/imagen/admin.png> <E:/Escuela/Tesis/Inf
-orme/imagen/img.png>] [38 <E:/Escuela/Tesis/Informe/imagen/dist.png>]
+elp.png>] [38 <E:/Escuela/Tesis/Informe/imagen/admin.png> <E:/Escuela/Tesis/Inf
+orme/imagen/img.png>] [39 <E:/Escuela/Tesis/Informe/imagen/dist.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
@@ -987,9 +1000,9 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6196 strings out of 494019
- 92440 string characters out of 3143892
- 183791 words of memory out of 3000000
+ 6198 strings out of 494019
+ 92454 string characters out of 3143892
+ 183792 words of memory out of 3000000
  9132 multiletter control sequences out of 15000+200000
  9799 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -1001,9 +1014,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on "MÛnica Montoto MontanÈ.pdf" (45 pages, 1560026 bytes).
+Output written on "MÛnica Montoto MontanÈ.pdf" (46 pages, 1561751 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
  533 words of extra memory for PDF output out of 10000 (max. 10000000)
 

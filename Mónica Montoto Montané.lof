@@ -1,24 +1,24 @@
 \select@language {spanish}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Fases de un proceso de evaluaci\IeC {\'o}n de conocimiento.}}{9}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Componentes de un sistema experto.}}{12}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Estructura de un archivo \textsl {drl}.}}{14}{figure.1.3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Fases de un proceso de evaluaci\IeC {\'o}n de conocimiento.}}{10}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Componentes de un sistema experto.}}{13}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Estructura de un archivo \textsl {drl}.}}{15}{figure.1.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Modelo de Dominio del Nuevo Sistema.}}{18}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de Actividades del Nuevo Sistema.}}{19}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Casos de Uso del Nuevo Sistema.}}{23}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrama de Entidades y Relaciones del Sistema.}}{23}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Modelo F\IeC {\'\i }sico de la Base de Datos del Nuevo Sistema.}}{24}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Paquetes del Sistema en Eclipse.}}{25}{figure.2.6}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Modelo de Dominio del Nuevo Sistema.}}{19}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de Actividades del Nuevo Sistema.}}{20}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Casos de Uso del Nuevo Sistema.}}{24}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrama de Entidades y Relaciones del Sistema.}}{24}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Modelo F\IeC {\'\i }sico de la Base de Datos del Nuevo Sistema.}}{25}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Paquetes del Sistema en Eclipse.}}{26}{figure.2.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Caso de Prueba para Introducir Usuario.}}{29}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Caso de Prueba para Modificar Usuario.}}{29}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Caso de Prueba para Introducir \IeC {\'A}rea.}}{29}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Caso de Prueba para Modificar \IeC {\'A}rea.}}{30}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Caso de Prueba para Eliminar \IeC {\'A}rea.}}{30}{figure.3.5}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caso de Prueba para Introducir Usuario.}}{30}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caso de Prueba para Modificar Usuario.}}{30}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Caso de Prueba para Introducir \IeC {\'A}rea.}}{30}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Caso de Prueba para Modificar \IeC {\'A}rea.}}{31}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Caso de Prueba para Eliminar \IeC {\'A}rea.}}{31}{figure.3.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Colores c\IeC {\'a}lidos en el Sistema.}}{36}{figure.Alph1.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Sistema reforzado con mensajes de ayuda.}}{36}{figure.Alph1.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Pantalla m\IeC {\'a}s grande de 860x440.}}{37}{figure.Alph1.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Pantalla acompa\IeC {\~n}adas de im\IeC {\'a}genes.}}{37}{figure.Alph1.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Ejemplo de distribuci\IeC {\'o}n de una vista de gesti\IeC {\'o}n.}}{38}{figure.Alph1.5}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Colores c\IeC {\'a}lidos en el Sistema.}}{37}{figure.Alph1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sistema reforzado con mensajes de ayuda.}}{37}{figure.Alph1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Pantalla m\IeC {\'a}s grande de 860x440.}}{38}{figure.Alph1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Pantalla acompa\IeC {\~n}adas de im\IeC {\'a}genes.}}{38}{figure.Alph1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Ejemplo de distribuci\IeC {\'o}n de una vista de gesti\IeC {\'o}n.}}{39}{figure.Alph1.5}

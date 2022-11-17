@@ -1,295 +1,101 @@
-@Article{gestorBases,
-  author    = {Gil Cruz Lemus and Raisa Socorro Llanes and Ana Mailen Rodríguez Riverón},
-  journal   = {Revista Cubana de Ingeniería},
-  title     = {Sistema para gestionar bases de conocimiento en la industria alimentaria},
-  year      = {2018},
-  issn      = {2223 - 1781},
-  month     = may,
-  number    = {2},
-  pages     = {60 - 68},
-  volume    = {IX},
-  abstract  = {En la actualidad, el mercado diverso y altamente competitivo exige a las empresas almacenar y analizar una gran diversidad de información, los Sistemas Expertos (SE) se destacan por herramientas de soporte para la toma de decisiones. El presente trabajo desarrolló un sistema para gestionar bases de conocimiento en la Industria Alimentaria, permitiendo la extracción del conocimiento al experto del proceso, la elaboración de las bases de conocimientos necesarias y la modificación de las mismas. Estas bases se utilizan para el trabajo del sistema experto y para el entrenamiento de operarios en procesos tecnológicos en la industria alimentaria mostrando las posibles causas de los problemas, así como las recomendaciones necesarias para eliminarlos. El sistema permite el análisis de la base de conocimiento a partir de los datos suministrados por el usuario, se realiza la inferencia y muestra los resultados. Utiliza las reglas de producción como formalismo de producción y el Drools conocido como JBoss Rules como motor de inferencia. La herramienta obtenida agiliza el proceso de adquisición y representación del conocimiento, y permite al especialista del proceso crear las bases sin la intervención directa de un ingeniero en conocimiento y permite almacenar el mismo para ser utilizado por los nuevos especialistas. Se crearon las bases de conocimiento de dos procesos de la industria alimentaria analizados: el de elaboración de néctar de naranja mandarina y el de elaboración de queso fresco por vía enzimática. Los ficheros generados por el sistema fueron importados por el sistema experto y por el de entrenamiento de forma satisfactoria y las respuestas obtenidas coinciden con el árbol de inferencia original del que se partió para elaborar las bases de conocimientos.},
-  booktitle = {Revista Cubana de Ingeniería},
-  comment   = {Se enfoca en la problemática que se desea resolver en la investigación que estoy realizando. Plantea información sobre la Industria Alimentaria y el Sistema Gestor de Bases de Conocimiento que brinda la información al nuevo sistema que se debe desarrollar. Este articulo me sirve de referencia para la introduccion y el desarrollo del capitulo 1},
-  file      = {:Sistemas Expertos\\1621.pdf:PDF},
-  keywords  = {sistema experto, inteligencia artificial, reglas de producción, motores de reglas, base de conocimiento, adquisición del conocimiento},
-  publisher = {Revista Cubana de Ingeniería},
+@InProceedings{ValRoman2016,
+  author       = {del Val Román, José Luis},
+  booktitle    = {Valencia: Conferencia de Directores y Decanos de Ingeniería Informática, Informes CODDII},
+  title        = {Industria 4.0: la transformación digital de la industria},
+  year         = {2016},
+  address      = {Valencia, España},
+  editor       = {CODDII},
+  month        = oct,
+  number       = {2},
+  organization = {Conferencia de Directores y Decanos de Ingeniería Informática},
+  pages        = {9},
+  publisher    = {CODDII},
+  series       = {1},
+  volume       = {3},
+  url          = {http://coddii.org/wp-content/uploads/2016/10/Informe-CODDII-Industria-4.0.pdf},
 }
 
-@PhdThesis{avanceTecnologico,
-  author   = {Ángel Alegre Burcio},
-  school   = {E.T.S.I. Industriales (UPM)},
-  title    = {Implementación de estrategias de Computation Offloading en redes de sensores inalámbricas de bajo consumo para Internet de las Cosas},
-  year     = {2022},
-  address  = {Biblioteca ETSI Industriales},
-  month    = feb,
-  type     = {resreport},
-  abstract = {En la actualidad, las comunicaciones inalámbricas y la inmediatez de éstas se han convertido en prácticamente una obligación en la mayoría de los entornos laborales, industriales y sociales. En un mundo tan globalizado y con una tecnología que avanza y se supera con una rapidez vertiginosa, no resulta extraño que cada vez se exijan mejores condiciones y prestaciones a la hora de entablar comunicaciones inmediatas y de calidad. A partir de estas exigencias surge la necesidad de establecer un entorno que permita desarrollar comunicaciones de manera inmediata, y más importante, de manera automática, para facilitar todo tipo de actividades, desde lo laboral y comercial a lo cotidiano. En esta situación nace el paradigma del Internet de las Cosas (Internet of Things), cuya importancia hoy en día trasciende todo tipo de fronteras: desde simples comunicaciones a través de redes sociales, pasando por almacenamiento y procesamiento de datos, hasta reconocimiento de imágenes o vídeo, entre otros. Este sistema se basa en la interconexión de múltiples redes inalámbricas descentralizadas (Wireless Sensor Networks, WSN), que a su vez están formadas por una infinidad de dispositivos interconectados entre sí, también denominados “nodos”, con la capacidad de medir parámetros mediante sensores, comunicar la información obtenida y procesarla hasta cierto punto. El Computation Offloading aparece como complemento a este paradigma, permitiendo aumentar el rendimiento de los sistemas mediante la comunicación y compartición de trabajo de procesamiento entre diferentes dispositivos, con distintas capacidades técnicas y de computación. De esta manera, sensores de baja capacidad de cálculo o de procesamiento pueden enviar los datos recopilados a dispositivos con mayores prestaciones a través de la nube (cloud), para después recibir los resultados obtenidos por estos últimos. Sin embargo, con el paso del tiempo, la cantidad de datos transmitidos y de canales de comunicación necesarios para esto se vuelve cada vez mayor, lo que provoca que la nube quede obsoleta en muchas situaciones, perdiendo prestaciones debido a problemas de capacidad de almacenamiento, latencia o ancho de banda. Una manera de resolver esta situación surge con el denominado “Edge Computing” (o “Fog Computing”), que permite la “descentralización del IoT”, haciendo que la nube no sea necesariamente el destino final donde se procese la información. De esta manera, se crea una serie de subestaciones, más cercanas a los dispositivos nodos, denominados “dispositivos de borde” o “Edge devices”, de manera que la información se procese en estos como punto intermedio entre sensor y nube, sólo requiriendo esta última en casos concretos, y pudiendo subdividirse la información para trabajarse a diferentes niveles de jerarquía según la capacidad de procesamiento. Ambos conceptos suponen un avance enorme para el IoT, dando lugar a la creación y desarrollo de nuevas técnicas de comunicación, sistemas y dispositivos, gracias a la capacidad para poder delegar parte del trabajo a los dispositivos de borde, de manera más rápida que con la nube. Aun siendo este sistema una mejora considerable, debe enfrentarse a diferentes tipos de limitaciones, sobre todo relacionadas con la portabilidad y bajo coste de los dispositivos, generalmente de baja potencia y batería, que dan lugar a restricciones en cuanto a ancho de banda, capacidad de procesamiento, velocidad de comunicación, etc. Para el desarrollo de este proyecto, la restricción de mayor interés es la de la baja capacidad energética de las baterías, aunque también se tienen en cuenta otras como el ancho de banda disponible entre dispositivos y su propia capacidad de procesamiento o cómputo de los datos. La transmisión de datos de los dispositivos sensores consume más energía que su procesamiento. Por este motivo, se deben desarrollar estrategias o algoritmos que permitan, en función del nivel de batería, decidir si es óptimo procesar los datos localmente o transmitirlos a otro dispositivo. Estas estrategias variarán en función de cada tipo de red, dispositivo, objetivo y expectativas de rendimiento y calidad de servicio de estos. En el caso de estudio de este trabajo, se utilizarán algoritmos metaheurísticos que buscarán maximizar la vida útil de cada uno de los nodos de la red, desarrollando la capacidad de seleccionar aquellos más capaces de procesar cada una de las tareas existentes. En cada momento, los algoritmos seguirán examinando las capacidades de cada nodo, de manera que, si uno de ellos sin ocupación posee mejores prestaciones en un determinado momento, pueda sustituir a un nodo que se encuentre procesando una tarea y que cuente con poca energía. Además, se desarrollarán dos modelos diferentes, teniendo el primero sólo en cuenta los niveles energéticos de cada nodo, mientras que el segundo incluirá adicionalmente como parámetro de decisión el ancho de banda disponible en cada uno de estos, aumentando la complejidad y profundidad del problema. Así, el algoritmo debe ser capaz de contemplar el mejor resultado de entre los posibles, decidiendo qué parte de la información se procesa en cada dispositivo, y qué dispositivo se elige para transmitirle los datos que requieran mayor capacidad de cómputo, mediante metodologías conocidas como “Resource Allocation” (siendo esta una de las partes más difíciles de desarrollar de todo el conjunto). El funcionamiento básico de la red consistirá en el envío de parámetros desde cada uno de los nodos al nodo servidor o clúster, que almacenará la información para compartirla con los algoritmos. Estos, a su vez, procesan dicha información y envían los resultados de vuelta al servidor, donde se comprueba la disponibilidad de los nodos seleccionados por el algoritmo para la asignación del procesamiento de tareas. Además, el nodo servidor gestiona el posible relevo entre los nodos para el procesamiento de las tareas, si sus características así lo requieren.},
-  comment  = {Es importante porque hace un análisis del avance de la tecnología en nuestros tiempos. Me sirve de referencia para la introduccion del tema de tesis.},
-  url      = {https://oa.upm.es/69691/},
+@InBook{Rani2022,
+  author    = {Rani, Sita and Kataria, Aman and Chauhan, Meetali},
+  chapter   = {A Research Roadmap},
+  editor    = {Tiwari, Rajeev and Mittal, Mamta and Goyal, Lalit Mohan},
+  pages     = {173-190},
+  publisher = {Springer Singapore},
+  title     = {Fog Computing in Industry 4.0: Applications and Challenges},
+  year      = {2022},
+  address   = {Singapore},
+  edition   = {4},
+  isbn      = {978-981-16-3448-2},
+  month     = sep,
+  number    = {74},
+  series    = {2},
+  type      = {resreport},
+  volume    = {1},
+  abstract  = {Expeditious technical developments have remodeled the industrial sector. These developments vary from mechanization of industrial tasks to autonomous industrial processes in which no human intervention is needed for regular working. An advanced concept i.e. Industrial Internet of Things (IIoT) evolved with the appliance of Internet of Things (IoT) in industrial processes; gave a new dimension to the technological advancements in the industrial sector by facilitating industrial processes with the support of Internet. Impeding the interpretation of IIoT to the production process supported another sub-domain of IoT, recognized as Industry 4.0. The concept of Industry 4.0 is realized using sensor networks, automated business processes, robots, smart equipment and machines, actuators, and people. Consequently, a huge volume of disparate data is initialized for analysis and processing. In industry, most of the processes are real-time. To avoid communication delays and ensure data security, the majority of the processes are completed locally and only necessary data is transferred over the Internet for cloud storage. To fulfill this objective, there is always a high requirement of a middleware amidst industrial processes/tools and cloud. In this connection, Fog is the most workable solution for distinct industrial scenarios. In the manufacturing industry, it can facilitate local processing along with tolerable communication delay to robots and actuators. Data gathered from various industrial processes is usually disorganized which needs pre-processing for refinement using Fog locally then communicated to the cloud. So, fog computing plays a vital role in various Industry 4.0 applications by resolving various issues. But the deployment of Fog computing in Industry 4.0 also faces a lot many challenges of different kinds related to programmability, security, heterogeneity, and interoperability. In this book chapter, we present an overview of Fog computing along with the architectural framework of Industry 4.0. We discussed the various applications of Fog computing in industry 4.0 in detail. Different problems faced in the implementation of fog computing in Industry 4.0 will be discussed. We have also introduced various research challenges to be dealt with for the efficient deployment of fog in Industry 4.0.},
+  booktitle = {Energy Conservation Solutions for Fog-Edge Computing Paradigms},
+  doi       = {10.1007/978-981-16-3448-2_9},
+  timestamp = {2021-09-08},
+  url       = {https://doi.org/10.1007/978-981-16-3448-2_9},
 }
 
-@Article{industriaCubana,
-  author   = {Antonio Santamaría García},
-  journal  = {Consejo Superior de Investigaciones Científicas (España)},
-  title    = {Trabajo en la agroindustria cañera cubana, 1898-1914: estrategias para aumentar la producción con escasez de mano de obra},
-  year     = {2022},
-  issn     = {1139-1472},
-  month    = apr,
-  number   = {86},
-  pages    = {171-206},
-  volume   = {3},
-  abstract = {La agroindustria azucarera en Cuba experimentó un fuerte crecimiento de su oferta tras recuperarse de la guerra de independencia (1885-1898) y antes de la Primera Guerra Mundial. Ese incremento se concentró en el cuatrienio 1910-1914 debido a que transformaciones anteriores del sector permitieron responder a las nuevas condiciones de la demanda que se presentaron entonces. La historiografía ha estudiado algunos de los factores que explican dicha trasformación, pero no el papel del trabajo, tradicionalmente escaso en la isla. Este artículo analiza y cuantifica cómo se consiguió la mano de obra necesaria, y argumenta que fue debido a la combinación de múltiples variables. Por un lado, se sabe que había en el país más población que la censada. Por otro, las medidas sanitarias aplicadas, junto a los cambios tecnológico-organizativos en los centrales y la inmigración incrementaron la cantidad y capacidad por persona de la fuerza laboral. También ayudaron los salarios altos y el traspaso de la parte agraria de la producción a familias de colonos. Pero aun así el volumen de operarios requerido solo pudo obtenerse con una articulación del conjunto de la economía en torno a la industria azucarera y con una movilización de trabajadores que, al final de la década de 1910, fue posible por la extensión de la red de ferrocarriles.},
-  comment  = {Es un ejemplo del avance de la tecnología en Cuba muy relacionado con el trabajo de investigación porque el objetivo principal del artículo es la Industria Alimentaria en el sector azucarero. Me sirve tanto para la introduccion como para el capitulo 1},
-  file     = {:Avances en la industria cubana\\Trabajo en la agroindustria cañera cubana.pdf:PDF},
-  keywords = {Cuba, industria azucarera, trabajo, demografía},
-  url      = {http://hdl.handle.net/10261/265946},
+@Electronic{Casamitjana2021,
+  address      = {C/ Llauder 22. 08302 Mataró},
+  author       = {Francesc Rodon Casamitjana},
+  howpublished = {España},
+  language     = {spanish},
+  month        = sep,
+  organization = {Innova It},
+  title        = {Tendencias tecnológicas para el sector industrial en el 2022},
+  url          = {https://innovait.cat/es/tendencias-tecnologicas-para-el-sector-industrial-en-el-2022/},
+  year         = {2021},
+  journal      = {Innova It},
+  volume       = {2},
 }
 
-@Article{invstCibernCuba,
-  author   = {Ileana Dopico Mateo and Armando Plasencia Salgueiro},
-  journal  = {Revista Control, Cibernética y Automatización},
-  title    = {Vinculación de la formación doctoral con los Programas Nacionales de Investigación en Cuba. La experiencia del Doctorado en Cibernética Aplicada del Instituto de Cibernética, Matemática y Física (ICIMAF)},
-  year     = {2021},
-  issn     = {2312-5276},
-  month    = jan,
-  number   = {1},
-  pages    = {61},
-  volume   = {9},
-  abstract = {La difusión e implementación de los avances tecnológicos en la industria y la economía a nivel global vienen acompañadas de la necesidad de formar factores humanos capaces de responder a las exigencias de la “nueva ola” del desarrollo científico tecnológico en el siglo XXI. Cuba no está ajena a la nueva revolución tecnológica por lo que el país está abocado a la creación y fortalecimiento de programas de posgrado que consoliden, complementen, profundicen y originen nuevos conocimientos de forma novedosa para aquellos profesionales inmersos en áreas relacionadas con estos cambios de la era digital, proporcionándoles herramientas tecnológicas para afrontar retos, tomar decisiones y solucionar problemas de la sociedad cubana en general con una alta profesionalidad y basamento científico. El trabajo que se pone a consideración tiene como objetivo mostrar la experiencia de la formación en el marco del Programa doctoral en Cibernética Aplicada del Instituto de Cibernética, Matemática y Física  (ICIMAF) con su vinculación con las proyecciones del Programa Nacional en Automática, Robótica e Inteligencia Artificial (ARIA), auspiciado por el CITMA, en respuesta a las nuevas políticas de desarrollo y crecimiento económico que propugna el gobierno cubano.},
-  comment  = {En el artículo se mencionan avances tecnológicos cubanos y profundizan en el área de la cibernética. Esta investigación sirve como base de modelo tecnológico en la parte de los avances en nuestro país. Me sirve para la introduccion de mi tema de tesis},
-  file     = {:Avances en la industria cubana\\Vol9No12021.pdf:PDF},
-  keywords = {avances tecnológicos; enseñanza por proyectos; formación doctoral; programas nacionales},
-  url      = {https://www.researchgate.net/profile/Ramon-Lopez-Suarez/publication/359222139_Sistema_de_bajo_costo_para_monitoreo_del_consumo_de_energia_electrica_en_tiempo_real_Revista_Control_Cibernetica_y_Automatizacion_ISSN_2312-5276_Vol_9_No_1_enero_-_junio_2021/links/622fa6c3435ec5645a11f96a/Sistema-de-bajo-costo-para-monitoreo-del-consumo-de-energia-electrica-en-tiempo-real-Revista-Control-Cibernetica-y-Automatizacion-ISSN-2312-5276-Vol-9-No-1-enero-junio-2021.pdf#page=61},
+@TechReport{Yong2021,
+  author      = {LI Yong},
+  institution = {Organización de las Naciones Unidas para el DesarrolloIndustrial (ONUDI)},
+  title       = {Informe de Desarrollo Industrial 2022},
+  year        = {2021},
+  address     = {Austria},
+  month       = nov,
+  number      = {450},
+  type        = {techreport},
+  abstract    = {La pandemia de la COVID-19 ha conmocionado
+al mundo como ninguna otra crisis de la historia
+reciente
+La pandemia de la COVID-19 ha conmocionado al mundo
+como ninguna otra crisis de la historia reciente. Lo que
+comenzó como el brote de una enfermedad semejante a una
+gripe en una región confinada y específica en el otoño de 2019
+pronto se convirtió en una ola irrefrenable que transformó
+todos los aspectos de la vida cotidiana a escala global. Desde
+el trabajo hasta el comercio y la interacción social, todas las
+actividades humanas resultaron afectadas por la pandemia
+y las medidas aplicadas para contenerla.
+Sin embargo, el impacto socioeconómico ha sido
+desigual entre los países
+Sin embargo, el impacto socioeconómico ha sido muy
+diferente entre los países y regiones, lo que ha reflejado las
+profundas diferencias subyacentes asociadas a su resiliencia
+ante eventos extremos. Mientras los países se preparan para el
+futuro, es importante comprender cuáles políticas orientadas
+a la manufactura han sido efectivas y cuáles otras no. Este
+ambicioso objetivo requiere revisar no solamente los tipos
+de respuestas ofrecidas durante las fases temprana y media
+de la pandemia, sino también las características estructurales
+que determinaron dichas respuestas y que seguirán
+determinándolas en el futuro.},
+  file        = {:E\:/Escuela/Tesis/Extras/Documentos/IDR 2022 OVERVIEW - SP EBOOK.pdf:PDF},
+  url         = {https://www.unido.org/sites/default/files/files/2021-11/IDR 2022 OVERVIEW - SP EBOOK.pdf},
 }
 
-@Article{industriaFarmceutica,
-  author   = {Fernando Suárez Concepción and Randy Piñero Aguilar and Alberto Prieto Moreno and Andreis Alfonso Cordoví and Julio Carbó Castro and Orestes Llanes Santiago},
-  journal  = {Ingeniería Industrial},
-  title    = {Metodología para la automatización de procesos tecnológicos en la industria farmacéutica cubana},
-  year     = {2022},
-  issn     = {1815-5936},
-  month    = feb,
-  number   = {1},
-  pages    = {179-230},
-  volume   = {43},
-  abstract = {En este trabajo se presenta una metodología para el diseño, implementación y puesta en marcha de productos de automatización para procesos tecnológicos de la industria farmacéutica cubana basada en un enfoque scrum. El empleo de tecnologías de software propias que reducen el tiempo de desarrollo y puesta marcha, aportan gran flexibilidad y eficiencia en las operaciones, mejoran significativamente la trazabilidad de los procesos y facilitan el trabajo a partir de diseños amigables de la interfase hombre-máquina entre sus principales ventajas. La metodología desarrollada es aplicable a la automatización de la mayoría de los procesos de la industria farmacéutica y garantiza el cumplimiento de las exigentes regulaciones vigentes para esta industria y las establecidas por el Centro de Control de Medicamentos (CECMED) de Cuba. La aplicación de la metodología en la industria farmacéutica cubana ha significado un ahorro al país superior a tres millones y medio en moneda convertible en los últimos cinco años.},
-  comment  = {Es un artículo de la CUJAE sobre avances tecnológicos en la industia farmacéutica cubana, un ejemplo de software que ayuda a obtener mejores resultados en la producción. Me sirve de referencia para la introduccion de mi tema de tesis},
-  keywords = {enfoque scrum; industria farmacéutica; procesos tecnológicos; tecnologías de software propias; automatización},
-  url      = {http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1815-59362022000100082},
-}
-
-@PhdThesis{elena,
-  author   = {Elena Acosta Gil, Raisa Socorro Llanes},
-  school   = {Universidad Tecnológica de la Habana “José Antonio Echeverría”},
-  title    = {SISTEMA PARA EL ENTRENAMIENTO DE OPERARIOS EN PROCESOS TECNOLÓGICOS EN LA INDUSTRIA ALIMENTARIA},
+@PhdThesis{Salas2018,
+  author   = {María Paulina Gavilanes Salas and Karina Roxana Vallejo León},
+  school   = {Universidad Politécnica Salesiana},
+  title    = {Los procesos de producción en las industrias alimenticias del sector norte de la ciudad de Guayaquil y su incidenciaen los costos de producción},
   year     = {2018},
-  address  = {La Habana, Cuba},
-  month    = jun,
-  type     = {software},
-  abstract = {Las Empresas de Proyectos de la Industria Alimentaria presenta la necesidad de entrenar a operarios de plantas. Las mismas necesitan poder entrenar de forma rápida, pues en la actualidad existen muchas irregularidades a la hora de operar los procesos debido a que los encargados de realizar estos trabajos a veces no tienen el suficiente conocimiento. En el trabajo se presenta un sistema para entrenar a operadores de procesos tecnológicos en la industria alimentaria. El mismo tiene como objetivo evaluar las decisiones que toman los operarios ante diferentes situaciones críticas y brindar al tecnólogo principal de un proceso los resultados de la evaluación y como se van superando los mismos. Dicho sistema utiliza el Drools como motor de inferencia para validar las respuestas emitidas por el usuario. El sistema se probó con los procesos de Elaboración de queso fresco por vía enzimática y Elaboración de néctar naranja-mandarina obteniéndose resultados satisfactorios.},
-  comment  = {Es la tesis referente al sistema que estoy trabajando. Muy util durante toda la investigacion},
-  file     = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Tesis\\acosta_gil_elena.pdf:PDF},
-  keywords = {Industria Alimentaria, operarios, procesos tecnológicos, motor de inferencia},
-}
-
-@PhdThesis{anaMailen,
-  author   = {Ana Mailen Rodríguez Riverón, Raisa Socorro Llanes, Gil Cruz Lemus},
-  school   = {Universidad Tecnológica de la Habana “José Antonio Echeverría”},
-  title    = {SISTEMA PARA GESTIONAR BASES DE CONOCIMIENTO EN LA INDUSTRIA ALIMENTARIA},
-  year     = {2017},
-  address  = {La Habana, Cuba},
-  month    = oct,
-  type     = {software},
-  abstract = {El objetivo de este trabajo consiste en desarrollar una herramienta para adquirir bases de conocimientos de procesos tecnológicos en la industria alimentaria, este debe permitir la extracción del conocimiento al experto del proceso, la elaboración de las bases de conocimientos necesarias y la modificación de las mismas para el trabajo del sistema experto sin la intervención directa de un ingeniero en conocimiento, mostrando las posibles causas de los problemas, así como las recomendaciones necesarias para eliminarlos. Este trabajo está vinculado con la realización de un sistema experto, el cual utiliza la base de conocimiento para el control de los procesos en la industria alimentaria.},
-  comment  = {Es la tesis referente al sistema gestor de bases de conocimientos. La utilizo para la introduccion y el capitulo 1},
-  file     = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Tesis\\rodriguez_riveron_ana mailen.pdf:PDF},
-  keywords = {procesos tecnológicos, sistema experto, industria alimentaria},
-}
-
-@Article{CONVENCION2019,
-  author    = {Tatiana de las Mercedes Escoriza Martínez},
-  journal   = {I CONFERENCIA INTERNACIONAL DE INGENIERÍA INDUSTRIAL (CINDUS 2019)},
-  title     = {Aplicación de un procedimiento para la gestión de riesgos en procesos de la industria cárnica cubana},
-  year      = {2019},
-  issn      = {2883 - 4081},
-  month     = jun,
-  number    = {123},
-  pages     = {13},
-  volume    = {II},
-  abstract  = {El propósito inmediato de las organizaciones es lograr ventajas competitivas sostenibles para cumplir sus objetivos. En ocasiones estos pueden verse afectados por los efectos negativos de los riesgos que puedan presentarse, que en consecuencia son una condición latente que captan una posibilidad de pérdida hacia el futuro y aunque son un hecho probabilístico sobre el que se tiene cierta incertidumbre y pueden ser provocados por factores internos o externos a la organización, tienen el poder de originar efectos indeseados en el cumplimiento de los objetivos de las instituciones. Ante esta realidad ha surgido como una necesidad para las mismas la gestión de riesgos con el propósito de lograr ejercicios de planeación más acertados y ejecución de las actividades y recursos de manera más controlada. De esta situación no escapa la industria cubana y como parte de ella la industria cárnica, es por ello que la presente investigación propone aplicar un procedimiento de gestión de los riesgos para la calidad en diferentes procesos de esta industria que forman parte de su cadena de suministros para de esta forma contribuir a detectar, evaluar y controlar las fallas y sus efectos en la calidad de los productos resultantes y contribuir a satisfacer las exigencias de los clientes y la inocuidad de los alimentos.},
-  booktitle = {I CONFERENCIA INTERNACIONAL DE INGENIERÍA INDUSTRIAL (CINDUS 2019)},
-  comment   = {Se emplea un sistema de gestión de riesos para evitar la mayor cantidad de fallas en la industria cárnica cubana. Me sirve tanto para la introducción como para el capítulo 1},
-  editor    = {PLANTILLA OFICIAL PARA LA PRESENTACIÓN DE TRABAJOS II CONVENCIÓN CIENTÍFICA INTERNACIONAL “II CCI UCLV 2019”},
-  file      = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Prácticas 3ro II.Data\\PDF\\4205344965\\Ponencia Tatiana Escoriza Martinez.pdf:PDF},
-  keywords  = {Calidad; Gestión de Riesgos, Industria Cárnica�},
-}
-
-@Article{blogBizneo,
-  journal = {Bizneo Blog},
-  title   = {Cómo crear un buen plan de capacitación laboral},
-  year    = {2022},
-  month   = jun,
-  number  = {1},
-  pages   = {5},
-  volume  = {1},
-  comment = {Es un blog español de tecnología que habla sobre la correcta capacitación laboral Me sirve para en el capítulo I hablar sobre las capacitaciones},
-  url     = {https://www.bizneo.com/blog/capacitacion-laboral/#Que_es_la_capacitacion_laboral},
-}
-
-@Article{seguridadMinera,
-  author  = {Instituto de Seguridad Minera ISEM},
-  journal = {Seguridad Minera},
-  title   = {Entrenamiento basado en computador para operadores y mantenedores de planta},
-  year    = {2022},
-  issn    = {2340-552X},
-  month   = jun,
-  comment = {Es una revista oficial de Perú que habla de los sistemas capacitadores computarizados. Me sirve como documentación para el capítulo I},
-  url     = {https://www.revistaseguridadminera.com/capacitacion/entrenamiento-basado-en-computador-para-operadores-y-mantenedores-de-planta/},
-}
-
-@Book{cap2002,
-  author    = {Rogelio E. Martínez R., Guillermo Romero J., Kenia Hernández C.},
-  editor    = {Boletín IIE},
-  publisher = {Aplicaciones tecnológicas},
-  title     = {Sistema de capacitación asistido por computadora, accesible vía Internet},
-  year      = {2002},
-  month     = jun,
-  abstract  = {La naturaleza asíncrona de los STI los convierte en candidatos apropiados para su implantación en la Web dado que facilitan la instrucción a cualquier parte donde se cuente con acceso a Internet, a cualquier persona y sin restricción en los temas o dominios de aplicación.},
-  comment   = {Se refiere a los sistemas de entrenamiento automtizados. Ideal para el capítulo I},
-  file      = {:C\:\\Users\\HP\\Downloads\\silo.tips_la-creciente-popularidad-y-el-facil-acceso-a-la.pdf:PDF},
-}
-
-@TechReport{referencia12,
-  author      = {Estefanía Ventura Laguna},
-  institution = {Universidad: Rey Juan Carlos},
-  title       = {Metodología estándar para el entrenamiento básico de un panel de catadores},
-  year        = {2016},
-  month       = jul,
-  type        = {candthesis},
-  abstract    = {Un panel es un instrumento fundamental hoy en día en la industria alimentaria, este instrumento es un grupo de personas (jueces) que han sido entrenados en las distintas pruebas de análisis sensorial. El análisis sensorial es una ciencia que cuantifica la interacción entre los alimentos y las personas. Estos ensayos son ensayos rigurosos que están fundamentados en pruebas, permitiendo evaluar diferentes propiedades y atributos de un producto solo utilizando los sentidos. Todas estas pruebas están elaboradas en distintas normas, estas normas son fundamentales puesto que permiten disponer de dicha herramienta y tenerla siempre en las mejores condiciones. Es necesario tenerla a punto siempre y para ello los jueces deben de estar sometidos a continuos entrenamientos con los productos para los cuales se haya creado el panel, dicho entrenamiento se encuentra regulado en distintas UNES e ISOS, pero se apoya fundamentalmente en la UNE-EN ISO 8586. Sin estas unes no nos permitirán crear paneles  iables. Este panel está basado en la ciencia del análisis sensorial, dicha disciplina científica se utiliza para provocar, medir, analizar e interpretar reacciones a características de los alimentos y otros materiales tal como son percibidas por los sentidos la vista, el gusto, el tacto y el oído. La base fundamental que hará que el panel entienda esta ciencia, su metodología y disponga de los conocimientos básicos para realizar de una manera correcta cada prueba será un entrenamiento básico común para cualquier tipo de producto con el cual queramos especializar al panel. Este trabajo se ha fundamentado en el desarrollo de una metodología estándar que permita el entrenamiento básico a través del apoyo en las distintas normas disponibles para ello, que será la base de la formación del panel. Este entrenamiento está basado en principalmente:
-Pruebas triangulares: donde a cada juez se le presenta tres muestras y tienen que decir que muestra es la distinta, siendo importante para la detección de estímulos es decir para aprender a reconocer los distintos sabores básicos. UNE- EN ISO 4120
-- Pruebas de ordenación: donde se le presentan al juez tres muestras en caso de sabores básico o diez muestras en el caso de la las texturas, donde tienen que colocarla de menor a mayor concentración o de más firme a menos firme, con esta prueba aprenderá a diferenciar y a ordenar distintas concentraciones o intensidades de un atributo. UNE- EN ISO 8587
-- Entrenamiento en escalas: para medir la intensidad de un atributo en el alimento se utilizan escalas de medida por lo que es fundamental que el juez sea capaz de entrenar su memoria espacial, ya que se le pide que cuantifiquen la percepción en cuanto a la intensidad frente a un estímulo. UNE- ISO 4121
-- Pruebas descriptivas: donde se les pide a cada juez que prueben o huelan una serie de muestras sin verlas y tienen que decir o describir a que les recuerda o que les evoca. Este tipo de pruebas nos permitirá conocer el vocabulario del que dispone el panel.
-El desarrollo de un entrenamiento básico es un trabajo que requiere de mucho esfuerzo y de un trabajo grande por todo el equipo y los jueces, llegando a durar en el tiempo hasta 8 meses de trabajo, si se entran entre 2 y 3 veces al mes. Es importante que se controle toda la calidad implícita en estos ensayos, desde la elaboración de unos buenos cuestionarios que dejen claras las instrucciones de la prueba como procedimientos que indiquen al personal responsable como se debe de llevar a cabo cada sesión. Dicho trabajo sería mucho más difícil y se prologaría mucho más en el tiempo si no se dispusiera de unas herramientas fundamentales como lo son las normas.
-Un panel entrenado es una herramienta fundamental en el sector alimentario, entre muchas de sus funciones nos va a servir para:
-- Detectar cambios en la materia prima utilizada para la elaboración de un producto, evitando el rechazo por parte del consumidor y con ello la gran pérdida económica que con llevaría a la empresa.
-- Son capaces de dar información útil y detalla del producto que evalúen facilitando la formación de fichas técnicas del producto.
-- Permiten identificar cambios en la formulación del producto, evitando así que dicho producto llegue al consumidor y pueda ser retirado del mercado.
-- Permite detectar cambio a lo largo de la vida útil del producto, definiendo hasta cuando un producto es no solo seguro si no que sea organolépticamente adecuado para el consumidor.
-- Permite el control de la calidad de un producto detectando sabores u olores atípicos.
-Este trabajo fin de grado se ha basado en la unificación de todas las normas que permiten la formación de un panel y su entrenamiento básico, convirtiéndose en una guía para el sector alimentario fácil y sencilla, con un vocabulario que permite su comprensión sin la necesidad de poseer una base previa en esta disciplina.},
-  comment     = {Se habla de los tipos de pregutas que se pueden emplear en un entrenamiento Sirve para mi capítulo1},
-  file        = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Prácticas 3ro.Data\\PDF\\4043663521\\141_255408.pdf:PDF},
-}
-
-@Article{softDoit,
-  author  = {Edu Salado},
-  journal = {SoftDoit},
-  title   = {Los 6 mejores software de capacitación de personal y formación para empleados},
-  year    = {2022},
-  month   = jun,
-  comment = {Es una consultora online de software oficial en España para empresas profesionales y trabajadores. Es un buen referente en la búsqueda online de soluciones empresariales de software. Muy útil porque contiene un capítulo de softwres de capacitación que me sirve para el capítulo I},
-  url     = {https://www.softwaredoit.es/recursos-humanos/software-formacion.html},
-}
-
-@Article{garcia1994,
-  author  = {García Aretio},
-  journal = {Contextos universitarios mediados},
-  title   = {Etapas de la evaluación de calidad de los aprendizajes},
-  year    = {2020},
-  issn    = {2340-552X},
-  month   = may,
-  note    = {García es un Catedrático Emérito de la UNED. Director/Editor de la RIED. Revista Iberoamericana de Educación a Distancia. Presidente de Honor - Cátedra UNESCO de Educación a Distancia (CUED).},
-  pages   = {3},
-  comment = {Esta referencia me ayuda a comprender los entrenamientos, con sus fses y buenas prácticas.},
-  file    = {:E\:/Escuela/Practicas/Tesis/Prácticas 2do/Prácticas 3ro.Data/PDF/1402578674/Etapas de la evaluación de calidad de los apr.html:URL},
-  url     = {https://aretio.hypotheses.org/4168},
-}
-
-@Book{AltyJL1984,
-  author    = {Alty J L, Coombs M J},
-  publisher = {John Wiley and Sons Inc., New York, NY},
-  title     = {Expert systems: concepts and examples},
-  year      = {1984},
-  isbn      = {5792413},
-  month     = jan,
-  note      = {99 GENERAL AND MISCELLANEOUS//MATHEMATICS, COMPUTING, AND INFORMATION SCIENCE; EXPERT SYSTEMS; REVIEWS; ARTIFICIAL INTELLIGENCE; C CODES; COMPUTER CALCULATIONS; COMPUTER CODES; DATA PROCESSING; I CODES; M CODES; P CODES; R CODES; DOCUMENT TYPES; PROCESSING; 990200},
-  abstract  = {Expert systems and associated facilities are having a growing impact in various commercial, industrial, educational and other sectors. This book aims to help computer specialists understand the concepts underlying expert systems and to appreciate what is being accomplished in existing systems of this type. The contents are divided into background concepts and examples of expert systems.},
-  comment   = {Brinda el concepto detallado de sistema experto asi como su historia y ejemplos},
-  journal   = {John Wiley and Sons, Inc., New York, NY},
-  url       = {https://www.osti.gov/biblio/5792413},
-}
-
-@Article{KandulaNeha2020,
-  author    = {Kandula Neha,S Jahangeer Sidiq},
-  journal   = {International Research Journal on Advanced Science Hub},
-  title     = {Analysis of Student Academic Performance through Expert systems},
-  year      = {2020},
-  issn      = {2582-4376},
-  number    = {Special Issue ICIES 9S},
-  pages     = {48-54},
-  volume    = {2},
-  abstract  = {Predicting the performance of students is one of the most important topics required for learning contexts such as colleges and universities, as it helps to design successful mechanisms that boost tutorial outcomes and prevent dropouts among various items. These are benefited by automating the many processes involved in the activities of usual students which handle huge volumes of information collected from package tools for technology-enhanced learning. Thus, the careful analysis and interpretation of these information would provide us with valuable data regarding the data of the students and therefore the relationship between them and hence the tutorial tasks. This data is the supply which feeds promising algorithms and methods able to estimate the success of the students. During this analysis, virtually many papers were analysed to show radically different trendy techniques widely applied to predict the success of students, along with the goals they need to achieve in this area. These computing-related techniques and approaches are mainly machine learning techniques, deep learning techniques, Artificial Neural Networks &amp; Neural Networks Convolution, etc. This paper demonstrates the analysis and their comparisons of various methods used to forecast Student Academic success.},
-  comment   = {Es el analisis del rendimiento acedemico de un grupo de estudiantes a partir de un sistema experto. Otro ejemplo de su uso y me sirve de utilidad para destacar la importancia de los mismos},
-  doi       = {10.47392/irjash.2020.158},
-  eissn     = {2582-4376},
-  eprint    = {https://rspsciencehub.com/article__378f93ccca1b6318cddc96f7476202f81363.pdf},
-  keywords  = {Deep Learning, Machine Learning, prediction, Academic Performance, analysis},
-  publisher = {RSP Science Hub},
-  url       = {https://rspsciencehub.com/article_1363.html},
-}
-
-@InProceedings{Potapova2021,
-  author    = {Potapova, Anastasiya V. and Tibilova, Galina S. and Ovcharenko, Andrey V. and Diachenko, Natalia V.},
-  booktitle = {Knowledge in the Information Society},
-  title     = {Designing a Network of Expert Systems for Identifying Recipients of Public Services},
-  year      = {2021},
-  address   = {Cham},
-  editor    = {Bylieva, Daria and Nordmann, Alfred and Shipunova, Olga and Volkova, Violetta},
-  pages     = {136--148},
-  publisher = {Springer International Publishing},
-  abstract  = {The article deals with the issues of digital interaction of the state with citizens and organizations. The importance of digital support for solving various life situations is shown. A methodology that allows calculating the level of digital maturity of public services was presented. The article substantiates the importance of proactivity in the provision of public services and suggests networks of expert systems as a tool for implementing proactivity in this area. The authors introduce the basic concepts used in modelling expert systems and their networks and present the structure and operation scheme of a network of expert systems. The topology of the network of expert systems was designed to determine the category of the recipient and, accordingly, the public services that belong to this category, according to the life situation ``Birth of a child''. The network of expert systems was tested using various forms of questionnaires. Based on the results of testing, positive results were obtained and the advantages of using networks of expert systems in comparison with a single multi-level expert system were described. The prospects for the development of expert systems networks and the possibility of their use for solving various tasks are considered.},
-  comment   = {Brinda un ejemplo de sistemas expertos y lo utilizo para señalar cuales son sus componentes y su utilidad},
-  isbn      = {978-3-030-65857-1},
-  keywords  = {Digital interaction, Digital transformation, Proactivity, Digital maturity level, Public services, Human-machine interaction, Expert systems},
-  url       = {https://link.springer.com/chapter/10.1007/978-3-030-65857-1_14},
-}
-
-@Article{Rasheed2021,
-  author   = {Fareeha Rasheed and Abdul Wahid},
-  journal  = {Expert Systems with Applications},
-  title    = {Learning style detection in E-learning systems using machine learning techniques},
-  year     = {2021},
-  issn     = {0957-4174},
-  pages    = {114774},
-  volume   = {174},
-  abstract = {Learning style plays a vital role in helping students retain learned concepts for a longer time and also improves the understanding of the concepts. Learning styles in offline and online scenarios are recognized using questionnaires. The recent trend is to identify and use attributes to detect the learning style of the learner automatically without disturbing the learner. The paper is an extension of the authors' earlier work with some changes to the methodology. In this paper, the authors have identified new attributes and scaled-down the attributes identified earlier, which would help identify the learner's learning style. The authors implemented classification algorithms and compared the accuracy of the different algorithms on the dataset. Various interesting patterns are observed in learner's behaviour while learning different types of concepts in different situations.},
-  comment  = {Es la detección de estilos de aprendizaje en sistemas de E-learning utilizando técnicas de aprendizaje automático, es decir, otro ejemplo del uso de sistemas expertos. De esta bibliografía me gustan mucho los diagramas explicativos y el concepto que brinda de sistemas expertos.},
-  doi      = {https://doi.org/10.1016/j.eswa.2021.114774},
-  keywords = {Machine learning, Classification, Learning style, E-learning},
-  url      = {https://www.sciencedirect.com/science/article/pii/S0957417421002153},
-}
-
-@Article{OdhiamboOmuya2021,
-  author   = {Erick {Odhiambo Omuya} and George {Onyango Okeyo} and Michael {Waema Kimwele}},
-  journal  = {Expert Systems with Applications},
-  title    = {Feature Selection for Classification using Principal Component Analysis and Information Gain},
-  year     = {2021},
-  issn     = {0957-4174},
-  pages    = {114765},
-  volume   = {174},
-  abstract = {Feature Selection and classification have previously been widely applied in various areas like business, medical and media fields. High dimensionality in datasets is one of the main challenges that has been experienced in classifying data, data mining and sentiment analysis. Irrelevant and redundant attributes have also had a negative impact on the complexity and operation of algorithms for classifying data. Consequently, the algorithms record poor results or performance. Some existing work use all attributes for classification, some of which are insignificant for the task, thereby leading to poor performance. This paper therefore develops a hybrid filter model for feature selection based on principal component analysis and information gain. The hybrid model is then applied to support classification using machine learning techniques e.g. the Naïve Bayes technique. Experimental results demonstrate that the hybrid filter model reduces data dimensions, selects appropriate feature sets, and reduces training time, hence providing better classification performance as measured by accuracy, precision and recall..},
-  comment  = {Selección de características para la clasificación mediante el análisis de componentes principales y la obtención de información es el tema de esta bibliografía. Decidí usarla porque hay un momento en el que explica detalladamente los componentes de un sistema experto y los explica de una manera clara y precisa.},
-  doi      = {https://doi.org/10.1016/j.eswa.2021.114765},
-  keywords = {Feature selection, Classification, Dimensionality reduction, Filter model, Information gain, Principal component analysis},
-  url      = {https://www.sciencedirect.com/science/article/pii/S0957417421002062},
-}
-
-@Article{RonaldL.Jacobs2012,
-  author   = {Ronald L. Jacobs, Mohammad Jaseem Bu‐Rahmah},
-  journal  = {Industrial and Commercial Training},
-  title    = {Developing employee expertise through structured on‐the‐job training (S‐OJT): an introduction to this training approach and the KNPC experience},
-  year     = {2012},
-  issn     = {0019-7858}
+  address  = {Sede Guayaquil},
+  month    = mar,
+  type     = {resreport},
+  abstract = {Al hablar de industrias alimenticias, se habla de un sin número de materias primas, proveedores, productos, sobretodo distintos procesos a lo largo de su producción, volviendo complejo definir o generalizar inconvenientes o cuellos de botella que se suscitan en su proceso productivo puesto que cada empresa tiene sus particularidades. El presente trabajo investigativo tiene como objeto identificar los tipos de procesos de producción en las industrias alimenticias del sector norte de la ciudad de Guayaquil, conocer la problemática actual y averiguar en qué condiciones desarrollan sus procesos de producción desde la adquisición de materia prima hasta la obtención del producto terminado, lo cual determinará de forma puntualizada las causas y efectos que repercuten en los costos de producción. La metodología utilizada fue de carácter investigativo y de campo, debido a que se aplicó la herramienta de la encuesta a la población de 41 industrias alimenticias ubicadas en el sector norte de la ciudad de Guayaquil, permitiendo recopilar información relevante y fidedigna sobre los problemas en los procesos productivos y de qué manera inciden en los costos de producción de las industrias alimenticias encuestadas con un método ex post-facto descriptivo con enfoque cuantitativo. La encuesta se realizó al supervisor, jefe, capataz y personal más representativo del área de producción de cada empresa. Entre los resultados más importantes se obtuvo que las dificultades y debil

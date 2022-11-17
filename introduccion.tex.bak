@@ -1,44 +1,31 @@
 \chapter*{Introducción}
-En la actualidad, el desarrollo tecnológico se ha convertido prácticamente en una obligación para la mayoría de los entornos laborales, industriales y sociales. En un mundo donde la ciencia avanza y se supera con una rapidez vertiginosa, no resulta de extrañar que se exijan mejores condiciones y prestaciones. A partir de estas demandas, surge la obligación de establecer nuevas técnicas en las grandes empresas que, de manera automática, faciliten todo tipo de actividades: desde lo laboral y comercial, hasta lo cotidiano \cite{avanceTecnologico}. 
-Estas exigencias requieren nuevos desafíos. Los avances técnicos traen consigo la necesidad de contar con factores humanos capacitados para responder ante este reciente desarrollo \cite{invstCibernCuba}. 
-Cuba no está ajena a esta revolución tecnológica. El país está abocado a la creación y fortalecimiento de programas de posgrado que consoliden, complementen, profundicen y originen nuevos conocimientos, inmersos en áreas relacionadas con estos cambios de la era digital. De esta forma se proporcionan herramientas para afrontar retos, tomar decisiones y solucionar problemas de la sociedad cubana en general \cite{avanceTecnologico}.
+En la actualidad, hablar de tecnología es pensar en herramientas que hace diez años parecían futuristas y muy difíciles de conseguir, sin embargo, hoy es posible lograr cambios significativos en empresas, empleos y hogares, gracias a los avances tecnológicos \cite{Casamitjana2021}. Tanto así que es cada vez más común escuchar hablar sobre la revolución tecnológica, que crece de manera exponencial y pretende transformar por completo el sector industrial. Estos desarrollos van desde la mecanización de tareas hasta los procesos industriales autónomos, en los que no se necesita la intervención humana para realizar el trabajo manual \cite{Rani2022}.
 
-Cuando uno o varios trabajadores de un centro laboral presentan dificultades debido a la falta de conocimiento, es necesario realizar una capacitación. La capacitación laboral es un método aplicado por las empresas, para que los empleados adquiera nuevas habilidades profesionales. Busca perfeccionar al colaborador en su puesto laboral, en función de las necesidades que se tengan \cite{Denby2010}. En un ambiente donde el tiempo es primordial, contar con un sistema de capacitación automatizado puede notar grandes diferencias.
+Para mediados del año 2019, solo un 31\% de las industrias en América Latina y el Caribe poseían procesos automatizados o avances digitales. Esta cifra cambió bruscamente al año siguiente, debido a que la pandemia de la COVID-19 dejó una huella devastadora en la economía. Las empresas que presentaban un avance digital pudieron resistir mejor a la crisis, en términos de impacto sobre las ventas, beneficios y trabajadores despedidos. A partir de ese momento, muchas instituciones tomaron conciencia y comenzaron a incluir avances tecnológicos en sus procesos productivos. Hoy en día, el 86\% de las industrias latinoamericanas cuentan con un desarrollo industrial automatizado y se espera que este cambio se mantenga o aumente en el futuro \cite{Yong2021}.
 
-El empleo de una tecnología de software propia reduce el tiempo de desarrollo y puesta marcha de la misma, minimiza el costo, aporta gran flexibilidad y eficiencia en las operaciones, mejora significativamente la trazabilidad de los procesos y facilita el trabajo \cite{industriaCubana}.
-Por esta razón, constantemente se labora en función de desarrollar nuevos sistemas que permitan un avance técnico significativo. 
+Cuando se habla de las industrias de un país, no se pueden dejar de mencionar las industrias alimentarias. Estas, son el sector de la economía que se ocupa de todos aquellos procesos relacionados con la alimentación de las personas. Están encaminadas a satisfacer la necesidad más básica de la población, sin la cual no podríamos sobrevivir: la nutrición. Mundialmente, poseen como características la gran variedad de materias primas que emplean, el número elevado de procesos que manejan y su continuo crecimiento, relacionado al ritmo con el que crece la población \cite{ValRoman2016}. 
 
-Dependiendo del área donde se aplique, un avance tecnológico puede llegar a ahorrar millones de recursos a un país \cite{industriaFarmceutica}, aunque en ocasiones, las ventajas competitivas que se obtienen con el uso de la tecnología pueden verse afectadas por diversos factores, lo que provoca una posibilidad de pérdida hacia el futuro. Aunque son un hecho probabilístico sobre el que se tiene cierta incertidumbre, porque pueden ser provocados por circunstancias internas o externas a la organización, tienen el poder de originar efectos indeseados en el cumplimiento de los objetivos de las instituciones. 
-Ante esta realidad, ha surgido como prioridad la gestión de riesgos, con el propósito de lograr ejercicios de planeación y ejecución más acertados.
-De esta situación no escapa la Industria Cubana y como parte de ella, la Industria Alimentaria \cite{CONVENCION2019}.
+Cuando se detiene de forma no programada un proceso productivo en una empresa, por lo general trae consigo numerosas pérdidas. En el caso de la industria alimentaria, estas afectaciones pueden verse reflejadas en grandes daños económicos ya que, en la mayoría de los casos, este tipo de industrias trabajan con materias primas que no pueden ser reutilizadas. Pero estas no son las únicas afectaciones que se pueden reflejar. En los procesos productivos de estas industrias, se elaboran distintos tipos de alimentos a partir de un producto determinado, donde cada producto pertenece a una escala de riesgo (A, B o C). Esta escala indica la probabilidad de causar daños en la salud (A para alta, B para media y C para baja). Es decir, si se detiene un proceso productivo en la industria alimentaria no solo traería consigo afectaciones en la economía, sino que también puede verse afectada la salud de los trabajadores o incluso de la población \cite{Salas2018}.
 
-La Industria Alimentaria Cubana juega un rol muy importante dentro de la economía del país. Se caracteriza por trabajar de manera ininterrumpida, con un personal que cambia frecuentemente. Esta situación dificulta el entrenamiento de sus procesos productivos, ya que no cuenta con suficientes especialistas para la capacitación de todos sus trabajadores. Como consecuencia, todos los técnicos de la industria no tienen el mismo nivel de preparación, por lo que no todos pueden tomar decisiones ante errores en determinadas circunstancias. Al generarse una falla en un proceso, existe el inconveniente de una posible ausencia de expertos que encuentren una solución al problema. En estos casos, se paraliza la producción hasta localizar a la persona que logre solucionar el problema detectado, lo que genera pérdidas de recursos y un incumplimiento en el tiempo de ejeución planeado \cite{gestorBases}.
+La Industria Alimentaria Cubana se caracteriza, además, por poseer jornadas laborales ininterrumpidas y un personal que cambia frecuentemente. Esta situación dificulta la capacitación de sus trabajadores, por lo que no todos los que laboran poseen el mismo nivel de conocimiento. Como consecuencia, al ocurrir un error en un proceso productivo, no siempre se encuentra el experto capaz de solucionar la falla, dejando como única alternativa: detener el proceso \cite{Lemus2018}.
 
-El Instituto de Investigación de la Industria Alimentaria (IIIA) posee un capital humano especializado y de prestigio que a lo largo de los años, logró resultados científico-técnicos consistentes en la creación de aditivos, extensores alimenticios y la fortificación con vitaminas y minerales de alimentos seleccionados. El propósito de esta institución es lograr ventajas competitivas sostenibles en las industrias cubanas \cite{anaMailen}. 
-Para darle solución al problema de la Industria Alimentaria, este instituto, en conjunto con las facultades de Ingeniería Química e Ingeniería Informática (ambas de la CUJAE), desarrolló dos nuevos sistemas: un Generador de Bases de Conocimiento y  un Sistema Experto para el Control de Procesos Químicos (SECPROIT).
+A partir de esta problemática, el Instituto de Investigación de la Industria Alimentaria (IIIA), junto con las facultades de Ingeniería Química e Ingeniería Informática de la Universidad Tecnológica de La Habana (CUJAE), desarrolló dos sistemas de software: un Generador de Bases de Conocimiento y  un Sistema Experto para el Control de Procesos Químicos (SECPROIT). El primero genera bases de conocimiento que contienen toda la información referente a los procesos productivos que pueden ocurrir en una fábrica, estructurada en: variables, causas por las que puedan estar en peligro y recomendaciones (pasos a seguir en caso de accidentes)  \cite{Riveron2017}. En el segundo, se utilizan las bases creadas por el generador para producir entrenamientos y capacitar a los operarios de la fábrica \cite{ElenaAcostaGil2018}. Con estos sistemas, los trabajadores se entrenarían sobre los procesos que maniobran y se reducirían los riesgos de errores por desconocimiento.
 
-El Generador de Bases de Conocimiento es el encargado de crear las bases de información sobre los diferentes procesos químicos que ocurren en una fábrica. Cada base contiene un grupo de variables, cada una con sus características y clasificaciones. De cada variable se conocen las causas que pueden provocar un estado de riesgo o alarma, y de cada causa, se conocen las recomendaciones a seguir para minimizar los riesgos en el proceso productivo. A partir de estos datos, el generador elabora un conjunto de ficheros que luego serán utilizados por el SECPROIT \cite{anaMailen}.
-
-El Sistema Experto para el Control de Procesos Químicos (SECPROIT) tiene como objetivo asesorar la toma de decisiones durante la ejecución de un proceso. A partir de los datos obtenidos por el Generador de Bases de Conocimiento, este sistema produce un conjunto de entrenamientos para los operarios de la fábrica. Cada prueba contiene tres etapas: variables, causas y recomendaciones. En cada una, el usuario debe escoger las variables que considere en estado de alarma, señalar sus posibles causas y seleccionar las recomendaciones a seguir. Estas evaluaciones son utilizadas para advertir los conocimientos de los trabajadores y la capacidad que posee cada uno \cite{elena}.
-
-Actualmente el SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
+Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
 \begin{itemize}
 \item Cada vez que se desea utilizar la información obtenida por el generador es extraída directamente desde sus ficheros, lo que genera una demora extra en el sistema
 \item Solo existe un modo de pregunta, por lo que resulta redundante el método de evaluación
-\item El tiempo utilizado en responder no influye en la nota final del entrenamiento
+\item El tiempo utilizado en responder el entrenamiento no influye en la nota final del mismo
 \item La etapa de las recomendaciones no se evalúa correctamente, ni muestra los puntos recibidos
 \item Cada etapa se evalúa de manera continúa sin oportunidad de una pausa.
 \item Si se suspende una etapa el entrenamiento continúa hasta el final, por lo que aparecen etapas innecesariamente
 \item Por cada proceso existe un único entrenamiento.
-\item Presenta visuales poco vistosas y de colores muy oscuros que generan desagrado en los usuarios
+\item Presenta una interfaz gráfica poco vistosas y de colores muy oscuros que generan desagrado en los usuarios
 \end{itemize}
 
-A partir de estas restricciones se intuyen un número de cambios que son necesarios llevar a cabo. Estas modificaciones deben realizarse tanto en la lógica programada, como en la base de datos, en las interfaces de usuario y en la estructura del sistema. Es decir, son requeridas algunas transformaciones que abarcan todas las capas del SECPROIT.
-Es por ello que, una actualización desde el propio sistema, resulta más trabajosa que realizar un proyecto nuevo. Esto se debe a que modificar un código escrito, para adaptarlo a una nueva estructura y a una nueva base de datos, resulta más complejo que elaborarlo de cero, según \cite{Plecka2013}.
+A partir de estas restricciones se intuyen un número de cambios que son necesarios llevar a cabo. Estas modificaciones deben realizarse tanto en la lógica, como en la base de datos, en las interfaces de usuario y en la estructura del sistema. Es decir, son requeridas algunas transformaciones que abarcan todas las capas del SECPROIT.  Según \cite{Plecka2013}, modificar un código ajeno ya escrito, para adaptarlo a una nueva estructura y a una nueva base de datos, resulta más complejo que elaborar uno código de cero. Por lo tanto, para rectificar estas limitaciones y generar una actualización del SECPROIT, resulta más factible comenzar una nueva programación, es decir, un nuevo software, pero sin dejar de lado el modelo del sistema ya existente.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-La situación problemática presente en la Industria Alimentaria sigue siendo la misma, puesto que no se ha podido implementar un sistema de entrenamiento estable que solucione el problema. Partiendo de este principio, una solución viable sería desarrollar un sistema funcional tomando como base el SECPROIT, que pueda resolver el problema de investigación inicial: 
+La situación problemática presente en la Industria Alimentaria Cubana sigue siendo la misma, puesto que no se ha podido implementar un sistema de entrenamiento estable que solucione el problema. Partiendo de este principio, una solución viable sería desarrollar una actualización funcional del SECPROIT, que pueda resolver el problema de investigación inicial: 
 ¿Cómo lograr una capacitación total de los operarios, ante la toma de decisiones en una situación crítica?
 
 Por lo tanto, el objetivo general de esta investigación es: 
@@ -46,64 +33,28 @@ Por lo tanto, el objetivo general de esta investigación es:
 Rectificar las limitaciones existentes en el sistema SECPROIT para capacitar a los operarios ante los procesos productivos de la fábrica.
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 Para cumplir con este objetivo general se definen los siguientes objetivos específicos y sus tareas correspondientes:
 \begin{enumerate}
-\item Analizar los diferentes esquemas que permiten evaluar integralmente un
-proceso 
+\item Asimilar los fundamentos teóricos y analizar nuevos aspectos que puedan ser incorporados
 \begin{itemize}
+\item Extraer los requisitos funcionales y no funcionales que debe cumplir el nuevo sistema y seleccionar las tecnologías con las que se trabajará
 \item Investigar sobre los diferentes tipos de preguntas existentes en un
-sistema de entrenamiento
-\item Seleccionar los que mejor se ajusten al proceso evaluativo realizado por el SECPROIT
+sistema de entrenamiento y seleccionar los que mejores se ajusten al proceso evaluativo del SECPROIT
 \end{itemize}
 
-\item Escoger las tecnologías con las que se realizará el nuevo sistema
-\begin{itemize}
-\item Extraer los requisitos funcionales y no funcionales que debe cumplir el nuevo sistema
-\item Seleccionar las tecnologías con las que se trabajará
-\end{itemize}
-
-\item Modelar el nuevo sistema teniendo en cuenta sus requisitos y tomando como base el SECPROIT
+\item Modelar e implementar el nuevo sistema
 \begin{itemize}
 \item Diseñar diagramas auxiliares y modelados UML
-\end{itemize}
-
-\item Implementar una nueva base de datos a partir del modelo resultante
-\begin{itemize}
-\item Diseñar la nueva base de datos
-\item Realizar modelo de base de datos
 \item Implementar la base de datos
+\item Desarrollar funcionalidades que permitan la administración del sistema
+\item Incorporar la configuración de un entrenamiento asociado a un proceso
+\item Implementar la generación de preguntas por cada fase del entrenamiento
+\item Desarrollar un proceso de evaluación parcial para cada etapa y la evaluación integral del operario en un proceso
+\item Implementar los reportes del sistema
+\item Diseñar e incluir una nueva interfaz gráfica
 \end{itemize}
 
-\item Programar el nuevo sistema, implementando las funcionalidades básicas con las que debe contar
-\begin{itemize}
-\item Implementar las funcionalidades que permitan la administración del sistema
-\item Implementar la configuración del proceso de evaluación asociado a un proceso en específico
-\item Implementar la generación de preguntas asociadas a la evaluación del estado de las variables (primera fase de entrenamiento)
-\item Implementar la generación de preguntas asociadas a la evaluación de las causas del estado de una variable (segunda fase de entrenamiento)
-\item Implementar la generación de preguntas asociadas a la evaluación de las recomendaciones del estado de una variable (tercera fase de entrenamiento)
-\item Implementar la conexión con el JBOSS para obtener las respuestas correctas
-\item Implementar proceso de evaluación parcial para cada etapa
-\item Implementar evaluación integral del operario en un proceso
-\end{itemize}
-
-\item Implementar reportes del sistema
-\begin{itemize}
-\item Implementar reportes de usuarios para un mejor control y una mejor seguridad en el sistema
-\item Implementar reportes de jefes donde se den a conocer los resultados de los operarios de su área
-\item Implementar reportes del operario donde se conozcan las notas obtenidas por el usuario
-\end{itemize}
-
-\item Implementar las nuevas interfaces del sistema
-\begin{itemize}
-\item Analizar los colores y tonalidades utilizados en sistemas de entrenamiento 
-\item Escoger paleta de colores a utilizar
-\item Diseñar las nuevas interfaces del sistema y el flujo que manejan
-\item Implementar las interfaces
-\end{itemize}
-
-\item Realizar diseño y ejecución de pruebas
+\item Validar la herramienta desarrollada
 \begin{itemize}
 \item Diseñar las pruebas que se le realizarán al sistema
 \item Ejecutar las pruebas y/o experimentos
@@ -114,14 +65,12 @@ sistema de entrenamiento
 \begin{itemize}
 \item Redactar la documentación del sistema
 \item Diseñar un manual de instalación y un manual de usuario
-\item Implementar esta nueva solución en la facultad de Ingeniería Química
+\item Instalar esta nueva solución en la facultad de Ingeniería Química
 \end{itemize}
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 Esta investigación posee como objeto de estudio: los sistemas de entrenamiento automatizados, los sistemas expertos y los sistemas de información basados en reglas de producción. De ellos, se centra la atención en el campo de acción que comprende el Sistema Experto para el Control de Procesos Químicos (SECPROIT).
 
-El aporte de este proyecto está dado tanto en el marco teórico como en el práctico. Para el primero, se construye un sistema de entrenamiento capaz de ejercitar sobre cualquier información que se brinde en sus bases de conocimiento. En la práctica, queda un sistema de software para la capacitación de los operarios de las industrias alimentarias cubanas.
+El aporte de este proyecto está dado tanto en el marco teórico como en el práctico. Para el primero, se construye un sistema de entrenamiento capaz de ejercitar sobre cualquier información que se brinde en sus bases de conocimiento. En la práctica, queda un sistema de software para la capacitación de los operarios de la Industria Alimentaria Cubana.
 
-En cuanto a la estructura de este trabajo, está dividido en tres capítulos. En el Capítulo 1: Fundamentos teóricos, se encuentran los conceptos fundamentales y los antecedentes de esta investigación. El Capítulo 2: Nuevo sistema de entrenamiento, describe el diseño e implementación de la solución de esta problemática, utilizando diferentes artefactos UML, describiendo los requisitos del sistema y mostrando la vista de la arquitectura y los patrones utilizados. Por último, en el Capítulo 3: Validación de la solución propuesta, se presenta la documentación de las pruebas que se le realizaron al software.
+En cuanto a la estructura de este trabajo, está dividido en tres capítulos. En el Capítulo 1 se encuentran los conceptos fundamentales y los antecedentes de esta investigación. El Capítulo 2 describe el diseño e implementación de la solución de esta problemática, utilizando diferentes artefactos UML, describiendo los requisitos del sistema y mostrando la vista de la arquitectura y los patrones utilizados. Por último, en el Capítulo 3 se presenta la documentación de las pruebas que se le realizaron al software.

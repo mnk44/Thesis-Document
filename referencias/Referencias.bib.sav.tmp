@@ -98,4 +98,91 @@ determinándolas en el futuro.},
   address  = {Sede Guayaquil},
   month    = mar,
   type     = {resreport},
-  abstract = {Al hablar de industrias alimenticias, se habla de un sin número de materias primas, proveedores, productos, sobretodo distintos procesos a lo largo de su producción, volviendo complejo definir o generalizar inconvenientes o cuellos de botella que se suscitan en su proceso productivo puesto que cada empresa tiene sus particularidades. El presente trabajo investigativo tiene como objeto identificar los tipos de procesos de producción en las industrias alimenticias del sector norte de la ciudad de Guayaquil, conocer la problemática actual y averiguar en qué condiciones desarrollan sus procesos de producción desde la adquisición de materia prima hasta la obtención del producto terminado, lo cual determinará de forma puntualizada las causas y efectos que repercuten en los costos de producción. La metodología utilizada fue de carácter investigativo y de campo, debido a que se aplicó la herramienta de la encuesta a la población de 41 industrias alimenticias ubicadas en el sector norte de la ciudad de Guayaquil, permitiendo recopilar información relevante y fidedigna sobre los problemas en los procesos productivos y de qué manera inciden en los costos de producción de las industrias alimenticias encuestadas con un método ex post-facto descriptivo con enfoque cuantitativo. La encuesta se realizó al supervisor, jefe, capataz y personal más representativo del área de producción de cada empresa. Entre los resultados más importantes se obtuvo que las dificultades y debil
+  abstract = {Al hablar de industrias alimenticias, se habla de un sin número de materias primas, proveedores, productos, sobretodo distintos procesos a lo largo de su producción, volviendo complejo definir o generalizar inconvenientes o cuellos de botella que se suscitan en su proceso productivo puesto que cada empresa tiene sus particularidades. El presente trabajo investigativo tiene como objeto identificar los tipos de procesos de producción en las industrias alimenticias del sector norte de la ciudad de Guayaquil, conocer la problemática actual y averiguar en qué condiciones desarrollan sus procesos de producción desde la adquisición de materia prima hasta la obtención del producto terminado, lo cual determinará de forma puntualizada las causas y efectos que repercuten en los costos de producción. La metodología utilizada fue de carácter investigativo y de campo, debido a que se aplicó la herramienta de la encuesta a la población de 41 industrias alimenticias ubicadas en el sector norte de la ciudad de Guayaquil, permitiendo recopilar información relevante y fidedigna sobre los problemas en los procesos productivos y de qué manera inciden en los costos de producción de las industrias alimenticias encuestadas con un método ex post-facto descriptivo con enfoque cuantitativo. La encuesta se realizó al supervisor, jefe, capataz y personal más representativo del área de producción de cada empresa. Entre los resultados más importantes se obtuvo que las dificultades y debilidades que presentan los procesos productivos están relacionados con la falta de mantenimiento en maquinaria, la falta de abastecimiento de materia prima en el tiempo necesario y la presencia de maquinaria obsoleta a pesar de los avances tecnológicos.},
+  file     = {:E\:/Escuela/Tesis/Extras/Documentos/UPS-GT002108.pdf:PDF},
+  keywords = {Procesos de producción, costos de producción, problemática actual, análisis, cuellode botella, incidencia, industrias alimenticias},
+  url      = {https://dspace.ups.edu.ec/bitstream/123456789/15501/1/UPS-GT002108.pdf},
+}
+
+@Article{Lemus2018,
+  author    = {Gil Cruz Lemus and Raisa Socorro Llanes and Ana Mailen Rodríguez Riverón},
+  journal   = {Revista Cubana de Ingeniería},
+  title     = {Sistema para gestionar bases de conocimiento en la industria alimentaria},
+  year      = {2018},
+  issn      = {2223 - 1781},
+  month     = may,
+  number    = {2},
+  pages     = {60 - 68},
+  volume    = {IX},
+  abstract  = {En la actualidad, el mercado diverso y altamente competitivo exige a las empresas almacenar y analizar una gran diversidad de información, los Sistemas Expertos (SE) se destacan por herramientas de soporte para la toma de decisiones. El presente trabajo desarrolló un sistema para gestionar bases de conocimiento en la Industria Alimentaria, permitiendo la extracción del conocimiento al experto del proceso, la elaboración de las bases de conocimientos necesarias y la modificación de las mismas. Estas bases se utilizan para el trabajo del sistema experto y para el entrenamiento de operarios en procesos tecnológicos en la industria alimentaria mostrando las posibles causas de los problemas, así como las recomendaciones necesarias para eliminarlos. El sistema permite el análisis de la base de conocimiento a partir de los datos suministrados por el usuario, se realiza la inferencia y muestra los resultados. Utiliza las reglas de producción como formalismo de producción y el Drools conocido como JBoss Rules como motor de inferencia. La herramienta obtenida agiliza el proceso de adquisición y representación del conocimiento, y permite al especialista del proceso crear las bases sin la intervención directa de un ingeniero en conocimiento y permite almacenar el mismo para ser utilizado por los nuevos especialistas. Se crearon las bases de conocimiento de dos procesos de la industria alimentaria analizados: el de elaboración de néctar de naranja mandarina y el de elaboración de queso fresco por vía enzimática. Los ficheros generados por el sistema fueron importados por el sistema experto y por el de entrenamiento de forma satisfactoria y las respuestas obtenidas coinciden con el árbol de inferencia original del que se partió para elaborar las bases de conocimientos.},
+  booktitle = {Revista Cubana de Ingeniería},
+  comment   = {Se enfoca en la problemática que se desea resolver en la investigación que estoy realizando. Plantea información sobre la Industria Alimentaria y el Sistema Gestor de Bases de Conocimiento que brinda la información al nuevo sistema que se debe desarrollar. Este articulo me sirve de referencia para la introduccion y el desarrollo del capitulo 1},
+  file      = {:Sistemas Expertos\\1621.pdf:PDF},
+  keywords  = {sistema experto, inteligencia artificial, reglas de producción, motores de reglas, base de conocimiento, adquisición del conocimiento},
+  publisher = {Revista Cubana de Ingeniería},
+}
+
+@PhdThesis{Riveron2017,
+  author   = {Ana Mailen Rodríguez Riverón and Raisa Socorro Llanes and Gil Cruz Lemus},
+  school   = {Universidad Tecnológica de la Habana “José Antonio Echeverría”},
+  title    = {Sistema para gestionar bases de conocimiento en la Industria Alimentaria},
+  year     = {2017},
+  address  = {La Habana, Cuba},
+  month    = oct,
+  type     = {software},
+  abstract = {El objetivo de este trabajo consiste en desarrollar una herramienta para adquirir bases de conocimientos de procesos tecnológicos en la industria alimentaria, este debe permitir la extracción del conocimiento al experto del proceso, la elaboración de las bases de conocimientos necesarias y la modificación de las mismas para el trabajo del sistema experto sin la intervención directa de un ingeniero en conocimiento, mostrando las posibles causas de los problemas, así como las recomendaciones necesarias para eliminarlos. Este trabajo está vinculado con la realización de un sistema experto, el cual utiliza la base de conocimiento para el control de los procesos en la industria alimentaria.},
+  comment  = {Es la tesis referente al sistema gestor de bases de conocimientos. La utilizo para la introduccion y el capitulo 1},
+  file     = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Tesis\\rodriguez_riveron_ana mailen.pdf:PDF},
+  keywords = {procesos tecnológicos, sistema experto, industria alimentaria},
+}
+
+@PhdThesis{ElenaAcostaGil2018,
+  author   = {Elena Acosta Gil, Raisa Socorro Llanes},
+  school   = {Universidad Tecnológica de la Habana “José Antonio Echeverría”},
+  title    = {Sistema para el entrenamiento de operarios en procesos tecnológicos en la Industria Alimentaria},
+  year     = {2018},
+  address  = {La Habana, Cuba},
+  month    = jun,
+  type     = {software},
+  abstract = {Las Empresas de Proyectos de la Industria Alimentaria presenta la necesidad de entrenar a operarios de plantas. Las mismas necesitan poder entrenar de forma rápida, pues en la actualidad existen muchas irregularidades a la hora de operar los procesos debido a que los encargados de realizar estos trabajos a veces no tienen el suficiente conocimiento. En el trabajo se presenta un sistema para entrenar a operadores de procesos tecnológicos en la industria alimentaria. El mismo tiene como objetivo evaluar las decisiones que toman los operarios ante diferentes situaciones críticas y brindar al tecnólogo principal de un proceso los resultados de la evaluación y como se van superando los mismos. Dicho sistema utiliza el Drools como motor de inferencia para validar las respuestas emitidas por el usuario. El sistema se probó con los procesos de Elaboración de queso fresco por vía enzimática y Elaboración de néctar naranja-mandarina obteniéndose resultados satisfactorios.},
+  comment  = {Es la tesis referente al sistema que estoy trabajando. Muy util durante toda la investigacion},
+  file     = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Tesis\\acosta_gil_elena.pdf:PDF},
+  keywords = {Industria Alimentaria, operarios, procesos tecnológicos, motor de inferencia},
+}
+
+@Article{Plecka2013,
+  author  = {Plecka Przemys{\l}aw},
+  journal = {Zarz{\k{a}}dzanie Przedsi{\k{e}}biorstwem},
+  title   = {Selected methods of cost estimation of ERP systems. Modifications},
+  year    = {2013},
+  issn    = {7840-5892X},
+  month   = may,
+  number  = {4},
+  pages   = {179},
+  volume  = {16},
+}
+
+@Article{Denby2010,
+  author    = {Steve Denby},
+  journal   = {Industrial and commercial training},
+  title     = {The importance of training needs analysis},
+  year      = {2010},
+  issn      = {0019-7858},
+  month     = apr,
+  number    = {3},
+  pages     = {147-150},
+  volume    = {42},
+  abstract  = {Purpose
+The purpose of this paper is to describe how carefully targeted training can improve productivity of UK insurance company, Moorhouse Group Ltd's sales team and increased the number of calls it handled by 56 percent.
+
+Design/methodology/approach
+An explanation on the use of external consultants and how it helped Moorhouse Group Ltd to identify, design and deliver the training it needed.
+
+Findings
+Details of sales training, and the workshops hosted for employees outside the sales area, helped to improve the company's capability to generate leads and convert sales.
+
+Practical implications
+The paper shows how training can help to expand the range of skills available in the workforce as well as improve existing expertise.
+
+Originality/value
+Individual action plans were created for people who attended the training and these action plans were handed back to managers to embed the learning into b

@@ -29,7 +29,7 @@
 	%\include{dec_autoria}
 	%\include{opinion_tutor}
 	%\include{dedicatoria}
-	%\include{agradecimientos}
+	\include{agradecimientos}
 	
 	\include{resumen}
 	\include{abstrac}
@@ -54,7 +54,7 @@
 	\include{introduccion}	
 	
 	\renewcommand{\chaptermark}[1]{\markboth{\chaptername \, \thechapter. #1}{}}
-	
+
 	\include{cap1}
     \include{cap2}
 	\include{cap3}

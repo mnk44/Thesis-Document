@@ -32,7 +32,7 @@ M.~P.~G. Salas and K.~R.~V. León, {\em Los procesos de producción en las
 \bibitem{Lemus2018}
 G.~C. Lemus, R.~S. Llanes, and A.~M.~R. Riverón, ``Sistema para gestionar
   bases de conocimiento en la industria alimentaria,'' {\em Revista Cubana de
-  Ingeniería}, vol.~IX, pp.~60 -- 68, May 2018.
+  Ingeniería}, vol.~IX, pp.~60--68, May 2018.
 
 \bibitem{Riveron2017}
 A.~M.~R. Riverón, R.~S. Llanes, and G.~C. Lemus, {\em Sistema para gestionar
@@ -73,5 +73,35 @@ R.~L. Jacobs and M.~J. Bu‐Rahmah, ``Developing employee expertise through
 \bibitem{Aretio2020}
 E.~G. Aretio, ``Etapas de la evaluación de calidad de los aprendizajes,'' {\em
   Contextos universitarios mediados}, vol.~8, p.~5, May 2020.
+
+\bibitem{Rasheed2021}
+F.~Rasheed and A.~Wahid, ``Learning style detection in e-learning systems using
+  machine learning techniques,'' {\em Expert Systems with Applications},
+  vol.~174, pp.~114--774, Apr. 2021.
+
+\bibitem{ISEM2022}
+ISEM, ``Entrenamiento basado en computador para operadores y mantenedores de
+  planta.'' 6 enero 2014, June 2022.
+\newblock Instituto de Seguridad Minera (ISEM).
+
+\bibitem{Kanev2017}
+D.~Kanev, ``System recommendations for assessment of action onthe example of
+  designer cad,'' {\em Interactive Systems: Problems of Human-Computer
+  Interaction Collection of scientific papers}, vol.~7, pp.~185--189, May 2017.
+
+\bibitem{Laguna2016}
+E.~V. Laguna, ``Metodología estándar para el entrenamiento básico de un
+  panel de catadores,'' candthesis~24, Universidad: Rey Juan Carlos, Móstoles,
+  Madrid, España, July 2016.
+
+\bibitem{AltyJames1984}
+A.~J. L and C.~M. J, {\em Expert systems: concepts and examples}, vol.~62 of
+  {\em 2}.
+\newblock New York, United States: John Wiley and Sons Inc., New York, NY,
+  v~ed., Jan. 1984.
+\newblock 99 GENERAL AND MISCELLANEOUS//MATHEMATICS, COMPUTING, AND INFORMATION
+  SCIENCE; EXPERT SYSTEMS; REVIEWS; ARTIFICIAL INTELLIGENCE; C CODES; COMPUTER
+  CALCULATIONS; COMPUTER CODES; DATA PROCESSING; I CODES; M CODES; P CODES; R
+  CODES; DOCUMENT TYPES; PROCESSING; 990200.
 
 \end{thebibliography}

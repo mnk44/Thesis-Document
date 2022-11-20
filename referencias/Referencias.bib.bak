@@ -112,7 +112,7 @@ determinándolas en el futuro.},
   issn      = {2223 - 1781},
   month     = may,
   number    = {2},
-  pages     = {60 - 68},
+  pages     = {60--68},
   volume    = {IX},
   abstract  = {En la actualidad, el mercado diverso y altamente competitivo exige a las empresas almacenar y analizar una gran diversidad de información, los Sistemas Expertos (SE) se destacan por herramientas de soporte para la toma de decisiones. El presente trabajo desarrolló un sistema para gestionar bases de conocimiento en la Industria Alimentaria, permitiendo la extracción del conocimiento al experto del proceso, la elaboración de las bases de conocimientos necesarias y la modificación de las mismas. Estas bases se utilizan para el trabajo del sistema experto y para el entrenamiento de operarios en procesos tecnológicos en la industria alimentaria mostrando las posibles causas de los problemas, así como las recomendaciones necesarias para eliminarlos. El sistema permite el análisis de la base de conocimiento a partir de los datos suministrados por el usuario, se realiza la inferencia y muestra los resultados. Utiliza las reglas de producción como formalismo de producción y el Drools conocido como JBoss Rules como motor de inferencia. La herramienta obtenida agiliza el proceso de adquisición y representación del conocimiento, y permite al especialista del proceso crear las bases sin la intervención directa de un ingeniero en conocimiento y permite almacenar el mismo para ser utilizado por los nuevos especialistas. Se crearon las bases de conocimiento de dos procesos de la industria alimentaria analizados: el de elaboración de néctar de naranja mandarina y el de elaboración de queso fresco por vía enzimática. Los ficheros generados por el sistema fueron importados por el sistema experto y por el de entrenamiento de forma satisfactoria y las respuestas obtenidas coinciden con el árbol de inferencia original del que se partió para elaborar las bases de conocimientos.},
   booktitle = {Revista Cubana de Ingeniería},
@@ -170,7 +170,7 @@ determinándolas en el futuro.},
   issn      = {0019-7858},
   month     = apr,
   number    = {3},
-  pages     = {147-150},
+  pages     = {147--150},
   volume    = {42},
   abstract  = {Purpose
 The purpose of this paper is to describe how carefully targeted training can improve productivity of UK insurance company, Moorhouse Group Ltd's sales team and increased the number of calls it handled by 56 percent.
@@ -200,7 +200,7 @@ Individual action plans were created for people who attended the training and th
   issn    = {4519-7858},
   month   = aug,
   number  = {3},
-  pages   = {50-62},
+  pages   = {50--62},
   volume  = {2},
   url     = {https://www.bizneo.com/blog/capacitacion-laboral/#Que_es_la_capacitacion_laboral},
 }
@@ -232,7 +232,7 @@ Individual action plans were created for people who attended the training and th
   issn     = {0019-7858},
   month    = mar,
   number   = {2},
-  pages    = {75-84},
+  pages    = {75--84},
   volume   = {44},
   abstract = {Purpose
 This paper aims to describe how structured on‐the‐job training (S‐OJT) was implemented to develop new‐hire engineers at the Kuwait National Petroleum Company.
@@ -251,6 +251,74 @@ The intent of the case study is to assist other advanced training and human reso
   comment  = {Artículo científico publicado en Emerald Group Publishing Limited. Aborda el tema de las capacitaciones de operarios y trabajadores en las empresas e industrias. Muy útil a la hora de explicar la importancia de una buena capacitación y por qué es necesario entrenar a los trabajadores.},
   keywords = {Structure on the job training, Employee competence, High-skilled training},
   url      = {https://doi.org/10.1108/00197851211202902},
+}
+
+@Article{Aretio2020,
+  author  = {Eduardo García Aretio},
+  journal = {Contextos universitarios mediados},
+  title   = {Etapas de la evaluación de calidad de los aprendizajes},
+  year    = {2020},
+  issn    = {2340-552X},
+  month   = may,
+  number  = {2},
+  pages   = {5},
+  volume  = {8},
+  comment = {Explica la importancia de un buen entrenamiento y las fases que se deben cumplir para lograr uno.},
+  file    = {:E\:/Escuela/Practicas/Tesis/Prácticas 2do/Prácticas 3ro.Data/PDF/1402578674/Etapas de la evaluación de calidad de los apr.html:URL},
+  url     = {https://aretio.hypotheses.org/4168},
+}
+
+@Article{Rasheed2021,
+  author   = {Fareeha Rasheed and Abdul Wahid},
+  journal  = {Expert Systems with Applications},
+  title    = {Learning style detection in E-learning systems using machine learning techniques},
+  year     = {2021},
+  issn     = {0957-4174},
+  month    = apr,
+  number   = {3},
+  pages    = {114--774},
+  volume   = {174},
+  abstract = {Learning style plays a vital role in helping students retain learned concepts for a longer time and also improves the understanding of the concepts. Learning styles in offline and online scenarios are recognized using questionnaires. The recent trend is to identify and use attributes to detect the learning style of the learner automatically without disturbing the learner. The paper is an extension of the authors' earlier work with some changes to the methodology. In this paper, the authors have identified new attributes and scaled-down the attributes identified earlier, which would help identify the learner's learning style. The authors implemented classification algorithms and compared the accuracy of the different algorithms on the dataset. Various interesting patterns are observed in learner's behaviour while learning different types of concepts in different situations.},
+  comment  = {Es la detección de estilos de aprendizaje en sistemas de E-learning utilizando técnicas de aprendizaje automático, es decir, otro ejemplo del uso de sistemas expertos. De esta bibliografía me gustan mucho los diagramas explicativos y el concepto que brinda de sistemas expertos.},
+  doi      = {https://doi.org/10.1016/j.eswa.2021.114774},
+  keywords = {Machine learning, Classification, Learning style, E-learning},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0957417421002153},
+}
+
+@Electronic{ISEM2022,
+  address      = {Perú},
+  author       = {ISEM},
+  howpublished = {6 enero 2014},
+  language     = {Español},
+  month        = jun,
+  note         = {Instituto de Seguridad Minera (ISEM)},
+  organization = {Instituto de Seguridad Minera-ISEM},
+  title        = {Entrenamiento basado en computador para operadores y mantenedores de planta},
+  url          = {https://www.revistaseguridadminera.com/capacitacion/entrenamiento-basado-en-computador-para-operadores-y-mantenedores-de-planta/},
+  year         = {2022},
+  comment      = {Seguridad Minera es la revista oficial del Instituto de Seguridad Minera-ISEM, asociación privada sin fines de lucro, fundada en febrero de 1998 y conformada por empresas mineras e industriales y profesionales independientes del Perú.
+A partir de esta información se conocen las capacitaciones automáticas y sus etapas},
+  journal      = {Seguridad Minera},
+}
+
+@Article{Kanev2017,
+  author   = {D. Kanev},
+  journal  = {Interactive Systems: Problems of Human-Computer Interaction Collection of scientific papers},
+  title    = {System recommendations for assessment of action onthe example of designer CAD},
+  year     = {2017},
+  issn     = {0997-3474},
+  month    = may,
+  number   = {3},
+  pages    = {185--189},
+  volume   = {7},
+  abstract = {The article provides an analysis of recommendation systems. The
+author's method of formation of recommendations for the designer based on the
+protocol design operations different analysis operations solid three-dimensional
+modeling of parts, performed in CAD KOMPAS, and allows to replace the nonoptimal sets into sets of operations of operations with fewer steps that will
+improve the design efficiency. The problems associated with the development
+of the advisory system},
+  comment  = {Abarca todo el ema referente a los sistemas de capacitaci[on automatizados, desde su uso hasta su importancia},
+  url      = {https://www.researchgate.net/profile/Ali-Obaid-9/publication/327932870_TOOLS_FOR_CONCEPTUAL-ALGORITHMIC_PROTOTYPING_IN_SOLVING_DESIGN_PROBLEMS_IN_THE_DEVELOPMENT_OF_SYSTEMS_WITH_SOFTWARE_Authors/links/5bae1996a6fdccd3cb7949ec/TOOLS-FOR-CONCEPTUAL-ALGORITHMIC-PROTOTYPING-IN-SOLVING-DESIGN-PROBLEMS-IN-THE-DEVELOPMENT-OF-SYSTEMS-WITH-SOFTWARE-Authors.pdf#page=185},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

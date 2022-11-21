@@ -52,7 +52,7 @@ Según \cite{Aretio2020}, un proceso de evaluación debe estar integrado por cin
 \begin{figure}[h]
 \centering
  \includegraphics[width=0.6\linewidth]{imagen/fases-proceso-evaluacion.jpg}
- \caption{Fases en un proceso de evaluación.}
+ \caption{Fases en un proceso de evaluación}
  \label{fig:fases-evaluacion} 
 \end{figure}
 
@@ -71,7 +71,7 @@ A modo de resumen, es un programa informático que brinda una solución de recur
 \subsection{Ventajas de un sistema de capacitación automatizado}
 Un sistema de entrenamiento asistido por computadora (sistema de capacitación automatizado), permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas principales de la capacitación de los empleados de manera presencial es que las sesiones son frecuentemente inconsistentes y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimiento para garantizar el mismo nivel de entrenamiento para todos los capacitados. Por otra parte, una capacitación presencial requiere la existencia de una persona, por lo general un experto, que supervise al adiestrado y califique su rendimiento. En cambio, con un sistema automatizado, no es necesario desempeñar esta tarea, el propio software se encarga de la supervición y evaluación del operario \cite{Kanev2017}.
 
-\subsection{Colores en un sistema de capacitación digital}
+\subsection{Colores utilizados en un sistema digital}
 Se pudiese llegar a pensar que, en un sistema digital, los colores que se utilizan son totalmente aleatorios, pero esto es un error. Lo cierto es que unas tonalidades u otras provocan en el cerebro diferentes sensaciones que, aunque no se pueden percibir físicamente, influyen tanto en el estado de ánimo como en la productividad o creatividad. Sin embargo, no todos los colores tienen el mismo efecto en las personas, pero no es menos cierto que una gran mayoría comparten las mismas reacciones. De ahí la importancia de realizar un estudio detallado a la hora de seleccionar los tonos que representarán un sistema \cite{Paspuezan2022}.
 
 \subsubsection{Psicología del color}
@@ -88,13 +88,13 @@ En el caso de un sistema digital, dependiendo del tipo de objetivo que se quiera
 \item \textbf{Verde}: generalmente se asocia a la naturaleza, mejora las habilidades de lectura, ayuda a empatizar y fomentar ideas nuevas.
 \end{itemize}
 
-\subsubsection{Combinaciones de colores}
+\subsubsection{Combinación de colores}
 Para lograr una buena combinación de colores en un sistema se debe hacer uso de la gama cromática. Esta es la escala que ordena los colores según su valor, saturación o posición. Se divide en cálida y fría (\textsl{Figura \ref{fig:colores}}). La gama cálida está integrada por colores que van desde el magenta hasta el amarillo verdoso. Estos tonos son ideales para llamar la atención del usuario, siempre y cuando se usen con moderación. Los colores fríos van del azul al púrpura, y son utilizados con frecuencia por empresas que quieren representar seriedad y responsabilidad, pues transmiten calma a los usuarios \cite{TerronLopez2022} .
 
 \begin{figure}[h]
 \centering
  \includegraphics[width=0.6\linewidth]{imagen/gama.png}
- \caption{Gama cromática de colores (cálidos y fríos).}
+ \caption{Gama cromática de colores (cálidos y fríos)}
  \label{fig:colores} 
 \end{figure}
 
@@ -112,3 +112,80 @@ A medida que avanza el tiempo se generan nuevos métodos de estudio y con estos,
 
 \subsection{Proceso de validación de las respuestas}
 En los sistemas de capacitación automatizados pueden utilizarse tres métodos diferentes de validación: manual, semiautomático o automático. Por lo general, el más empleado es el automático, ya que de esta forma se facilita el trabajo para aquellos que deben evaluar a un personal abundante. Según \cite{AltyJames1984}, la manera más efectiva y eficiente de evaluar las respuestas en este tipo de sistemas es mediante el uso de sistemas expertos.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Sistemas expertos}
+Los sistemas expertos resuelven problemas que normalmente son solucionados por expertos humanos. Para hacerlo, necesitan acceder a una importante base de conocimiento sobre el dominio, que debe construirse de la manera más eficiente posible. Utilizan uno o más mecanismos de razonamiento, para aplicar este conocimiento a los problemas que se le proponen. Cuentan con un instrumento para explicar a los usuarios que han confiado en ellos, lo que han hecho y cómo \cite{VonRueden2021}.
+
+Una forma de contemplar estos sistemas es que simbolizan la mayor parte de la Inteligencia Artificial (IA) aplicada. Un sistema experto en IA se define como un programa informático que tiene la capacidad de representar y razonar sobre el conocimiento \cite{Rasheed2021}.
+
+\subsection{Componentes de un sistema experto}
+En \cite{Omuya2021} se detallan los diferentes componentes que integran un sistema experto. Aunque pueden contar con un número mayor, los mínimos requeridos son (\textsl{Figura \ref{fig:componentes}}):
+
+\begin{itemize}
+\item \textbf{Motor de inferencia}: es el corazón del sistema experto. Su cometido principal es sacar conclusiones aplicando el conocimiento a los datos. Estas conclusiones pueden estar basadas en conocimiento determinista o probabilístico.
+\item \textbf{Base de conocimiento}: consiste en un conjunto de objetos y un conjunto de reglas que gobiernan las relaciones entre esos objetos. La información que almacena es de naturaleza permanente y estática, es decir, no cambia de una aplicación a otra. Se debe diferenciar entre los datos y el conocimiento. El conocimiento se refiere a afirmaciones de validez general tales como reglas, distribuciones de probabilidad, entre otras. Los datos se refieren a información relacionada con una aplicación en particular.
+\item \textbf{Mecanismo de aprendizaje}: controla el flujo del nuevo conocimiento que va del experto humano a la base de conocimiento. El sistema determina qué nueva información se necesita, o si los datos son reales, es decir, si debe incluirse el nuevo conocimiento, y en caso necesario incorporarlo.
+\item \textbf{Interfaz de usuario}: es la interfaz entre el sistema experto y el usuario. Para que sea efectiva debe incorporar mecanismos para mostrar y obtener información de forma sencilla y agradable.
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.9\linewidth]{imagen/componentes.png}
+ \caption{Componentes de un sistema experto}
+ \label{fig:componentes} 
+\end{figure}
+
+\subsection{Desventajas de los sistemas expertos}
+Al ser una tecnología novedosa, los sistemas expertos traen consigo ciertas desventajas. Por presentar algunos ejemplos, en \cite{Kandula2020} se mencionan:
+
+\begin{itemize}
+\item Su actualización necesita de reprogramación, siendo una de sus limitaciones más acentuadas
+\item Son poco flexibles a cambios y de difícil acceso a información no estructurada
+\item Poseen un elevado costo en dinero y tiempo
+\item Carecen de sentido común (no hay nada obvio)
+\item No se puede mantener una conversación informal con ellos
+\item Es muy complicado que aprendan de sus errores o de errores ajenos
+\item No son capaces de distinguir cuáles son las cuestiones relevantes de un
+problema y separarlas de cuestiones secundarias
+\end{itemize}
+
+Sin embargo, estos problemas no solo los presentan los sistemas expertos. La Inteligencia Artificial aún no ha podido desarrollar sistemas que
+sean capaces de resolver problemas de manera general o de aplicar el sentido común para resolver situaciones complejas. Es por ello que, a pesar de sus desventajas, los sistemas expertos son considerados una gran ayuda y un enorme avance, en especial, en el campo de los sistemas de capacitación \cite{Barham2022}.
+
+\subsection{Ventajas de los sistemas expertos}
+A pesar de sus desventajas, el uso de un sistema experto en cualquier ámbito social resulta favorable de diversas maneras. Según \cite{Mitchell1990}, entre sus ventajas más importantes se pueden encontrar:
+
+\begin{itemize}
+\item No sufre de limitaciones y percances humanos, lo que lo convierte en una herramienta estable y fiable para su entorno
+\item Sus actividades son completamente replicables y siempre contesta de la misma manera a menos que se le cambie el diseño
+\item La velocidad de procesamiento es mayor a la de un ser humano
+\item Pueden almacenar su conocimiento para cuando sea necesario aplicarlo
+\item Pueden ser utilizados por personas no especializadas para resolver problemas
+\item Pueden ser usados como sistema de aprendizaje
+\item Al evaluar el costo total del empleo de esta tecnología, la replicabilidad y estabilidad, asociado a la seguridad que provee, resulta una ecuación favorable, aún considerando que las inversiones iniciales pueden ser
+relativamente elevadas
+\end{itemize}
+
+A modo de conclusión, dependiendo del ámbito y los objetivos que se persigan, por lo general, el uso de esta tecnología resulta una ayuda más que una desventaja.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Generador de Bases de Conocimiento}
+En octubre del 2017, el Instituto de Investigaciones de la Industria Alimentaria (IIIA), en conjunto con las facultades de Ingeniería Química e Ingeniería Informática de la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), desarrolló un sistema Gestor de Bases de Conocimiento (SGBC). La función principal de este sistema es generar bases de información a partir de los datos introducidos por un usuario determinado. Dichas bases son exportadas en dos tipos especiales de ficheros: \textsl{anm} y \textsl{drl}. Cada uno de estos ficheros contienen información sobre un proceso productivo determinado \cite{Lemus2018}.
+
+\subsection{Funcionamiento del generador}
+El generador tiene como objetivo crear bases de conocimiento sobre procesos productivos industriales. Utiliza reglas de producción como formalismo de representación del conocimiento, las cuales se generan según el formato definido por el motor de inferencia \textsl{Drools}.
+
+En el SGBC todos los datos son introducidos por un usuario, que puede crear o cargar un proceso productivo de cualquier rama de la Industria Alimentaria. Por cada proceso se deben ir incluyendo las diferentes variables que en este influyen e ir clasificándolas en tres tipos: discretas, válvulas o continuas. En el caso de ser continuas se les deben agregan sus valores máximos y mínimos. Una vez introducidas todas las variables, se empiezan a insertar las causas que influyen en todo el proceso y luego las recomendaciones para cada una de las causas, aunque el orden de los datos no afecta el resultado. Solo al concluir, se podrán emparejar las variables con las causas y las causas con las recomendaciones. Se debe tener en cuenta que una variable puede tener varias causas y que una causa puede tener varias recomendaciones. Al emparejar una variable con su causa se debe indicar el estado de la misma: si es discreta puede ser positivo o negativo; si es válvula puede ser abierto, normal o cerrado y si es continua puede ser alto, normal o bajo. Una vez concluida la entrada de datos del proceso, se exportan los ficheros \textsl{anm} y \textsl{drl} \cite{Riveron2017}.
+
+\subsection{Información de los ficheros anm}
+Un archivo \textsl{anm} puede ser utilizado por diferentes tipos de programas distribuidos, para múltiples plataformas como Linux, Mac o Windows. Los datos de estos ficheros contienen toda la información referente a las variables, causas y recomendaciones de un proceso productivo.
+Comienzan con los nombres de las variables y su clasificación. Si la variable es de tipo continua, poseen sus valores máximos y mínimos. Cada información de las variables está separada por comas, y cada variable está dividida por renglones.
+Al comenzar a leer las causas, aparece un indicador (*causa). Las causas solo poseen su nombre y están separadas por renglones. Por último, al comenzar a leer las recomendaciones aparece un indicador (*recomendaciones) de la misma manera que en las causas.
+De las recomendaciones solo se tiene el nombre y cada una está separada por renglones.
+Al final de los archivos \textsl{anm} aparece un -1 para indicar que se acabó la lectura \cite{Riveron2017}.
+
+\subsection{Información de los ficheros drl}
+Un archivo \textsl{drl} es donde el motor de inferencia \textsl{Drools} (Sistema de Gestión de Reglas de Negocio) almacena sus reglas. La estructura de una regla dentro de este archivo sigue un patrón donde <name> es el nombre de la regla, <attribute> son los posibles atributos que puede tener la misma, <conditional element> es la sentencia condicional a evaluar por la regla y, si se cumple esta sentencia, se pasa a realizar una o varias acciones en <action>

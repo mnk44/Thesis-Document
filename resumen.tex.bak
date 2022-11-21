@@ -1,17 +1,18 @@
 \section*{Resumen}
-La capacitación laboral es un método aplicado por las empresas para que sus trabajadores adquiera nuevos conocimientos profesionales. Con el uso de una capacitación automatizada se logran ahorrar recursos de gran valor, como el tiempo y el capital humano.
-En lugares donde se trabaja de forma ininterrumpida, contar con este tipo de sistemas representa una ventaja notable para la producción.
+La capacitación laboral es un método aplicado por las empresas para que sus trabajadores adquiera nuevos conocimientos profesionales. Actualmente existen un conjunto de sistemas que permiten realizar esta capacitación de forma automática, sin la presencia obligatoria de un superior. De esta forma se ahorran numerosos recursos de gran valor, como el tiempo y el capital humano.
+En las industrias donde el trabajo es de forma ininterrumpida, contar con estos sistemas representa una ventaja notable en la producción, de ahí la necesidad de incorporarlos como herramientas permanentes.
+A la hora de evaluar los resultados obtenidos, por lo general, los sistemas de entrenamiento automatizados tienen incorporado un método de evaluación automático. Uno de los métodos más empleados es el uso de sistemas expertos.
 
-La Industria Alimentaria de un país juega un rol sumamente importante dentro de la economía del mismo. En Cuba, esta industria se caracteriza por trabajar de forma constante, con un personal que cambia frecuentemente. Debido a estas características, resulta casi imposible lograr una completa capacitación de los empleados, lo que provoca que no todos posean el mismo nivel de conocimiento y por ende, no todos puedan responder ante situaciones determinadas.
+La industria alimentaria de un país juega un rol sumamente importante dentro de la economía. En Cuba, esta industria se caracteriza por su trabajo constante y su personal cambiante. Debido a estas características, resulta casi imposible lograr una capacitación presencial de los empleados, lo que provoca que no todos posean el mismo nivel de conocimiento y por ende, no todos puedan responder ante situaciones determinadas.
 
-En el año 2019 se creó un software con el objetivo de resolver esta problemática. El Sistema Experto para el Control de Procesos Químicos (SECPROIT) busca capacitar a los operarios ante los procesos productivos de su fábrica, a partir un conjunto de entrenamientos. Actualmente el sistema presenta un grupo de limitaciones que impiden que sea utilizado por las industrias.
+El Sistema Experto para el Control de Procesos Químicos (SECPROIT) es un software creado para la capacitación de operarios ante los procesos productivos de la Industria Alimentaria Cubana. En él se aplican un conjunto de entrenamientos donde se evalúan la capacidad de respuesta de los trabajadores ante situaciones críticas y sus conocimientos sobre los procesos. Los resultados se evalúan mediante el uso de sistemas expertos. Actualmente contiene un grupo de restricciones que impiden su empleo en las industrias.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Esta investigación tiene como objetivo resolver las limitaciones existentes en el sistema SECPROIT.
 
 \vfill
 
 \begin{description}
-	\item[Palabras claves:]{Industria Alimentaria, capacitación laboral, sistemas de capacitación automatizados, sistemas de entrenamiento, sistemas expertos, Sistema Experto para el Control de Procesos Químicos (SECPROIT), Generador de Bases de Conocimiento}
+	\item[Palabras claves:]{capacitación laboral, sistemas de capacitación automatizado, sistemas de entrenamiento, sistemas expertos, Sistema Experto para el Control de Procesos Químicos (SECPROIT), Generador de Bases de Conocimiento}
 \end{description}
 
 

@@ -441,4 +441,41 @@ Este trabajo fin de grado se ha basado en la unificación de todas las normas qu
   url       = {https://rspsciencehub.com/article_1363.html},
 }
 
+@InProceedings{Barham2022,
+  author       = {Paul Barham and Michael Isard},
+  booktitle    = {Proceedings of the Workshop on Hot Topics in Operating Systems},
+  title        = {Machine learning systems are stuck in a rut},
+  year         = {2022},
+  address      = {United States},
+  editor       = {ACM Digital},
+  month        = may,
+  number       = {31},
+  organization = {ACM Digital Library},
+  pages        = {177--183},
+  publisher    = {ACM Digital Library},
+  series       = {2},
+  volume       = {24},
+  abstract     = {In this paper we argue that systems for numerical computing are stuck in a local basin of performance and programmability. Systems researchers are doing an excellent job improving the performance of 5-year-old benchmarks, but gradually making it harder to explore innovative machine learning research ideas.
+
+We explain how the evolution of hardware accelerators favors compiler back ends that hyper-optimize large monolithic kernels, show how this reliance on high-performance but inflexible kernels reinforces the dominant style of programming model, and argue these programming abstractions lack expressiveness, maintainability, and modularity; all of which hinders research progress.
+
+We conclude by noting promising directions in the field, and advocate steps to advance progress towards high-performance general purpose numerical computing systems on modern accelerators.},
+  doi          = {https://doi.org/10.1145/3317550.3321441},
+  url          = {https://doi.org/10.1145/3317550.3321441},
+}
+
+@Article{Mitchell1990,
+  author    = {Tom Mitchell and Buchanan, Bruce and DeJong, Gerald and Dietterich, Thomas and Rosenbloom, Paul and Waibel, Alex},
+  journal   = {Annual review of computer science},
+  title     = {Machine learning},
+  year      = {1990},
+  issn      = {2549-7858},
+  month     = may,
+  number    = {1},
+  pages     = {417--433},
+  volume    = {4},
+  publisher = {Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA},
+  url       = {https://www.annualreviews.org/doi/abs/10.1146/annurev.cs.04.060190.002221?journalCode=arcompsci},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

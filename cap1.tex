@@ -2,6 +2,8 @@
 \setcounter{chapter}{1}
 \addcontentsline{toc}{chapter}{Capítulo 1: Fundamentos teóricos}
 
+En el presente capítulo se encuentra lo referente a los fundamentos teóricos de la herramienta a desarrollar. Comprende un análisis de los sistemas de capacitación y los sistemas de capacitación automatizados, reflejando un estudio de las preguntas más utilizadas, así como los colores y métodos de evaluación. Se introduce el término de sistema experto, con sus características y ventajas. Se detallan las funcionalidades del Sistema Generador de Bases de Conocimiento (SGBC), se profundiza el trabajo con el sistema SECPROIT y se incluyen conclusiones del capítulo.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistemas de capacitación laboral}
@@ -32,7 +34,7 @@ La capacitación laboral juega un papel primordial para el logro de tareas y pro
 \end{itemize}
 
 \subsection{Proceso de evaluación en una capacitación}
-La evaluación de una capacitación no puede depender de un solo instrumento o técnica, ya que de esa forma solo se mide un tipo de aprendizaje. Los criterios para calificar que se designen serán mostrados como porcentajes de valor asociados a cada resultado de las actividades realizadas y a su resultado final. Entre los criterios más comunes que se tienen en cuenta están: la exactitud de la respuesta, el proceso que se siguió para llegar a la misma, la cantidad de intentos necesarios utilizados para hallar la solución y, en algunos casos, el tiempo necesitado para responder \cite{Jacobs2012}.
+La evaluación de una capacitación no puede depender de un solo instrumento o técnica, ya que de esa forma solo se mide un tipo de aprendizaje. Entre los criterios para calificar más comunes están: la exactitud de la respuesta, el proceso que se siguió para llegar a la misma, la cantidad de intentos necesarios utilizados para hallar la solución y, en algunos casos, el tiempo necesitado para responder \cite{Jacobs2012}.
 
 Una evaluación posee dos propósitos fundamentales: analizar en qué medida se han cumplido los objetivos y proporcionar una reflexión de los que realizaron el entrenamiento en torno a su propio proceso de aprendizaje (metacognición). Analizar el cumplimiento de los objetivos permite detectar posibles fallas en el proceso y poder superarlas en un futuro \cite{Aretio2020}.
 
@@ -51,7 +53,7 @@ Según \cite{Aretio2020}, un proceso de evaluación debe estar integrado por cin
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.6\linewidth]{imagen/fases-proceso-evaluacion.jpg}
+ \includegraphics[width=0.5\linewidth]{imagen/fases-proceso-evaluacion.jpg}
  \caption{Fases en un proceso de evaluación}
  \label{fig:fases-evaluacion} 
 \end{figure}
@@ -68,8 +70,15 @@ Teniendo en cuenta el concepto de capacitación, un sistema de capacitación aut
 
 A modo de resumen, es un programa informático que brinda una solución de recursos humanos, ayuda en la formación de los trabajadores y aumenta la productividad empresarial.
 
-\subsection{Ventajas de un sistema de capacitación automatizado}
-Un sistema de entrenamiento asistido por computadora (sistema de capacitación automatizado), permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas principales de la capacitación de los empleados de manera presencial es que las sesiones son frecuentemente inconsistentes y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimiento para garantizar el mismo nivel de entrenamiento para todos los capacitados. Por otra parte, una capacitación presencial requiere la existencia de una persona, por lo general un experto, que supervise al adiestrado y califique su rendimiento. En cambio, con un sistema automatizado, no es necesario desempeñar esta tarea, el propio software se encarga de la supervición y evaluación del operario \cite{Kanev2017}.
+\subsection{Tipos de preguntas en un sistema de capacitación automatizado}
+A medida que avanza el tiempo se generan nuevos métodos de estudio y con estos, nuevas formas de preguntar y calificar. Sin embargo, a la hora de diseñar un sistema automatizado, no es menos cierto que existen algunas variantes más sencillas y, por ende, más utilizadas. Según \cite{Laguna2016}, los tipos de preguntas que mayormente se emplean en un sistema de capacitación automatizado son:
+
+\begin{itemize}
+\item \textbf{Verdadero o falso}: contienen una declaración que se debe indicar si es verdadera o no. Permiten responder en poco tiempo, son fáciles, rápidas de calificar y se corrigen de forma automática.
+\item \textbf{Opción múltiple}: se componen de una pregunta (raíz) con múltiples respuestas posibles. Al poder incluir múltiples opciones válidas, podrían darse por superadas al marcar cualquiera de las respuestas o cuando se marquen todas. Se caracterizan por ser fáciles, rápidas de calificar, por corregirse automáticamente y utilizarse para evaluar los conocimientos en una amplia gama de contenidos.
+\item \textbf{Emparejar, relacionar u ordenar}: por lo general se emparejan cada una de las opciones del primer bloque con las opciones dadas en el segundo bloque, o se ordenan bloques de modo que quede una secuencia correcta de acuerdo a un patrón previamente establecido. Se suelen usar en aquellos cursos donde la adquisición de conocimientos muy detallados es un objetivo importante. Son preguntas fáciles de diseñar, rápidas de calificar y se corrigen automáticamente. Estadísticamente, se tarda más en responder este tipo de preguntas que las preguntas anteriores.
+\item \textbf{Respuesta corta}: basta con que se escriban un par de palabras o una frase sencilla. Una alternativa más común a este tipo de preguntas es la de cubrir los espacios en blanco con una palabra. Son de gran utilidad a la hora de demostrar los conocimientos basados en hechos o palabras claves. La dificultad para calificarlas depende del estilo que se decida emplear.
+\end{itemize}
 
 \subsection{Colores utilizados en un sistema digital}
 Se pudiese llegar a pensar que, en un sistema digital, los colores que se utilizan son totalmente aleatorios, pero esto es un error. Lo cierto es que unas tonalidades u otras provocan en el cerebro diferentes sensaciones que, aunque no se pueden percibir físicamente, influyen tanto en el estado de ánimo como en la productividad o creatividad. Sin embargo, no todos los colores tienen el mismo efecto en las personas, pero no es menos cierto que una gran mayoría comparten las mismas reacciones. De ahí la importancia de realizar un estudio detallado a la hora de seleccionar los tonos que representarán un sistema \cite{Paspuezan2022}.
@@ -100,15 +109,8 @@ Para lograr una buena combinación de colores en un sistema se debe hacer uso de
 
 Una vez definidas las tonalidades a utilizar se recomienda seguir un patrón de diseño para todo el sistema, basándose en: una gama cromática (diferentes tonos de un mismo color), una gama complementaria (un color combinado con sus complementarios) o una gama opuesta (un color combinado con el color opuesto) \cite{TerronLopez2022}.
 
-\subsection{Tipos de preguntas en un sistema de capacitación automatizado}
-A medida que avanza el tiempo se generan nuevos métodos de estudio y con estos, nuevas formas de preguntar y calificar. Sin embargo, a la hora de diseñar un sistema automatizado, no es menos cierto que existen algunas variantes más sencillas y, por ende, más utilizadas. Según \cite{Laguna2016}, los tipos de preguntas que mayormente se emplean en un sistema de capacitación automatizado son:
-
-\begin{itemize}
-\item \textbf{Verdadero o falso}: contienen una declaración que se debe indicar si es verdadera o no. Permiten responder en poco tiempo, son fáciles, rápidas de calificar y se corrigen de forma automática.
-\item \textbf{Opción múltiple}: se componen de una pregunta (raíz) con múltiples respuestas posibles. Al poder incluir múltiples opciones válidas, podrían darse por superadas al marcar cualquiera de las respuestas o cuando se marquen todas. Se caracterizan por ser fáciles, rápidas de calificar, por corregirse automáticamente y utilizarse para evaluar los conocimientos en una amplia gama de contenidos.
-\item \textbf{Emparejar, relacionar u ordenar}: por lo general se emparejan cada una de las opciones del primer bloque con las opciones dadas en el segundo bloque, o se ordenan bloques de modo que quede una secuencia correcta de acuerdo a un patrón previamente establecido. Se suelen usar en aquellos cursos donde la adquisición de conocimientos muy detallados es un objetivo importante. Son preguntas fáciles de diseñar, rápidas de calificar y se corrigen automáticamente. Estadísticamente, se tarda más en responder este tipo de preguntas que las preguntas anteriores.
-\item \textbf{Respuesta corta}: basta con que se escriban un par de palabras o una frase sencilla. Una alternativa más común a este tipo de preguntas es la de cubrir los espacios en blanco con una palabra. Son de gran utilidad a la hora de demostrar los conocimientos basados en hechos o palabras claves. La dificultad para calificarlas depende del estilo que se decida emplear.
-\end{itemize}
+\subsection{Ventajas en un sistema de capacitación automatizado}
+Un sistema de entrenamiento asistido por computadora (sistema de capacitación automatizado), permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas principales de la capacitación de los empleados de manera presencial es que las sesiones son frecuentemente inconsistentes y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimiento para garantizar el mismo nivel de entrenamiento para todos los capacitados. Por otra parte, una capacitación presencial requiere la existencia de una persona, por lo general un experto, que supervise al adiestrado y califique su rendimiento. En cambio, con un sistema automatizado, no es necesario desempeñar esta tarea, el propio software se encarga de la supervición y evaluación del operario \cite{Kanev2017}.
 
 \subsection{Proceso de validación de las respuestas}
 En los sistemas de capacitación automatizados pueden utilizarse tres métodos diferentes de validación: manual, semiautomático o automático. Por lo general, el más empleado es el automático, ya que de esta forma se facilita el trabajo para aquellos que deben evaluar a un personal abundante. Según \cite{AltyJames1984}, la manera más efectiva y eficiente de evaluar las respuestas en este tipo de sistemas es mediante el uso de sistemas expertos.
@@ -132,7 +134,7 @@ En \cite{Omuya2021} se detallan los diferentes componentes que integran un siste
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.9\linewidth]{imagen/componentes.png}
+ \includegraphics[width=0.7\linewidth]{imagen/componentes.png}
  \caption{Componentes de un sistema experto}
  \label{fig:componentes} 
 \end{figure}
@@ -173,7 +175,7 @@ A modo de conclusión, dependiendo del ámbito y los objetivos que se persigan, 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Generador de Bases de Conocimiento}
-En octubre del 2017, el Instituto de Investigaciones de la Industria Alimentaria (IIIA), en conjunto con las facultades de Ingeniería Química e Ingeniería Informática de la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), desarrolló un sistema Gestor de Bases de Conocimiento (SGBC). La función principal de este sistema es generar bases de información a partir de los datos introducidos por un usuario determinado. Dichas bases son exportadas en dos tipos especiales de ficheros: \textsl{anm} y \textsl{drl}. Cada uno de estos ficheros contienen información sobre un proceso productivo determinado \cite{Lemus2018}.
+En octubre del 2017, el Instituto de Investigaciones de la Industria Alimentaria (IIIA), en conjunto con las facultades de Ingeniería Química e Ingeniería Informática de la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), desarrolló un Sistema Gestor de Bases de Conocimiento (SGBC). La función principal de este sistema es generar bases de información a partir de los datos introducidos por un usuario determinado. Dichas bases son exportadas en dos tipos especiales de ficheros: \textsl{anm} y \textsl{drl}. Cada uno de estos ficheros contienen información sobre un proceso productivo determinado \cite{Lemus2018}.
 
 \subsection{Funcionamiento del generador}
 El generador tiene como objetivo crear bases de conocimiento sobre procesos productivos industriales. Utiliza reglas de producción como formalismo de representación del conocimiento, las cuales se generan según el formato definido por el motor de inferencia \textsl{Drools}.
@@ -196,3 +198,50 @@ Un archivo \textsl{drl} es donde el motor de inferencia \textsl{Drools} (Sistema
  \caption{Estructura del fichero \textsl{drl} (reglas)}
  \label{fig:reglas} 
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Sistema de entrenamiento SECPROIT}
+En el año 2018 se creó el Sistema Experto para el Control de Procesos Químicos (SECPROIT), sistema diseñado para capacitar a los operarios de la Industria Alimentaria Cubana sobre los diferentes procesos productivos que en ella se realizan. Este sistema fue desarrollado en la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), entre las facultades de Ingeniería Química e Ingeniería Informática. Su objetivo principal es lograr capacitar a los operarios de la industria y, para ello, realiza un conjunto de entrenamientos evaluados por un sistema experto \cite{ElenaAcostaGil2018}.
+
+\subsection{Funcionamiento del SECPROIT}
+El sistema está diseñado para capacitar a los trabajadores de las fábricas a partir de entrenamientos relacionados a los procesos productivos que en ellas se realizan, mediante el uso de un sistema experto. En el sistema, existen tres roles fundamentales: 
+
+\begin{itemize}
+\item Administrador: se encarga del control de los datos del sistema
+\item Especialista: es el responsable de insertar las bases de conocimiento y supervisa los resultados obtenidos por los trabajadores de su área laboral
+\item Operario: realiza los entrenamientos
+\end{itemize}
+
+Cada usuario posee un nombre, una contraseña y un rol, y con cada rol aparecen funcionalidades únicas y específicas. En el caso de los especialistas, para insertar una base de conocimiento deben asociarla a un proceso, y de cada proceso deben registrar el nombre, una imagen si la posee, un fichero tipo \textsl{anm} y un archivo \textsl{drl} \cite{Lemus2018}.
+
+El operario entrará a realizar aquellos entrenamientos que el especialista haya validado. Una vez comenzada la prueba, deberá señalar de un grupo de variables las que por su estado estén en peligro de inestabilidad. Si ha seleccionado correctamente pasa a la siguiente etapa, donde debe escoger qué causa el estado de las variables que prefirió. Por último deberá seleccionar qué recomendaciones seguir para cada causa que señaló \cite{ElenaAcostaGil2018}.
+
+El SECPROIT posee un grupo de reportes que facilita la toma de decisiones a partir de los resultados alcanzados. El especialista puede contar con una lista de resultados de cada operario de su área y, de esta forma, se garantiza la selección de los mejores trabajadores a partir de la organización brindada por la lista. También se puede encontrar un listado de los cambios realizados en el sistema, junto con la fecha y el nombre del usuario que lo realizó.
+
+\subsection{Limitaciones actuales del sistema}
+Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias. Estas son:
+\begin{itemize}
+\item Cada vez que se desea utilizar la información obtenida por el generador es extraída directamente desde sus ficheros, lo que genera una demora extra en el sistema
+\item Solo existe un modo de pregunta, por lo que resulta redundante el método de evaluación
+\item El tiempo utilizado en responder el entrenamiento no influye en la nota final del mismo
+\item La etapa de las recomendaciones no se evalúa correctamente, ni muestra los puntos recibidos
+\item Cada etapa se evalúa de manera continúa sin oportunidad de una pausa.
+\item Si se suspende una etapa el entrenamiento continúa hasta el final, por lo que aparecen etapas innecesariamente
+\item Por cada proceso existe un único entrenamiento.
+\item Presenta una interfaz gráfica poco vistosas y de colores muy oscuros que generan desagrado en los usuarios
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusiones parciales}
+Al concluir el capítulo se puede arribar a las siguientes conclusiones:
+\begin{itemize}
+\item La capacitación constante de los trabajadores de una empresa ayuda al rendimiento de la misma y evita errores futuros
+\item Los sistemas de capacitación automatizados permiten el entrenamiento del personal laboral sin la necesidad de un supervisor, lo que ahorra tiempo y recursos humanos a la empresa
+\item En un sistema de capacitación automatizados se pueden medir tantos parámetros de aprendizaje como herramientas se tenga
+\item En los sistemas digitales, el color naranja aumenta la concentración y el nivel de aprendizaje, por lo que este color es muy utilizado en los sistemas de entrenamiento y en sistemas estudiantiles
+\item Los sistemas expertos facilitan el proceso de evaluación de los sistemas de entrenamiento digitales
+\item El SGBC genera las bases de conocimiento del sistema SECPROIT y puede ser utilizado para cualquier tipo de proceso productivo dentro de la Industria Alimentaria Cubana
+\item El sistema SECPROIT posee un conjunto de limitaciones que impiden su completo funcionamiento
+\end{itemize}

@@ -5,25 +5,30 @@
 \contentsline {subsection}{\numberline {1.1.1}Caracter\IeC {\'\i }sticas de un sistema de capacitaci\IeC {\'o}n}{5}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Importancia de una buena capacitaci\IeC {\'o}n}{6}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Proceso de evaluaci\IeC {\'o}n en una capacitaci\IeC {\'o}n}{6}{subsection.1.1.3}
-\contentsline {subsubsection}{Fases del proceso de evaluaci\IeC {\'o}n}{6}{section*.10}
-\contentsline {subsection}{\numberline {1.1.4}Proceso de validaci\IeC {\'o}n de las respuestas}{7}{subsection.1.1.4}
+\contentsline {subsubsection}{Fases del proceso de evaluaci\IeC {\'o}n}{7}{section*.10}
+\contentsline {subsection}{\numberline {1.1.4}Proceso de validaci\IeC {\'o}n de las respuestas}{8}{subsection.1.1.4}
 \contentsline {section}{\numberline {1.2}Sistemas de capacitaci\IeC {\'o}n automatizados}{8}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Ventajas de un sistema de capacitaci\IeC {\'o}n automatizado}{8}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Colores utilizados en un sistema digital}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.1}Tipos de preguntas en un sistema de capacitaci\IeC {\'o}n automatizado}{8}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Colores utilizados en un sistema digital}{9}{subsection.1.2.2}
 \contentsline {subsubsection}{Psicolog\IeC {\'\i }a del color}{9}{section*.11}
 \contentsline {subsubsection}{Significado de los colores}{9}{section*.12}
-\contentsline {subsubsection}{Combinaci\IeC {\'o}n de colores}{9}{section*.13}
-\contentsline {subsection}{\numberline {1.2.3}Tipos de preguntas en un sistema de capacitaci\IeC {\'o}n automatizado}{10}{subsection.1.2.3}
+\contentsline {subsubsection}{Combinaci\IeC {\'o}n de colores}{10}{section*.13}
+\contentsline {subsection}{\numberline {1.2.3}Ventajas en un sistema de capacitaci\IeC {\'o}n automatizado}{11}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Proceso de validaci\IeC {\'o}n de las respuestas}{11}{subsection.1.2.4}
 \contentsline {section}{\numberline {1.3}Sistemas expertos}{11}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Componentes de un sistema experto}{11}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Componentes de un sistema experto}{12}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Desventajas de los sistemas expertos}{12}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Ventajas de los sistemas expertos}{13}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Generador de Bases de Conocimiento}{14}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Funcionamiento del generador}{14}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Informaci\IeC {\'o}n de los ficheros anm}{14}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}Informaci\IeC {\'o}n de los ficheros drl}{15}{subsection.1.4.3}
-\contentsline {chapter}{Conclusiones}{16}{section*.14}
-\contentsline {chapter}{Recomendaciones}{17}{section*.16}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{18}{section*.18}
-\contentsline {chapter}{Anexos}{20}{section*.20}
+\contentsline {section}{\numberline {1.5}Sistema de entrenamiento SECPROIT}{15}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Funcionamiento del SECPROIT}{16}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Limitaciones actuales del sistema}{16}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Conclusiones parciales}{17}{section.1.6}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 2: Desarrollo del nuevo sistema}{18}{chapter*.14}
+\contentsline {chapter}{Conclusiones}{19}{section*.15}
+\contentsline {chapter}{Recomendaciones}{20}{section*.17}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{21}{section*.19}
+\contentsline {chapter}{Anexos}{23}{section*.21}

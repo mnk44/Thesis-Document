@@ -137,7 +137,7 @@ determinándolas en el futuro.},
 }
 
 @PhdThesis{ElenaAcostaGil2018,
-  author   = {Elena Acosta Gil, Raisa Socorro Llanes},
+  author   = {Elena Acosta Gil and Raisa Socorro Llanes},
   school   = {Universidad Tecnológica de la Habana “José Antonio Echeverría”},
   title    = {Sistema para el entrenamiento de operarios en procesos tecnológicos en la Industria Alimentaria},
   year     = {2018},
@@ -457,4 +457,4 @@ Este trabajo fin de grado se ha basado en la unificación de todas las normas qu
   volume       = {24},
   abstract     = {In this paper we argue that systems for numerical computing are stuck in a local basin of performance and programmability. Systems researchers are doing an excellent job improving the performance of 5-year-old benchmarks, but gradually making it harder to explore innovative machine learning research ideas.
 
-We explain how the evolution of hardware accelerators favors compil
+We explain how the evolution of hardware accelerators favors com

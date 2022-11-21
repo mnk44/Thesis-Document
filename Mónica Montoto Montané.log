@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  21 NOV 2022 04:03
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  21 NOV 2022 05:03
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -548,7 +548,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=99, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=119, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 ! Undefined control sequence.
@@ -588,20 +588,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
-\tf@toc=\write5
  [4
 
 
-]
+])
+\tf@toc=\write5
+ [5]
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.lot")
 \tf@lot=\write6
- [5
+ [6
 
 ]
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.lof")
 \tf@lof=\write7
- [6
+ [7
 
 ]
 ! Undefined control sequence.
@@ -625,40 +625,43 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=235, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=263, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9]
-<imagen/gama.png, id=269, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=297, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [10 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [11]
-<imagen/componentes.png, id=290, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=319, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [12 <E:/Escuela/Tesis/Informe/imagen/componentes.p
-ng>] [13] [14] <imagen/rules.png, id=316, 214.55156pt x 108.405pt>
+ng>] [13] [14] <imagen/rules.png, id=345, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
-<use imagen/rules.png>) [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG cop
-y)>] (E:\Escuela\Tesis\Informe\cap2.tex) (E:\Escuela\Tesis\Informe\cap3.tex)
-(E:\Escuela\Tesis\Informe\conc.tex) [16
+<use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
+)>] [16]) [17] (E:\Escuela\Tesis\Informe\cap2.tex) [18
+
+
+
+]
+(E:\Escuela\Tesis\Informe\cap3.tex) (E:\Escuela\Tesis\Informe\conc.tex)
+[19
 
 
 
 
 
 
-
-
-] (E:\Escuela\Tesis\Informe\rec.tex)
-[17
+] (E:\Escuela\Tesis\Informe\rec.tex) [20
 
 
 
 
-] ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.bbl"
+]
+("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.bbl"
 
 ! Package inputenc Error: Unicode char \u8:Â  not set up for use with LaTeX.
 
@@ -725,7 +728,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[18
+[21
 
 
 
@@ -783,7 +786,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[19])
+[22])
 ! Undefined control sequence.
 l.82 	\breakpage
                 
@@ -804,7 +807,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[20] (E:\Escuela\Tesis\Informe\anexo.tex)
+[23] (E:\Escuela\Tesis\Informe\anexo.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
 
@@ -826,13 +829,13 @@ Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6007 strings out of 494019
- 89596 string characters out of 3143892
+ 6021 strings out of 494019
+ 89765 string characters out of 3143892
  181955 words of memory out of 3000000
- 9013 multiletter control sequences out of 15000+200000
+ 9018 multiletter control sequences out of 15000+200000
  9799 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,6n,30p,1246b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,6n,30p,1246b,569s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
@@ -840,9 +843,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on "Mónica Montoto Montané.pdf" (27 pages, 548040 bytes).
+Output written on "Mónica Montoto Montané.pdf" (31 pages, 558790 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

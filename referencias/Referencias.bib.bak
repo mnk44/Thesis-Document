@@ -321,4 +321,114 @@ of the advisory system},
   url      = {https://www.researchgate.net/profile/Ali-Obaid-9/publication/327932870_TOOLS_FOR_CONCEPTUAL-ALGORITHMIC_PROTOTYPING_IN_SOLVING_DESIGN_PROBLEMS_IN_THE_DEVELOPMENT_OF_SYSTEMS_WITH_SOFTWARE_Authors/links/5bae1996a6fdccd3cb7949ec/TOOLS-FOR-CONCEPTUAL-ALGORITHMIC-PROTOTYPING-IN-SOLVING-DESIGN-PROBLEMS-IN-THE-DEVELOPMENT-OF-SYSTEMS-WITH-SOFTWARE-Authors.pdf#page=185},
 }
 
+@TechReport{Laguna2016,
+  author      = {Estefanía Ventura Laguna},
+  institution = {Universidad: Rey Juan Carlos},
+  title       = {Metodología estándar para el entrenamiento básico de un panel de catadores},
+  year        = {2016},
+  address     = {Móstoles, Madrid, España},
+  month       = jul,
+  number      = {24},
+  type        = {candthesis},
+  abstract    = {Un panel es un instrumento fundamental hoy en día en la industria alimentaria, este instrumento es un grupo de personas (jueces) que han sido entrenados en las distintas pruebas de análisis sensorial. El análisis sensorial es una ciencia que cuantifica la interacción entre los alimentos y las personas. Estos ensayos son ensayos rigurosos que están fundamentados en pruebas, permitiendo evaluar diferentes propiedades y atributos de un producto solo utilizando los sentidos. Todas estas pruebas están elaboradas en distintas normas, estas normas son fundamentales puesto que permiten disponer de dicha herramienta y tenerla siempre en las mejores condiciones. Es necesario tenerla a punto siempre y para ello los jueces deben de estar sometidos a continuos entrenamientos con los productos para los cuales se haya creado el panel, dicho entrenamiento se encuentra regulado en distintas UNES e ISOS, pero se apoya fundamentalmente en la UNE-EN ISO 8586. Sin estas unes no nos permitirán crear paneles  iables. Este panel está basado en la ciencia del análisis sensorial, dicha disciplina científica se utiliza para provocar, medir, analizar e interpretar reacciones a características de los alimentos y otros materiales tal como son percibidas por los sentidos la vista, el gusto, el tacto y el oído. La base fundamental que hará que el panel entienda esta ciencia, su metodología y disponga de los conocimientos básicos para realizar de una manera correcta cada prueba será un entrenamiento básico común para cualquier tipo de producto con el cual queramos especializar al panel. Este trabajo se ha fundamentado en el desarrollo de una metodología estándar que permita el entrenamiento básico a través del apoyo en las distintas normas disponibles para ello, que será la base de la formación del panel. Este entrenamiento está basado en principalmente:
+Pruebas triangulares: donde a cada juez se le presenta tres muestras y tienen que decir que muestra es la distinta, siendo importante para la detección de estímulos es decir para aprender a reconocer los distintos sabores básicos. UNE- EN ISO 4120
+- Pruebas de ordenación: donde se le presentan al juez tres muestras en caso de sabores básico o diez muestras en el caso de la las texturas, donde tienen que colocarla de menor a mayor concentración o de más firme a menos firme, con esta prueba aprenderá a diferenciar y a ordenar distintas concentraciones o intensidades de un atributo. UNE- EN ISO 8587
+- Entrenamiento en escalas: para medir la intensidad de un atributo en el alimento se utilizan escalas de medida por lo que es fundamental que el juez sea capaz de entrenar su memoria espacial, ya que se le pide que cuantifiquen la percepción en cuanto a la intensidad frente a un estímulo. UNE- ISO 4121
+- Pruebas descriptivas: donde se les pide a cada juez que prueben o huelan una serie de muestras sin verlas y tienen que decir o describir a que les recuerda o que les evoca. Este tipo de pruebas nos permitirá conocer el vocabulario del que dispone el panel.
+El desarrollo de un entrenamiento básico es un trabajo que requiere de mucho esfuerzo y de un trabajo grande por todo el equipo y los jueces, llegando a durar en el tiempo hasta 8 meses de trabajo, si se entran entre 2 y 3 veces al mes. Es importante que se controle toda la calidad implícita en estos ensayos, desde la elaboración de unos buenos cuestionarios que dejen claras las instrucciones de la prueba como procedimientos que indiquen al personal responsable como se debe de llevar a cabo cada sesión. Dicho trabajo sería mucho más difícil y se prologaría mucho más en el tiempo si no se dispusiera de unas herramientas fundamentales como lo son las normas.
+Un panel entrenado es una herramienta fundamental en el sector alimentario, entre muchas de sus funciones nos va a servir para:
+- Detectar cambios en la materia prima utilizada para la elaboración de un producto, evitando el rechazo por parte del consumidor y con ello la gran pérdida económica que con llevaría a la empresa.
+- Son capaces de dar información útil y detalla del producto que evalúen facilitando la formación de fichas técnicas del producto.
+- Permiten identificar cambios en la formulación del producto, evitando así que dicho producto llegue al consumidor y pueda ser retirado del mercado.
+- Permite detectar cambio a lo largo de la vida útil del producto, definiendo hasta cuando un producto es no solo seguro si no que sea organolépticamente adecuado para el consumidor.
+- Permite el control de la calidad de un producto detectando sabores u olores atípicos.
+Este trabajo fin de grado se ha basado en la unificación de todas las normas que permiten la formación de un panel y su entrenamiento básico, convirtiéndose en una guía para el sector alimentario fácil y sencilla, con un vocabulario que permite su comprensión sin la necesidad de poseer una base previa en esta disciplina.},
+  comment     = {Esta bibliografía contiene un grupo de preguntas básicas a aplicar en un entrenamiento, así como su forma de evaluación},
+  file        = {:C\:\\Monik\\Escuela\\Practicas\\Tesis\\Prácticas 2do\\Prácticas 3ro.Data\\PDF\\4043663521\\141_255408.pdf:PDF},
+  school      = {Universidad: Rey Juan Carlos},
+}
+
+@Book{AltyJames1984,
+  author    = {Alty James L and Coombs Martin J},
+  editor    = {John Wiley and Sons Inc.},
+  publisher = {John Wiley and Sons Inc., New York, NY},
+  title     = {Expert systems: concepts and examples},
+  year      = {1984},
+  address   = {New York, United States},
+  edition   = {V},
+  isbn      = {5792413},
+  month     = jan,
+  note      = {99 GENERAL AND MISCELLANEOUS//MATHEMATICS, COMPUTING, AND INFORMATION SCIENCE; EXPERT SYSTEMS; REVIEWS; ARTIFICIAL INTELLIGENCE; C CODES; COMPUTER CALCULATIONS; COMPUTER CODES; DATA PROCESSING; I CODES; M CODES; P CODES; R CODES; DOCUMENT TYPES; PROCESSING; 990200},
+  number    = {34},
+  series    = {2},
+  volume    = {62},
+  abstract  = {Expert systems and associated facilities are having a growing impact in various commercial, industrial, educational and other sectors. This book aims to help computer specialists understand the concepts underlying expert systems and to appreciate what is being accomplished in existing systems of this type. The contents are divided into background concepts and examples of expert systems.},
+  comment   = {En este libro se aborda el concepto de Sistema Experto. Propone ejemplos y brinda información relevante sobre los mismos.},
+  journal   = {John Wiley and Sons, Inc., New York, NY},
+  url       = {https://www.osti.gov/biblio/5792413},
+}
+
+@PhdThesis{Paspuezan2022,
+  author   = {Cisneros Paspuezán and Jhosselyn Mishell},
+  school   = {Universidad Técnica del Norte},
+  title    = {Aplicación de las tendencias de color según pantone 2021 para el lenguaje visual},
+  year     = {2022},
+  address  = {Ibarra, Ecuador},
+  month    = mar,
+  type     = {candthesis},
+  abstract = {El presente proyecto de titulación tiene como finalidad la investigación de las tendencias de color del año 2021 y como se usa la colorimetría en distintos ámbitos profesionales, conocer mediante entrevistas las opiniones de expertos en la comunicación visual y aportar mediante análisis diferentes formas de usar los colores en tendencia enfocados desde la psicología del color y la percepción que provoca su uso adecuado en el cerebro humano. Para lo cual se inicia brevemente con un resumen de lo más relevante sobre estudios de color, las tendencias, información sobre la empresa Pantone como líder de estándares de color, continuando por la división de sectores de la industria que son arte, ilustración, branding, diseño de interiores y maquillaje, se buscó la colaboración de expertos y también se analizó el uso de los colores en tendencia en publicaciones en redes sociales más usadas éste año, todo esto en conjunto aporta el conocimiento necesario para ser plasmado la revista de aplicaciones que tiene como objetivo ampliar la percepción del mundo visto desde la importancia del color y mantener actualizados a los profesionales que necesiten compartir conocimiento y opiniones sobre su uso de la colorimetría en sus proyectos.},
+  url      = {http://repositorio.utn.edu.ec/handle/123456789/12207},
+}
+
+@MastersThesis{TerronLopez2022,
+  author   = {Pilar Terrón-López},
+  school   = {UNIVERSIDAD INTERNACIONAL DE LA RIOJA, ESCUELA SUPERIOR DE INGENIERÍA Y TECNOLOGÍA},
+  title    = {El uso del color en la interfaz gráfica de los videojuegos},
+  year     = {2022},
+  address  = {La Rioja, España},
+  month    = feb,
+  type     = {mathesis},
+  abstract = {En este Trabajo Fin de Máster se pretende dar respuesta a la siguiente pregunta de investigación: ¿Cómo afecta el color en la interfaz gráfica y en su comunicación con el jugador? Para conseguir dar respuesta a esta pregunta se analiza el color desde diferentes criterios inherentes en la interfaz gráfica de los videojuegos como son: tecnología, personajes, escenarios, HUD, mecánicas, narrativa, taxonomía del jugador y jugador con dificultades cromáticas. Existen estudios sobre color e interfaz gráfica desde diferentes criterios, pero no se analiza el cómo el color afecta a éstos. En este trabajo se presenta un análisis de cómo afecta el color a cada uno de estos criterios. Una vez analizado cómo la teoría del color afecta a todos estos parámetros, se han evaluado una serie de videojuegos representativos, para ver en qué medida afecta su uso a la interfaz gráfica. Así, se ha podido observar como el color es un recurso que va más allá del uso estético, sino que transmite emociones. Se ha comprobado que un buen uso del color ayuda al jugador durante el videojuego ya que en muchos de los videojuegos analizados el color refuerza las mecánicas y potencia la personalidad de los personajes entre otros.},
+  file     = {:C\:/Users/HP/Downloads/Terrón López, Pilar.pdf:PDF},
+  keywords = {color; videojuegos; interfaz; personajes; emociones; videogames; interface; characters; emotions; Máster Universitario en Diseño Gráfico Digital},
+  url      = {https://reunir.unir.net/handle/123456789/12802},
+}
+
+@Article{Poddar2013,
+  author    = {Poddar, Rajesh and Kawai, Risa and {\"O}lveczky, Bence P},
+  journal   = {PloS one},
+  title     = {A fully automated high-throughput training system for rodents},
+  year      = {2013},
+  issn      = {2434-9451},
+  month     = dec,
+  number    = {12},
+  pages     = {83--171},
+  volume    = {8},
+  abstract  = {Abordar los mecanismos neuronales que subyacen a los comportamientos aprendidos complejos requiere entrenar a los animales en tareas bien controladas, un proceso que a menudo requiere mucho tiempo y trabajo que puede limitar severamente la viabilidad de tales estudios. Para superar esta limitación, desarrollamos un sistema de propósito general totalmente controlado por computadora para el entrenamiento de roedores de alto rendimiento. Al estandarizar y automatizar la implementación de protocolos de entrenamiento predefinidos dentro de la jaula de los animales, nuestro sistema reduce drásticamente los esfuerzos involucrados en el entrenamiento de los animales al tiempo que elimina los errores humanos y los sesgos del proceso. Implementamos este sistema para entrenar ratas en una variedad de tareas sensoriomotoras, logrando tasas de aprendizaje comparables a los métodos existentes, pero más laboriosos. Al aumentar progresiva y sistemáticamente la dificultad de la tarea durante semanas de entrenamiento, las ratas pudieron dominar tareas motoras que, en complejidad y estructura, se asemejan a las utilizadas en estudios de aprendizaje de secuencias motoras en primates. Al permitir el entrenamiento totalmente automatizado de roedores en una jaula doméstica, este sistema modular y de bajo costo aumenta la utilidad de los roedores para estudiar los fundamentos neuronales de una variedad de comportamientos complejos.},
+  doi       = {https://doi.org/10.1371/journal.pone.0083171},
+  publisher = {Public Library of Science San Francisco, USA},
+  url       = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0083171},
+}
+
+@InProceedings{Lo2010,
+  author       = {Wai-Kit Lo and Shuang Zhang and Helen Meng},
+  booktitle    = {Eleventh annual conference of the international speech communication association},
+  title        = {Automatic derivation of phonological rules for mispronunciation detection in a computer-assisted pronunciation training system},
+  year         = {2010},
+  address      = {Makuhari, Chiba, Japan},
+  editor       = {INTERSPEECH},
+  month        = sep,
+  number       = {25},
+  organization = {Department of Systems Engineering and Engineering Management,},
+  pages        = {765--768},
+  publisher    = {ISCA},
+  series       = {6},
+  volume       = {4},
+  abstract     = {Computer-Assisted Pronunciation Training System (CAPT) has become an important learning aid in second language (L2) learning. Our approach to CAPT is based on the use of phonological rules to capture language transfer effects that may cause mispronunciations. This paper presents an approach for automatic derivation of phonological rules from L2 speech. The rules are used to generate an extended recognition network (ERN) that captures the canonical pronunciations of words, as well as the possible mispronunciations. The ERN is used with automatic speech recognition for mispronunciation detection. Experimentation with an L2 speech corpus that contains recordings from 100 speakers aims to compare the automatically derived rules with manually authored rules.
+Comparable performance is achieved in mispronunciation detection (i.e. telling which phone is wrong). The automatically derived rules also offer improved performance in diagnostic
+accuracy (i.e. identify how the phone is wrong).},
+  keywords     = {pronunciation training, phonological rules,mispronunciation detection, language learning},
+  url          = {https://www.isca-speech.org/archive_v0/archive_papers/interspeech_2010/i10_0765.pdf},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -112,3 +112,21 @@ E-Recm. & Es un tipo de etapa, donde se evalúan las recomendaciones \\
 \end{table}
 
 \subsection{Reglas del negocio}
+Las reglas de un negocio son directrices y restricciones que ayudan a regular las operaciones de una entidad determinada. Para cada proceso existen reglas que deben seguirse durante la ejecución, ya que estas ayudan a definir \textbf{cómo} deben realizarse las tareas, por \textbf{quién}, \textbf{cuándo}, \textbf{dónde} y \textbf{por qué} \cite{Chisholm2007}. A modo de resumen, las reglas de un negocio son límites impuestos a las operaciones para que estén en sintonía con las políticas y objetivos de la institución.
+
+En el sistema SECPROIT existen un conjunto de reglas primordiales que no se deben dejar de cumplir. Estas son:
+\begin{itemize}
+\item Cada usuario debe poseer un único rol
+\item Para poder introducir un nuevo usuario debe existir, al menos, un área laboral
+\item Un usuario no puede pertenecer a más de un área
+\item Para poder introducir un nuevo proceso debe existir, al menos, un área laboral
+\item Un proceso no puede pertenecer a más de un área
+\item Para generar un nuevo entrenamiento debe existir, al menos, un usuario que cumpla el rol de operario y un proceso que sea de la misma área que el operario
+\item Para entrenar en la etapa de las causas debe haberse aprobado la etapa de las variables
+\item Para entrenar en la etapa de las recomendaciones debe haberse aprobado la etapa de las causas
+\item Los usuarios con rol de administrador son los únicos que pueden gestionar las áreas y las cuentas de los usuarios
+\item No se puede eliminar la cuenta de un usuario
+\item Los usuarios con rol de jefe de área son los únicos que pueden gestionar los procesos de sus áreas y configurar los entrenamientos
+\item Los usuarios con rol de operario son los únicos que pueden entrenar
+\item Para que un usuario supere un entrenamiento debe haber aprobado las tres etapas (variables, causas y recomendaciones)
+\end{itemize} 

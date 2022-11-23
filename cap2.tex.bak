@@ -64,12 +64,11 @@ Variable-Causa & Forma parte de la información contenida en la base de reglas d
 Causa-Recm. & Forma parte de la información contenida en la base de reglas del proceso, se evalúan en la primera etapa \\
 \hline
 \end{tabular}
-\caption{Entidades que no sufrieron cambios}
+\caption{Modelo de dominio: entidades que no sufrieron cambios}
 \label{tab:ent-azul}
 \end{center}
 \end{table}
 
-\usepackage{float}
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{ | c | p{5cm} |  p{5cm} | }
@@ -85,7 +84,7 @@ Proceso & Representa los procesos & Se le agrega un nuevo atributo: la configura
 Entrenamiento & Representa el entrenamiento del usuario & Se le agregan las etapas \\
 \hline
 \end{tabular}
-\caption{Entidades que sufrieron cambios}
+\caption{Modelo de dominio: entidades que sufrieron cambios}
 \label{tab:ent-amarilla}
 \end{center}
 \end{table}
@@ -107,23 +106,9 @@ E-Causa & Es un tipo de etapa, donde se evalúan las causas \\
 E-Recm. & Es un tipo de etapa, donde se evalúan las recomendaciones \\
 \hline
 \end{tabular}
-\caption{Entidades nuevas}
+\caption{Modelo de dominio: entidades nuevas}
 \label{tab:ent-verde}
 \end{center}
 \end{table}
 
-\subsection{Reglas del Negocio}
-Cada negocio posee un conjunto de restricciones que permiten su correcto funcionamiento. Estas restricciones son conocidas como reglas del negocio.
-Las reglas a cumplir en este nuevo sistemas son:
-
-\begin{itemize}
-\item Antes de crear un usuario, deben haberse creado los roles del sistema y las áreas laborales.
-\item Antes de crear un proceso, deben haberse creado las áreas laborales.
-\item Antes de crear un entrenamiento debe existir un proceso y al menos un operario.
-\item Antes de realizar el entrenamiento de las causas se debe haber aprobado el entrenamiento de las variables.
-\item Antes de realizar el entrenamiento de las recomendaciones se debe haber aprobado el entrenamiento de las causas.
-\item Los usuarios solo pueden poseer un rol.
-\item Los usuarios solo pueden pertenecer a un área a la vez.
-\item Los procesos solo pueden pertenecer a un área a la vez.
-\item Las tareas de los roles son únicas para el usuario, es decir, solo las pueden hacer los usuarios con el mismo rol.
-\end{itemize} 
+\subsection{Reglas del negocio}

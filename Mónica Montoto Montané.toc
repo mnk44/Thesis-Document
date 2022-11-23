@@ -31,7 +31,8 @@
 \contentsline {section}{\numberline {2.1}Descripci\IeC {\'o}n del negocio}{18}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Modelo de dominio}{18}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Reglas del negocio}{21}{subsection.2.1.2}
-\contentsline {chapter}{Conclusiones}{22}{section*.15}
-\contentsline {chapter}{Recomendaciones}{23}{section*.17}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{24}{section*.19}
-\contentsline {chapter}{Anexos}{26}{section*.21}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n de la soluci\IeC {\'o}n}{22}{chapter*.15}
+\contentsline {chapter}{Conclusiones}{23}{section*.16}
+\contentsline {chapter}{Recomendaciones}{24}{section*.18}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{25}{section*.20}
+\contentsline {chapter}{Anexos}{27}{section*.22}

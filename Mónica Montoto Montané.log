@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  23 NOV 2022 02:25
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  23 NOV 2022 02:42
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -556,7 +556,7 @@ LaTeX Info: Redefining \nameref on input line 15.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=131, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=135, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 ! Undefined control sequence.
@@ -633,20 +633,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=286, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=291, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9]
-<imagen/gama.png, id=320, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=325, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [10 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [11]
-<imagen/componentes.png, id=342, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=347, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [12 <E:/Escuela/Tesis/Informe/imagen/componentes.p
-ng>] [13] [14] <imagen/rules.png, id=368, 214.55156pt x 108.405pt>
+ng>] [13] [14] <imagen/rules.png, id=373, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -655,7 +655,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=391, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=396, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -668,15 +668,17 @@ Underfull \hbox (badness 1484) in paragraph at lines 78--79
  []
 
 [19 <E:/Escuela/Tesis/Informe/imagen/dominio.png>] [20]) [21]
-(E:\Escuela\Tesis\Informe\cap3.tex) (E:\Escuela\Tesis\Informe\conc.tex)
-[22
+(E:\Escuela\Tesis\Informe\cap3.tex) [22
+
+
+
+] (E:\Escuela\Tesis\Informe\conc.tex)
+[23
 
 
 
 
-
-
-] (E:\Escuela\Tesis\Informe\rec.tex) [23
+] (E:\Escuela\Tesis\Informe\rec.tex) [24
 
 
 
@@ -749,7 +751,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[24
+[25
 
 
 
@@ -807,7 +809,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[25])
+[26])
 ! Undefined control sequence.
 l.83 	\breakpage
                 
@@ -828,7 +830,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[26] (E:\Escuela\Tesis\Informe\anexo.tex)
+[27] (E:\Escuela\Tesis\Informe\anexo.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 
@@ -850,10 +852,10 @@ Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6106 strings out of 494019
- 90903 string characters out of 3143892
+ 6109 strings out of 494019
+ 90934 string characters out of 3143892
  188818 words of memory out of 3000000
- 9086 multiletter control sequences out of 15000+200000
+ 9087 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1246b,567s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -865,9 +867,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (34 pages, 615727 bytes).
+Output written on "Mónica Montoto Montané.pdf" (35 pages, 618005 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 

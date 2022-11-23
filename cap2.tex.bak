@@ -128,5 +128,57 @@ En el sistema SECPROIT existen un conjunto de reglas primordiales que no se debe
 \item No se puede eliminar la cuenta de un usuario
 \item Los usuarios con rol de jefe de área son los únicos que pueden gestionar los procesos de sus áreas y configurar los entrenamientos
 \item Los usuarios con rol de operario son los únicos que pueden entrenar
-\item Para que un usuario supere un entrenamiento debe haber aprobado las tres etapas (variables, causas y recomendaciones)
-\end{itemize} 
+\item Para superar un entrenamiento se deben haber aprobado las tres etapas (variables, causas y recomendaciones)
+\end{itemize}
+
+\subsection{Diagrama de actividades}
+El Lenguaje Unificado de Modelado (UML) incluye varios subconjuntos de diagramas, entre los que se encuentran los diagramas de actividades. Estos diagramas son considerados diagramas de comportamiento, porque describen lo que debe suceder en el sistema que se está modelando \cite{Eriksson2000}.
+
+En el diagrama de actividades del nuevo sistema (\textsl{Figura \ref{fig:actividades}}) se pueden observar tres colores: azul, amarillo y verde. El color azul indica que el flujo es igual al del sistema
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Captura de requisitos}
+La extracción o captura de los requisitos en un sistema es una de las fases más críticas e importantes en el desarrollo de software. La fase de captura de requisitos tiene como objetivo descubrir y recoger todas las condiciones funcionales y no funcionales de una aplicación. Esta actividad de descubrimiento es una tarea más humana que técnica, ya que la mayor parte de las veces los usuarios no serán capaces de definir todas las condiciones \cite{Dave2022}. 
+
+Para el desarrollo de este sistema se realizó un estudio de requisitos bastante extensivo. Se coordinó con los interesados y se acordó una lista de requerimientos funcionales y no funcionales.
+
+\subsection{Requisitos funcionales}
+Los requisitos funcionales son las declaraciones de los servicios que prestará el sistema. Cuando hablamos de las entradas, no necesariamente hablamos sólo de las de los usuarios, pueden ser interacciones con otros sistemas, respuestas automáticas, procesos predefinidos, entre otros. En algunos casos, los requisitos funcionales también establecen explícitamente lo que el sistema no debe hacer \cite{Dave2022}.
+
+Los requisitos funcionales que posee esta solución ya incluyen los cambios presentados en el modelo de dominio. A las condiciones existentes en el sistema SECPROIT original se les agregó la configuración de los entrenamientos y la gestión de usuarios. Como resultado, los requisitos funcionales de este nuevo sistema son:
+
+\begin{itemize}
+\item \textbf{Cambiar contraseña personal}: es una acción que todos los usuarios pueden realizar.
+\item \textbf{Iniciar sesión en el sistema}: es una acción que todos los usuarios pueden realizar.
+
+\item \textbf{Gestionar usuarios}: es una actividad desarrollada solo por los administradores. Se basa en introducir, modificar y desactivar o activar los usuarios del sistema. También cuenta con una opción para restablecer la contraseña, en caso de que estos la hayan olvidado.
+\item \textbf{Gestionar áreas}: es una actividad desarrollada solo por los administradores. Se basa en introducir, modificar y eliminar las áreas del sistema. Para poder eliminar un área laboral, esta debe estar vacía, es decir, que de ella no dependa ningún usuario.
+\item \textbf{Ver acciones de los usuarios}: es una actividad desarrollada solo por los administradores. Permite observar, en una tabla, todas las actividades realizadas por los usuarios.
+
+\item \textbf{Gestionar procesos}: es una actividad desarrollada solo por los jefes de área. Se basa en introducir, modificar y eliminar los procesos en un área laboral. Si se elimina un proceso, queda registro del mismo y los entrenamientos que se hayan realizado no se pierden.
+\item \textbf{Configurar entrenamiento}: es una actividad desarrollada solo por los jefes de área. Consiste en asignar para cada proceso los estilos de pregunta que se pueden aplicar, la cantidad general de intentos, el tiempo máximo para realizar el entrenamiento y los usuarios que pueden evaluarse.
+\item \textbf{Ver resultados de los operarios del área}: es una actividad desarrollada solo por los jefe de área. Permite observar, en una tabla, todos los resultados de los operarios que pertenezcan a esa área.
+
+\item \textbf{Entrenamiento}: es una acción desarrollada solo por los operarios. Consiste en evaluarse sobre un proceso productivo. Se deben responder un conjunto de preguntas por etapas para luego obtener un resultado general que será registrado en el sistema.
+\item \textbf{Ver resultados}: es una actividad desarrollada solo por los operarios. Permite observar, en una tabla, todos los resultados obtenidos en los entrenamientos.
+\end{itemize}
+
+\subsection{Requisitos No Funcionales}
+Los requisitos no funcionales son condiciones que no se refieren directamente a las funciones específicas suministradas por un sistema (características de usuario), sino a las propiedades del mismo: rendimiento, seguridad, disponibilidad, entre otros. En palabras más sencillas, no hablan de lo que hace el sistema, sino de cómo lo hace. Alternativamente, definen restricciones del sistema tales como la capacidad de los dispositivos de entrada/salida y la representación de los datos utilizados en la interfaz del sistema \cite{Dave2022}.
+
+En este caso, los requisitos no funcionales presentes en este nuevo sistema son los mismos del SECPROIT:
+
+\begin{itemize}
+\item \textbf{Usabilidad}: se debe garantizar un ambiente de trabajo simple e intuitivo, ya que la mayoría de los usuarios no poseen experiencias con sistemas informáticos
+\item \textbf{Seguridad}: la información del sistema solo puede ser manipulada por usuarios autorizados (aquellos que posean usuario y contraseña)
+\item \textbf{Confiabilidad}: se deben evitar los enlaces rotos, los ficheros de los procesos deben ser validados antes de utilizarlos y se debe garantizar la confidencialidad de la información
+\item \textbf{Disponibilidad}: la aplicación de mecanismos de seguridad no debe constituir un retraso para el uso del sistema, el software siempre debe estar disponible, así como brindar su información actualizada
+\item \textbf{Software}: se debe tener instalado el JDK versión 1.8 y la aplicación PostgreSQL versión 9.1 (mínimo) para el manejo de la base de datos
+\item \textbf{Hardware}: se necesitan 64MB de memoria RAM, un microprocesador Pentium II a 450 MHz (mínimo), un disco duro con capacidad libre (mínima) de 4GB y un sistema operativo de entorno gráfico como Windows y Linux
+\item \textbf{Portabilidad}: debe ser utilizado bajo sistemas operativos Windows o Linux, por lo que su desarrollo debe realizarse con un lenguaje y tecnologías capaces de brindar este soporte
+\item \textbf{Restricciones en el diseño y la implementación}: debe desarrollarse sobre plataformas de software libre y código abierto y su lenguaje de programación debe ser Java, debido al uso de la herramienta \textsl{Drools}
+\item \textbf{Políticos/Culturales}: debe encontrarse en idioma español
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

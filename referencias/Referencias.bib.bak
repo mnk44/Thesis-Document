@@ -494,4 +494,53 @@ We conclude by noting promising directions in the field, and advocate steps to a
   url      = {https://arxiv.org/ftp/arxiv/papers/1211/1211.0713.pdf},
 }
 
+@Book{Chisholm2007,
+  author    = {Chisholm, Malcolm},
+  editor    = {Lothlórien Homet},
+  publisher = {Morgan Kaufmann},
+  title     = {How to build a business rules engine: Extending application functionality through metadata engineering},
+  year      = {2007},
+  address   = {500 Sansome Street, San Fransisco, United States},
+  edition   = {Kristin Landon},
+  isbn      = {1-55860-918-0},
+  month     = feb,
+  number    = {5},
+  series    = {42},
+  volume    = {9},
+  url       = {https://books.google.com.cu/books?hl=es&lr=&id=wtLPE9xouRQC&oi=fnd&pg=PR17&dq=business+rules+engine&ots=lAxR9Co1Gm&sig=FJYNXUPa2KcWg7SOPOqcWWxFohQ&redir_esc=y#v=onepage&q=business rules engine&f=false},
+}
+
+@Article{Eriksson2000,
+  author  = {Eriksson, Hans-Erik and Penker, Magnus},
+  journal = {New York},
+  title   = {Business modeling with UML},
+  year    = {2000},
+  issn    = {90049-78909},
+  month   = mar,
+  number  = {1},
+  pages   = {12},
+  volume  = {12},
+  url     = {https://www.utm.mx/~caff/poo2/Business Modeling with UML.pdf},
+}
+
+@InProceedings{Dave2022,
+  author       = {Dave, Dev and Anu, Vaibhav},
+  booktitle    = {2022 IEEE International IOT, Electronics and Mechatronics Conference (IEMTRONICS)},
+  title        = {Identifying Functional and Non-functional Software Requirements From User App Reviews},
+  year         = {2022},
+  address      = {Toronto, ON, Canada},
+  editor       = {IIE},
+  month        = jun,
+  number       = {97},
+  organization = {IEEE},
+  pages        = {1--6},
+  publisher    = {IEEE International IOT},
+  series       = {12},
+  volume       = {9},
+  abstract     = {Mobile app developers are always looking for ways to use the reviews (provided by their app’s users) to improve their application (e.g., adding a new functionality in the app that a user mentioned in their review). Usually, there are thousands of user reviews that are available for each mobile app and isolating software requirements manually from such as big dataset can be difficult and time-consuming. The primary objective of the current research is to automate the process of extracting functional requirements and filtering out non-requirements from user app reviews to help app developers better meet the wants and needs of their users. This paper proposes and evaluates machine learning based models to identify and classify software requirements from both, formal Software Requirements Specifications (SRS) documents and Mobile App Reviews (written by users) using machine learning (ML) algorithms combined with natural language processing (NLP) techniques. Initial evaluation of our ML-based models show that they can help classify user app reviews and software requirements as Functional Requirements (FR), Non-Functional Requirements (NFR), or Non-Requirements (NR).},
+  doi          = {10.1109/IEMTRONICS55184.2022.9795770},
+  keywords     = {Mechatronics,Machine learning algorithms,Filtering,Conferences,Software algorithms,Machine learning,Software},
+  url          = {https://ieeexplore.ieee.org/abstract/document/9795770},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

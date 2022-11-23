@@ -153,4 +153,22 @@ M.~Chisholm, {\em How to build a business rules engine: Extending application
 \newblock 500 Sansome Street, San Fransisco, United States: Morgan Kaufmann,
   kristin landon~ed., Feb. 2007.
 
+\bibitem{Eriksson2000}
+H.-E. Eriksson and M.~Penker, ``Business modeling with uml,'' {\em New York},
+  vol.~12, p.~12, Mar. 2000.
+
+\bibitem{Dave2022}
+D.~Dave and V.~Anu, ``Identifying functional and non-functional software
+  requirements from user app reviews,'' in {\em 2022 IEEE International IOT,
+  Electronics and Mechatronics Conference (IEMTRONICS)} (IEEE, ed.), vol.~9 of
+  {\em 12}, (Toronto, ON, Canada), pp.~1--6, IEEE, IEEE International IOT, June
+  2022.
+
+\bibitem{Kalaivani2004}
+S.~Kalaivani, L.~Dong, H.~Behrouz, and A.~Eberlein, ``Ucda: Use case driven
+  development assistant tool for class model generation,'' in {\em Software
+  Engineering and Knowledge Engineering} (IEEE, ed.), vol.~3 of {\em 16},
+  (United States), pp.~324--329, IEEE, 10th Ieee International Enterprise
+  Distributed Object Computing Conference, Proceedings, Dec. 2004.
+
 \end{thebibliography}

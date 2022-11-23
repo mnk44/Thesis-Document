@@ -41,7 +41,7 @@ A.~M.~R. Riverón, R.~S. Llanes, and G.~C. Lemus, {\em Sistema para gestionar
   Echeverría”, La Habana, Cuba, Oct. 2017.
 
 \bibitem{ElenaAcostaGil2018}
-R.~S.~L. Elena Acosta~Gil, {\em Sistema para el entrenamiento de operarios en
+E.~A. Gil and R.~S. Llanes, {\em Sistema para el entrenamiento de operarios en
   procesos tecnológicos en la Industria Alimentaria}.
 \newblock software, Universidad Tecnológica de la Habana “José Antonio
   Echeverría”, La Habana, Cuba, June 2018.
@@ -84,10 +84,10 @@ ISEM, ``Entrenamiento basado en computador para operadores y mantenedores de
   planta.'' 6 enero 2014, June 2022.
 \newblock Instituto de Seguridad Minera (ISEM).
 
-\bibitem{Kanev2017}
-D.~Kanev, ``System recommendations for assessment of action onthe example of
-  designer cad,'' {\em Interactive Systems: Problems of Human-Computer
-  Interaction Collection of scientific papers}, vol.~7, pp.~185--189, May 2017.
+\bibitem{Laguna2016}
+E.~V. Laguna, ``Metodología estándar para el entrenamiento básico de un
+  panel de catadores,'' candthesis~24, Universidad: Rey Juan Carlos, Móstoles,
+  Madrid, España, July 2016.
 
 \bibitem{Paspuezan2022}
 C.~Paspuezán and J.~Mishell, {\em Aplicación de las tendencias de color
@@ -100,10 +100,10 @@ P.~Terrón-López, ``El uso del color en la interfaz gráfica de los
   videojuegos,'' mathesis, UNIVERSIDAD INTERNACIONAL DE LA RIOJA, ESCUELA
   SUPERIOR DE INGENIERÍA Y TECNOLOGÍA, La Rioja, España, Feb. 2022.
 
-\bibitem{Laguna2016}
-E.~V. Laguna, ``Metodología estándar para el entrenamiento básico de un
-  panel de catadores,'' candthesis~24, Universidad: Rey Juan Carlos, Móstoles,
-  Madrid, España, July 2016.
+\bibitem{Kanev2017}
+D.~Kanev, ``System recommendations for assessment of action onthe example of
+  designer cad,'' {\em Interactive Systems: Problems of Human-Computer
+  Interaction Collection of scientific papers}, vol.~7, pp.~185--189, May 2017.
 
 \bibitem{AltyJames1984}
 A.~J. L and C.~M. J, {\em Expert systems: concepts and examples}, vol.~62 of
@@ -142,5 +142,9 @@ P.~Barham and M.~Isard, ``Machine learning systems are stuck in a rut,'' in
 T.~Mitchell, B.~Buchanan, G.~DeJong, T.~Dietterich, P.~Rosenbloom, and
   A.~Waibel, ``Machine learning,'' {\em Annual review of computer science},
   vol.~4, pp.~417--433, May 1990.
+
+\bibitem{Herchi2012}
+H.~Herchi and W.~B. Abdessalem, ``From user requirements to uml class
+  diagram,'' {\em arXiv preprint arXiv}, vol.~2, p.~4, Nov. 2012.
 
 \end{thebibliography}

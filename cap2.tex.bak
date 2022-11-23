@@ -3,4 +3,127 @@
 \setcounter{section}{0}
 \addcontentsline{toc}{chapter}{Capítulo 2: Desarrollo del nuevo sistema}
 
-En el siguiente capítulo se presenta la propuesta de solución a la problemática ya planteada: el nuevo sistema SECPROIT. Para que el desarrollo de un proyecto concluya con éxitos, primero debe realizarse el diseño de lo que se pretende obtener, así como analizar los recursos y requisitos que debe poseer. A lo largo de este capítulo se presentarán los diagramas utilizados en la elaboración del sistema. Cabe destacar que este nuevo diseño parte del que se tenía anteriormente en el SECPROIT, por lo que se realizarán algunas comparaciones con ese modelo anterior.
+En el siguiente capítulo se presenta la propuesta de solución para la problemática planteada: el nuevo sistema SECPROIT. Para que el desarrollo de un proyecto concluya con éxitos, primero debe realizarse el diseño de lo que se pretende obtener, así como analizar los requisitos que debe cumplir. A lo largo de este capítulo se presentarán los diagramas utilizados en la elaboración del sistema, se explicará como está estructurado y cuáles son sus funciones. Cabe destacar que este nuevo diseño parte del que se tenía anteriormente en el SECPROIT, por lo que se realizarán algunas comparaciones dicho modelo.
+
+\section{Descripción del negocio}
+Como ya se ha observado en secciones anteriores, lo que se pretende conseguir con este nuevo sistema es rectificar las limitaciones existentes en el SECPROIT actual. Para ello, el nuevo software debe satisfacer el objetivo principal: capacitar a los operarios ante los procesos productivos de una fábrica.
+Partiendo de esa idea, esta solución debe poseer un modelo de entrenamiento que ponga a prueba a los operarios de la industria, además, debe contar con un administrador que sea el responsable de incluir a los todos usuarios.
+
+A la hora de realizar el entrenamiento, se deben evaluar tres etapas fundamentales: una para validar los conocimientos sobre las variables, otra para comprobar las causas por las que la variable representa un peligro y la última donde se analicen las recomendaciones que se pueden seguir en caso de que ocurra una falla provocada por esa causa. Si el trabajador logra superar estas etapas, puede darse por aprobado el entrenamiento de ese proceso.
+
+\subsection{Modelo de dominio}
+Un modelo de dominio es la representación de las clases conceptuales del mundo real, no de componentes de software. Su utilidad radica en ser una forma de inspiración para el diseño de entidades. Es el artefacto clave en el análisis orientado a objetos \cite{Herchi2012}.
+
+El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es muy diferente al modelo origina del sistema SECPROIT. A la hora de representarlo, se tuvieron en cuenta una serie de colores a modo de guía:
+
+\begin{itemize}
+\item \textbf{Azul}: representa aquellas entidades que no sufrieron ningún cambio significativo con respecto al sistema anterior
+\item \textbf{Amarillo}: representa aquellas entidades que fueron modificadas, pero que siguen cumpliendo las mismas funciones
+\item \textbf{Verde}: representa las entidades que son totalmente nuevas, que no existen el sistema anterior
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.7\linewidth]{imagen/dominio.png}
+ \caption{Modelo de dominio}
+ \label{fig:dominio} 
+\end{figure}
+
+La razón por la que algunas entidades (\textsl{Tabla \ref{tab:ent-azul}})  no sufrieron cambios es porque, basados en las tareas que desempeñan, no varían sus funciones con este nuevo modelo. Sin embargo, más adelante pueden presentar modificaciones en algunos aspectos.
+Las entidades que cambiaron (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en la estructura que estas seguían, es decir, variaciones en la base de datos y en las clases del sistema.
+Por último, las entidades nuevas (\textsl{Tabla \ref{tab:ent-verde}}) son clases que fueron agregadas desde cero para rectificar alguna limitación.
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ | c | p{10cm} | }
+\hline
+\textbf{Entidad} & \textbf{Descripción} \\
+\hline
+Área & Representa el lugar donde laboran los trabajadores, posee un identificador y es donde están presentes los procesos \\
+\hline
+Usuario & Representa a la persona que va interactuar con el sistema \\
+\hline
+Administrador & Es un tipo de usuario, se encarga de administrar las entidades del sistema (áreas y demás usuarios) \\
+\hline
+Operario & Es un tipo de usuario, se encarga de realizar los entrenamientos \\
+\hline
+Base de datos & Representa el archivo \textsf{anm} \\
+\hline
+Base de reglas & Representa el archivo \textsf{drl} \\
+\hline
+Drools & Es la entidad que permite ejecutar las reglas del proceso \\
+\hline
+Variable & Forma parte de la información contenida en la base de datos del proceso, se evalúan en la primera etapa \\
+\hline
+Causa & Forma parte de la información contenida en la base de datos del proceso, se evalúan en la segunda etapa \\
+\hline
+Recm. & Forma parte de la información contenida en la base de datos del proceso, representa las recomendaciones y se evalúan en la tercera etapa \\
+\hline
+Variable-Causa & Forma parte de la información contenida en la base de reglas del proceso, se evalúan en la primera etapa \\
+\hline
+Causa-Recm. & Forma parte de la información contenida en la base de reglas del proceso, se evalúan en la primera etapa \\
+\hline
+\end{tabular}
+\caption{Entidades que no sufrieron cambios}
+\label{tab:ent-azul}
+\end{center}
+\end{table}
+
+\usepackage{float}
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | p{5cm} |  p{5cm} | }
+\hline
+\textbf{Entidad} & \textbf{Descripción} & \textbf{Cambios}\\
+\hline
+Sistema SECPROIT & Representa el sistema & Cambian sus entidades y funciones \\
+\hline
+Jefe e área & Es un tipo de usuario, administrar los procesos & Antes era especialista y solo creaba los procesos \\
+\hline
+Proceso & Representa los procesos & Se le agrega un nuevo atributo: la configuración \\
+\hline
+Entrenamiento & Representa el entrenamiento del usuario & Se le agregan las etapas \\
+\hline
+\end{tabular}
+\caption{Entidades que sufrieron cambios}
+\label{tab:ent-amarilla}
+\end{center}
+\end{table}
+
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{ | c | p{10cm} | }
+\hline
+\textbf{Entidad} & \textbf{Descripción} \\
+\hline
+Configuración & Representa la configuración de un proceso, es decir, las características que este posee para generar un entrenamiento \\
+\hline
+Etapas & Representa las etapas del entrenamiento, existen tres por cada uno \\
+\hline
+E-Variable & Es un tipo de etapa, donde se evalúan las variables \\
+\hline
+E-Causa & Es un tipo de etapa, donde se evalúan las causas \\
+\hline
+E-Recm. & Es un tipo de etapa, donde se evalúan las recomendaciones \\
+\hline
+\end{tabular}
+\caption{Entidades nuevas}
+\label{tab:ent-verde}
+\end{center}
+\end{table}
+
+\subsection{Reglas del Negocio}
+Cada negocio posee un conjunto de restricciones que permiten su correcto funcionamiento. Estas restricciones son conocidas como reglas del negocio.
+Las reglas a cumplir en este nuevo sistemas son:
+
+\begin{itemize}
+\item Antes de crear un usuario, deben haberse creado los roles del sistema y las áreas laborales.
+\item Antes de crear un proceso, deben haberse creado las áreas laborales.
+\item Antes de crear un entrenamiento debe existir un proceso y al menos un operario.
+\item Antes de realizar el entrenamiento de las causas se debe haber aprobado el entrenamiento de las variables.
+\item Antes de realizar el entrenamiento de las recomendaciones se debe haber aprobado el entrenamiento de las causas.
+\item Los usuarios solo pueden poseer un rol.
+\item Los usuarios solo pueden pertenecer a un área a la vez.
+\item Los procesos solo pueden pertenecer a un área a la vez.
+\item Las tareas de los roles son únicas para el usuario, es decir, solo las pueden hacer los usuarios con el mismo rol.
+\end{itemize} 

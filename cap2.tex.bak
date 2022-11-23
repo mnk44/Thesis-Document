@@ -132,9 +132,16 @@ En el sistema SECPROIT existen un conjunto de reglas primordiales que no se debe
 \end{itemize}
 
 \subsection{Diagrama de actividades}
-El Lenguaje Unificado de Modelado (UML) incluye varios subconjuntos de diagramas, entre los que se encuentran los diagramas de actividades. Estos diagramas son considerados diagramas de comportamiento, porque describen lo que debe suceder en el sistema que se está modelando \cite{Eriksson2000}.
+El Lenguaje Unificado de Modelado (UML) incluye varios subconjuntos de modelos, entre los que se encuentran los diagramas de actividades. Estos diagramas son considerados diagramas de comportamiento, porque describen lo que debe suceder en el sistema que se está presentando \cite{Eriksson2000}.
 
-En el diagrama de actividades del nuevo sistema (\textsl{Figura \ref{fig:actividades}}) se pueden observar tres colores: azul, amarillo y verde. El color azul indica que el flujo es igual al del sistema
+En el diagrama de actividades del nuevo sistema (\textsl{Figura \ref{fig:actividades}}) se pueden observar tres colores: azul, amarillo y verde. El color azul indica que el flujo es igual al del sistema SECPROIT original. El color amarillo representa un ligero cambio en el flujo, ya descrito anteriormente. Por último, el color verde representa una nueva acción.
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.7\linewidth]{imagen/actividades.png}
+ \caption{Diagrama de actividades}
+ \label{fig:actividades} 
+\end{figure} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

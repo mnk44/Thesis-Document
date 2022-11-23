@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  23 NOV 2022 05:13
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  23 NOV 2022 17:28
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -633,20 +633,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=311, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=313, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9]
-<imagen/gama.png, id=345, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=347, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [10 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [11]
-<imagen/componentes.png, id=367, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=369, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [12 <E:/Escuela/Tesis/Informe/imagen/componentes.p
-ng>] [13] [14] <imagen/rules.png, id=393, 214.55156pt x 108.405pt>
+ng>] [13] [14] <imagen/rules.png, id=395, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -655,7 +655,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=416, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=418, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -668,11 +668,11 @@ Underfull \hbox (badness 1484) in paragraph at lines 78--79
  []
 
 [19 <E:/Escuela/Tesis/Informe/imagen/dominio.png>] [20] [21]
+<imagen/actividades.png, id=441, 465.99094pt x 433.62pt>
+File: imagen/actividades.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:actividades' on page 22 undefined on input line 1
-37.
-
-[22] [23] [24]) [25] (E:\Escuela\Tesis\Informe\cap3.tex) [26
+<use imagen/actividades.png> [22 <E:/Escuela/Tesis/Informe/imagen/actividades.p
+ng>] [23] [24]) [25] (E:\Escuela\Tesis\Informe\cap3.tex) [26
 
 
 
@@ -850,20 +850,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: There were undefined references.
-
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6131 strings out of 494019
- 91230 string characters out of 3143892
- 188955 words of memory out of 3000000
- 9096 multiletter control sequences out of 15000+200000
+ 6137 strings out of 494019
+ 91362 string characters out of 3143892
+ 189006 words of memory out of 3000000
+ 9100 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1246b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -875,9 +871,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (40 pages, 636878 bytes).
+Output written on "Mónica Montoto Montané.pdf" (40 pages, 676546 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
- 327 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 

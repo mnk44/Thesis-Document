@@ -32,8 +32,8 @@
 \contentsline {subsection}{\numberline {2.1.1}Modelo de dominio}{18}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Reglas del negocio}{21}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Diagrama de actividades}{22}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Captura de requisitos}{22}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Requisitos funcionales}{22}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}Captura de requisitos}{23}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Requisitos funcionales}{23}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Requisitos No Funcionales}{24}{subsection.2.2.2}
 \contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n de la soluci\IeC {\'o}n}{26}{chapter*.15}
 \contentsline {chapter}{Conclusiones}{27}{section*.16}

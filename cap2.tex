@@ -189,3 +189,45 @@ En este caso, los requisitos no funcionales presentes en este nuevo sistema son 
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Casos de uso}
+Un caso de uso representa una unidad funcional coherente en un sistema, subsistema o clase. En ellos, uno o más actores interaccionan con las entidades que realizan las acciones. El modelado de estos casos de uso permite que los desarrolladores de un software y los clientes lleguen a un acuerdo sobre los requisitos y posibilidades que debe cumplir el sistema \cite{Kalaivani2004}.
+
+\subsection{Actores del sistema} 
+Un actor puede referirse a cualquier cosa que interaccione con el sistema y que es externo a él. No necesariamente coinciden con los usuarios. Un usuario puede interpretar distintos roles, correspondientes a distintos actores. Un actor puede desempeñar distintos papeles dependiendo del caso de uso en que participe \cite{Kalaivani2004}.
+
+El Sistema Generador de Bases de Conocimiento (SGBC) es el encargado de confeccionar los ficheros que son registrados en los procesos dentro del sistema SECPROIT, como ya se explicó en el capítulo anterior. Sin embargo, este generador no se incluye como actor en el SECPROIT, ya que no interactúa directamente con el sistema, su relación es a partir de los ficheros que genera.
+
+Los actores presentes en esta solución (\textsl{Tabla \ref{tab:actores}}) están representados por los tres roles que puede presentar un usuario: administrador, jefe de área u operario.
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | p{11cm} | }
+\hline
+\textbf{Actor} & \textbf{Descripción} \\
+\hline
+Usuario & Actor genérico que hace uso de las funcionalidades que son comunes (iniciar sesión y cambiar contraseña personal) \\
+\hline
+Operario & Actor que se capacita mediante los entrenamientos generados de cada proceso y tiene acceso a sus resultados \\
+\hline
+Jefe de área & Actor que vincula los procesos en las áreas, los configura, decidiendo cómo será el entrenamiento, qué usuarios podrán realizarlo y las características que deberán cumplir para aprobarlo, y tiene acceso a los resultados de los operarios de su área (antes era conocido como especialista) \\
+\hline
+Administrador & Actor que gestiona las áreas y los usuarios y tiene acceso a un resumen de acciones de cada usuario \\
+\hline
+\end{tabular}
+\caption{Actores del Nuevo Sistema.}
+\label{tab:actores}
+\end{center}
+\end{table}
+
+\subsection{Diagrama de casos de uso}
+Los diagramas de casos de uso muestran las relaciones entre las acciones de un sistema y sus actores. Estos modelos dan sólo una visión general y ayudan a interpretar y esclarecer los casos de uso \cite{Kalaivani2004}.
+
+El diagrama de casos de uso de la solución (\textsl{Figura \ref{fig:dcu}}) contiene tres colores diferentes: azul para representar los casos de uso que no han sido modificados con respecto al modelo anterior, amarillo para representar los que sufrieron algún cambio significativo y verde para los casos de uso nuevos.
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.7\linewidth]{imagen/dcu.png}
+ \caption{Diagrama de casos de uso}
+ \label{fig:dcu} 
+\end{figure}

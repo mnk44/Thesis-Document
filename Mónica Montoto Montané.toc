@@ -38,8 +38,11 @@
 \contentsline {section}{\numberline {2.3}Casos de uso}{25}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Actores del sistema}{25}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Diagrama de casos de uso}{26}{subsection.2.3.2}
-\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n de la soluci\IeC {\'o}n}{27}{chapter*.15}
-\contentsline {chapter}{Conclusiones}{28}{section*.16}
-\contentsline {chapter}{Recomendaciones}{29}{section*.18}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{30}{section*.20}
-\contentsline {chapter}{Anexos}{33}{section*.22}
+\contentsline {subsection}{\numberline {2.3.3}Especificaci\IeC {\'o}n de los casos de uso}{27}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Modelo de datos}{28}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Diagrama de Entidades y Relaciones (DER)}{28}{subsection.2.4.1}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n de la soluci\IeC {\'o}n}{29}{chapter*.15}
+\contentsline {chapter}{Conclusiones}{30}{section*.16}
+\contentsline {chapter}{Recomendaciones}{31}{section*.18}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{32}{section*.20}
+\contentsline {chapter}{Anexos}{35}{section*.22}

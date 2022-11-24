@@ -1,4 +1,6 @@
 \chapter*{Capítulo 3 \vspace{0.5cm} \break Validación de la solución}
 \setcounter{chapter}{3}
 \setcounter{section}{0}
-\addcontentsline{toc}{chapter}{Capítulo 3: Validaci del nuevo sistema}
+\addcontentsline{toc}{chapter}{Capítulo 3: Validación de la solución}
+
+En el presente capítulo se presenta la validación de la herramienta desarrollada. Para ello se realizan un conjunto de pruebas . Además se establece una comparación entre los resultados estadísticos obtenidos para diferentes juegos de datos. Dicho proceso parte de cómo la fase de análisis y diseño se unen para llevar a cabo el sistema propuesto.

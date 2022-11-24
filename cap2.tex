@@ -215,7 +215,7 @@ Jefe de área & Actor que vincula los procesos en las áreas, los configura, dec
 Administrador & Actor que gestiona las áreas y los usuarios y tiene acceso a un resumen de acciones de cada usuario \\
 \hline
 \end{tabular}
-\caption{Actores del Nuevo Sistema.}
+\caption{Actores del sistema}
 \label{tab:actores}
 \end{center}
 \end{table}
@@ -231,3 +231,53 @@ El diagrama de casos de uso de la solución (\textsl{Figura \ref{fig:dcu}}) cont
  \caption{Diagrama de casos de uso}
  \label{fig:dcu} 
 \end{figure}
+
+\subsection{Especificación de los casos de uso}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | p{3.5cm} |  p{7.5cm} |}
+\hline
+\textbf{Actor} & \textbf{Caso de uso} & \textbf{Descripción}\\
+\hline
+Usuario & Iniciar sesión en el sistema & El actor debe introducir su nombre y su contraseña para iniciar en el sistema \\
+\cline{2-3}
+& Cambiar contraseña personal  & El actor puede cambiar su propia contraseña \\
+\hline
+Administrador & Gestionar áreas & El actor puede introducir, modificar o eliminar las áreas del sistema \\
+\cline{2-3}
+& Gestionar usuarios & El actor puede introducir, modificar, restablecer la contraseña, dormir o activar a los usuarios del sistema \\
+\cline{2-3}
+& Ver acciones de los usuarios & El actor puede visualizar un registro con todas las acciones que los usuarios han realizado en el sistema \\
+\hline
+Operario & Entrenar & El actor inicia el entrenamiento de un proceso \\
+\cline{2-3}
+& Evaluar etapa 1 & El actor se evalúa mediante preguntas de variables, decidiendo cuáles están fuera de rango y cuáles no \\
+\cline{2-3}
+& Evaluar etapa 2 & El actor se evalúa mediante preguntas de causas, decidiendo cuáles se relacionan a un conjunto de variables \\
+\cline{2-3}
+& Evaluar etapa 3 & El actor se evalúa mediante preguntas de recomendaciones, decidiendo cuáles se relacionan a un conjunto de causas \\
+\cline{2-3}
+& Ver resultados & El actor puede visualizar un registro con todos los resultados que ha obtenido \\
+\hline
+Jefe de área & Gestionar procesos & El actor puede introducir, modificar o eliminar los procesos de su área \\
+\cline{2-3}
+& Configurar entrenamiento & El actor decide para cada proceso cómo será el entrenamiento \\
+\cline{2-3}
+& Añadir usuarios & El actor decide para cada proceso los usuarios que pueden participar \\
+\cline{2-3}
+& Ver resultados de los operarios del área & El actor puede visualizar un registro con todas las evaluaciones de los operarios de su área \\
+\hline
+\end{tabular}
+\caption{Especificación de los casos de uso}
+\label{tab:caso-uso}
+\end{center}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Modelo de datos}
+Para el desarrollo de este sistema se utiliza, como gestor de base de datos, la herramienta PostgreSQL. En ella se almacena toda la información con la que se va a trabajar, incluyendo los ficheros \textsl{anm} y \textsl{drl} de los procesos. Por momentos determinados, esta información también se encuentra almacenada, de forma local y temporal, en clases del propio sistema, lo que permite un mejor manejo y control de los datos.
+
+\subsection{Diagrama de Entidades y Relaciones (DER)}
+Un Diagrama de Entidades y Relaciones (DER) es una herramienta que permite representar de manera simplificada los componentes que participan en un proceso, y el modo en el que estos se relacionan entre sí. Posee tres elementos principales: las entidades, los atributos y las relaciones. %cita aquí

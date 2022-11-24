@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  23 NOV 2022 19:50
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  24 NOV 2022 04:41
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -306,6 +306,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen106
+\extrarowheight=\dimen107
+\NC@list=\toks20
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -323,15 +331,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count93
 \Gm@cntv=\count94
 \c@Gm@tempcnt=\count95
-\Gm@bindingoffset=\dimen106
-\Gm@wd@mp=\dimen107
-\Gm@odd@mp=\dimen108
-\Gm@even@mp=\dimen109
-\Gm@layoutwidth=\dimen110
-\Gm@layoutheight=\dimen111
-\Gm@layouthoffset=\dimen112
-\Gm@layoutvoffset=\dimen113
-\Gm@dimlist=\toks20
+\Gm@bindingoffset=\dimen108
+\Gm@wd@mp=\dimen109
+\Gm@odd@mp=\dimen110
+\Gm@even@mp=\dimen111
+\Gm@layoutwidth=\dimen112
+\Gm@layoutheight=\dimen113
+\Gm@layouthoffset=\dimen114
+\Gm@layoutvoffset=\dimen115
+\Gm@dimlist=\toks21
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -381,7 +389,7 @@ Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
 )
-\@linkdim=\dimen114
+\@linkdim=\dimen116
 \Hy@linkcounter=\count96
 \Hy@pagecounter=\count97
 
@@ -422,8 +430,8 @@ Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
 Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
 ))
 \Fld@menulength=\count100
-\Field@Width=\dimen115
-\Fld@charsize=\dimen116
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
 Package hyperref Info: Hyper figures OFF on input line 5626.
 Package hyperref Info: Link nesting OFF on input line 5631.
 Package hyperref Info: Hyper index ON on input line 5634.
@@ -463,7 +471,7 @@ Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 71.
 )
-\Hy@SectionHShift=\skip43
+\Hy@SectionHShift=\skip45
 )
 \@indexfile=\write3
 
@@ -476,20 +484,20 @@ Writing index file Mónica*Montoto*Montané.idx
 (E:\Escuela\Tesis\Informe\cap2.aux) (E:\Escuela\Tesis\Informe\cap3.aux)
 (E:\Escuela\Tesis\Informe\conc.aux) (E:\Escuela\Tesis\Informe\rec.aux)
 (E:\Escuela\Tesis\Informe\anexo.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -534,7 +542,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 16.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -547,16 +555,16 @@ Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
 \c@section@level=\count106
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.out")
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.out")
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=163, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=175, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 ! Undefined control sequence.
@@ -577,7 +585,7 @@ g (ext4): destination with the same identifier (name{page.I}) has been already
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 	\include{agradecimientos}
+l.34 	\include{agradecimientos}
                                 [1
 
 
@@ -615,7 +623,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.53 	\pagestyle{fancy}
+l.54 	\pagestyle{fancy}
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -633,20 +641,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=332, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=349, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9]
-<imagen/gama.png, id=366, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=383, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [10 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [11]
-<imagen/componentes.png, id=388, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=405, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [12 <E:/Escuela/Tesis/Informe/imagen/componentes.p
-ng>] [13] [14] <imagen/rules.png, id=414, 214.55156pt x 108.405pt>
+ng>] [13] [14] <imagen/rules.png, id=431, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -655,7 +663,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=437, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=454, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -664,35 +672,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 1484) in paragraph at lines 78--79
-[]\OT1/cmr/m/n/12 Cambian sus en-ti-da-des y
+[]|\OT1/cmr/m/n/12 Cambian sus en-ti-da-des y
  []
 
 [19 <E:/Escuela/Tesis/Informe/imagen/dominio.png>] [20] [21]
-<imagen/actividades.png, id=460, 465.99094pt x 433.62pt>
+<imagen/actividades.png, id=477, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [22 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [23] [24] [25] <imagen/dcu.png, id=490, 575.14874pt x 408.02437pt>
+ng>] [23] [24] [25] <imagen/dcu.png, id=507, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
-<use imagen/dcu.png>) [26 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
-(E:\Escuela\Tesis\Informe\cap3.tex) [27
+<use imagen/dcu.png> [26 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+[]|\OT1/cmr/m/n/12 Cambiar con-tra-
+ []
 
 
-
-] (E:\Escuela\Tesis\Informe\conc.tex)
-[28
-
-
+Underfull \hbox (badness 2020) in paragraph at lines 269--269
+[]|\OT1/cmr/m/n/12 Ver re-sul-ta-dos de
+ []
 
 
-] (E:\Escuela\Tesis\Informe\rec.tex) [29
+Underfull \hbox (badness 7099) in paragraph at lines 269--269
+\OT1/cmr/m/n/12 los ope-ra-rios del
+ []
 
+[27]) [28] (E:\Escuela\Tesis\Informe\cap3.tex) [29
 
 
 
 ]
-("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.bbl"
+(E:\Escuela\Tesis\Informe\conc.tex) [30
+
+
+
+
+] (E:\Escuela\Tesis\Informe\rec.tex)
+[31
+
+
+
+
+] ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.bbl"
 
 ! Package inputenc Error: Unicode char \u8:Â  not set up for use with LaTeX.
 
@@ -759,7 +781,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[30
+[32
 
 
 
@@ -817,9 +839,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[31] [32])
+[33] [34])
 ! Undefined control sequence.
-l.83 	\breakpage
+l.84 	\breakpage
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -830,7 +852,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.87 	\pagestyle{fancy}
+l.88 	\pagestyle{fancy}
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -838,9 +860,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[33] (E:\Escuela\Tesis\Informe\anexo.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+[35] (E:\Escuela\Tesis\Informe\anexo.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.aux"
 (E:\Escuela\Tesis\Informe\portada.aux)
@@ -850,7 +872,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 (E:\Escuela\Tesis\Informe\cap2.aux) (E:\Escuela\Tesis\Informe\cap3.aux)
 (E:\Escuela\Tesis\Informe\conc.aux) (E:\Escuela\Tesis\Informe\rec.aux)
 (E:\Escuela\Tesis\Informe\anexo.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 
 (rerunfilecheck)             Checksum: <no file>.
@@ -860,10 +882,10 @@ Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6153 strings out of 494019
- 91584 string characters out of 3143892
- 189109 words of memory out of 3000000
- 9109 multiletter control sequences out of 15000+200000
+ 6206 strings out of 494019
+ 92262 string characters out of 3143892
+ 189855 words of memory out of 3000000
+ 9153 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1246b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -875,9 +897,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (41 pages, 751045 bytes).
+Output written on "Mónica Montoto Montané.pdf" (43 pages, 757697 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 614 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

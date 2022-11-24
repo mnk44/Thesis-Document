@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  24 NOV 2022 04:41
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  24 NOV 2022 06:07
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -564,7 +564,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=175, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=179, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 ! Undefined control sequence.
@@ -641,20 +641,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=349, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=358, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9]
-<imagen/gama.png, id=383, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=392, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [10 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [11]
-<imagen/componentes.png, id=405, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=414, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [12 <E:/Escuela/Tesis/Informe/imagen/componentes.p
-ng>] [13] [14] <imagen/rules.png, id=431, 214.55156pt x 108.405pt>
+ng>] [13] [14] <imagen/rules.png, id=440, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -663,7 +663,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=454, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=463, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -676,11 +676,11 @@ Underfull \hbox (badness 1484) in paragraph at lines 78--79
  []
 
 [19 <E:/Escuela/Tesis/Informe/imagen/dominio.png>] [20] [21]
-<imagen/actividades.png, id=477, 465.99094pt x 433.62pt>
+<imagen/actividades.png, id=486, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [22 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [23] [24] [25] <imagen/dcu.png, id=507, 575.14874pt x 408.02437pt>
+ng>] [23] [24] [25] <imagen/dcu.png, id=516, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
 <use imagen/dcu.png> [26 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
@@ -698,18 +698,46 @@ Underfull \hbox (badness 7099) in paragraph at lines 269--269
 \OT1/cmr/m/n/12 los ope-ra-rios del
  []
 
-[27]) [28] (E:\Escuela\Tesis\Informe\cap3.tex) [29
+[27] <imagen/der.png, id=527, 410.2828pt x 305.64188pt>
+File: imagen/der.png Graphic file (type png)
+ <use imagen/der.png>
+[28 <E:/Escuela/Tesis/Informe/imagen/der.png>]
+Underfull \hbox (badness 2617) in paragraph at lines 310--311
+\OT1/cmr/m/n/12 ni-vel es-co-lar, ex-pe-rien-cia,
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 328--328
+[]|\OT1/cmr/m/n/12 ID, usua-rio, con-fi-gu-ra-cion
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 328--329
+[]|\OT1/cmr/m/n/12 Se eli-mi-na-ron los demas
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 330--330
+\OT1/cmr/m/n/12 eta-pa, tiem-po de-mo-ra-do,
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 330--330
+\OT1/cmr/m/n/12 pre-gun-tas acer-ta-das, pre-
+ []
+
+) [29] [30] (E:\Escuela\Tesis\Informe\cap3.tex) [31
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\conc.tex) [30
+(E:\Escuela\Tesis\Informe\conc.tex) [32
 
 
 
 
 ] (E:\Escuela\Tesis\Informe\rec.tex)
-[31
+[33
 
 
 
@@ -781,7 +809,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[32
+[34
 
 
 
@@ -839,7 +867,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[33] [34])
+[35] [36])
 ! Undefined control sequence.
 l.84 	\breakpage
                 
@@ -860,7 +888,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[35] (E:\Escuela\Tesis\Informe\anexo.tex)
+[37] (E:\Escuela\Tesis\Informe\anexo.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
@@ -882,10 +910,10 @@ Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6206 strings out of 494019
- 92262 string characters out of 3143892
- 189855 words of memory out of 3000000
- 9153 multiletter control sequences out of 15000+200000
+ 6219 strings out of 494019
+ 92435 string characters out of 3143892
+ 189971 words of memory out of 3000000
+ 9160 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1246b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -897,9 +925,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (43 pages, 757697 bytes).
+Output written on "Mónica Montoto Montané.pdf" (45 pages, 774979 bytes).
 PDF statistics:
- 614 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
- 385 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 157 named destinations out of 1000 (max. 500000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 

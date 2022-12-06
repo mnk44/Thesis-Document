@@ -2,9 +2,9 @@
 \setcounter{chapter}{1}
 \addcontentsline{toc}{chapter}{Capítulo 1: Fundamentos teóricos}
 
-En el presente capítulo se encuentran los fundamentos teóricos de la herramienta a desarrollar. Comprende un análisis de los sistemas de capacitación y los sistemas de capacitación automatizados, reflejando un estudio de las preguntas más utilizadas, así como los colores y métodos de evaluación. Se introduce el término de sistema experto, con sus características y ventajas. Se detallan las funcionalidades del Sistema Generador de Bases de Conocimiento (SGBC), se profundiza el trabajo con el sistema SECPROIT y se incluyen conclusiones del capítulo.
+En el presente capítulo se encuentran los fundamentos teóricos del nuevo sistema que se pretende desarrollar. Comprende un análisis de los sistemas de capacitación presencial y automatizados, reflejando un estudio de las preguntas más utilizadas, así como los colores y métodos de evaluación. Se introduce el término de sistema experto, con sus características y ventajas. Se detallan las funcionalidades del Sistema Generador de Bases de Conocimiento (SGBC) y se profundiza el trabajo con el sistema SECPROIT, finalizando con las conclusiones del capítulo.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistemas de capacitación laboral}
 La capacitación laboral es un método aplicado por las empresas para que su personal adquiera nuevos conocimientos profesionales. Por lo general, se produce ante un ascenso o incorporación, aunque no son los únicos motivos. Busca perfeccionar al colaborador en su puesto laboral, en función de las necesidades de su empresa. Es un proceso estructurado con metas bien definidas. Surge en el mundo como respuesta a la necesidad de mejorar permanentemente la calidad y formación de recursos humanos. Lo ideal es que se desarrolle de forma continua, ya que la constante formación del personal deriva en resultados positivos tanto para el grupo de trabajo como para la organización en la que se realiza \cite{Denby2010}.
@@ -34,48 +34,56 @@ La capacitación laboral juega un papel primordial para el logro de tareas y pro
 \end{itemize}
 
 \subsection{Proceso de evaluación en una capacitación}
-La evaluación de una capacitación no puede depender de un solo instrumento o técnica, ya que de esa forma solo se mide un tipo de aprendizaje. Entre los criterios para calificar más comunes están: la exactitud de la respuesta, el proceso que se siguió para llegar a la misma, la cantidad de intentos necesarios utilizados para hallar la solución y, en algunos casos, el tiempo necesitado para responder \cite{Jacobs2012}.
+La evaluación de una capacitación no puede depender de un solo instrumento o técnica, ya que de esa forma solo se mide un tipo de aprendizaje. Entre los criterios para calificar más comunes están: la exactitud de la respuesta, el proceso que se siguió para llegar a la misma, la cantidad de intentos necesarios utilizados para hallar la solución y, en algunos casos, el tiempo necesitado para dar la respuesta \cite{Jacobs2012}.
 
 Una evaluación posee dos propósitos fundamentales: analizar en qué medida se han cumplido los objetivos y proporcionar una reflexión de los que realizaron el entrenamiento en torno a su propio proceso de aprendizaje (metacognición). Analizar el cumplimiento de los objetivos permite detectar posibles fallas en el proceso y poder superarlas en un futuro \cite{Aretio2020}.
 
 A modo de resumen, para obtener una correcta evaluación se deben tener en cuenta tantas herramientas como parámetros influyan.
 
-\subsubsection{Fases del proceso de evaluación}
+\subsection{Fases del proceso de evaluación}
 Según \cite{Aretio2020}, un proceso de evaluación debe estar integrado por cinco etapas fundamentales (\textsl{Figura \ref{fig:fases-evaluacion}}). Cada una de ellas, va a marcar un conjunto de acciones, que al final se interpretarán como un buen entrenamiento:
 
 \begin{enumerate}
-\item \textbf{Recogida de datos}: es la recopilación sistemática de toda la información a lo largo del proceso completo de enseñanza-aprendizaje. Los datos recogidos deben tener concordancia con las metas trazadas, ser suficientes, representativos, relevantes y ponderados, en función del peso otorgado a cada uno de los objetivos. En los sistemas en línea estas posibilidades de registrar evidencias son inmensas.
-\item \textbf{Puntuación de las pruebas}: se realiza una vez medidos, de manera cuantitativa o cualitativa, los distintos bloques de información, con las ponderaciones, criterios e indicadores que se hayan establecido. Sirve para medir los resultados obtenidos en el entrenamiento.
-\item \textbf{Juicio de valor}: puede hacerse limitándose a criterios de grupo (evaluación normativa), refiriéndose a criterios de superación de objetivos y contenidos (evaluación de criterio), o teniendo en cuenta la personalidad, posibilidades y limitaciones del propio sujeto del aprendizaje (evaluación personalizada).
+\item \textbf{Recogida de datos}: es la recopilación sistemática de toda la información a lo largo del proceso completo de enseñanza-aprendizaje. Los datos recogidos deben tener concordancia con las metas trazadas, ser suficientes, representativos, relevantes y ponderados, en función del peso otorgado a cada uno de los objetivos. En los sistemas en línea las posibilidades de registrar estas evidencias son inmensas.
+\item \textbf{Puntuación de las pruebas}: se realiza una vez medidos, de manera cuantitativa o cualitativa, los distintos bloques de información, con las ponderaciones, criterios e indicadores que se hayan establecido. Se utiliza para medir los resultados obtenidos en el entrenamiento.
+\item \textbf{Juicio de valor}: puede hacerse limitándose a criterios de grupo (evaluación normativa), refiriéndose a criterios de superación de objetivos y contenidos (evaluación de criterio) o teniendo en cuenta la personalidad, posibilidades y limitaciones del propio sujeto del aprendizaje (evaluación personalizada).
 \item \textbf{Toma de decisiones}: habitualmente denominada calificación, se basa en la decisión a partir del resultado. Trae consigo una serie de consecuencias personales, administrativas, económicas y laborales. La acción resultante influye directamente en el adiestrado.
-\item \textbf{Información a los interesados}: es la etapa final, que ha de llegar a diferentes destinatarios, aunque principalmente y de forma adecuada, a los capacitados. Es la confirmación de que concluye el entrenamiento y donde se dan a conocer los resultados obtenidos.
+\item \textbf{Información a los interesados}: es la etapa final, la confirmación de que concluye el entrenamiento y donde se dan a conocer los resultados obtenidos.
 \end{enumerate}
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.5\linewidth]{imagen/fases-proceso-evaluacion.jpg}
+ \includegraphics[width=0.6\linewidth]{imagen/fases-proceso-evaluacion.jpg}
  \caption{Fases en un proceso de evaluación}
  \label{fig:fases-evaluacion} 
 \end{figure}
+
+\subsection{Criterios de evaluación de un proceso}
+Según la RAE (Real Academia Española), un criterio es una norma utilizada para conocer la verdad. Sin embargo, en cuanto a las evaluaciones, es un parámetro en función del que se juzgarán los atributos de un objeto de estudio \cite{RAE2022}. En este sentido, los criterios se construyen en función de lo que se desea obtener de un entrenamiento. Por lo general, son normas que se encuentran implícitas y permiten informar a los capacitados acerca del logro o fracaso de una determinada tarea. 
+
+Pueden existir tantos criterios como parámetros se interpreten. Cada uno es el reflejo de un campo importante que se desea controlar. Por ejemplo: en los entrenamientos donde el tiempo influye en la evaluación, no sólo se mide la capacidad de aprendizaje del profesional, también se trata de evaluar la rapidez con la que reacciona, contando como parámetro importante para el desarrollo de la tarea. Este ejemplo se puede notar en el campo de la medicina \cite{Castrillon2021}.
 
 \subsection{Proceso de validación de las respuestas}
 Una vez terminada la capacitación se comprueban cuáles de los resultados obtenidos son correctos y cuáles no. Para ello se deben comparar las respuestas del evaluado con una fuente de confianza, que contenga la información verídica de lo que se está tratando. Estas fuentes de confianza se conocen por el nombre de: bases de conocimiento \cite{Rasheed2021}.
 
 A partir de estas bases se verifica si los datos en las respuestas del evaluado coinciden con la información real contenida. Este proceso puede realizarse tanto de manera manual, semiautomática o automática.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistemas de capacitación automatizados}
 Teniendo en cuenta el concepto de capacitación, un sistema de capacitación automatizado es un método de enseñanza alternativo, creado para el adiestramiento de los trabajadores. Es un software que, principalmente, permite el aprendizaje de los usuarios sin necesidad de una supervisión constante. Por lo general, resulta más efectivo que las prácticas de enseñanza presencial, debido a que el estudiante trabaja solo y puede determinar su propia velocidad de aprendizaje, usando una amplia variedad de herramientas y métodos para la transferencia del conocimiento \cite{ISEM2022}.
 
 A modo de resumen, es un programa informático que brinda una solución de recursos humanos, ayuda en la formación de los trabajadores y aumenta la productividad empresarial.
 
+\subsection{Ventajas en un sistema de capacitación automatizado}
+Un sistema de entrenamiento asistido por computadora, permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas principales de la capacitación de los empleados de manera presencial es que las sesiones son frecuentemente inconsistentes y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimiento para garantizar el mismo nivel de entrenamiento para todos. Por otra parte, una capacitación presencial requiere la existencia de una persona, por lo general un experto, que supervise al adiestrado y califique su rendimiento. En cambio, con estos sistemas, no es necesario desempeñar esta tarea, el propio software se encarga de la supervición y evaluación del capacitado \cite{Kanev2017}.
+
 \subsection{Tipos de preguntas en un sistema de capacitación automatizado}
-A medida que avanza el tiempo se generan nuevos métodos de estudio y con estos, nuevas formas de preguntar y calificar. Sin embargo, a la hora de diseñar un sistema automatizado, no es menos cierto que existen algunas variantes más sencillas y, por ende, más utilizadas. Según \cite{Laguna2016}, los tipos de preguntas que mayormente se emplean en un sistema de capacitación automatizado son:
+Con el paso del tiempo se generan nuevos métodos de estudio y con estos, nuevas formas de preguntas y calificaciones. Sin embargo, en el momento de diseñar un sistema automatizado, no es menos cierto que existen algunas variantes más sencillas y, por ende, más utilizadas. Según \cite{Laguna2016}, los tipos de preguntas que mayormente se emplean en los sistemas de capacitación automatizados son:
 
 \begin{itemize}
 \item \textbf{Verdadero o falso}: contienen una declaración que se debe indicar si es verdadera o no. Permiten responder en poco tiempo, son fáciles, rápidas de calificar y se corrigen de forma automática.
-\item \textbf{Opción múltiple}: se componen de una pregunta (raíz) con múltiples respuestas posibles. Al poder incluir múltiples opciones válidas, podrían darse por superadas al marcar cualquiera de las respuestas o cuando se marquen todas. Se caracterizan por ser fáciles, rápidas de calificar, por corregirse automáticamente y utilizarse para evaluar los conocimientos en una amplia gama de contenidos.
+\item \textbf{Opción múltiple}: se componen de una pregunta (raíz) con múltiples respuestas posibles. Al poder incluir múltiples opciones válidas, podrían darse por superadas al marcar cualquiera de las respuestas o cuando se marquen todas. Se caracterizan por ser fáciles, rápidas de calificar, corregirse automáticamente y utilizarse para evaluar los conocimientos en una amplia gama de contenidos.
 \item \textbf{Emparejar, relacionar u ordenar}: por lo general se emparejan cada una de las opciones del primer bloque con las opciones dadas en el segundo bloque, o se ordenan bloques de modo que quede una secuencia correcta de acuerdo a un patrón previamente establecido. Se suelen usar en aquellos cursos donde la adquisición de conocimientos muy detallados es un objetivo importante. Son preguntas fáciles de diseñar, rápidas de calificar y se corrigen automáticamente. Estadísticamente, se tarda más en responder este tipo de preguntas que las preguntas anteriores.
 \item \textbf{Respuesta corta}: basta con que se escriban un par de palabras o una frase sencilla. Una alternativa más común a este tipo de preguntas es la de cubrir los espacios en blanco con una palabra. Son de gran utilidad a la hora de demostrar los conocimientos basados en hechos o palabras claves. La dificultad para calificarlas depende del estilo que se decida emplear.
 \end{itemize}
@@ -98,7 +106,7 @@ En el caso de un sistema digital, dependiendo del tipo de objetivo que se quiera
 \end{itemize}
 
 \subsubsection{Combinación de colores}
-Para lograr una buena combinación de colores en un sistema se debe hacer uso de la gama cromática. Esta es la escala que ordena los colores según su valor, saturación o posición. Se divide en cálida y fría (\textsl{Figura \ref{fig:colores}}). La gama cálida está integrada por colores que van desde el magenta hasta el amarillo verdoso. Estos tonos son ideales para llamar la atención del usuario, siempre y cuando se usen con moderación. Los colores fríos van del azul al púrpura, y son utilizados con frecuencia por empresas que quieren representar seriedad y responsabilidad, pues transmiten calma a los usuarios \cite{TerronLopez2022} .
+Para lograr una buena combinación de colores en un sistema se debe hacer uso de la gama cromática. Esta escala ordena los colores según su valor, saturación o posición. Se divide en cálida y fría (\textsl{Figura \ref{fig:colores}}). La gama cálida está integrada por colores que van desde el magenta hasta el amarillo verdoso (son tonos ideales para llamar la atención del usuario, siempre y cuando se usen con moderación). Los colores fríos van desde el púrpura al azul, y son utilizados con frecuencia por empresas que quieren representar seriedad y responsabilidad, pues transmiten calma a los usuarios \cite{TerronLopez2022} .
 
 \begin{figure}[h]
 \centering
@@ -107,37 +115,17 @@ Para lograr una buena combinación de colores en un sistema se debe hacer uso de
  \label{fig:colores} 
 \end{figure}
 
-Una vez definidas las tonalidades a utilizar se recomienda seguir un patrón de diseño para todo el sistema, basándose en: una gama cromática (diferentes tonos de un mismo color), una gama complementaria (un color combinado con sus complementarios) o una gama opuesta (un color combinado con el color opuesto) \cite{TerronLopez2022}.
-
-\subsection{Ventajas en un sistema de capacitación automatizado}
-Un sistema de entrenamiento asistido por computadora (sistema de capacitación automatizado), permite ofrecer el mismo nivel de adiestramiento para cada usuario del sistema, en cuanto a rigor y evaluación. Uno de los problemas principales de la capacitación de los empleados de manera presencial es que las sesiones son frecuentemente inconsistentes y las diferencias en el nivel de habilidad del formador pueden tener un impacto significativo en el éxito del empleado. Al contar con un sistema automatizado, solo se necesita una base de conocimiento para garantizar el mismo nivel de entrenamiento para todos los capacitados. Por otra parte, una capacitación presencial requiere la existencia de una persona, por lo general un experto, que supervise al adiestrado y califique su rendimiento. En cambio, con un sistema automatizado, no es necesario desempeñar esta tarea, el propio software se encarga de la supervición y evaluación del operario \cite{Kanev2017}.
+Una vez definidas las tonalidades se recomienda seguir un patrón de diseño para todo el sistema, basándose en: una gama cromática (diferentes tonos de un mismo color), una gama complementaria (un color combinado con sus complementarios) o una gama opuesta (un color combinado con el color opuesto) \cite{TerronLopez2022}.
 
 \subsection{Proceso de validación de las respuestas}
-En los sistemas de capacitación automatizados pueden utilizarse tres métodos diferentes de validación: manual, semiautomático o automático. Por lo general, el más empleado es el automático, ya que de esta forma se facilita el trabajo para aquellos que deben evaluar a un personal abundante. Según \cite{AltyJames1984}, la manera más efectiva y eficiente de evaluar las respuestas en este tipo de sistemas es mediante el uso de sistemas expertos.
+En los sistemas de capacitación automatizados pueden emplearse tres métodos diferentes de validación: manual, semiautomático o automático. Por lo general, el más utilizado es el automático, porque facilita el trabajo para aquellos que deben diagnosticar a un personal abundante. Según \cite{AltyJames1984}, uno de los métodos más efectivos de evaluar las respuestas en un sistema es mediante el uso de sistemas expertos.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistemas expertos}
 Los sistemas expertos resuelven problemas que normalmente son solucionados por expertos humanos. Para hacerlo, necesitan acceder a una importante base de conocimiento sobre el dominio, que debe construirse de la manera más eficiente posible. Utilizan uno o más mecanismos de razonamiento, para aplicar este conocimiento a los problemas que se le proponen. Cuentan con un instrumento para explicar a los usuarios que han confiado en ellos, lo que han hecho y cómo \cite{VonRueden2021}.
 
 Una forma de contemplar estos sistemas es que simbolizan la mayor parte de la Inteligencia Artificial (IA) aplicada. Un sistema experto en IA se define como un programa informático que tiene la capacidad de representar y razonar sobre el conocimiento \cite{Rasheed2021}.
-
-\subsection{Componentes de un sistema experto}
-En \cite{Omuya2021} se detallan los diferentes componentes que integran un sistema experto. Aunque pueden contar con un número mayor, los mínimos requeridos son (\textsl{Figura \ref{fig:componentes}}):
-
-\begin{itemize}
-\item \textbf{Motor de inferencia}: es el corazón del sistema experto. Su cometido principal es sacar conclusiones aplicando el conocimiento a los datos. Estas conclusiones pueden estar basadas en conocimiento determinista o probabilístico.
-\item \textbf{Base de conocimiento}: consiste en un conjunto de objetos y un conjunto de reglas que gobiernan las relaciones entre esos objetos. La información que almacena es de naturaleza permanente y estática, es decir, no cambia de una aplicación a otra. Se debe diferenciar entre los datos y el conocimiento. El conocimiento se refiere a afirmaciones de validez general tales como reglas, distribuciones de probabilidad, entre otras. Los datos se refieren a información relacionada con una aplicación en particular.
-\item \textbf{Mecanismo de aprendizaje}: controla el flujo del nuevo conocimiento que va del experto humano a la base de conocimiento. El sistema determina qué nueva información se necesita, o si los datos son reales, es decir, si debe incluirse el nuevo conocimiento, y en caso necesario incorporarlo.
-\item \textbf{Interfaz de usuario}: es la interfaz entre el sistema experto y el usuario. Para que sea efectiva debe incorporar mecanismos para mostrar y obtener información de forma sencilla y agradable.
-\end{itemize}
-
-\begin{figure}[h]
-\centering
- \includegraphics[width=0.7\linewidth]{imagen/componentes.png}
- \caption{Componentes de un sistema experto}
- \label{fig:componentes} 
-\end{figure}
 
 \subsection{Desventajas de los sistemas expertos}
 Al ser una tecnología novedosa, los sistemas expertos traen consigo ciertas desventajas. Por presentar algunos ejemplos, en \cite{Kandula2020} se mencionan:
@@ -145,7 +133,7 @@ Al ser una tecnología novedosa, los sistemas expertos traen consigo ciertas des
 \begin{itemize}
 \item Su actualización necesita de reprogramación, siendo una de sus limitaciones más acentuadas
 \item Son poco flexibles a cambios y de difícil acceso a información no estructurada
-\item Poseen un elevado costo en dinero y tiempo
+\item Poseen un elevado costo monetario y de tiempo
 \item Carecen de sentido común (no hay nada obvio)
 \item No se puede mantener una conversación informal con ellos
 \item Es muy complicado que aprendan de sus errores o de errores ajenos
@@ -153,11 +141,11 @@ Al ser una tecnología novedosa, los sistemas expertos traen consigo ciertas des
 problema y separarlas de cuestiones secundarias
 \end{itemize}
 
-Sin embargo, estos problemas no solo los presentan los sistemas expertos. La Inteligencia Artificial aún no ha podido desarrollar sistemas que
-sean capaces de resolver problemas de manera general o de aplicar el sentido común para resolver situaciones complejas. Es por ello que, a pesar de sus desventajas, los sistemas expertos son considerados una gran ayuda y un enorme avance, en especial, en el campo de los sistemas de capacitación \cite{Barham2022}.
+Sin embargo, estos problemas no solo los presentan los sistemas expertos. La IA aún no ha podido desarrollar sistemas que
+sean capaces de aplicar el sentido común humano para resolver situaciones complejas. Es por ello que, a pesar de sus desventajas, los sistemas expertos son considerados una gran ayuda y un enorme avance, en especial, en el campo de los sistemas de capacitación \cite{Barham2022}.
 
 \subsection{Ventajas de los sistemas expertos}
-A pesar de sus desventajas, el uso de un sistema experto en cualquier ámbito social resulta favorable de diversas maneras. Según \cite{Mitchell1990}, entre sus ventajas más importantes se pueden encontrar:
+El uso de un sistema experto en cualquier ámbito social resulta favorable de diversas maneras. Según \cite{Mitchell1990}, entre sus ventajas más notables se pueden encontrar:
 
 \begin{itemize}
 \item No sufre de limitaciones y percances humanos, lo que lo convierte en una herramienta estable y fiable para su entorno
@@ -170,31 +158,47 @@ A pesar de sus desventajas, el uso de un sistema experto en cualquier ámbito so
 relativamente elevadas
 \end{itemize}
 
-A modo de conclusión, dependiendo del ámbito y los objetivos que se persigan, por lo general, el uso de esta tecnología resulta una ayuda más que una desventaja.
+A modo de conclusión, dependiendo del ámbito y los objetivos que se persigan, por lo general, el uso de esta tecnología representa un avance más que una desventaja.
+
+\subsection{Componentes de un sistema experto}
+En \cite{Omuya2021} se detallan los diferentes componentes que integran un sistema experto. Aunque pueden contar con un número mayor, los mínimos requeridos son (\textsl{Figura \ref{fig:componentes}}):
+
+\begin{itemize}
+\item \textbf{Motor de inferencia}: es el corazón del sistema experto. Su cometido principal es sacar conclusiones aplicando el conocimiento a los datos. Estas conclusiones pueden estar basadas en conocimiento determinista o probabilístico.
+\item \textbf{Base de conocimiento}: consiste en un conjunto de objetos y un conjunto de reglas que gobiernan las relaciones entre ellos. La información que almacena es de naturaleza permanente y estática, es decir, no cambia de una aplicación a otra. Se debe diferenciar entre los datos y el conocimiento. Con conocimiento se refiere: a las afirmaciones de validez general, tales como reglas, distribuciones de probabilidad, entre otras. Con datos se refiere: a la información que se tiene de una aplicación en particular.
+\item \textbf{Mecanismo de aprendizaje}: controla el flujo de información que va del experto humano a la base de conocimiento. El sistema determina qué nueva información se necesita, o si los datos son reales, es decir, si debe incluirse nuevo conocimiento, y en caso necesario incorporarlo.
+\item \textbf{Interfaz de usuario}: es la interfaz entre el sistema experto y el usuario. Para que sea efectiva debe incorporar mecanismos para mostrar y obtener información de forma sencilla y agradable.
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+ \includegraphics[width=0.7\linewidth]{imagen/componentes.png}
+ \caption{Componentes de un sistema experto}
+ \label{fig:componentes} 
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Generador de Bases de Conocimiento}
+\section{Sistema Generador de Bases de Conocimiento}
 En octubre del 2017, el Instituto de Investigaciones de la Industria Alimentaria (IIIA), en conjunto con las facultades de Ingeniería Química e Ingeniería Informática de la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), desarrolló un Sistema Gestor de Bases de Conocimiento (SGBC). La función principal de este sistema es generar bases de información a partir de los datos introducidos por un usuario determinado. Dichas bases son exportadas en dos tipos especiales de ficheros: \textsl{anm} y \textsl{drl}. Cada uno de estos ficheros contienen información sobre un proceso productivo determinado \cite{Lemus2018}.
 
 \subsection{Funcionamiento del generador}
 El generador tiene como objetivo crear bases de conocimiento sobre procesos productivos industriales. Utiliza reglas de producción como formalismo de representación del conocimiento, las cuales se generan según el formato definido por el motor de inferencia \textsl{Drools}.
 
-En el SGBC todos los datos son introducidos por un usuario, que puede crear o cargar un proceso productivo de cualquier rama de la Industria Alimentaria. Por cada proceso se deben ir incluyendo las diferentes variables que en este influyen e ir clasificándolas en tres tipos: discretas, válvulas o continuas. En el caso de ser continuas se les deben agregan sus valores máximos y mínimos. Una vez introducidas todas las variables, se empiezan a insertar las causas que influyen en todo el proceso y luego las recomendaciones para cada una de las causas, aunque el orden de los datos no afecta el resultado. Solo al concluir, se podrán emparejar las variables con las causas y las causas con las recomendaciones. Se debe tener en cuenta que una variable puede tener varias causas y que una causa puede tener varias recomendaciones. Al emparejar una variable con su causa se debe indicar el estado de la misma: si es discreta puede ser positivo o negativo; si es válvula puede ser abierto, normal o cerrado y si es continua puede ser alto, normal o bajo. Una vez concluida la entrada de datos del proceso, se exportan los ficheros \textsl{anm} y \textsl{drl} \cite{Riveron2017}.
+En el SGBC todos los datos son introducidos por un usuario, que puede crear o cargar un proceso productivo de cualquier rama de la Industria Alimentaria. Por cada proceso se deben incluir las diferentes variables que en este influyen e ir clasificándolas en tres tipos: discretas, válvulas o continuas. En el caso de ser continuas se les deben agregan sus valores máximos y mínimos. Una vez introducidas todas las variables, se empiezan a insertar las causas que influyen sobre las mismas y, luego, las recomendaciones para cada una de ellas, aunque el orden de los datos no afecta el resultado. Solo al concluir, se podrán emparejar cada variable con sus causas y, cada causa, con sus recomendaciones. Se debe tener en cuenta que una variable puede vincularse a varias causas y que una causa puede necesitar varias recomendaciones. Al emparejar una variable con su causa se debe indicar el estado en el que se encuentra: si es discreta puede ser positivo o negativo; si es válvula puede ser abierto, normal o cerrado y si es continua puede ser alto, normal o bajo. Una vez concluida la entrada de los datos, la información se exporta en los ficheros \textsl{anm} y \textsl{drl} \cite{Riveron2017}.
 
 \subsection{Información de los ficheros anm}
-Un archivo \textsl{anm} puede ser utilizado por diferentes tipos de programas distribuidos, para múltiples plataformas como Linux, Mac o Windows. Los datos de estos ficheros contienen toda la información referente a las variables, causas y recomendaciones de un proceso productivo.
+Un archivo \textsl{anm} puede ser utilizado por diferentes tipos de programas distribuidos, para múltiples plataformas como Linux, Mac o Windows. En este caso, estos ficheros contienen toda la información referente a las variables, causas y recomendaciones de un proceso productivo.
 Comienzan con los nombres de las variables y su clasificación. Si la variable es de tipo continua, poseen sus valores máximos y mínimos. Cada información de las variables está separada por comas, y cada variable está dividida por renglones.
-Al comenzar a leer las causas, aparece un indicador (*causa). Las causas solo poseen su nombre y están separadas por renglones. Por último, al comenzar a leer las recomendaciones aparece un indicador (*recomendaciones) de la misma manera que en las causas.
-De las recomendaciones solo se tiene el nombre y cada una está separada por renglones.
-Al final de los archivos \textsl{anm} aparece un -1 para indicar que se acabó la lectura \cite{Riveron2017}.
+Al finalizar, aparece un indicador (*causa) que representa el inicio de un nuevo bloque de información: las causas. Las causas solo poseen su nombre y están separadas por renglones. Finalizando ese bloque, aparece otro indicador (*recomendaciones) para representar el inicio del último bloque de información: las recomendaciones.
+De las recomendaciones solo se tiene el nombre y cada una está separada por renglones. Con el último indicador (-1), se da a entender que se finalizó la información del fichero \cite{Riveron2017}.
 
 \subsection{Información de los ficheros drl}
-Un archivo \textsl{drl} es donde el motor de inferencia \textsl{Drools} (Sistema de Gestión de Reglas de Negocio) almacena sus reglas (\textsl{Figura \ref{fig:reglas}}). La estructura de una regla dentro de este archivo sigue un patrón donde \textbf{name} es el nombre de la regla, \textbf{attribute} son los posibles atributos que puede tener la misma, \textbf{conditional element} es la sentencia condicional a evaluar por la regla y, si se cumple esta sentencia, se pasa a realizar una o varias acciones en \textbf{action}. En este caso, lo que se almacenan son  las reglas entre variables y causas y entre causas y recomendaciones \cite{Riveron2017}.
+Un archivo \textsl{drl} es donde el motor de inferencia \textsl{Drools} (Sistema de Gestión de Reglas de Negocio en español) almacena sus reglas (\textsl{Figura \ref{fig:reglas}}). La estructura de una regla dentro de este archivo sigue un patrón determinado, donde \textbf{name} es el nombre de la regla, \textbf{attribute} son los posibles atributos que puede tener, \textbf{conditional element} es la sentencia condicional a evaluar y, si se cumple esta sentencia, se realizan una o varias acciones en \textbf{action}. En este caso, lo que se almacenan son  las reglas entre variables y causas y entre causas y recomendaciones \cite{Riveron2017}.
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.5\linewidth]{imagen/rules.png}
+ \includegraphics[width=0.47\linewidth]{imagen/rules.png}
  \caption{Estructura del fichero \textsl{drl} (reglas)}
  \label{fig:reglas} 
 \end{figure}
@@ -202,7 +206,7 @@ Un archivo \textsl{drl} es donde el motor de inferencia \textsl{Drools} (Sistema
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistema de entrenamiento SECPROIT}
-En el año 2018 se creó el Sistema Experto para el Control de Procesos Químicos (SECPROIT), sistema diseñado para capacitar a los operarios de la Industria Alimentaria Cubana sobre los diferentes procesos productivos que en ella se realizan. Este sistema fue desarrollado en la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), entre las facultades de Ingeniería Química e Ingeniería Informática. Su objetivo principal es lograr capacitar a los operarios de la industria y, para ello, realiza un conjunto de entrenamientos evaluados por un sistema experto \cite{ElenaAcostaGil2018}.
+En el año 2018 se creó el Sistema Experto para el Control de Procesos Químicos (SECPROIT), diseñado para capacitar a los operarios de la Industria Alimentaria Cubana sobre los diferentes procesos productivos que en ella se realizan. Este sistema fue desarrollado en la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), entre las facultades de Ingeniería Química e Ingeniería Informática. Su objetivo principal era lograr capacitar a los operarios de la industria y, para ello, realizar un conjunto de entrenamientos evaluados por un sistema experto \cite{ElenaAcostaGil2018}.
 
 \subsection{Funcionamiento del SECPROIT}
 El sistema está diseñado para capacitar a los trabajadores de las fábricas a partir de entrenamientos relacionados a los procesos productivos que en ellas se realizan, mediante el uso de un sistema experto. En el sistema, existen tres roles fundamentales: 
@@ -213,22 +217,22 @@ El sistema está diseñado para capacitar a los trabajadores de las fábricas a 
 \item Operario: realiza los entrenamientos
 \end{itemize}
 
-Cada usuario posee un nombre, una contraseña y un rol, y con cada rol aparecen funcionalidades únicas y específicas. En el caso de los especialistas, para insertar una base de conocimiento deben asociarla a un proceso, y de cada proceso deben registrar el nombre, una imagen si la posee, un fichero tipo \textsl{anm} y un archivo \textsl{drl} \cite{Lemus2018}.
+Cada usuario posee un nombre, una contraseña y un rol, y con cada rol aparecen funcionalidades únicas y específicas. En el caso de los especialistas, para insertar una base de conocimiento deben asociarla a un proceso, y de cada proceso deben registrar el nombre, una imagen (si la posee), un fichero tipo \textsl{anm} y un archivo \textsl{drl}. El operario entrará a realizar aquellos entrenamientos que el especialista haya validado \cite{Lemus2018}.
 
-El operario entrará a realizar aquellos entrenamientos que el especialista haya validado. Una vez comenzada la prueba, deberá señalar de un grupo de variables las que por su estado estén en peligro de inestabilidad. Si ha seleccionado correctamente pasa a la siguiente etapa, donde debe escoger qué causa el estado de las variables que prefirió. Por último deberá seleccionar qué recomendaciones seguir para cada causa que señaló \cite{ElenaAcostaGil2018}.
+Una vez comenzada la prueba, el usuario deberá señalar de un grupo de variables las que por su estado estén en peligro de inestabilidad. Si ha seleccionado correctamente pasa a la siguiente etapa, donde debe escoger qué causa el estado de las variables que prefirió. Por último, deberá seleccionar qué recomendaciones seguir para cada causa señalada \cite{ElenaAcostaGil2018}.
 
-El SECPROIT posee un grupo de reportes que facilita la toma de decisiones a partir de los resultados alcanzados. El especialista puede contar con una lista de resultados de cada operario de su área y, de esta forma, se garantiza la selección de los mejores trabajadores a partir de la organización brindada por la lista. También se puede encontrar un listado de los cambios realizados en el sistema, junto con la fecha y el nombre del usuario que lo realizó.
+El SECPROIT posee un grupo de reportes que facilita la toma de decisiones a partir de los resultados alcanzados. El especialista puede contar con una lista de resultados de cada operario de su área y, de esta forma, se garantiza la selección de los mejores trabajadores a partir de la organización brindada por la lista. También se puede encontrar un listado de los cambios realizados en el sistema, junto con la fecha y el nombre del usuario que los realizó. Este último reporte colabora con la seguridad.
 
 \subsection{Limitaciones actuales del sistema}
-Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias. Estas son:
+Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
 \begin{itemize}
 \item Cada vez que se desea utilizar la información obtenida por el generador es extraída directamente desde sus ficheros, lo que genera una demora extra en el sistema
-\item Solo existe un modo de pregunta, por lo que resulta redundante el método de evaluación
-\item El tiempo utilizado en responder el entrenamiento no influye en la nota final del mismo
-\item La etapa de las recomendaciones no se evalúa correctamente, ni muestra los puntos recibidos
-\item Cada etapa se evalúa de manera continúa sin oportunidad de una pausa.
-\item Si se suspende una etapa el entrenamiento continúa hasta el final, por lo que aparecen etapas innecesariamente
-\item Por cada proceso existe un único entrenamiento.
+\item Solo existe un modelo de pregunta, por lo que resulta redundante el método de evaluación
+\item El tiempo demorado en responder el entrenamiento no influye en la nota final del mismo
+\item La etapa de las recomendaciones no se evalúa
+\item Las etapas aparecen de forma continúa, sin oportunidad de una pausa
+\item Aparecen todas las etapas en una misma vista, si se suspende una, se muestran etapas innecesariamente
+\item Por cada proceso existe un único entrenamiento
 \item Presenta una interfaz gráfica poco vistosas y de colores muy oscuros que generan desagrado en los usuarios
 \end{itemize}
 
@@ -239,7 +243,8 @@ Al concluir el capítulo se puede arribar a las siguientes conclusiones:
 \begin{itemize}
 \item La capacitación constante de los trabajadores de una empresa ayuda al rendimiento de la misma y evita errores futuros
 \item Los sistemas de capacitación automatizados permiten el entrenamiento del personal laboral sin la necesidad de un supervisor, lo que ahorra tiempo y recursos humanos a la empresa
-\item En un sistema de capacitación automatizados se pueden medir tantos parámetros de aprendizaje como herramientas se tenga
+\item En un sistema de capacitación automatizado se pueden medir tantos parámetros de aprendizaje como herramientas se tenga
+\item Los criterios de evaluación de un entrenamiento varían según los parámetros y requisitos de la empresa
 \item En los sistemas digitales, el color naranja aumenta la concentración y el nivel de aprendizaje, por lo que este color es muy utilizado en los sistemas de entrenamiento y en sistemas estudiantiles
 \item Los sistemas expertos facilitan el proceso de evaluación de los sistemas de entrenamiento digitales
 \item El SGBC genera las bases de conocimiento del sistema SECPROIT y puede ser utilizado para cualquier tipo de proceso productivo dentro de la Industria Alimentaria Cubana

@@ -529,7 +529,7 @@ We conclude by noting promising directions in the field, and advocate steps to a
   title        = {Identifying Functional and Non-functional Software Requirements From User App Reviews},
   year         = {2022},
   address      = {Toronto, ON, Canada},
-  editor       = {IIE},
+  editor       = {IEEE},
   month        = jun,
   number       = {97},
   organization = {IEEE},
@@ -541,6 +541,24 @@ We conclude by noting promising directions in the field, and advocate steps to a
   doi          = {10.1109/IEMTRONICS55184.2022.9795770},
   keywords     = {Mechatronics,Machine learning algorithms,Filtering,Conferences,Software algorithms,Machine learning,Software},
   url          = {https://ieeexplore.ieee.org/abstract/document/9795770},
+}
+
+@InProceedings{Kalaivani2004,
+  author       = {Kalaivani, S and Dong, L and Behrouz, HF and Eberlein, A},
+  booktitle    = {Software Engineering and Knowledge Engineering},
+  title        = {UCDA: Use case driven development assistant tool for class model generation},
+  year         = {2004},
+  address      = {United States},
+  editor       = {IEEE},
+  month        = dec,
+  number       = {4},
+  organization = {IEEE},
+  pages        = {324--329},
+  publisher    = {10th Ieee International Enterprise Distributed Object Computing Conference, Proceedings},
+  series       = {16},
+  volume       = {3},
+  abstract     = {The development of class models using the Rational Unified Process (RUP) requires complete, correct and unambiguous use case specification documents. The Use Case Driven Development Assistant (UCDA) tool provides automated assistance in developing use case diagrams, writing use case specification documents and developing the analysis class models. UCDA uses a freely available natural language parser and Rational Rose’s extensibility interface to support the automation of the Object Model Creation Process (OMCP). The parser is a shift-reduce parser and is implemented in Python. This paper introduces the UCDA tool and its application in OMCP. The process of automation is illustrated in a case study of an Automated Teller Machine (ATM) System. The UCDA tool increases design productivity, reduces time-to-market and is of great help to novice software developers.},
+  url          = {https://www.researchgate.net/profile/Dong-Liu-68/publication/221389580_UCDA_Use_Case_Driven_Development_Assistant_Tool_for_Class_Model_Generation/links/541ee9e00cf203f155c248c9/UCDA-Use-Case-Driven-Development-Assistant-Tool-for-Class-Model-Generation.pdf},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

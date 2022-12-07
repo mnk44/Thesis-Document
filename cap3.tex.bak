@@ -1,6 +1,11 @@
-\chapter*{Capítulo 3 \vspace{0.5cm} \break Validación de la solución}
+\chapter*{Capítulo 3 \vspace{0.5cm} \break Validación del nuevo sistema de capacitación}
 \setcounter{chapter}{3}
 \setcounter{section}{0}
-\addcontentsline{toc}{chapter}{Capítulo 3: Validación de la solución}
+\addcontentsline{toc}{chapter}{Capítulo 3: Validación del nuevo sistema de capacitación}
 
-En el presente capítulo se presenta la validación de la herramienta desarrollada. Para ello se realizan un conjunto de pruebas . Además se establece una comparación entre los resultados estadísticos obtenidos para diferentes juegos de datos. Dicho proceso parte de cómo la fase de análisis y diseño se unen para llevar a cabo el sistema propuesto.
+Partiendo del objetivo principal de la investigación (rectificar las limitaciones existentes en el sistema SECPROIT), se desarrollaron un conjunto de pruebas y experimentos para demostrar que se enmendaron dichas restricciones. En el siguiente capítulo se presentan los resultados obtenidos en cada una de las pruebas. Este proceso parte de cómo la fase de análisis y diseño se unen para llevar a cabo el sistema propuesto.
+
+\section{Pruebas funcionales}
+ Las pruebas de software, o pruebas funcionales, son el proceso de ejecutar un sistema o componente para medir su calidad, con la intención de encontrar errores que aún no se descubren. %cita1
+
+Para este software, el nivel de prueba que se utiliza es: pruebas de sistema. Consiste en ejecutar el sistema completo, buscando defectos tanto en aspectos generales como en particulares. Se utilizan pruebas basadas en las funcionalidades (pruebas funcionales) y el método que se emplea es el de caja negra (se lleva a cabo sobre la interfaz del software). %cita2

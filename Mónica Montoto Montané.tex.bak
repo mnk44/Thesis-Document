@@ -6,7 +6,7 @@
 \usepackage{float}
 \usepackage{array}
 \usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
-\usepackage[breaklinks,colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=black]{hyperref}
+\usepackage[breaklinks=true,colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=black]{hyperref}
 
 \makeindex
 
@@ -28,10 +28,10 @@
 	\thispagestyle{empty} 
 	
  	\include{portada}
-	%\include{dec_autoria}
+	\include{decAutoria}
 	%\include{opinion_tutor}
 	%\include{dedicatoria}
-	%\include{agradecimientos}
+	\include{agradecimientos}
 	
 	\include{resumen}
 	\include{abstrac}
@@ -58,14 +58,14 @@
 	\renewcommand{\chaptermark}[1]{\markboth{\chaptername \, \thechapter. #1}{}}
 
 	\include{cap1}
-    %\include{cap2}
-	%\include{cap3}
+    \include{cap2}
+	\include{cap3}
 	    
     \cleardoublepage
   \phantomsection
 	\addcontentsline{toc}{chapter}{Conclusiones}
     
- % \include{conc}
+  \include{conc}
     
    \cleardoublepage
    \phantomsection

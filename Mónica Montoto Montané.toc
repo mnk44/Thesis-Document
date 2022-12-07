@@ -1,6 +1,6 @@
 \select@language {spanish}
-\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{section*.6}
-\contentsline {chapter}{Cap\IeC {\'\i }tulo 1: Fundamentos te\IeC {\'o}ricos}{5}{chapter*.8}
+\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{section*.8}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 1: Fundamentos te\IeC {\'o}ricos}{5}{chapter*.10}
 \contentsline {section}{\numberline {1.1}Sistemas de capacitaci\IeC {\'o}n laboral}{5}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Caracter\IeC {\'\i }sticas de un sistema de capacitaci\IeC {\'o}n}{5}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Importancia de una buena capacitaci\IeC {\'o}n}{6}{subsection.1.1.2}
@@ -12,9 +12,9 @@
 \contentsline {subsection}{\numberline {1.2.1}Ventajas en un sistema de capacitaci\IeC {\'o}n automatizado}{9}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Tipos de preguntas en un sistema de capacitaci\IeC {\'o}n automatizado}{9}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Colores utilizados en un sistema digital}{10}{subsection.1.2.3}
-\contentsline {subsubsection}{Psicolog\IeC {\'\i }a del color}{10}{section*.9}
-\contentsline {subsubsection}{Significado de los colores}{10}{section*.10}
-\contentsline {subsubsection}{Combinaci\IeC {\'o}n de colores}{11}{section*.11}
+\contentsline {subsubsection}{Psicolog\IeC {\'\i }a del color}{10}{section*.11}
+\contentsline {subsubsection}{Significado de los colores}{10}{section*.12}
+\contentsline {subsubsection}{Combinaci\IeC {\'o}n de colores}{11}{section*.13}
 \contentsline {subsection}{\numberline {1.2.4}Proceso de validaci\IeC {\'o}n de las respuestas}{11}{subsection.1.2.4}
 \contentsline {section}{\numberline {1.3}Sistemas expertos}{12}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Desventajas de los sistemas expertos}{12}{subsection.1.3.1}
@@ -28,7 +28,25 @@
 \contentsline {subsection}{\numberline {1.5.1}Funcionamiento del SECPROIT}{16}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Limitaciones actuales del sistema}{17}{subsection.1.5.2}
 \contentsline {section}{\numberline {1.6}Conclusiones parciales}{17}{section.1.6}
-\contentsline {chapter}{Conclusiones}{19}{section*.12}
-\contentsline {chapter}{Recomendaciones}{19}{section*.13}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{20}{section*.15}
-\contentsline {chapter}{Anexos}{23}{section*.17}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 2: Desarrollo del nuevo sistema}{19}{chapter*.14}
+\contentsline {section}{\numberline {2.1}Descripci\IeC {\'o}n del negocio}{19}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Modelo de dominio}{19}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Reglas del negocio}{22}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Diagrama de actividades}{23}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Captura de requisitos}{24}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Requisitos funcionales}{24}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Requisitos No Funcionales}{25}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Casos de uso}{26}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Actores del sistema}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Diagrama de casos de uso}{27}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Especificaci\IeC {\'o}n de los casos de uso}{28}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Modelo de datos}{29}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Diagrama de Entidades y Relaciones (DER)}{29}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Diagrama de base de datos}{31}{subsection.2.4.2}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n del nuevo sistema de capacitaci\IeC {\'o}n}{32}{chapter*.15}
+\contentsline {section}{\numberline {3.1}Pruebas funcionales}{32}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Pruebas funcionales}{32}{subsection.3.1.1}
+\contentsline {chapter}{Conclusiones}{33}{section*.16}
+\contentsline {chapter}{Recomendaciones}{34}{section*.18}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{35}{section*.20}
+\contentsline {chapter}{Anexos}{38}{section*.22}

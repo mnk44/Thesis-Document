@@ -1,30 +1,48 @@
-\BOOKMARK [0][-]{section*.6}{Introducci\363n}{}% 1
-\BOOKMARK [0][-]{chapter*.8}{Cap\355tulo 1: Fundamentos te\363ricos}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Sistemas de capacitaci\363n laboral}{chapter*.8}% 3
+\BOOKMARK [0][-]{section*.8}{Introducci\363n}{}% 1
+\BOOKMARK [0][-]{chapter*.10}{Cap\355tulo 1: Fundamentos te\363ricos}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Sistemas de capacitaci\363n laboral}{chapter*.10}% 3
 \BOOKMARK [2][-]{subsection.1.1.1}{Caracter\355sticas de un sistema de capacitaci\363n}{section.1.1}% 4
 \BOOKMARK [2][-]{subsection.1.1.2}{Importancia de una buena capacitaci\363n}{section.1.1}% 5
 \BOOKMARK [2][-]{subsection.1.1.3}{Proceso de evaluaci\363n en una capacitaci\363n}{section.1.1}% 6
 \BOOKMARK [2][-]{subsection.1.1.4}{Fases del proceso de evaluaci\363n}{section.1.1}% 7
 \BOOKMARK [2][-]{subsection.1.1.5}{Criterios de evaluaci\363n de un proceso}{section.1.1}% 8
 \BOOKMARK [2][-]{subsection.1.1.6}{Proceso de validaci\363n de las respuestas}{section.1.1}% 9
-\BOOKMARK [1][-]{section.1.2}{Sistemas de capacitaci\363n automatizados}{chapter*.8}% 10
+\BOOKMARK [1][-]{section.1.2}{Sistemas de capacitaci\363n automatizados}{chapter*.10}% 10
 \BOOKMARK [2][-]{subsection.1.2.1}{Ventajas en un sistema de capacitaci\363n automatizado}{section.1.2}% 11
 \BOOKMARK [2][-]{subsection.1.2.2}{Tipos de preguntas en un sistema de capacitaci\363n automatizado}{section.1.2}% 12
 \BOOKMARK [2][-]{subsection.1.2.3}{Colores utilizados en un sistema digital}{section.1.2}% 13
 \BOOKMARK [2][-]{subsection.1.2.4}{Proceso de validaci\363n de las respuestas}{section.1.2}% 14
-\BOOKMARK [1][-]{section.1.3}{Sistemas expertos}{chapter*.8}% 15
+\BOOKMARK [1][-]{section.1.3}{Sistemas expertos}{chapter*.10}% 15
 \BOOKMARK [2][-]{subsection.1.3.1}{Desventajas de los sistemas expertos}{section.1.3}% 16
 \BOOKMARK [2][-]{subsection.1.3.2}{Ventajas de los sistemas expertos}{section.1.3}% 17
 \BOOKMARK [2][-]{subsection.1.3.3}{Componentes de un sistema experto}{section.1.3}% 18
-\BOOKMARK [1][-]{section.1.4}{Sistema Generador de Bases de Conocimiento}{chapter*.8}% 19
+\BOOKMARK [1][-]{section.1.4}{Sistema Generador de Bases de Conocimiento}{chapter*.10}% 19
 \BOOKMARK [2][-]{subsection.1.4.1}{Funcionamiento del generador}{section.1.4}% 20
 \BOOKMARK [2][-]{subsection.1.4.2}{Informaci\363n de los ficheros anm}{section.1.4}% 21
 \BOOKMARK [2][-]{subsection.1.4.3}{Informaci\363n de los ficheros drl}{section.1.4}% 22
-\BOOKMARK [1][-]{section.1.5}{Sistema de entrenamiento SECPROIT}{chapter*.8}% 23
+\BOOKMARK [1][-]{section.1.5}{Sistema de entrenamiento SECPROIT}{chapter*.10}% 23
 \BOOKMARK [2][-]{subsection.1.5.1}{Funcionamiento del SECPROIT}{section.1.5}% 24
 \BOOKMARK [2][-]{subsection.1.5.2}{Limitaciones actuales del sistema}{section.1.5}% 25
-\BOOKMARK [1][-]{section.1.6}{Conclusiones parciales}{chapter*.8}% 26
-\BOOKMARK [0][-]{section*.12}{Conclusiones}{}% 27
-\BOOKMARK [0][-]{section*.13}{Recomendaciones}{}% 28
-\BOOKMARK [0][-]{section*.15}{Referencias bibliogr\341ficas}{}% 29
-\BOOKMARK [0][-]{section*.17}{Anexos}{}% 30
+\BOOKMARK [1][-]{section.1.6}{Conclusiones parciales}{chapter*.10}% 26
+\BOOKMARK [0][-]{chapter*.14}{Cap\355tulo 2: Desarrollo del nuevo sistema}{}% 27
+\BOOKMARK [1][-]{section.2.1}{Descripci\363n del negocio}{chapter*.14}% 28
+\BOOKMARK [2][-]{subsection.2.1.1}{Modelo de dominio}{section.2.1}% 29
+\BOOKMARK [2][-]{subsection.2.1.2}{Reglas del negocio}{section.2.1}% 30
+\BOOKMARK [2][-]{subsection.2.1.3}{Diagrama de actividades}{section.2.1}% 31
+\BOOKMARK [1][-]{section.2.2}{Captura de requisitos}{chapter*.14}% 32
+\BOOKMARK [2][-]{subsection.2.2.1}{Requisitos funcionales}{section.2.2}% 33
+\BOOKMARK [2][-]{subsection.2.2.2}{Requisitos No Funcionales}{section.2.2}% 34
+\BOOKMARK [1][-]{section.2.3}{Casos de uso}{chapter*.14}% 35
+\BOOKMARK [2][-]{subsection.2.3.1}{Actores del sistema}{section.2.3}% 36
+\BOOKMARK [2][-]{subsection.2.3.2}{Diagrama de casos de uso}{section.2.3}% 37
+\BOOKMARK [2][-]{subsection.2.3.3}{Especificaci\363n de los casos de uso}{section.2.3}% 38
+\BOOKMARK [1][-]{section.2.4}{Modelo de datos}{chapter*.14}% 39
+\BOOKMARK [2][-]{subsection.2.4.1}{Diagrama de Entidades y Relaciones \(DER\)}{section.2.4}% 40
+\BOOKMARK [2][-]{subsection.2.4.2}{Diagrama de base de datos}{section.2.4}% 41
+\BOOKMARK [0][-]{chapter*.15}{Cap\355tulo 3: Validaci\363n del nuevo sistema de capacitaci\363n}{}% 42
+\BOOKMARK [1][-]{section.3.1}{Pruebas funcionales}{chapter*.15}% 43
+\BOOKMARK [2][-]{subsection.3.1.1}{Pruebas funcionales}{section.3.1}% 44
+\BOOKMARK [0][-]{section*.16}{Conclusiones}{}% 45
+\BOOKMARK [0][-]{section*.18}{Recomendaciones}{}% 46
+\BOOKMARK [0][-]{section*.20}{Referencias bibliogr\341ficas}{}% 47
+\BOOKMARK [0][-]{section*.22}{Anexos}{}% 48

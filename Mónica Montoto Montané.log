@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 09:55
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 12:09
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -603,35 +603,35 @@ rme\opinion.tex) [2
 
 
 ]
-(E:\Escuela\Tesis\Informe\agradecimientos.tex) [4
+(E:\Escuela\Tesis\Informe\agradecimientos.tex [4
+
+
+
+]) [5]
+(E:\Escuela\Tesis\Informe\resumen.tex) [6
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\resumen.tex) [5
+(E:\Escuela\Tesis\Informe\abstrac.tex) [7
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\abstrac.tex) [6
-
-
-
-]
-("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.toc" [7
+("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.toc" [8
 
 
 ])
 \tf@toc=\write5
- [8]
+ [9]
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.lot")
 \tf@lot=\write6
- [9
+ [10
 
 ]
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.lof")
 \tf@lof=\write7
- [10
+ [11
 
 ]
 ! Undefined control sequence.
@@ -655,20 +655,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=395, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=399, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9] [10]
-<imagen/gama.png, id=439, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=443, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [11 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [12]
-<imagen/componentes.png, id=464, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=468, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [13] [14 <E:/Escuela/Tesis/Informe/imagen/componen
-tes.png>] <imagen/rules.png, id=481, 214.55156pt x 108.405pt>
+tes.png>] <imagen/rules.png, id=485, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -677,7 +677,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=518, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=523, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -690,11 +690,11 @@ Underfull \hbox (badness 1484) in paragraph at lines 78--79
  []
 
 [20 <E:/Escuela/Tesis/Informe/imagen/dominio.png>] [21] [22]
-<imagen/actividades.png, id=542, 465.99094pt x 433.62pt>
+<imagen/actividades.png, id=546, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [23 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [24] [25] [26] <imagen/dcu.png, id=572, 575.14874pt x 408.02437pt>
+ng>] [24] [25] [26] <imagen/dcu.png, id=576, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
 <use imagen/dcu.png> [27 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
@@ -712,7 +712,7 @@ Underfull \hbox (badness 7099) in paragraph at lines 269--269
 \OT1/cmr/m/n/12 los ope-ra-rios del
  []
 
-[28] <imagen/der.png, id=583, 410.2828pt x 305.64188pt>
+[28] <imagen/der.png, id=587, 410.2828pt x 305.64188pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [29 <E:/Escuela/Tesis/Informe/imagen/der.png>]
@@ -926,10 +926,10 @@ Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6274 strings out of 494019
- 93554 string characters out of 3143892
+ 6280 strings out of 494019
+ 93627 string characters out of 3143892
  191072 words of memory out of 3000000
- 9171 multiletter control sequences out of 15000+200000
+ 9176 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1269b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -941,9 +941,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (49 pages, 792023 bytes).
+Output written on "Mónica Montoto Montané.pdf" (50 pages, 795456 bytes).
 PDF statistics:
- 696 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
+ 700 PDF objects out of 1000 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
  435 words of extra memory for PDF output out of 10000 (max. 10000000)
 

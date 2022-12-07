@@ -29,8 +29,8 @@
 	
  	\include{portada}
 	\include{decAutoria}
-	%\include{opinion_tutor}
-	%\include{dedicatoria}
+    \include{opinion}
+	\include{dedicatoria}
 	\include{agradecimientos}
 	
 	\include{resumen}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 09:31
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 09:55
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -478,7 +478,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Writing index file Mónica*Montoto*Montané.idx
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.aux"
 (E:\Escuela\Tesis\Informe\portada.aux) (E:\Escuela\Tesis\Informe\decAutoria.aux
-) (E:\Escuela\Tesis\Informe\agradecimientos.aux)
+) (E:\Escuela\Tesis\Informe\opinion.aux)
+(E:\Escuela\Tesis\Informe\dedicatoria.aux)
+(E:\Escuela\Tesis\Informe\agradecimientos.aux)
 (E:\Escuela\Tesis\Informe\resumen.aux) (E:\Escuela\Tesis\Informe\abstrac.aux)
 (E:\Escuela\Tesis\Informe\introduccion.aux) (E:\Escuela\Tesis\Informe\cap1.aux)
 (E:\Escuela\Tesis\Informe\cap2.aux) (E:\Escuela\Tesis\Informe\cap3.aux)
@@ -573,11 +575,11 @@ File: imagen/cujae.png Graphic file (type png)
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <E:/Escuela/Tesis/Informe/
 imagen/cujae.png>]) (E:\Escuela\Tesis\Informe\decAutoria.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 11.
 
 <imagen/firma.png, id=208, 126.4725pt x 82.80937pt>
 File: imagen/firma.png Graphic file (type png)
@@ -591,35 +593,45 @@ l.31 	\include{decAutoria}
 
 
  <E:/Escuela/Tesis/Informe/imagen/firma.png (PNG copy)>] (E:\Escuela\Tesis\Info
-rme\agradecimientos.tex) [2
+rme\opinion.tex) [2
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\resumen.tex) [3
+(E:\Escuela\Tesis\Informe\dedicatoria.tex) [3
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\abstrac.tex) [4
+(E:\Escuela\Tesis\Informe\agradecimientos.tex) [4
 
 
 
 ]
-("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.toc" [5
+(E:\Escuela\Tesis\Informe\resumen.tex) [5
+
+
+
+]
+(E:\Escuela\Tesis\Informe\abstrac.tex) [6
+
+
+
+]
+("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.toc" [7
 
 
 ])
 \tf@toc=\write5
- [6]
+ [8]
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.lot")
 \tf@lot=\write6
- [7
+ [9
 
 ]
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.lof")
 \tf@lof=\write7
- [8
+ [10
 
 ]
 ! Undefined control sequence.
@@ -643,20 +655,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=385, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=395, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9] [10]
-<imagen/gama.png, id=429, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=439, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [11 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [12]
-<imagen/componentes.png, id=454, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=464, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [13] [14 <E:/Escuela/Tesis/Informe/imagen/componen
-tes.png>] <imagen/rules.png, id=470, 214.55156pt x 108.405pt>
+tes.png>] <imagen/rules.png, id=481, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -665,7 +677,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=508, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=518, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -678,11 +690,11 @@ Underfull \hbox (badness 1484) in paragraph at lines 78--79
  []
 
 [20 <E:/Escuela/Tesis/Informe/imagen/dominio.png>] [21] [22]
-<imagen/actividades.png, id=532, 465.99094pt x 433.62pt>
+<imagen/actividades.png, id=542, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [23 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [24] [25] [26] <imagen/dcu.png, id=561, 575.14874pt x 408.02437pt>
+ng>] [24] [25] [26] <imagen/dcu.png, id=572, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
 <use imagen/dcu.png> [27 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
@@ -700,7 +712,7 @@ Underfull \hbox (badness 7099) in paragraph at lines 269--269
 \OT1/cmr/m/n/12 los ope-ra-rios del
  []
 
-[28] <imagen/der.png, id=573, 410.2828pt x 305.64188pt>
+[28] <imagen/der.png, id=583, 410.2828pt x 305.64188pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [29 <E:/Escuela/Tesis/Informe/imagen/der.png>]
@@ -896,7 +908,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.aux"
 (E:\Escuela\Tesis\Informe\portada.aux) (E:\Escuela\Tesis\Informe\decAutoria.aux
-) (E:\Escuela\Tesis\Informe\agradecimientos.aux)
+) (E:\Escuela\Tesis\Informe\opinion.aux)
+(E:\Escuela\Tesis\Informe\dedicatoria.aux)
+(E:\Escuela\Tesis\Informe\agradecimientos.aux)
 (E:\Escuela\Tesis\Informe\resumen.aux) (E:\Escuela\Tesis\Informe\abstrac.aux)
 (E:\Escuela\Tesis\Informe\introduccion.aux) (E:\Escuela\Tesis\Informe\cap1.aux)
 (E:\Escuela\Tesis\Informe\cap2.aux) (E:\Escuela\Tesis\Informe\cap3.aux)
@@ -912,10 +926,10 @@ Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6254 strings out of 494019
- 93020 string characters out of 3143892
- 190394 words of memory out of 3000000
- 9169 multiletter control sequences out of 15000+200000
+ 6274 strings out of 494019
+ 93554 string characters out of 3143892
+ 191072 words of memory out of 3000000
+ 9171 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1269b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -927,9 +941,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (47 pages, 789112 bytes).
+Output written on "Mónica Montoto Montané.pdf" (49 pages, 792023 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 175 named destinations out of 1000 (max. 500000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
  435 words of extra memory for PDF output out of 10000 (max. 10000000)
 

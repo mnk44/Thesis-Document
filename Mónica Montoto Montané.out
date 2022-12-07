@@ -41,8 +41,11 @@
 \BOOKMARK [2][-]{subsection.2.4.2}{Diagrama de base de datos}{section.2.4}% 41
 \BOOKMARK [0][-]{chapter*.17}{Cap\355tulo 3: Validaci\363n del nuevo sistema de capacitaci\363n}{}% 42
 \BOOKMARK [1][-]{section.3.1}{Pruebas funcionales}{chapter*.17}% 43
-\BOOKMARK [2][-]{subsection.3.1.1}{Pruebas funcionales}{section.3.1}% 44
-\BOOKMARK [0][-]{section*.18}{Conclusiones}{}% 45
-\BOOKMARK [0][-]{section*.20}{Recomendaciones}{}% 46
-\BOOKMARK [0][-]{section*.22}{Referencias bibliogr\341ficas}{}% 47
-\BOOKMARK [0][-]{section*.24}{Anexos}{}% 48
+\BOOKMARK [2][-]{subsection.3.1.1}{Casos de prueba para la configuraci\363n entrenamientos}{section.3.1}% 44
+\BOOKMARK [0][-]{section*.21}{Conclusiones}{}% 45
+\BOOKMARK [0][-]{section*.23}{Recomendaciones}{}% 46
+\BOOKMARK [0][-]{section*.25}{Referencias bibliogr\341ficas}{}% 47
+\BOOKMARK [0][-]{section*.27}{Anexos}{}% 48
+\BOOKMARK [0][-]{appendix.Alph1}{Pruebas funcionales del sistema}{}% 49
+\BOOKMARK [1][-]{section.Alph1.1}{Insertar configuraci\363n de entrenamiento}{appendix.Alph1}% 50
+\BOOKMARK [1][-]{section.Alph1.2}{Eliminar configuraci\363n de entrenamiento}{appendix.Alph1}% 51

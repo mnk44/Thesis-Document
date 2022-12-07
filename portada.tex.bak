@@ -10,12 +10,12 @@
 \vspace{1cm}
 
 {\bfseries\Large Trabajo de diploma para optar por el título de Ingeniería en Informática\par}
-\vspace{3.0cm}
+\vspace{2.5cm}
 
-{\bfseries\Large Autora:} { \Large Mónica Montoto Montané \break (\href{mailto:mmontoto@ceis.cujae.edu.cu}{\textcolor{blue}{mmontoto@ceis.cujae.edu.cu}})
+{\bfseries\Large Autora:} { \Large Mónica Montoto Montané \break \href{mailto:mmontoto@ceis.cujae.edu.cu}{\textcolor{blue}{mmontoto@ceis.cujae.edu.cu}}
 \par}
 {\bfseries\Large Tutora: }{\Large Dra. Raisa Socorro Llanes \break
-(\href{mailto:raisa@ceis.edu.cu}{\textcolor{cyan}{raisa@ceis.edu.cu}}) \par}
+\href{mailto:raisa@ceis.edu.cu}{\textcolor{blue}{raisa@ceis.edu.cu}} \par}
 \vfill
 
 {\Large La Habana, Cuba \par}

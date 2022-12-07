@@ -45,8 +45,14 @@
 \contentsline {subsection}{\numberline {2.4.2}Diagrama de base de datos}{31}{subsection.2.4.2}
 \contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n del nuevo sistema de capacitaci\IeC {\'o}n}{32}{chapter*.17}
 \contentsline {section}{\numberline {3.1}Pruebas funcionales}{32}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Pruebas funcionales}{32}{subsection.3.1.1}
-\contentsline {chapter}{Conclusiones}{33}{section*.18}
-\contentsline {chapter}{Recomendaciones}{34}{section*.20}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{35}{section*.22}
-\contentsline {chapter}{Anexos}{38}{section*.24}
+\contentsline {subsection}{\numberline {3.1.1}Casos de prueba para la configuraci\IeC {\'o}n entrenamientos}{32}{subsection.3.1.1}
+\contentsline {subsubsection}{Casos de prueba: Insertar configuraci\IeC {\'o}n de entrenamiento}{33}{section*.18}
+\contentsline {subsubsection}{Casos de prueba: Modificar configuraci\IeC {\'o}n de entrenamiento}{34}{section*.19}
+\contentsline {subsubsection}{Casos de prueba: Eliminar configuraci\IeC {\'o}n de entrenamiento}{34}{section*.20}
+\contentsline {chapter}{Conclusiones}{35}{section*.21}
+\contentsline {chapter}{Recomendaciones}{36}{section*.23}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{37}{section*.25}
+\contentsline {chapter}{Anexos}{40}{section*.27}
+\contentsline {chapter}{\numberline {A}Pruebas funcionales del sistema}{41}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Insertar configuraci\IeC {\'o}n de entrenamiento}{41}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Eliminar configuraci\IeC {\'o}n de entrenamiento}{43}{section.Alph1.2}

@@ -217,14 +217,14 @@ El SECPROIT posee un grupo de reportes que facilita la toma de decisiones a part
 Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
 \begin{enumerate}
 \item Cada vez que se desea utilizar la información que se obtiene del SGBC, es extraída directamente de los ficheros, lo que genera una demora extra en el sistema
-\item Solo existe un modelo de pregunta, por lo que resulta redundante el método de evaluación
+\item Solo existe un modelo de pregunta, por lo que resulta escaso el método de aprendizaje
 \item El tiempo demorado en responder el entrenamiento no influye en la nota final del mismo
 \item La etapa de las causas presenta problemas en la evaluación
 \item La etapa de las recomendaciones nunca se llega a evaluar
 \item Las etapas aparecen de forma continúa, sin oportunidad de una pausa
 \item Aparecen todas las etapas en una misma vista, si se suspende una, se muestran etapas innecesariamente
-\item El resultado de las evaluaciones no se muestra de forma cuantitativa, lo que impide saber con exactitud el progreso del usuario
-\item Por cada proceso existe un único entrenamiento
+\item El resultado de las evaluaciones no se muestra de forma numérica, lo que impide conocer con exactitud el progreso del usuario
+\item Por cada etapa existe un único entrenamiento
 \item A pesar de ser una aplicación de escritorio, no existe icono del sistema, es decir, no se puede minimizar
 \item Presenta una interfaz gráfica poco vistosas y de colores muy oscuros que generan desagrado en los usuarios
 \end{enumerate}

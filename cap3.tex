@@ -6,8 +6,78 @@
 Partiendo del objetivo principal de la investigación (rectificar las limitaciones existentes en el sistema SECPROIT), se desarrollaron un conjunto de pruebas y experimentos para demostrar que se enmendaron dichas restricciones. En el siguiente capítulo se presentan los resultados obtenidos en cada una de las pruebas. Este proceso parte de cómo la fase de análisis y diseño se unen para llevar a cabo el sistema propuesto.
 
 \section{Pruebas funcionales}
- Las pruebas de software, o pruebas funcionales, son el proceso de ejecutar un sistema o componente para medir su calidad, con la intención de encontrar errores que aún no se descubren. %cita1
+ Las pruebas de software, o pruebas funcionales, son el proceso de ejecutar un sistema o componente para medir su calidad, con la intención de encontrar errores que aún no se descubren \cite{Buehler2008}.
 
-Para este software, el nivel de prueba que se utiliza es: pruebas de sistema. Consiste en ejecutar el sistema completo, buscando defectos tanto en aspectos generales como en particulares. Se utilizan pruebas basadas en las funcionalidades (pruebas funcionales) y el método que se emplea es el de caja negra (se lleva a cabo sobre la interfaz del software). %cita2
+Para este software, el nivel de prueba que se utiliza es: pruebas de sistema. Consiste en ejecutar el sistema completo, buscando defectos tanto en aspectos generales como en particulares. Se utilizan pruebas basadas en las funcionalidades (pruebas funcionales) y el método que se emplea es el de caja negra (se lleva a cabo sobre la interfaz del software) \cite{Nidhra2012}.
 
-\subsection{Pruebas funcionales}
+\subsection{Casos de prueba para la configuración entrenamientos}
+Como se pudo apreciar en el capítulo 2, en el sistema desarrollado se introdujeron nuevas entidades, entre ellas: la configuración de un entrenamiento. Con esta configuración el jefe de área puede decidir el tiempo que puede demorar completar una etapa, el tipo de preguntas que pueden aparecer, la cantidad de intentos totales permitidos por cada etapa y la cantidad de intentos aprobados necesarios para superar cada una.
+
+Gracias a esta configuración, se resuelven algunas de las limitaciones que se mencionaban en el capítulo 1: 
+\begin{itemize}
+\item Existe más de un modelo de pregunta, solucionando el problema de escasez en el método de aprendizaje
+\item Las etapas no aparecen de forma continúa, porque para poder avanzar a la siguiente se debe aprobar la etapa actual un número determinado de veces
+\item Solo aparece una etapa a la vez
+\item Para cada proceso existe más de un entrenamiento
+\end{itemize}
+
+Sin embargo, es necesario probar el correcto funcionamiento de este nueva entidad. Con ese fin, se diseñaron tres casos de prueba  (\textsl{Tabla \ref{cas1}}, \textsl{Tabla \ref{cas2}}, \textsl{Tabla \ref{cas3}}), cada una con sus propios experimentos. 
+
+\subsubsection{Casos de prueba: Insertar configuración de entrenamiento}
+El proceso de crear una nueva configuración de entrenamiento se realiza al insertar un nuevo proceso (todo ocurre en la misma interfaz). Para este caso de prueba se realizaron tres experimentos:
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | p{4cm} | p{4cm} | p{3.1cm} | p{3cm} |}
+\hline
+\centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
+\hline
+Insertar configuración con campos en blanco & Una configuración de entrenamiento no puede contener información vacía & Los campos están llenos por defecto y la interfaz no debe permitir que se vacíen los campos & La interfaz no permitió que los campos fueran vaciados (\ref{fig:cb}) \\
+\hline
+Insertar configuración con campos incorrectos & La única forma de introducir información incorrecta es insertando un número de intentos verídicos mayor que el número de intentos total & Debe aparecer un mensaje de error & Aparece un mensaje de error (\ref{fig:ci}) \\
+\hline
+Insertar configuración con campos correctos & Introducir campos correctos & Se debe introducir la configuración  & Se introdujo la nueva configuración (\ref{fig:cc}) \\
+\hline
+\end{tabular}
+\caption{Casos de prueba: Insertar configuración de entrenamiento}
+\label{cas1}
+\end{center}
+\end{table}
+
+\subsubsection{Casos de prueba: Modificar configuración de entrenamiento}
+El proceso de modificar la configuración de un entrenamiento se realiza al modificar un proceso (todo ocurre en la misma interfaz). Para este caso de prueba se realizaron tres experimentos:
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | p{4cm} | p{4cm} | p{3.1cm} | p{3cm} |}
+\hline
+\centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
+\hline
+Modificar configuración con campos en blanco & Una configuración de entrenamiento no puede contener información vacía & Los campos están llenos por defecto y la interfaz no debe permitir que se vacíen los campos & La interfaz no permitió que los campos fueran vaciados \\
+\hline
+Modificar configuración con campos incorrectos & La única forma de introducir información incorrecta es insertando un número de intentos verídicos mayor que el número de intentos total & Debe aparecer un mensaje de error & Aparece un mensaje de error \\
+\hline
+Modificar configuración con campos correctos & Introducir campos correctos & Se debe modificar la configuración  & Se modificó la configuración \\
+\hline
+\end{tabular}
+\caption{Casos de prueba: Modificar configuración de entrenamiento}
+\label{cas2}
+\end{center}
+\end{table}
+
+\subsubsection{Casos de prueba: Eliminar configuración de entrenamiento}
+Como medida de seguridad, en el sistema, el proceso de eliminar la configuración de un entrenamiento no existe de manera visual. Para eliminar la configuración de un entrenamiento, debe eliminarse el proceso al que esta pertenece. Por lo tanto, el único experimento que se puede realizar en este caso de prueba es el de eliminar un proceso.
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | p{3.3cm} | p{5.2cm} | p{3.1cm} | p{2.5cm} |}
+\hline
+\centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
+\hline
+Eliminar proceso & Se selecciona de una tabla el proceso que se desea eliminar & Se debe eliminar el proceso & Se eliminó el proceso (\ref{fig:ce}) \\
+\hline
+\end{tabular}
+\caption{Casos de prueba: Modificar configuración de entrenamiento}
+\label{cas3}
+\end{center}
+\end{table}

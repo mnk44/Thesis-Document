@@ -334,3 +334,5 @@ Etapa-Entrenamiento & ID, entrenamiento, tipo de etapa, tiempo demorado, pregunt
 \label{tab:entidades}
 \end{center}
 \end{table}
+
+\subsection{Diagrama de base de datos}

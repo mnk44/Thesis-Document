@@ -1,38 +1,35 @@
+\setcounter{section}{1}
 \appendix
 \clearpage{\renewcommand{\appendixname}{Anexo}
 
-\chapter{Interfaz de Usuario del Nuevo Sistema}
-\begin{figure}[h]
+\chapter{Pruebas funcionales del sistema}
+
+\section{Insertar configuración de entrenamiento}
+\begin{figure}[H]
 \centering
- \includegraphics[width=0.5\linewidth]{imagen/login.png}
- \caption{Colores cálidos en el Sistema.}
- \label{fig:login} 
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/nuevaConf.png}}
+ \caption{Insertar configuración con campos en blanco}
+ \label{fig:cb} 
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
- \includegraphics[width=0.3\linewidth]{imagen/help.png}
- \caption{Sistema reforzado con mensajes de ayuda.}
- \label{fig:help} 
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/errorConf.png}}
+ \caption{Insertar configuración con campos incorrectos}
+ \label{fig:ci} 
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
- \includegraphics[width=0.8\linewidth]{imagen/admin.png}
- \caption{Pantalla más grande de 860x440.}
- \label{fig:admin} 
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/guardarConf.png}}
+ \caption{Insertar configuración con campos correctos}
+ \label{fig:cc} 
 \end{figure}
 
-\begin{figure}[h]
+\section{Eliminar configuración de entrenamiento}
+\begin{figure}[H]
 \centering
- \includegraphics[width=0.8\linewidth]{imagen/img.png}
- \caption{Pantalla acompañadas de imágenes.}
- \label{fig:img} 
-\end{figure}
-
-\begin{figure}[h]
-\centering
- \includegraphics[width=0.5\linewidth]{imagen/dist.png}
- \caption{Ejemplo de distribución de una vista de gestión.}
- \label{fig:dist} 
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/eliminarConf.png}}
+ \caption{Eliminar configuración de entrenamiento}
+ \label{fig:ce} 
 \end{figure}

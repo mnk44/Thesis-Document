@@ -21,25 +21,25 @@ Analizando las restricciones que posee el SECPROIT, se perciben un número de pr
 
 Tomando en cuenta esta premisa, se definen los siguientes objetivos específicos y sus tareas correspondientes:
 \begin{enumerate}
-\item Asimilar los fundamentos teóricos y analizar los nuevos aspectos que puedan ser incorporados
+\item Asimilar los fundamentos teóricos de la investigación y analizar los nuevos aspectos que puedan ser incorporados
 \begin{itemize}
-\item Extraer los requisitos funcionales y no funcionales que debe cumplir el nuevo sistema
+\item Extraer los requisitos funcionales y no funcionales que debe cumplir el nuevo sistema a desarrollar
 \item Investigar los diferentes tipos de preguntas existentes en un
 sistema de entrenamiento y seleccionar los que mejor se ajusten al proceso evaluativo del SECPROIT
 \end{itemize}
 
-\item Desarrollar el nuevo sistema
+\item Desarrollar el nuevo sistema para la capacitación de operarios
 \begin{itemize}
-\item Diseñar diagramas auxiliares y modelados UML
-\item Implementar la base de datos
+\item Diseñar diagramas auxiliares y modelados UML en base al sistema que se va a desarrollar
+\item Implementar la base de datos del nuevo sistema de capacitación
 \item Desarrollar funcionalidades que permitan la administración del sistema
-\item Incorporar la configuración de un entrenamiento asociado a un proceso
+\item Incorporar la configuración de un entrenamiento asociado a un proceso determinado
 \item Implementar la generación de preguntas para cada fase del entrenamiento
 \item Desarrollar un proceso de evaluación parcial para cada etapa y la evaluación integral del operario en un proceso
 \item Diseñar e incluir una nueva interfaz gráfica
 \end{itemize}
 
-\item Validar el nuevo sistema
+\item Validar el nuevo sistema de capacitación
 \begin{itemize}
 \item Diseñar un conjunto de pruebas que verifiquen el correcto funcionamiento del sistema
 \item Ejecutar las pruebas diseñadas

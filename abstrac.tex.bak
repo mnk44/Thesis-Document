@@ -1,4 +1,4 @@
-\section*{Abstract}
+\chapter*{Abstract}
 Job training is a method applied by companies so that their workers acquire new professional knowledge. There are currently a set of systems that allow this training to be carried out automatically, without the mandatory presence of a superior. In this way, many valuable resources are saved, such as time and human capital.
 In industries where work is uninterrupted, having these systems represents a notable advantage in production, hence the need to incorporate them as permanent tools.
 When it comes to evaluating the results obtained, in general, automated training systems have an automatic evaluation method incorporated. One of the most used methods is the use of expert systems.
@@ -8,3 +8,9 @@ The food industry of a country plays an extremely important role within the econ
 The Expert System for the Control of Chemical Processes (SECPROIT) is a software created for the training of operators before the productive processes of the Cuban Food Industry. In it, a set of trainings are applied where the response capacity of the workers in critical situations and their knowledge about the processes are evaluated. The results are evaluated through the use of expert systems. It currently contains a group of restrictions that prevent its use in industries.
 
 This research aims to solve the existing limitations in the SECPROIT system.
+
+\vfill
+
+\begin{description}
+	\item[Keywords:]{job training, automated training systems, training systems, expert systems, Expert System for the Control of Chemical Processes (SECPROIT), Knowledge Base Generator System (SGBC)}
+\end{description}

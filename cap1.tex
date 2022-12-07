@@ -4,8 +4,6 @@
 
 En el presente capítulo se encuentran los fundamentos teóricos del nuevo sistema que se pretende desarrollar. Comprende un análisis de los sistemas de capacitación presencial y automatizados, reflejando un estudio de las preguntas más utilizadas, así como los colores y métodos de evaluación. Se introduce el término de sistema experto, con sus características y ventajas. Se detallan las funcionalidades del Sistema Generador de Bases de Conocimiento (SGBC) y se profundiza el trabajo con el sistema SECPROIT, finalizando con las conclusiones del capítulo.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Sistemas de capacitación laboral}
 La capacitación laboral es un método aplicado por las empresas para que su personal adquiera nuevos conocimientos profesionales. Por lo general, se produce ante un ascenso o incorporación, aunque no son los únicos motivos. Busca perfeccionar al colaborador en su puesto laboral, en función de las necesidades de su empresa. Es un proceso estructurado con metas bien definidas. Surge en el mundo como respuesta a la necesidad de mejorar permanentemente la calidad y formación de recursos humanos. Lo ideal es que se desarrolle de forma continua, ya que la constante formación del personal deriva en resultados positivos tanto para el grupo de trabajo como para la organización en la que se realiza \cite{Denby2010}.
 
@@ -68,8 +66,6 @@ Una vez terminada la capacitación se comprueban cuáles de los resultados obten
 
 A partir de estas bases se verifica si los datos en las respuestas del evaluado coinciden con la información real contenida. Este proceso puede realizarse tanto de manera manual, semiautomática o automática.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Sistemas de capacitación automatizados}
 Teniendo en cuenta el concepto de capacitación, un sistema de capacitación automatizado es un método de enseñanza alternativo, creado para el adiestramiento de los trabajadores. Es un software que, principalmente, permite el aprendizaje de los usuarios sin necesidad de una supervisión constante. Por lo general, resulta más efectivo que las prácticas de enseñanza presencial, debido a que el estudiante trabaja solo y puede determinar su propia velocidad de aprendizaje, usando una amplia variedad de herramientas y métodos para la transferencia del conocimiento \cite{ISEM2022}.
 
@@ -119,8 +115,6 @@ Una vez definidas las tonalidades se recomienda seguir un patrón de diseño par
 
 \subsection{Proceso de validación de las respuestas}
 En los sistemas de capacitación automatizados pueden emplearse tres métodos diferentes de validación: manual, semiautomático o automático. Por lo general, el más utilizado es el automático, porque facilita el trabajo para aquellos que deben diagnosticar a un personal abundante. Según \cite{AltyJames1984}, uno de los métodos más efectivos de evaluar las respuestas en un sistema es mediante el uso de sistemas expertos.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sistemas expertos}
 Los sistemas expertos resuelven problemas que normalmente son solucionados por expertos humanos. Para hacerlo, necesitan acceder a una importante base de conocimiento sobre el dominio, que debe construirse de la manera más eficiente posible. Utilizan uno o más mecanismos de razonamiento, para aplicar este conocimiento a los problemas que se le proponen. Cuentan con un instrumento para explicar a los usuarios que han confiado en ellos, lo que han hecho y cómo \cite{VonRueden2021}.
@@ -177,8 +171,6 @@ En \cite{Omuya2021} se detallan los diferentes componentes que integran un siste
  \label{fig:componentes} 
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Sistema Generador de Bases de Conocimiento}
 En octubre del 2017, el Instituto de Investigaciones de la Industria Alimentaria (IIIA), en conjunto con las facultades de Ingeniería Química e Ingeniería Informática de la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), desarrolló un Sistema Gestor de Bases de Conocimiento (SGBC). La función principal de este sistema es generar bases de información a partir de los datos introducidos por un usuario determinado. Dichas bases son exportadas en dos tipos especiales de ficheros: \textsl{anm} y \textsl{drl}. Cada uno de estos ficheros contienen información sobre un proceso productivo determinado \cite{Lemus2018}.
 
@@ -203,8 +195,6 @@ Un archivo \textsl{drl} es donde el motor de inferencia \textsl{Drools} (Sistema
  \label{fig:reglas} 
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Sistema de entrenamiento SECPROIT}
 En el año 2018 se creó el Sistema Experto para el Control de Procesos Químicos (SECPROIT), diseñado para capacitar a los operarios de la Industria Alimentaria Cubana sobre los diferentes procesos productivos que en ella se realizan. Este sistema fue desarrollado en la Universidad Tecnológica de La Habana José Antonio Echeverría (CUJAE), entre las facultades de Ingeniería Química e Ingeniería Informática. Su objetivo principal era lograr capacitar a los operarios de la industria y, para ello, realizar un conjunto de entrenamientos evaluados por un sistema experto \cite{ElenaAcostaGil2018}.
 
@@ -225,18 +215,19 @@ El SECPROIT posee un grupo de reportes que facilita la toma de decisiones a part
 
 \subsection{Limitaciones actuales del sistema}
 Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea implementado en las industrias:
-\begin{itemize}
-\item Cada vez que se desea utilizar la información obtenida por el generador es extraída directamente desde sus ficheros, lo que genera una demora extra en el sistema
+\begin{enumerate}
+\item Cada vez que se desea utilizar la información que se obtiene del SGBC, es extraída directamente de los ficheros, lo que genera una demora extra en el sistema
 \item Solo existe un modelo de pregunta, por lo que resulta redundante el método de evaluación
 \item El tiempo demorado en responder el entrenamiento no influye en la nota final del mismo
-\item La etapa de las recomendaciones no se evalúa
+\item La etapa de las causas presenta problemas en la evaluación
+\item La etapa de las recomendaciones nunca se llega a evaluar
 \item Las etapas aparecen de forma continúa, sin oportunidad de una pausa
 \item Aparecen todas las etapas en una misma vista, si se suspende una, se muestran etapas innecesariamente
+\item El resultado de las evaluaciones no se muestra de forma numérica, lo que impide conocer con exactitud el progreso del usuario
 \item Por cada proceso existe un único entrenamiento
+\item A pesar de ser una aplicación de escritorio, no existe icono del sistema, es decir, no se puede minimizar
 \item Presenta una interfaz gráfica poco vistosas y de colores muy oscuros que generan desagrado en los usuarios
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{enumerate}
 
 \section{Conclusiones parciales}
 Al concluir el capítulo se puede arribar a las siguientes conclusiones:

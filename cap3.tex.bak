@@ -18,7 +18,7 @@ Gracias a esta configuración, se resuelven algunas de las limitaciones que se m
 \item Existe más de un modelo de pregunta, solucionando el problema de escasez en el método de aprendizaje
 \item Las etapas no aparecen de forma continúa, porque para poder avanzar a la siguiente se debe aprobar la etapa actual un número determinado de veces
 \item Solo aparece una etapa a la vez
-\item Para cada proceso existe más de un entrenamiento, si el jefe de área lo decide
+\item Para cada proceso existe más de un entrenamiento
 \end{itemize}
 
 Sin embargo, es necesario probar el correcto funcionamiento de este nueva entidad. Con ese fin, se diseñaron tres casos de prueba  (\textsl{Tabla \ref{cas1}}, \textsl{Tabla \ref{cas2}}, \textsl{Tabla \ref{cas3}}), cada una con sus propios experimentos. 
@@ -77,7 +77,12 @@ Como medida de seguridad, en el sistema, el proceso de eliminar la configuració
 Eliminar proceso & Se selecciona de una tabla el proceso que se desea eliminar & Se debe eliminar el proceso & Se eliminó el proceso (\ref{fig:ce}) \\
 \hline
 \end{tabular}
-\caption{Casos de prueba: Modificar configuración de entrenamiento}
+\caption{Casos de prueba: Eliminar configuración de entrenamiento}
 \label{cas3}
 \end{center}
 \end{table}
+
+\subsection{Casos de prueba para el entrenamiento en la etapa de las causas}
+En el sistema SECPROIT, la etapa de las causas no se evalúa correctamente. Si la variable presenta más de una causa, el sistema evalúa la primera pero no logra evaluar las demás. En cambio, si del grupo de variables, solo una se encuentra fuera de rango, la etapa de las causas no se evalúa en absoluto.
+
+Sin embargo, el nuevo sistema desarrollado no presenta esta dificultad. En este software, para cada tipo de pregunta en la etapa de las causas, se evalúan un número distinto de variables (todas fuera de rango). Por ejemplo, en las preguntas de completar los espacios en blanco se evalúan cinco variables distintas (todas fuera de rango) y de cada una se preguntan las causas (\textsl{Anexo \ref{fig:c}}), mientras que en las preguntas de enlazar, solo se pregunta por una variable, pero esta posee múltiples causas (\textsl{Anexo \ref{fig:c}}).

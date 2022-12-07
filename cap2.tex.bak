@@ -3,23 +3,23 @@
 \setcounter{section}{0}
 \addcontentsline{toc}{chapter}{Capítulo 2: Desarrollo del nuevo sistema}
 
-En el siguiente capítulo se presenta la propuesta de solución para la problemática planteada: el nuevo sistema SECPROIT. Para que el desarrollo de un proyecto concluya con éxitos, primero debe realizarse el diseño de lo que se pretende obtener, así como analizar los requisitos que debe cumplir. A lo largo de este capítulo se presentarán los diagramas utilizados en la elaboración del sistema, se explicará como está estructurado y cuáles son sus funciones. Cabe destacar que este nuevo diseño parte del que se tenía anteriormente en el SECPROIT, por lo que se realizarán algunas comparaciones dicho modelo.
+Para que el desarrollo de un proyecto concluya con éxitos, primero debe realizarse el diseño de lo que se pretende obtener, así como analizar los requisitos que se deben cumplir. En este capítulo se presentan los diagramas utilizados en la elaboración del nuevo sistema de capacitación, así como la estructura que posee, sus principales funcionalidades y algunas comparaciones con el modelo del sistema SECPROIT.
 
 \section{Descripción del negocio}
-Como ya se ha observado en secciones anteriores, lo que se pretende conseguir con este nuevo sistema es rectificar las limitaciones existentes en el SECPROIT actual. Para ello, el nuevo software debe satisfacer el objetivo principal: capacitar a los operarios ante los procesos productivos de una fábrica.
-Partiendo de esa idea, esta solución debe poseer un modelo de entrenamiento que ponga a prueba a los operarios de la industria, además, debe contar con un administrador que sea el responsable de incluir a los todos usuarios.
+Lo que se pretende conseguir con este nuevo sistema es rectificar las limitaciones existentes en el SECPROIT actual. Para ello, el sistema debe satisfacer el objetivo principal del software anterior: capacitar a los operarios ante los procesos productivos de una fábrica.
+Partiendo de esta premisa, la solución debe poseer un modelo de entrenamiento que ponga a prueba a los operarios de la industria. También debe contar con un administrador que sea el responsable de incluir a los usuarios y las áreas.
 
-A la hora de realizar el entrenamiento, se deben evaluar tres etapas fundamentales: una para validar los conocimientos sobre las variables, otra para comprobar las causas por las que la variable representa un peligro y la última donde se analicen las recomendaciones que se pueden seguir en caso de que ocurra una falla provocada por esa causa. Si el trabajador logra superar estas etapas, puede darse por aprobado el entrenamiento de ese proceso.
+A la hora de realizar el entrenamiento, se deben evaluar tres etapas fundamentales: variables, causas y recomendaciones. Si el trabajador logra superar estas etapas, puede darse por aprobado el entrenamiento de ese proceso.
 
 \subsection{Modelo de dominio}
 Un modelo de dominio es la representación de las clases conceptuales del mundo real, no de componentes de software. Su utilidad radica en ser una forma de inspiración para el diseño de entidades. Es el artefacto clave en el análisis orientado a objetos \cite{Herchi2012}.
 
-El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es muy diferente al modelo original del sistema SECPROIT. A la hora de representarlo, se tuvieron en cuenta una serie de colores a modo de guía:
+El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es muy diferente del modelo del sistema SECPROIT. Para representarlo se tuvieron en cuenta tres colores, con el objetivo de diferenciar los cambios realizados:
 
 \begin{itemize}
-\item \textbf{Azul}: representa aquellas entidades que no sufrieron ningún cambio significativo con respecto al sistema anterior
+\item \textbf{Azul}: representa aquellas entidades que no sufrieron ningún cambio significativo con respecto al sistema SECPROIT
 \item \textbf{Amarillo}: representa aquellas entidades que fueron modificadas, pero que siguen cumpliendo las mismas funciones
-\item \textbf{Verde}: representa las entidades que son totalmente nuevas, que no existen el sistema anterior
+\item \textbf{Verde}: representa las entidades que son totalmente nuevas
 \end{itemize}
 
 \begin{figure}[h]
@@ -29,59 +29,21 @@ El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es m
  \label{fig:dominio} 
 \end{figure}
 
-La razón por la que algunas entidades (\textsl{Tabla \ref{tab:ent-azul}})  no sufrieron cambios es porque, basados en las tareas que desempeñan, no varían sus funciones con este nuevo modelo. Sin embargo, más adelante pueden presentar modificaciones en algunos aspectos.
-Las entidades que cambiaron (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en la estructura que estas seguían, es decir, variaciones en la base de datos y en las clases del sistema.
-Por último, las entidades nuevas (\textsl{Tabla \ref{tab:ent-verde}}) son clases que fueron agregadas desde cero para rectificar alguna limitación.
-
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{ | c | p{10cm} | }
-\hline
-\textbf{Entidad} & \textbf{Descripción} \\
-\hline
-Área & Representa el lugar donde laboran los trabajadores, posee un identificador y es donde están presentes los procesos \\
-\hline
-Usuario & Representa a la persona que va interactuar con el sistema \\
-\hline
-Administrador & Es un tipo de usuario, se encarga de administrar las entidades del sistema (áreas y demás usuarios) \\
-\hline
-Operario & Es un tipo de usuario, se encarga de realizar los entrenamientos \\
-\hline
-Base de datos & Representa el archivo \textsf{anm} \\
-\hline
-Base de reglas & Representa el archivo \textsf{drl} \\
-\hline
-Drools & Es la entidad que permite ejecutar las reglas del proceso \\
-\hline
-Variable & Forma parte de la información contenida en la base de datos del proceso, se evalúan en la primera etapa \\
-\hline
-Causa & Forma parte de la información contenida en la base de datos del proceso, se evalúan en la segunda etapa \\
-\hline
-Recm. & Forma parte de la información contenida en la base de datos del proceso, representa las recomendaciones y se evalúan en la tercera etapa \\
-\hline
-Variable-Causa & Forma parte de la información contenida en la base de reglas del proceso, se evalúan en la primera etapa \\
-\hline
-Causa-Recm. & Forma parte de la información contenida en la base de reglas del proceso, se evalúan en la primera etapa \\
-\hline
-\end{tabular}
-\caption{Modelo de dominio: entidades que no sufrieron cambios}
-\label{tab:ent-azul}
-\end{center}
-\end{table}
+Las entidades que contienen algunos cambios (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en las estructuras que estas seguían, es decir, variaciones en la base de datos y en las clases del sistema.
 
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{ | c | p{5cm} |  p{5cm} | }
+\begin{tabular}{ | c | p{5cm} |  p{5.2cm} | }
 \hline
 \textbf{Entidad} & \textbf{Descripción} & \textbf{Cambios}\\
 \hline
-Sistema SECPROIT & Representa el sistema & Cambian sus entidades y funciones \\
+Sistema SECPROIT & Representa el sistema & Cambian las clases que posee \\
 \hline
-Jefe e área & Es un tipo de usuario, administrar los procesos & Antes era especialista y solo creaba los procesos \\
+Jefe de área & Es un tipo de usuario y se encarga de administrar los procesos & Antes era especialista y solo creaba los procesos \\
 \hline
-Proceso & Representa los procesos & Se le agrega un nuevo atributo: la configuración \\
+Proceso & Representa los procesos & Se le agrega un nuevo atributo: configuración de entrenamiento \\
 \hline
-Entrenamiento & Representa el entrenamiento del usuario & Se le agregan las etapas \\
+Entrenamiento & Representa el entrenamiento del usuario & Se le agrega nuevos intentos por cada etapa \\
 \hline
 \end{tabular}
 \caption{Modelo de dominio: entidades que sufrieron cambios}
@@ -89,13 +51,53 @@ Entrenamiento & Representa el entrenamiento del usuario & Se le agregan las etap
 \end{center}
 \end{table}
 
-\begin{table}[t]
+La entidades que no fueron modificadas (\textsl{Tabla \ref{tab:ent-azul}}),  no sufrieron cambios porque, basadas en las tareas que desempeñan, no varían sus funciones en este nuevo modelo.
+
+\begin{table}[H]
 \begin{center}
-\begin{tabular}{ | c | p{10cm} | }
+\begin{tabular}{ | c | p{12cm} | }
 \hline
 \textbf{Entidad} & \textbf{Descripción} \\
 \hline
-Configuración & Representa la configuración de un proceso, es decir, las características que este posee para generar un entrenamiento \\
+Área & Representa el lugar donde laboran los trabajadores y es donde están presentes los procesos \\
+\hline
+Usuario & Representa a la persona que va interactuar con el sistema \\
+\hline
+Administrador & Es un tipo de usuario y se encarga de administrar las entidades del sistema (áreas y demás usuarios) \\
+\hline
+Operario & Es un tipo de usuario y se encarga de realizar los entrenamientos \\
+\hline
+Base de datos & Representa el archivo \textsf{anm} \\
+\hline
+Base de reglas & Representa el archivo \textsf{drl} \\
+\hline
+Drools & Es la entidad que permite ejecutar las reglas del proceso \\
+\hline
+Variable & Forma parte de la base de datos del proceso y contiene la información que se se evalúa en la primera etapa \\
+\hline
+Causa & Forma parte de la base de datos del proceso y contiene la información que se evalúa en la segunda etapa \\
+\hline
+Recm. & Forma parte de la base de datos del proceso, representa las recomendaciones y contiene la información que se evalúa en la tercera etapa \\
+\hline
+Variable-Causa & Forma parte de la base de reglas del proceso y contiene la información que se evalúa en la primera y segunda etapa \\
+\hline
+Causa-Recm. & Forma parte de la base de reglas del proceso y contiene la información que se evalúa en la tercera etapa \\
+\hline
+\end{tabular}
+\caption{Modelo de dominio: entidades que no sufrieron cambios}
+\label{tab:ent-azul}
+\end{center}
+\end{table}
+
+Por último, las entidades nuevas (\textsl{Tabla \ref{tab:ent-verde}}) son clases que fueron incluidas con el fin de enmendar alguna limitación.
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | p{12cm} | }
+\hline
+\textbf{Entidad} & \textbf{Descripción} \\
+\hline
+Configuración & Representa la configuración de entrenamiento de un proceso, es decir, las características que este posee para generar un entrenamiento \\
 \hline
 Etapas & Representa las etapas del entrenamiento, existen tres por cada uno \\
 \hline

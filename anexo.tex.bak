@@ -2,6 +2,15 @@
 \appendix
 \clearpage{\renewcommand{\appendixname}{Anexo}
 
+\chapter{Interfaz de usuario del sistema}
+
+\section{Gestión de procesos}
+\section{Entrenamiento de un proceso}
+\subsection{Tipos de preguntas en la etapa de las variables}
+\subsection{Tipos de preguntas en la etapa de las causas}
+\subsection{Tipos de preguntas en la etapa de las recomendaciones}
+\subsection{Resultados de una etapa}
+
 \chapter{Pruebas funcionales del sistema}
 
 \section{Insertar configuración de entrenamiento}

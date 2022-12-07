@@ -1,11 +1,12 @@
 \select@language {spanish}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Modelo de dominio: entidades que no sufrieron cambios}}{21}{table.2.1}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Modelo de dominio: entidades que sufrieron cambios}}{21}{table.2.2}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Modelo de dominio: entidades nuevas}}{22}{table.2.3}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Modelo de dominio: entidades que sufrieron cambios}}{20}{table.2.1}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Modelo de dominio: entidades que no sufrieron cambios}}{21}{table.2.2}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Modelo de dominio: entidades nuevas}}{21}{table.2.3}
 \contentsline {table}{\numberline {2.4}{\ignorespaces Actores del sistema}}{27}{table.2.4}
 \contentsline {table}{\numberline {2.5}{\ignorespaces Especificaci\IeC {\'o}n de los casos de uso}}{28}{table.2.5}
 \contentsline {table}{\numberline {2.6}{\ignorespaces Entidades del sistema}}{30}{table.2.6}
 \contentsline {table}{\numberline {3.7}{\ignorespaces Casos de prueba: Insertar configuraci\IeC {\'o}n de entrenamiento}}{33}{table.3.7}
 \contentsline {table}{\numberline {3.8}{\ignorespaces Casos de prueba: Modificar configuraci\IeC {\'o}n de entrenamiento}}{34}{table.3.8}
-\contentsline {table}{\numberline {3.9}{\ignorespaces Casos de prueba: Modificar configuraci\IeC {\'o}n de entrenamiento}}{34}{table.3.9}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Casos de prueba: Eliminar configuraci\IeC {\'o}n de entrenamiento}}{34}{table.3.9}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

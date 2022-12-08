@@ -306,59 +306,111 @@ Jefe de área & Gestionar procesos & El actor puede introducir, modificar o elim
 Para el desarrollo de este sistema se utiliza, como gestor de base de datos, la herramienta PostgreSQL. En ella se almacena toda la información con la que se va a trabajar, incluyendo los ficheros \textsl{anm} y \textsl{drl} de los procesos. Por momentos determinados, esta información también se encuentra almacenada, de forma local y temporal, en clases del propio sistema, lo que permite un mejor manejo y control de los datos.
 
 \subsection{Diagrama de Entidades y Relaciones (DER)}
-Un Diagrama de Entidades y Relaciones (DER) es una herramienta que permite representar de manera simplificada los componentes que participan en un proceso, y el modo en el que estos se relacionan entre sí. Posee tres elementos principales: las entidades, los atributos y las relaciones. %cita aquí
+Un Diagrama de Entidades y Relaciones (DER) es una herramienta que permite representar de manera simplificada los componentes que participan en un proceso, y el modo en el que estos se relacionan entre sí. Posee tres elementos principales: las entidades, los atributos y las relaciones \cite{Li2009}.
 
-El diagrama de entidades de este sistema (\textsl{Figura \ref{fig:der}}) contiene varios cambios con respecto al diagrama presentado en el sistema SECPROIT original. Para poder representarlos se tuvieron en cuenta una serie de colores a modo de guía:
+El diagrama de entidades de este nuevo sistema de capacitación (\textsl{Figura \ref{fig:der}}) contiene varias modificaciones con respecto al diagrama presente en el sistema SECPROIT. Para una mejor representación de los cambios, se tuvieron en cuenta una serie de colores:
 
 \begin{itemize}
-\item \textbf{Azul}: representa aquellas entidades que no sufrieron ningún cambio significativo con respecto al sistema anterior
+\item \textbf{Azul}: representa aquellas entidades que no sufrieron ningún cambio significativo con respecto al sistema SECPROIT
 \item \textbf{Amarillo}: representa aquellas entidades que fueron modificadas, pero que siguen cumpliendo las mismas funciones
-\item \textbf{Verde}: representa las entidades que son totalmente nuevas, que no existen el sistema anterior
+\item \textbf{Verde}: representa las entidades que son totalmente nuevas
 \end{itemize}
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.6\linewidth]{imagen/der.png}
+ \includegraphics[width=0.65\linewidth]{imagen/der.png}
  \caption{Diagrama de Entidades y Relaciones (DER)}
  \label{fig:der} 
 \end{figure}
 
-Con el fin de realizar una compración más detallada, en \cite{ElenaAcostaGil2018} se encuentra el DER del sistema original. En este nuevo diagrama no solo se cambiaron y se agregaron nuevas entidades, también se eliminaron algunas, debido a que ya no eran necesarias su funciones. Los cambios, explicados en la \textsl{Tabla \ref{tab:entidades}}, fueron realizados con el fin de resolver algunas de las limitaciones existentes en el sistema SECPROIT.
+En este diagrama no solo se cambiaron y se agregaron nuevas entidades, también se eliminaron algunas de las entidades presentes en el diagrama del sistema SECPROIT, debido a que ya no eran necesarias su funciones. Para realizar una comparación más detallada puede verse \cite{ElenaAcostaGil2018}, donde se encuentra el diagrama mencionado junto a su explicación. Las modificaciones realizadas (\textsl{Tabla \ref{tab:entidades}}) se hicieron con el fin de resolver algunas de las limitaciones presentes en el SECPROIT.
 
 \begin{table}[H]
+\centering
 \begin{center}
 \begin{tabular}{ | c | p{5cm} |  p{5cm} | }
 \hline
 \textbf{Entidad} & \textbf{Atributos}  & \textbf{Descripción}\\
 \hline
 Área & ID y nombre & No sufrió ningún cambio \\
+\cline{1-2}
+Traza & ID, usuario, acción y fecha &  \\
+\cline{1-2}
+Proceso & ID, nombre, foto, base de datos, base de reglas y área &  \\
 \hline
-Usuario & ID, nombre, carnet, nivel, experiencia, años como jefe, nombre de usuario, contraseña, área, rol y si está activo o no & Se agregaron los atributos: nivel escolar, experiencia, años como jefe y si está activo o no el sistema\\
+Usuario & ID, nombre, carnet, nivel escolar, experiencia, años como jefe, usuario, contraseña, área, rol y activo & Se agregaron nuevos atributos que permiten conocer mejor al usuario\\
 \hline
-Traza & ID, usuario, acción y fecha & No sufrió ningún cambio \\
+Configuración & ID, proceso, tiempo, cantidad de preguntas, cantidad de preguntas aprobadas y tipos de pregunta & Se agregó con el fin de poder configurar los entrenamientos \\
 \hline
-Proceso & ID, nombre, foto del proceso, fichero de datos, fichero de reglas y área & No sufrió ningún cambio \\
+Entrenamiento & ID, operario, configuración de proceso, cantidad de intentos, cantidad de intentos aprobados, primera etapa, segunda etapa, tercera etapa y nota general & Se eliminaron los demás atributos que poseía \\
 \hline
-Variable & ID, nombre, tipo y proceso & Se agregó para agilizar el proceso de lectura \\
+Etapa-Entrenamiento & ID, entrenamiento, tipo de etapa, tiempo, preguntas acertadas y nota & Se agregó para poder tener una pausa entre etapas y poder realizar más de una prueba por etapa \\
 \hline
-Causa & ID y nombre & Se agregó para agilizar el proceso de lectura \\
-\hline
-Recomendación & ID y nombre & Se agregó para agilizar el proceso de lectura \\
-\hline
-Variable-Causa & ID, variable y causa & Se agregó para agilizar el proceso de lectura \\
-\hline
-Causa-Recomendación & ID, causa y recomendación & Se agregó para agilizar el proceso de lectura \\
-\hline
-Configuración & ID, proceso, tiempo límite, preguntas límites y tipos de pregunta & Se agregó con el fin de poder configurar los entrenamientos \\
-\hline
-Entrenamiento & ID, usuario, configuración de proceso, cantidad de intentos y nota & Se eliminaron los demás atributos que poseía \\
-\hline
-Etapa-Entrenamiento & ID, entrenamiento, tipo de etapa, tiempo demorado, preguntas acertadas, preguntas totales y nota & Se agregó para poder tener una pausa entre etapas y poder realizar más de una prueba por entrenamiento \\
+Variable & ID, nombre, tipo, valor mínimo, valor máximo y proceso & Se agregó en el sistema para agilizar el proceso de lectura \\
+\cline{1-2}
+Causa & ID y nombre &  \\
+\cline{1-2}
+Recomendación & ID y nombre & \\
+\cline{1-2}
+Variable-Causa & ID, variable y causa &  \\
+\cline{1-2}
+Causa-Recomendación & ID, causa y recomendación &  \\
 \hline
 \end{tabular}
-\caption{Entidades del sistema}
+\caption{Entidades del nuevo sistema de capacitación}
 \label{tab:entidades}
 \end{center}
 \end{table}
 
 \subsection{Diagrama de base de datos}
+La herramienta utilizada para crear y gestionar la base de datos del nuevo sistema de capacitación (PostgreSQL), permite exportar un diagrama de la misma (\textsl{Figura \ref{fig:bd}}). En dicho diagrama se pueden apreciar las relaciones existentes entre las entidades del software y los atributos que poseen cada una.
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.9\linewidth]{imagen/bd.png}
+ \caption{Diagrama de base de datos}
+ \label{fig:bd} 
+\end{figure}
+
+\section{Arquitectura de paquetes del nuevo sistema de capacitación}
+El patrón arquitectónico de capas ayuda a estructurar las aplicaciones, organizando las clases en grupos de subtareas, en donde que cada uno se encuentra a un nivel particular de abstracción. Se basa en una distribución jerárquica de los roles y las responsabilidades, para proporcionar una división efectiva de los problemas a resolver. Los roles indican el tipo y la forma de la interacción con otras capas y las responsabilidades, la funcionalidad que implementan \cite{Plecka2013}.
+
+En este nuevo sistema de capacitación, se crearon un conjunto de paquetes  (\textsl{Tabla \ref{tab:paquetes}})  que agrupan las clases del sistema. Cada paquete responde a una funcionalidad o a una estructura específica, para ayudar con la organización del proyecto.
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.27\linewidth]{imagen/paquetes.png}
+ \caption{Arquitectura de los paquetes de clases}
+ \label{fig:paquetes} 
+\end{figure}
+
+\begin{table}[H]
+\centering
+\begin{center}
+\begin{tabular}{ | c | p{11.5cm} | }
+\hline
+\textbf{Paquete} & \textbf{Descripción}\\
+\hline
+classes & Contiene las clases que representan las entidades registradas en la base de datos \\
+\hline
+dbConnection & Contiene las clases que permiten establecer una conexión con la base de datos \\
+\hline
+extras & Contiene las clases que auxilian el proceso de generar las interfaces del sistema y clases que poseen funciones de validación \\
+\hline
+images & Contiene las imágenes utilizadas en el sistema \\
+\hline
+interfaces & Contiene las interfaces visuales del sistema \\
+\hline
+knowledgeBase & Contiene las clases que permiten establecer una conexión con el \textsl{JDrools}, así como las clases que auxilian el proceso de cargar y leer un fichero (todo lo relacionado con el sistema experto) \\
+\hline
+services & Contiene las clases que brindan un servicio a la base de datos (insertar, leer, modificar o eliminar) \\
+\hline
+trainerInterfaces & Contiene las interfaces visuales relacionadas con las etapas del entrenamiento \\
+\hline
+trainerLogic &  Contiene las clases que permiten el correcto funcionamiento de una etapa de entrenamiento \\
+\hline
+\end{tabular}
+\caption{Descripción de los paquetes de clases}
+\label{tab:paquetes}
+\end{center}
+\end{table}

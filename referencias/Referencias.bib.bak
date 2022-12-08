@@ -620,4 +620,24 @@ The overall aim of this literature study is to clearly explain different testing
   url      = {https://www.researchgate.net/profile/S-Nidhra/publication/276198111_Black_Box_and_White_Box_Testing_Techniques_-_A_Literature_Review/links/570e313f08ae2b772e46aa40/Black-Box-and-White-Box-Testing-Techniques-A-Literature-Review.pdf},
 }
 
+@Book{Li2009,
+  author    = {Li, Qing and Chen, Yu-Liu},
+  editor    = {Springer Link},
+  publisher = {Springer},
+  title     = {Entity-relationship diagram},
+  year      = {2009},
+  address   = {Heidelberg, Berlin, Alemania},
+  edition   = {Springer Link},
+  isbn      = {978-3-540-89555-8},
+  month     = jun,
+  number    = {1058},
+  series    = {42},
+  volume    = {IV},
+  abstract  = {Database system is the base of a management information system. Relational databases are widely used in various areas. Entity-Relationship Diagram (ERD) is a common technique for data structures and database systems design. The syntax and semantics of ERD for data modeling are introduced in this chapter. A structured approach for ERD model development is also discussed.},
+  booktitle = {Modeling and analysis of enterprise and information systems},
+  doi       = {https://doi.org/10.1007/978-3-540-89556-5_6},
+  pages     = {125--139},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-540-89556-5_6},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

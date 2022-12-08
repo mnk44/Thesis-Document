@@ -3,7 +3,7 @@ Culminado el desarrollo del nuevo sistema de capacitación y realizadas las prue
 
 \begin{itemize}
 \item Los sistemas de entrenamiento automatizados son una ventaja en el proceso de capacitación de las empresas
-\item Se logró desarrollar un sistema que permite capacitar a los operarios ante los procesos productivos de una fábrica, en la toma de decisiones en una situación crítica 
+\item Se desarrolló un sistema que permite capacitar a los operarios ante los procesos productivos de una fábrica, en la toma de decisiones en una situación crítica 
 \item Con el nuevo sistema desarrollado se lograron enmendar las limitaciones presentes en el sistema SECPROIT
 \item El nuevo sistema posee un método de aprendizaje y un modelo de evaluación mejor que los presentes en el sistema SECPROIT
 \item Se realizaron varias pruebas, con varios conjuntos de datos y se demostró el correcto funcionamiento del nuevo sistema desarrollado

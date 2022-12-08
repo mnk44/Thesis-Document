@@ -39,21 +39,22 @@
 \BOOKMARK [1][-]{section.2.4}{Modelo de datos}{chapter*.16}% 39
 \BOOKMARK [2][-]{subsection.2.4.1}{Diagrama de Entidades y Relaciones \(DER\)}{section.2.4}% 40
 \BOOKMARK [2][-]{subsection.2.4.2}{Diagrama de base de datos}{section.2.4}% 41
-\BOOKMARK [0][-]{chapter*.17}{Cap\355tulo 3: Validaci\363n del nuevo sistema de capacitaci\363n}{}% 42
-\BOOKMARK [1][-]{section.3.1}{Pruebas funcionales}{chapter*.17}% 43
-\BOOKMARK [2][-]{subsection.3.1.1}{Casos de prueba para la configuraci\363n entrenamientos}{section.3.1}% 44
-\BOOKMARK [2][-]{subsection.3.1.2}{Casos de prueba para el entrenamiento en la etapa de las causas}{section.3.1}% 45
-\BOOKMARK [0][-]{section*.21}{Conclusiones}{}% 46
-\BOOKMARK [0][-]{section*.23}{Recomendaciones}{}% 47
-\BOOKMARK [0][-]{section*.25}{Referencias bibliogr\341ficas}{}% 48
-\BOOKMARK [0][-]{section*.27}{Anexos}{}% 49
-\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de usuario del sistema}{}% 50
-\BOOKMARK [1][-]{section.Alph1.1}{Gesti\363n de procesos}{appendix.Alph1}% 51
-\BOOKMARK [1][-]{section.Alph1.2}{Entrenamiento de un proceso}{appendix.Alph1}% 52
-\BOOKMARK [2][-]{subsection.Alph1.2.1}{Tipos de preguntas en la etapa de las variables}{section.Alph1.2}% 53
-\BOOKMARK [2][-]{subsection.Alph1.2.2}{Tipos de preguntas en la etapa de las causas}{section.Alph1.2}% 54
-\BOOKMARK [2][-]{subsection.Alph1.2.3}{Tipos de preguntas en la etapa de las recomendaciones}{section.Alph1.2}% 55
-\BOOKMARK [2][-]{subsection.Alph1.2.4}{Resultados de una etapa}{section.Alph1.2}% 56
-\BOOKMARK [0][-]{appendix.Alph2}{Pruebas funcionales del sistema}{}% 57
-\BOOKMARK [1][-]{section.Alph2.1}{Insertar configuraci\363n de entrenamiento}{appendix.Alph2}% 58
-\BOOKMARK [1][-]{section.Alph2.2}{Eliminar configuraci\363n de entrenamiento}{appendix.Alph2}% 59
+\BOOKMARK [1][-]{section.2.5}{Arquitectura de paquetes del nuevo sistema de capacitaci\363n}{chapter*.16}% 42
+\BOOKMARK [0][-]{chapter*.17}{Cap\355tulo 3: Validaci\363n del nuevo sistema de capacitaci\363n}{}% 43
+\BOOKMARK [1][-]{section.3.1}{Pruebas funcionales}{chapter*.17}% 44
+\BOOKMARK [2][-]{subsection.3.1.1}{Casos de prueba para la configuraci\363n entrenamientos}{section.3.1}% 45
+\BOOKMARK [2][-]{subsection.3.1.2}{Casos de prueba para el entrenamiento en la etapa de las causas}{section.3.1}% 46
+\BOOKMARK [0][-]{section*.21}{Conclusiones}{}% 47
+\BOOKMARK [0][-]{section*.23}{Recomendaciones}{}% 48
+\BOOKMARK [0][-]{section*.25}{Referencias bibliogr\341ficas}{}% 49
+\BOOKMARK [0][-]{section*.27}{Anexos}{}% 50
+\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de usuario del sistema}{}% 51
+\BOOKMARK [1][-]{section.Alph1.1}{Gesti\363n de procesos}{appendix.Alph1}% 52
+\BOOKMARK [1][-]{section.Alph1.2}{Entrenamiento de un proceso}{appendix.Alph1}% 53
+\BOOKMARK [2][-]{subsection.Alph1.2.1}{Tipos de preguntas en la etapa de las variables}{section.Alph1.2}% 54
+\BOOKMARK [2][-]{subsection.Alph1.2.2}{Tipos de preguntas en la etapa de las causas}{section.Alph1.2}% 55
+\BOOKMARK [2][-]{subsection.Alph1.2.3}{Tipos de preguntas en la etapa de las recomendaciones}{section.Alph1.2}% 56
+\BOOKMARK [2][-]{subsection.Alph1.2.4}{Resultados de una etapa}{section.Alph1.2}% 57
+\BOOKMARK [0][-]{appendix.Alph2}{Pruebas funcionales del sistema}{}% 58
+\BOOKMARK [1][-]{section.Alph2.1}{Insertar configuraci\363n de entrenamiento}{appendix.Alph2}% 59
+\BOOKMARK [1][-]{section.Alph2.2}{Eliminar configuraci\363n de entrenamiento}{appendix.Alph2}% 60

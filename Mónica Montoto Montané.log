@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 20:37
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  8 DEC 2022 00:01
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -566,7 +566,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=239, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=243, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 [1
@@ -581,7 +581,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
 
-<imagen/firma.png, id=252, 126.4725pt x 82.80937pt>
+<imagen/firma.png, id=256, 126.4725pt x 82.80937pt>
 File: imagen/firma.png Graphic file (type png)
  <use imagen/firma.png>)pdfTeX warning (ext4): destination with the same identi
 fier (name{page.I}) has been already used, duplicate ignored
@@ -655,20 +655,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=474, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=485, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9] [10]
-<imagen/gama.png, id=518, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=529, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [11 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [12]
-<imagen/componentes.png, id=543, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=554, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [13] [14 <E:/Escuela/Tesis/Informe/imagen/componen
-tes.png>] <imagen/rules.png, id=560, 214.55156pt x 108.405pt>
+tes.png>] <imagen/rules.png, id=571, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -677,7 +677,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=599, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=610, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png> [20 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
@@ -685,11 +685,11 @@ Overfull \hbox (0.79543pt too wide) in paragraph at lines 58--87
  [] 
  []
 
-[21] [22] <imagen/actividades.png, id=621, 465.99094pt x 433.62pt>
+[21] [22] <imagen/actividades.png, id=632, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [23 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [24] [25] <imagen/dcu.png, id=644, 575.14874pt x 408.02437pt>
+ng>] [24] [25] <imagen/dcu.png, id=655, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
 <use imagen/dcu.png> [26 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
@@ -727,35 +727,43 @@ Underfull \hbox (badness 7099) in paragraph at lines 298--298
 \OT1/cmr/m/n/12 los ope-ra-rios del
  []
 
-[28] <imagen/der.png, id=662, 410.2828pt x 305.64188pt>
+[28] <imagen/der.png, id=674, 410.2828pt x 305.64188pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [29 <E:/Escuela/Tesis/Informe/imagen/der.png>]
-Underfull \hbox (badness 2617) in paragraph at lines 336--337
-\OT1/cmr/m/n/12 ni-vel es-co-lar, ex-pe-rien-cia,
+Underfull \hbox (badness 2503) in paragraph at lines 341--341
+\OT1/cmr/m/n/12 mo je-fe, usua-rio, con-tra-
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 354--354
-[]|\OT1/cmr/m/n/12 ID, usua-rio, con-fi-gu-ra-cion
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 354--355
+Underfull \hbox (badness 3250) in paragraph at lines 345--346
 []|\OT1/cmr/m/n/12 Se eli-mi-na-ron los demas
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 356--356
-\OT1/cmr/m/n/12 eta-pa, tiem-po de-mo-ra-do,
+Underfull \hbox (badness 4805) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 eta-pa, tiem-po, pre-gun-tas
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 356--356
-\OT1/cmr/m/n/12 pre-gun-tas acer-ta-das, pre-
+Underfull \hbox (badness 6493) in paragraph at lines 349--349
+[]|\OT1/cmr/m/n/12 ID, nom-bre, ti-po, va-lor
  []
 
-) [30] [31] (E:\Escuela\Tesis\Informe\cap3.tex [32
+
+Underfull \hbox (badness 2253) in paragraph at lines 349--349
+\OT1/cmr/m/n/12 mni-mo, va-lor maxi-mo y
+ []
+
+[30] <imagen/bd.png, id=688, 1836.8625pt x 1816.7875pt>
+File: imagen/bd.png Graphic file (type png)
+ <use imagen/bd.png>
+[31 <E:/Escuela/Tesis/Informe/imagen/bd.png>]
+<imagen/paquetes.png, id=697, 185.19188pt x 205.5178pt>
+File: imagen/paquetes.png Graphic file (type png)
+
+<use imagen/paquetes.png>) [32 <E:/Escuela/Tesis/Informe/imagen/paquetes.png>]
+(E:\Escuela\Tesis\Informe\cap3.tex [33
 
 
 
@@ -799,7 +807,7 @@ Overfull \hbox (7.6055pt too wide) in paragraph at lines 31--42
  [] 
  []
 
-[33]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []|\OT1/cmr/bx/n/12 Resultado 
  []
@@ -884,20 +892,20 @@ Overfull \hbox (7.6055pt too wide) in paragraph at lines 73--80
  [] 
  []
 
-[34]
+[35]
 
-LaTeX Warning: Reference `fig:c' on page 35 undefined on input line 88.
+LaTeX Warning: Reference `fig:c' on page 36 undefined on input line 88.
 
 
-LaTeX Warning: Reference `fig:c' on page 35 undefined on input line 88.
+LaTeX Warning: Reference `fig:c' on page 36 undefined on input line 88.
 
-) [35] (E:\Escuela\Tesis\Informe\conc.tex) [36
+) [36] (E:\Escuela\Tesis\Informe\conc.tex) [37
 
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\rec.tex) [37
+(E:\Escuela\Tesis\Informe\rec.tex) [38
 
 
 
@@ -970,7 +978,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[38
+[39
 
 
 
@@ -1028,7 +1036,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[39] [40])
+[40] [41])
 ! Undefined control sequence.
 l.84 	\breakpage
                 
@@ -1049,34 +1057,34 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[41] (E:\Escuela\Tesis\Informe\anexo.tex
+[42] (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-[42
+[43
 
 
 
 ]
 Anexo B.
-<imagen/anexos/nuevaConf.png, id=742, 985.43156pt x 561.59813pt>
+<imagen/anexos/nuevaConf.png, id=767, 985.43156pt x 561.59813pt>
 File: imagen/anexos/nuevaConf.png Graphic file (type png)
 
 <use imagen/anexos/nuevaConf.png>
-<imagen/anexos/errorConf.png, id=743, 986.9372pt x 566.115pt>
+<imagen/anexos/errorConf.png, id=768, 986.9372pt x 566.115pt>
 File: imagen/anexos/errorConf.png Graphic file (type png)
 
-<use imagen/anexos/errorConf.png> [43
+<use imagen/anexos/errorConf.png> [44
 
  <E:/Escuela/Tesis/Informe/imagen/anexos/nuevaConf.png>]
-<imagen/anexos/guardarConf.png, id=750, 994.46532pt x 563.10374pt>
+<imagen/anexos/guardarConf.png, id=774, 994.46532pt x 563.10374pt>
 File: imagen/anexos/guardarConf.png Graphic file (type png)
 
 <use imagen/anexos/guardarConf.png>
-<imagen/anexos/eliminarConf.png, id=751, 986.9372pt x 554.07pt>
+<imagen/anexos/eliminarConf.png, id=775, 986.9372pt x 554.07pt>
 File: imagen/anexos/eliminarConf.png Graphic file (type png)
 
-<use imagen/anexos/eliminarConf.png>) [44 <E:/Escuela/Tesis/Informe/imagen/anex
+<use imagen/anexos/eliminarConf.png>) [45 <E:/Escuela/Tesis/Informe/imagen/anex
 os/errorConf.png> <E:/Escuela/Tesis/Informe/imagen/anexos/guardarConf.png>]
-[45 <E:/Escuela/Tesis/Informe/imagen/anexos/eliminarConf.png>]
+[46 <E:/Escuela/Tesis/Informe/imagen/anexos/eliminarConf.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
@@ -1104,10 +1112,10 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6356 strings out of 494019
- 94935 string characters out of 3143892
- 191641 words of memory out of 3000000
- 9214 multiletter control sequences out of 15000+200000
+ 6377 strings out of 494019
+ 95236 string characters out of 3143892
+ 191886 words of memory out of 3000000
+ 9227 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1269b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1119,9 +1127,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (57 pages, 1184487 bytes).
+Output written on "Mónica Montoto Montané.pdf" (58 pages, 1375756 bytes).
 PDF statistics:
- 833 PDF objects out of 1000 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
- 543 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 861 PDF objects out of 1000 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
+ 561 words of extra memory for PDF output out of 10000 (max. 10000000)
 

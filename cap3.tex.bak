@@ -28,7 +28,7 @@ El proceso de crear una nueva configuración de entrenamiento se realiza al inse
 
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{ | p{4cm} | p{4cm} | p{3.1cm} | p{3cm} |}
+\begin{tabular}{ | p{4cm} | p{3.8cm} | p{3.1cm} | p{3.2cm} |}
 \hline
 \centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
 \hline
@@ -87,4 +87,53 @@ En el sistema SECPROIT, la etapa de las causas no se evalúa correctamente. Si l
 
 Sin embargo, el nuevo sistema desarrollado no presenta esta dificultad. En el software, para cada tipo de pregunta en la etapa de las causas, se evalúan un número distinto de variables (todas fuera de rango). Por ejemplo, en las preguntas de completar los espacios en blanco se evalúan cinco variables distintas (todas fuera de rango) y de cada una se preguntan sus causas (Anexo \ref{fig:pregcaus}}), mientras que en las preguntas de enlazar, solo se pregunta por una variable, pero esta posee múltiples causas.
 
-Para probar el correcto funcionamiento del entrenamiento en la etapa de las causas, se realizó una prueba por cada tipo de pregunta, es decir, se evaluaron cuatro entrenamientos de la etapa de las causas, uno por cada pregunta (verdadero o falso, completar los espacios en blanco, selección múltiple y enlazar).
+Para probar el correcto funcionamiento del entrenamiento en la etapa de las causas, se evaluaron cuatro entrenamientos de esta etapa (\textsl{Tabla \ref{cas:causa}}), uno por cada pregunta (verdadero o falso, completar los espacios en blanco, selección múltiple y enlazar). Como las preguntas que se generan en los entrenamientos son aleatorias, para estos casos de prueba el valor de datos de entrada no es relevante. Para afirmar que las respuestas son correctas, se establece una comparación entre las respuestas dadas por el sistema y las respuestas que brinda el motor de reglas (\textsl{JDrools}).
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | p{3cm} | p{5.9cm} | p{2.6cm} | p{2.6cm} |}
+\hline
+\centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado del JDrools} & \textbf{Resultado del sistema} \\
+\hline
+Verdadero o \break falso & Se presentan 5 variables con sus causas y se debe indicar si la afirmación es verdadera o falsa & Se acertaron 2 afirmaciones &  Se acertaron 2 afirmaciones \\
+\hline
+Completar los espacios en blanco & Se presentan 5 variables y de 1 a 5 causas, y se debe rellenar el espacio en blanco de manera que quede una expresión verdadera & Se acertaron 3 expresiones &  Se acertaron 3 expresiones \\
+\hline
+Enlazar & Se presenta 1 variable y 5 causas, y se deben enlazar las que correspondan a esa variable & Se acertaron 4 &  Se acertaron 4 \\
+\hline
+Selección múltiple & Se presenta 1 variable y 5 causas, y se deben seleccionar las que correspondan a esa variable & Se acertó 1 selección &  Se acertó 1 selección \\
+\hline
+\end{tabular}
+\caption{Casos de prueba para el entrenamiento en la etapa de las causas}
+\label{cas:causa}
+\end{center}
+\end{table}
+
+\subsection{Casos de prueba para el entrenamiento en la etapa de las recomendaciones}
+En el sistema SECPROIT, la etapa de las recomendaciones no se evalúa. Al concluir la evaluación de la etapa de las causas, el sistema califica la etapa de las recomendaciones de excelente y se acaba el entrenamiento (Anexo \ref{fig:errorRec}).
+
+Sin embargo, en el nuevo sistema desarrollado si se evalúan las recomendaciones. Para cada tipo de pregunta se evalúan un número distinto de recomendaciones. Por ejemplo, en las preguntas de verdadero o falso se evalúan cinco recomendaciones, mientras que en las preguntas de enlazar, se evalúan de una a cinco.
+
+Para probar el correcto funcionamiento del entrenamiento en la etapa de las recomendaciones, se evaluaron cuatro entrenamientos de esta etapa (\textsl{Tabla \ref{cas:reco}}), uno por cada pregunta. Como las preguntas que se generan en los entrenamientos son aleatorias, para estos casos de prueba el valor de datos de entrada no es relevante. Para afirmar que las respuestas son correctas, se establece una comparación entre las respuestas dadas por el sistema y las respuestas que brinda el motor de reglas (\textsl{JDrools}).
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | p{2.7cm} | p{6.2cm} | p{2.6cm} | p{2.6cm} |}
+\hline
+\centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado del JDrools} & \textbf{Resultado del sistema} \\
+\hline
+Verdadero o \break falso & Se presentan 5 causas con sus recomendaciones y se debe indicar si la afirmación es verdadera o falsa & Se acertó 1 afirmación &  Se acertó 1 afirmación \\
+\hline
+Completar los espacios en blanco & Se presentan 5 causas y de 1 a 5 recomendaciones, y se debe rellenar el espacio en blanco de manera que quede una expresión verdadera & Se acertaron 3 expresiones &  Se acertaron 3 expresiones \\
+\hline
+Enlazar & Se presenta 1 causa y 5 recomendaciones, y se deben enlazar las que correspondan a esa causa & Se acertaron 2 &  Se acertaron 2 \\
+\hline
+Selección múltiple & Se presentan 1 causa y 5 recomendaciones, y se deben seleccionar las que correspondan a esa causa & Se acertaron 2 selecciones &  Se acertaron 2 selecciones \\
+\hline
+\end{tabular}
+\caption{Casos de prueba para el entrenamiento en la etapa de las recomendaciones}
+\label{cas:reco}
+\end{center}
+\end{table}
+
+\section{}

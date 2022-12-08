@@ -152,3 +152,11 @@
  \caption{Eliminar configuración de entrenamiento}
  \label{fig:ce} 
 \end{figure}
+
+\section{Entrenamiento en la etapa de las recomendaciones}
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/errorRec.png}}
+ \caption{No se evalúan las recomendaciones en el sistema SECPROIT}
+ \label{fig:errorRec} 
+\end{figure}

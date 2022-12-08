@@ -161,44 +161,52 @@ Entre los requisitos funcionales que debe poseer el nuevo sistema de capacitaci�
 \item \textbf{Cambiar contraseña personal}: es una acción que todos los usuarios pueden realizar.
 \item \textbf{Gestionar usuarios}: es una actividad desarrollada solo por los administradores. Se basa en introducir, modificar y desactivar o activar los usuarios del sistema, aunque también cuenta con una opción para restablecer la contraseña en caso de que el usuario la haya olvidado.
 \item \textbf{Gestionar áreas}: es una actividad desarrollada solo por los administradores. Se basa en introducir, modificar y eliminar las áreas del sistema. Para poder eliminar un área laboral, esta debe estar vacía, es decir, que de ella no dependa ningún usuario.
-\item \textbf{Ver acciones de los usuarios}: es una actividad desarrollada solo por los administradores. Permite observar, en una tabla, todas las actividades realizadas por los usuarios.
-
+\item \textbf{Ver acciones de los usuarios}: es una actividad desarrollada solo por los administradores. Permite observar, mediante una tabla, las acciones realizadas por los usuarios.
 \item \textbf{Gestionar procesos}: es una actividad desarrollada solo por los jefes de área. Se basa en introducir, modificar y eliminar los procesos en un área laboral. Si se elimina un proceso, queda registro del mismo y los entrenamientos que se hayan realizado no se pierden.
 \item \textbf{Configurar entrenamiento}: es una actividad desarrollada solo por los jefes de área. Consiste en asignar para cada proceso los estilos de pregunta que se pueden aplicar, la cantidad general de intentos, el tiempo máximo para realizar el entrenamiento y los usuarios que pueden evaluarse.
-\item \textbf{Ver resultados de los operarios del área}: es una actividad desarrollada solo por los jefe de área. Permite observar, en una tabla, todos los resultados de los operarios que pertenezcan a esa área.
-
-\item \textbf{Entrenamiento}: es una acción desarrollada solo por los operarios. Consiste en evaluarse sobre un proceso productivo. Se deben responder un conjunto de preguntas por etapas para luego obtener un resultado general que será registrado en el sistema.
-\item \textbf{Ver resultados}: es una actividad desarrollada solo por los operarios. Permite observar, en una tabla, todos los resultados obtenidos en los entrenamientos.
+\item \textbf{Ver resultados de los operarios del área}: es una actividad desarrollada solo por los jefe de área. Permite observar, mediante una tabla, todos los resultados de los operarios que pertenezcan a su área.
+\item \textbf{Entrenamiento}: es una acción desarrollada solo por los operarios. Consiste en evaluarse sobre un proceso productivo. Se deben responder un conjunto de preguntas por etapas para luego obtener un resultado general que será registrado en el sistema. Puede repetirse el entrenamiento de una etapa, tantas veces como el jefe de área decida.
+\item \textbf{Ver resultados}: es una actividad desarrollada solo por los operarios. Permite observar, mediante una tabla, todos los resultados obtenidos en los entrenamientos realizados.
 \end{itemize}
 
 \subsection{Requisitos No Funcionales}
 Los requisitos no funcionales son condiciones que no se refieren directamente a las funciones específicas suministradas por un sistema (características de usuario), sino a las propiedades del mismo: rendimiento, seguridad, disponibilidad, entre otros. En palabras más sencillas, no hablan de lo que hace el sistema, sino de cómo lo hace. Alternativamente, definen restricciones del sistema tales como la capacidad de los dispositivos de entrada/salida y la representación de los datos utilizados en la interfaz del sistema \cite{Dave2022}.
 
-En este caso, los requisitos no funcionales presentes en este nuevo sistema son los mismos del SECPROIT:
+En este caso, los requisitos no funcionales presentes en el nuevo sistema de capacitación son los mismos del SECPROIT:
 
 \begin{itemize}
 \item \textbf{Usabilidad}: se debe garantizar un ambiente de trabajo simple e intuitivo, ya que la mayoría de los usuarios no poseen experiencias con sistemas informáticos
 \item \textbf{Seguridad}: la información del sistema solo puede ser manipulada por usuarios autorizados (aquellos que posean usuario y contraseña)
-\item \textbf{Confiabilidad}: se deben evitar los enlaces rotos, los ficheros de los procesos deben ser validados antes de utilizarlos y se debe garantizar la confidencialidad de la información
+\item \textbf{Confiabilidad}: se deben evitar los enlaces rotos, los ficheros de los procesos deben ser validados antes de usarlos y se debe garantizar la confidencialidad de la información
 \item \textbf{Disponibilidad}: la aplicación de mecanismos de seguridad no debe constituir un retraso para el uso del sistema, el software siempre debe estar disponible, así como brindar su información actualizada
 \item \textbf{Software}: se debe tener instalado el JDK versión 1.8 y la aplicación PostgreSQL versión 9.1 (mínimo) para el manejo de la base de datos
-\item \textbf{Hardware}: se necesitan 64MB de memoria RAM, un microprocesador Pentium II a 450 MHz (mínimo), un disco duro con capacidad libre (mínima) de 4GB y un sistema operativo de entorno gráfico como Windows y Linux
+\item \textbf{Hardware}: se necesitan 64MB de memoria RAM, un microprocesador Pentium II a 450 MHz (mínimo), un disco duro con capacidad libre de 4GB (mínimo) y un sistema operativo de entorno gráfico como Windows y Linux
 \item \textbf{Portabilidad}: debe ser utilizado bajo sistemas operativos Windows o Linux, por lo que su desarrollo debe realizarse con un lenguaje y tecnologías capaces de brindar este soporte
 \item \textbf{Restricciones en el diseño y la implementación}: debe desarrollarse sobre plataformas de software libre y código abierto y su lenguaje de programación debe ser Java, debido al uso de la herramienta \textsl{Drools}
 \item \textbf{Políticos/Culturales}: debe encontrarse en idioma español
 \end{itemize}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Casos de uso}
 Un caso de uso representa una unidad funcional coherente en un sistema, subsistema o clase. En ellos, uno o más actores interaccionan con las entidades que realizan las acciones. El modelado de estos casos de uso permite que los desarrolladores de un software y los clientes lleguen a un acuerdo sobre los requisitos y posibilidades que debe cumplir el sistema \cite{Kalaivani2004}.
 
+\subsection{Diagrama de casos de uso}
+Los diagramas de casos de uso muestran las relaciones entre las acciones de un sistema y sus actores. Estos modelos dan sólo una visión general y ayudan a interpretar y esclarecer los casos de uso \cite{Kalaivani2004}.
+
+El diagrama de casos de uso del nuevo sistema de capacitación (\textsl{Figura \ref{fig:dcu}}) contiene tres colores diferentes: azul para los casos de uso que no han sido modificados, amarillo para los que sufrieron algún cambio significativo y verde para los casos de uso nuevos.
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.65\linewidth]{imagen/dcu.png}
+ \caption{Diagrama de casos de uso}
+ \label{fig:dcu} 
+\end{figure}
+
 \subsection{Actores del sistema} 
-Un actor puede referirse a cualquier cosa que interaccione con el sistema y que es externo a él. No necesariamente coinciden con los usuarios. Un usuario puede interpretar distintos roles, correspondientes a distintos actores. Un actor puede desempeñar distintos papeles dependiendo del caso de uso en que participe \cite{Kalaivani2004}.
+Un actor puede referirse a cualquier entidad externa que interaccione con el sistema. No necesariamente coinciden con los usuarios. Un usuario puede interpretar distintos roles, correspondientes a distintos actores. Un actor puede desempeñar distintos papeles dependiendo del caso de uso en que participe \cite{Kalaivani2004}.
 
-El Sistema Generador de Bases de Conocimiento (SGBC) es el encargado de confeccionar los ficheros que son registrados en los procesos dentro del sistema SECPROIT, como ya se explicó en el capítulo anterior. Sin embargo, este generador no se incluye como actor en el SECPROIT, ya que no interactúa directamente con el sistema, su relación es a partir de los ficheros que genera.
+El Sistema Generador de Bases de Conocimiento (SGBC) es el encargado de confeccionar los ficheros de cada proceso dentro del sistema SECPROIT, como ya se explicó en el capítulo anterior. Sin embargo, este generador no se incluye como un actor, ya que no interactúa directamente con el sistema. Su relación es a partir de los ficheros que genera.
 
-Los actores presentes en esta solución (\textsl{Tabla \ref{tab:actores}}) están representados por los tres roles que puede presentar un usuario: administrador, jefe de área u operario.
+Los actores presentes en el nuevo sistema de capacitación (\textsl{Tabla \ref{tab:actores}}) están representados por tres roles: administrador, jefe de área u operario.
 
 \begin{table}[H]
 \begin{center}
@@ -206,31 +214,19 @@ Los actores presentes en esta solución (\textsl{Tabla \ref{tab:actores}}) está
 \hline
 \textbf{Actor} & \textbf{Descripción} \\
 \hline
-Usuario & Actor genérico que hace uso de las funcionalidades que son comunes (iniciar sesión y cambiar contraseña personal) \\
+Usuario & Actor genérico que hace uso de las funcionalidades que son comunes \\
 \hline
-Operario & Actor que se capacita mediante los entrenamientos generados de cada proceso y tiene acceso a sus resultados \\
+Operario & Actor que tiene acceso a los entrenamientos y posee un registro de sus resultados \\
 \hline
-Jefe de área & Actor que vincula los procesos en las áreas, los configura, decidiendo cómo será el entrenamiento, qué usuarios podrán realizarlo y las características que deberán cumplir para aprobarlo, y tiene acceso a los resultados de los operarios de su área (antes era conocido como especialista) \\
+Jefe de área & Actor que incluye los procesos a un área, decide cómo será el entrenamiento, qué usuarios podrán realizarlo y tiene acceso a los resultados de los operarios de su área \\
 \hline
-Administrador & Actor que gestiona las áreas y los usuarios y tiene acceso a un resumen de acciones de cada usuario \\
+Administrador & Actor que gestiona las áreas, gestiona los usuarios y tiene acceso a un reporte de las acciones en el sistema \\
 \hline
 \end{tabular}
 \caption{Actores del sistema}
 \label{tab:actores}
 \end{center}
 \end{table}
-
-\subsection{Diagrama de casos de uso}
-Los diagramas de casos de uso muestran las relaciones entre las acciones de un sistema y sus actores. Estos modelos dan sólo una visión general y ayudan a interpretar y esclarecer los casos de uso \cite{Kalaivani2004}.
-
-El diagrama de casos de uso de la solución (\textsl{Figura \ref{fig:dcu}}) contiene tres colores diferentes: azul para representar los casos de uso que no han sido modificados con respecto al modelo anterior, amarillo para representar los que sufrieron algún cambio significativo y verde para los casos de uso nuevos.
-
-\begin{figure}[h]
-\centering
- \includegraphics[width=0.7\linewidth]{imagen/dcu.png}
- \caption{Diagrama de casos de uso}
- \label{fig:dcu} 
-\end{figure}
 
 \subsection{Especificación de los casos de uso}
 
@@ -240,41 +236,71 @@ El diagrama de casos de uso de la solución (\textsl{Figura \ref{fig:dcu}}) cont
 \hline
 \textbf{Actor} & \textbf{Caso de uso} & \textbf{Descripción}\\
 \hline
-Usuario & Iniciar sesión en el sistema & El actor debe introducir su nombre y su contraseña para iniciar en el sistema \\
-\cline{2-3}
-& Cambiar contraseña personal  & El actor puede cambiar su propia contraseña \\
-\hline
 Administrador & Gestionar áreas & El actor puede introducir, modificar o eliminar las áreas del sistema \\
 \cline{2-3}
-& Gestionar usuarios & El actor puede introducir, modificar, restablecer la contraseña, dormir o activar a los usuarios del sistema \\
+& Gestionar usuarios & El actor puede introducir, modificar, dormir o activar a los usuarios del sistema \\
 \cline{2-3}
-& Ver acciones de los usuarios & El actor puede visualizar un registro con todas las acciones que los usuarios han realizado en el sistema \\
+& Ver acciones de los usuarios & El actor puede visualizar un registro con todas las acciones realizadas en el sistema \\
+\hline
+\end{tabular}
+\caption{Casos de uso del administrador}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | p{3.8cm} |  p{8cm} |}
+\hline
+\textbf{Actor} & \textbf{Caso de uso} & \textbf{Descripción}\\
+\hline
+Usuario & Iniciar sesión en el sistema & El actor debe introducir su nombre de usuario y su contraseña para iniciar sesión en el sistema \\
+\cline{2-3}
+& Cambiar contraseña personal  & El actor puede cambiar la contraseña que posee por defecto, por una de su preferencia \\
+\hline
+\end{tabular}
+\caption{Casos de uso del usuario}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | p{3cm} |  p{8.5cm} |}
+\hline
+\textbf{Actor} & \textbf{Caso de uso} & \textbf{Descripción}\\
 \hline
 Operario & Entrenar & El actor inicia el entrenamiento de un proceso \\
 \cline{2-3}
-& Evaluar etapa 1 & El actor se evalúa mediante preguntas de variables, decidiendo cuáles están fuera de rango y cuáles no \\
+& Entrenar en la primera etapa & El actor se evalúa en la primera etapa del entrenamiento (debe escoger las variables que se encuentran fuera de rango) \\
 \cline{2-3}
-& Evaluar etapa 2 & El actor se evalúa mediante preguntas de causas, decidiendo cuáles se relacionan a un conjunto de variables \\
+& Entrenar en la segunda etapa & El actor se evalúa en la segunda etapa del entrenamiento (debe escoger las causas de las variables que se encuentran fuera de rango) \\
 \cline{2-3}
-& Evaluar etapa 3 & El actor se evalúa mediante preguntas de recomendaciones, decidiendo cuáles se relacionan a un conjunto de causas \\
+& Entrenar en la tercera etapa & El actor se evalúa en la tercera etapa del entrenamiento (debe escoger las recomendaciones de las causas) \\
 \cline{2-3}
 & Ver resultados & El actor puede visualizar un registro con todos los resultados que ha obtenido \\
+\hline
+\end{tabular}
+\caption{Casos de uso del operario}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | p{3.5cm} |  p{7.5cm} |}
+\hline
+\textbf{Actor} & \textbf{Caso de uso} & \textbf{Descripción}\\
 \hline
 Jefe de área & Gestionar procesos & El actor puede introducir, modificar o eliminar los procesos de su área \\
 \cline{2-3}
 & Configurar entrenamiento & El actor decide para cada proceso cómo será el entrenamiento \\
 \cline{2-3}
-& Añadir usuarios & El actor decide para cada proceso los usuarios que pueden participar \\
+& Añadir usuarios & El actor decide para cada proceso los usuarios que lo pueden realizar \\
 \cline{2-3}
 & Ver resultados de los operarios del área & El actor puede visualizar un registro con todas las evaluaciones de los operarios de su área \\
 \hline
 \end{tabular}
-\caption{Especificación de los casos de uso}
-\label{tab:caso-uso}
+\caption{Casos de uso del jefe de área}
 \end{center}
 \end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Modelo de datos}
 Para el desarrollo de este sistema se utiliza, como gestor de base de datos, la herramienta PostgreSQL. En ella se almacena toda la información con la que se va a trabajar, incluyendo los ficheros \textsl{anm} y \textsl{drl} de los procesos. Por momentos determinados, esta información también se encuentra almacenada, de forma local y temporal, en clases del propio sistema, lo que permite un mejor manejo y control de los datos.

@@ -37,9 +37,9 @@
 \contentsline {subsection}{\numberline {2.2.1}Requisitos funcionales}{24}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Requisitos No Funcionales}{25}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Casos de uso}{26}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Actores del sistema}{26}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Diagrama de casos de uso}{27}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Especificaci\IeC {\'o}n de los casos de uso}{28}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.1}Diagrama de casos de uso}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Actores del sistema}{27}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Especificaci\IeC {\'o}n de los casos de uso}{27}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Modelo de datos}{29}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Diagrama de Entidades y Relaciones (DER)}{29}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Diagrama de base de datos}{31}{subsection.2.4.2}

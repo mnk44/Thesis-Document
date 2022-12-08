@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 19:43
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 20:37
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -655,20 +655,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=468, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=474, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9] [10]
-<imagen/gama.png, id=512, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=518, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [11 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [12]
-<imagen/componentes.png, id=537, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=543, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [13] [14 <E:/Escuela/Tesis/Informe/imagen/componen
-tes.png>] <imagen/rules.png, id=554, 214.55156pt x 108.405pt>
+tes.png>] <imagen/rules.png, id=560, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -677,7 +677,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=593, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=599, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png> [20 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
@@ -685,53 +685,73 @@ Overfull \hbox (0.79543pt too wide) in paragraph at lines 58--87
  [] 
  []
 
-[21] [22] <imagen/actividades.png, id=615, 465.99094pt x 433.62pt>
+[21] [22] <imagen/actividades.png, id=621, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [23 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [24] [25] [26] <imagen/dcu.png, id=645, 575.14874pt x 408.02437pt>
+ng>] [24] [25] <imagen/dcu.png, id=644, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
-<use imagen/dcu.png> [27 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-[]|\OT1/cmr/m/n/12 Cambiar con-tra-
+<use imagen/dcu.png> [26 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
+Underfull \hbox (badness 1087) in paragraph at lines 256--256
+[]|\OT1/cmr/m/n/12 Iniciar se-sion en el
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 269--269
+Underfull \hbox (badness 2293) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/12 Cambiar con-tra-se~na
+ []
+
+[27]
+Underfull \hbox (badness 2277) in paragraph at lines 273--273
+[]|\OT1/cmr/m/n/12 Entrenar en la
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 275--275
+[]|\OT1/cmr/m/n/12 Entrenar en la
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 277--277
+[]|\OT1/cmr/m/n/12 Entrenar en la
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 298--298
 []|\OT1/cmr/m/n/12 Ver re-sul-ta-dos de
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 269--269
+Underfull \hbox (badness 7099) in paragraph at lines 298--298
 \OT1/cmr/m/n/12 los ope-ra-rios del
  []
 
-[28] <imagen/der.png, id=656, 410.2828pt x 305.64188pt>
+[28] <imagen/der.png, id=662, 410.2828pt x 305.64188pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [29 <E:/Escuela/Tesis/Informe/imagen/der.png>]
-Underfull \hbox (badness 2617) in paragraph at lines 310--311
+Underfull \hbox (badness 2617) in paragraph at lines 336--337
 \OT1/cmr/m/n/12 ni-vel es-co-lar, ex-pe-rien-cia,
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 328--328
+Underfull \hbox (badness 1436) in paragraph at lines 354--354
 []|\OT1/cmr/m/n/12 ID, usua-rio, con-fi-gu-ra-cion
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 328--329
+Underfull \hbox (badness 3250) in paragraph at lines 354--355
 []|\OT1/cmr/m/n/12 Se eli-mi-na-ron los demas
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 330--330
+Underfull \hbox (badness 4556) in paragraph at lines 356--356
 \OT1/cmr/m/n/12 eta-pa, tiem-po de-mo-ra-do,
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 330--330
+Underfull \hbox (badness 3291) in paragraph at lines 356--356
 \OT1/cmr/m/n/12 pre-gun-tas acer-ta-das, pre-
  []
 
@@ -1037,21 +1057,21 @@ Anexo A.
 
 ]
 Anexo B.
-<imagen/anexos/nuevaConf.png, id=736, 985.43156pt x 561.59813pt>
+<imagen/anexos/nuevaConf.png, id=742, 985.43156pt x 561.59813pt>
 File: imagen/anexos/nuevaConf.png Graphic file (type png)
 
 <use imagen/anexos/nuevaConf.png>
-<imagen/anexos/errorConf.png, id=737, 986.9372pt x 566.115pt>
+<imagen/anexos/errorConf.png, id=743, 986.9372pt x 566.115pt>
 File: imagen/anexos/errorConf.png Graphic file (type png)
 
 <use imagen/anexos/errorConf.png> [43
 
  <E:/Escuela/Tesis/Informe/imagen/anexos/nuevaConf.png>]
-<imagen/anexos/guardarConf.png, id=744, 994.46532pt x 563.10374pt>
+<imagen/anexos/guardarConf.png, id=750, 994.46532pt x 563.10374pt>
 File: imagen/anexos/guardarConf.png Graphic file (type png)
 
 <use imagen/anexos/guardarConf.png>
-<imagen/anexos/eliminarConf.png, id=745, 986.9372pt x 554.07pt>
+<imagen/anexos/eliminarConf.png, id=751, 986.9372pt x 554.07pt>
 File: imagen/anexos/eliminarConf.png Graphic file (type png)
 
 <use imagen/anexos/eliminarConf.png>) [44 <E:/Escuela/Tesis/Informe/imagen/anex
@@ -1084,10 +1104,10 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6354 strings out of 494019
- 94919 string characters out of 3143892
- 191694 words of memory out of 3000000
- 9215 multiletter control sequences out of 15000+200000
+ 6356 strings out of 494019
+ 94935 string characters out of 3143892
+ 191641 words of memory out of 3000000
+ 9214 multiletter control sequences out of 15000+200000
  10106 words of font info for 35 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1269b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1099,9 +1119,9 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (57 pages, 1182886 bytes).
+Output written on "Mónica Montoto Montané.pdf" (57 pages, 1184487 bytes).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
+ 833 PDF objects out of 1000 (max. 8388607)
+ 213 named destinations out of 1000 (max. 500000)
  543 words of extra memory for PDF output out of 10000 (max. 10000000)
 

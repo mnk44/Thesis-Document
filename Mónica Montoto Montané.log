@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 18:43
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  7 DEC 2022 19:43
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -693,17 +693,17 @@ ng>] [24] [25] [26] <imagen/dcu.png, id=645, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
 <use imagen/dcu.png> [27 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 []|\OT1/cmr/m/n/12 Cambiar con-tra-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 271--271
+Underfull \hbox (badness 2020) in paragraph at lines 269--269
 []|\OT1/cmr/m/n/12 Ver re-sul-ta-dos de
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 271--271
+Underfull \hbox (badness 7099) in paragraph at lines 269--269
 \OT1/cmr/m/n/12 los ope-ra-rios del
  []
 
@@ -711,27 +711,27 @@ Underfull \hbox (badness 7099) in paragraph at lines 271--271
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [29 <E:/Escuela/Tesis/Informe/imagen/der.png>]
-Underfull \hbox (badness 2617) in paragraph at lines 312--313
+Underfull \hbox (badness 2617) in paragraph at lines 310--311
 \OT1/cmr/m/n/12 ni-vel es-co-lar, ex-pe-rien-cia,
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 330--330
+Underfull \hbox (badness 1436) in paragraph at lines 328--328
 []|\OT1/cmr/m/n/12 ID, usua-rio, con-fi-gu-ra-cion
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 330--331
+Underfull \hbox (badness 3250) in paragraph at lines 328--329
 []|\OT1/cmr/m/n/12 Se eli-mi-na-ron los demas
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 332--332
+Underfull \hbox (badness 4556) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 eta-pa, tiem-po de-mo-ra-do,
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 332--332
+Underfull \hbox (badness 3291) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 pre-gun-tas acer-ta-das, pre-
  []
 
@@ -1099,7 +1099,7 @@ cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on "Mónica Montoto Montané.pdf" (57 pages, 1183022 bytes).
+Output written on "Mónica Montoto Montané.pdf" (57 pages, 1182886 bytes).
 PDF statistics:
  826 PDF objects out of 1000 (max. 8388607)
  210 named destinations out of 1000 (max. 500000)

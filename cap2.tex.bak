@@ -97,15 +97,15 @@ Por último, las entidades nuevas (\textsl{Tabla \ref{tab:ent-verde}}) son clase
 \hline
 \textbf{Entidad} & \textbf{Descripción} \\
 \hline
-Configuración & Representa la configuración de entrenamiento de un proceso, es decir, las características que este posee para generar un entrenamiento \\
+Configuración & Es la configuración del entrenamiento de un proceso, es decir, un grupo de características determinadas en el entrenamiento \\
 \hline
-Etapas & Representa las etapas del entrenamiento, existen tres por cada uno \\
+Etapas & Representa las etapas del entrenamiento \\
 \hline
-E-Variable & Es un tipo de etapa, donde se evalúan las variables \\
+E-Variable & Es la primera etapa, donde se evalúan las variables \\
 \hline
-E-Causa & Es un tipo de etapa, donde se evalúan las causas \\
+E-Causa & Es la segunda etapa, donde se evalúan las causas \\
 \hline
-E-Recm. & Es un tipo de etapa, donde se evalúan las recomendaciones \\
+E-Recm. & Es la tercera etapa, donde se evalúan las recomendaciones \\
 \hline
 \end{tabular}
 \caption{Modelo de dominio: entidades nuevas}
@@ -116,14 +116,15 @@ E-Recm. & Es un tipo de etapa, donde se evalúan las recomendaciones \\
 \subsection{Reglas del negocio}
 Las reglas de un negocio son directrices y restricciones que ayudan a regular las operaciones de una entidad determinada. Para cada proceso existen reglas que deben seguirse durante la ejecución, ya que estas ayudan a definir \textbf{cómo} deben realizarse las tareas, por \textbf{quién}, \textbf{cuándo}, \textbf{dónde} y \textbf{por qué} \cite{Chisholm2007}. A modo de resumen, las reglas de un negocio son límites impuestos a las operaciones para que estén en sintonía con las políticas y objetivos de la institución.
 
-En el sistema SECPROIT existen un conjunto de reglas primordiales que no se deben dejar de cumplir. Estas son:
+En el sistema SECPROIT existen un conjunto de reglas primordiales que no se deben dejar de cumplir:
 \begin{itemize}
 \item Cada usuario debe poseer un único rol
 \item Para poder introducir un nuevo usuario debe existir, al menos, un área laboral
 \item Un usuario no puede pertenecer a más de un área
+\item Solo puede existir un jefe de área por área
 \item Para poder introducir un nuevo proceso debe existir, al menos, un área laboral
 \item Un proceso no puede pertenecer a más de un área
-\item Para generar un nuevo entrenamiento debe existir, al menos, un usuario que cumpla el rol de operario y un proceso que sea de la misma área que el operario
+\item Para generar un nuevo entrenamiento debe existir, al menos, un usuario que cumpla el rol de operario y un proceso que sea de la misma área
 \item Para entrenar en la etapa de las causas debe haberse aprobado la etapa de las variables
 \item Para entrenar en la etapa de las recomendaciones debe haberse aprobado la etapa de las causas
 \item Los usuarios con rol de administrador son los únicos que pueden gestionar las áreas y las cuentas de los usuarios
@@ -134,9 +135,9 @@ En el sistema SECPROIT existen un conjunto de reglas primordiales que no se debe
 \end{itemize}
 
 \subsection{Diagrama de actividades}
-El Lenguaje Unificado de Modelado (UML) incluye varios subconjuntos de modelos, entre los que se encuentran los diagramas de actividades. Estos diagramas son considerados diagramas de comportamiento, porque describen lo que debe suceder en el sistema que se está presentando \cite{Eriksson2000}.
+El Lenguaje Unificado de Modelado (UML) incluye varios subconjuntos de modelos, entre los que se encuentran los diagramas de actividades. Estos diagramas son considerados diagramas de comportamiento, porque describen el comportamiento del sistema que representan \cite{Eriksson2000}.
 
-En el diagrama de actividades del nuevo sistema (\textsl{Figura \ref{fig:actividades}}) se pueden observar tres colores: azul, amarillo y verde. El color azul indica que el flujo es igual al del sistema SECPROIT original. El color amarillo representa un ligero cambio en el flujo, ya descrito anteriormente. Por último, el color verde representa una nueva acción.
+En el diagrama de actividades del nuevo sistema de capacitación (\textsl{Figura \ref{fig:actividades}}) se pueden observar tres colores: azul, amarillo y verde. El color azul indica que el flujo funciona de la misma manera que en el SECPROIT, el color amarillo representa un ligero cambio y el verde, representa una acción totalmente nueva.
 
 \begin{figure}[h]
 \centering
@@ -145,26 +146,22 @@ En el diagrama de actividades del nuevo sistema (\textsl{Figura \ref{fig:activid
  \label{fig:actividades} 
 \end{figure} 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Captura de requisitos}
-La extracción o captura de los requisitos en un sistema es una de las fases más críticas e importantes en el desarrollo de software. La fase de captura de requisitos tiene como objetivo descubrir y recoger todas las condiciones funcionales y no funcionales de una aplicación. Esta actividad de descubrimiento es una tarea más humana que técnica, ya que la mayor parte de las veces los usuarios no serán capaces de definir todas las condiciones \cite{Dave2022}. 
+La extracción o captura de los requisitos en un sistema es una de las fases más críticas e importantes en el desarrollo de software. Esta fase tiene como objetivo descubrir y recoger todas las condiciones funcionales y no funcionales de una aplicación. La actividad de descubrimiento es una tarea más humana que técnica, ya que la mayor parte de las veces los usuarios no serán capaces de definir todas las condiciones \cite{Dave2022}. 
 
 Para el desarrollo de este sistema se realizó un estudio de requisitos bastante extensivo. Se coordinó con los interesados y se acordó una lista de requerimientos funcionales y no funcionales.
 
 \subsection{Requisitos funcionales}
-Los requisitos funcionales son las declaraciones de los servicios que prestará el sistema. Cuando hablamos de las entradas, no necesariamente hablamos sólo de las de los usuarios, pueden ser interacciones con otros sistemas, respuestas automáticas, procesos predefinidos, entre otros. En algunos casos, los requisitos funcionales también establecen explícitamente lo que el sistema no debe hacer \cite{Dave2022}.
+Los requisitos funcionales son las declaraciones de los servicios que prestará el sistema. Cuando hablamos de entradas, no necesariamente hablamos sólo de los usuarios, pueden ser: interacciones con otros sistemas, respuestas automáticas, procesos predefinidos, entre otros. En algunos casos, los requisitos funcionales también establecen explícitamente lo que el sistema no debe hacer \cite{Dave2022}.
 
-Los requisitos funcionales que posee esta solución ya incluyen los cambios presentados en el modelo de dominio. A las condiciones existentes en el sistema SECPROIT original se les agregó la configuración de los entrenamientos y la gestión de usuarios. Como resultado, los requisitos funcionales de este nuevo sistema son:
+Entre los requisitos funcionales que debe poseer el nuevo sistema de capacitación, se deben incluir los cambios presentados en el modelo de dominio. Como resultado, los requisitos funcionales del nuevo sistema son:
 
 \begin{itemize}
-\item \textbf{Cambiar contraseña personal}: es una acción que todos los usuarios pueden realizar.
 \item \textbf{Iniciar sesión en el sistema}: es una acción que todos los usuarios pueden realizar.
-
-\item \textbf{Gestionar usuarios}: es una actividad desarrollada solo por los administradores. Se basa en introducir, modificar y desactivar o activar los usuarios del sistema. También cuenta con una opción para restablecer la contraseña, en caso de que estos la hayan olvidado.
+\item \textbf{Cambiar contraseña personal}: es una acción que todos los usuarios pueden realizar.
+\item \textbf{Gestionar usuarios}: es una actividad desarrollada solo por los administradores. Se basa en introducir, modificar y desactivar o activar los usuarios del sistema, aunque también cuenta con una opción para restablecer la contraseña en caso de que el usuario la haya olvidado.
 \item \textbf{Gestionar áreas}: es una actividad desarrollada solo por los administradores. Se basa en introducir, modificar y eliminar las áreas del sistema. Para poder eliminar un área laboral, esta debe estar vacía, es decir, que de ella no dependa ningún usuario.
-\item \textbf{Ver acciones de los usuarios}: es una actividad desarrollada solo por los administradores. Permite observar, en una tabla, todas las actividades realizadas por los usuarios.
-
+\item \textbf{Ver acciones de los usuarios}: es una actividad desarrollada solo por los administradores. Permite observar, mediante una tabla, las acciones realizadas por los usuarios.
 \item \textbf{Gestionar procesos}: es una actividad desarrollada solo por los jefes de área. Se basa en introducir, modificar y eliminar los procesos en un área laboral. Si se elimina un proceso, queda registro del mismo y los entrenamientos que se hayan realizado no se pierden.
 \item \textbf{Configurar entrenamiento}: es una actividad desarrollada solo por los jefes de área. Consiste en asignar para cada proceso los estilos de pregunta que se pueden aplicar, la cantidad general de intentos, el tiempo máximo para realizar el entrenamiento y los usuarios que pueden evaluarse.
 \item \textbf{Ver resultados de los operarios del área}: es una actividad desarrollada solo por los jefe de área. Permite observar, en una tabla, todos los resultados de los operarios que pertenezcan a esa área.

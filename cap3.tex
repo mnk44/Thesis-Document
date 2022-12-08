@@ -3,7 +3,7 @@
 \setcounter{section}{0}
 \addcontentsline{toc}{chapter}{Capítulo 3: Validación del nuevo sistema de capacitación}
 
-Partiendo del objetivo principal de la investigación (rectificar las limitaciones existentes en el sistema SECPROIT), se desarrollaron un conjunto de pruebas y experimentos para demostrar que se enmendaron dichas restricciones. En el siguiente capítulo se presentan los resultados obtenidos en cada una de las pruebas. Este proceso parte de cómo la fase de análisis y diseño se unen para llevar a cabo el sistema propuesto.
+Partiendo del objetivo principal de esta investigación, rectificar las limitaciones existentes en el sistema SECPROIT, se desarrollaron un conjunto de pruebas y experimentos para demostrar que se enmendaron dichas restricciones. En el siguiente capítulo se presentan los resultados obtenidos en cada una de las pruebas. Este proceso parte de cómo la fase de análisis y diseño se unen para llevar a cabo el sistema propuesto.
 
 \section{Pruebas funcionales}
  Las pruebas de software, o pruebas funcionales, son el proceso de ejecutar un sistema o componente para medir su calidad, con la intención de encontrar errores que aún no se descubren \cite{Buehler2008}.
@@ -11,20 +11,20 @@ Partiendo del objetivo principal de la investigación (rectificar las limitacion
 Para este software, el nivel de prueba que se utiliza es: pruebas de sistema. Consiste en ejecutar el sistema completo, buscando defectos tanto en aspectos generales como en particulares. Se utilizan pruebas basadas en las funcionalidades (pruebas funcionales) y el método que se emplea es el de caja negra (se lleva a cabo sobre la interfaz del software) \cite{Nidhra2012}.
 
 \subsection{Casos de prueba para la configuración entrenamientos}
-Como se pudo apreciar en el capítulo 2, en el sistema desarrollado se introdujeron nuevas entidades, entre ellas: la configuración de un entrenamiento. Con esta configuración el jefe de área puede decidir el tiempo que puede demorar completar una etapa, el tipo de preguntas que pueden aparecer, la cantidad de intentos totales permitidos por cada etapa y la cantidad de intentos aprobados necesarios para superar cada una.
+Como se pudo apreciar en el capítulo 2, en el sistema desarrollado se introdujeron nuevas entidades, entre ellas: la configuración de un entrenamiento. Con esta configuración el jefe de área puede decidir el tiempo que puede tomar completar el entrenamiento de una etapa, el tipo de preguntas que pueden aparecer, la cantidad de intentos totales permitidos por cada etapa y la cantidad de intentos aprobados necesarios para superar cada una.
 
-Gracias a esta configuración, se resuelven algunas de las limitaciones que se mencionaban en el capítulo 1: 
+Gracias a esta nueva configuración, se lograron resolver algunas de las limitaciones que se mencionaban en el capítulo 1: 
 \begin{itemize}
 \item Existe más de un modelo de pregunta, solucionando el problema de escasez en el método de aprendizaje
 \item Las etapas no aparecen de forma continúa, porque para poder avanzar a la siguiente se debe aprobar la etapa actual un número determinado de veces
 \item Solo aparece una etapa a la vez
-\item Para cada proceso existe más de un entrenamiento
+\item Para cada etapa existe más de un entrenamiento
 \end{itemize}
 
 Sin embargo, es necesario probar el correcto funcionamiento de este nueva entidad. Con ese fin, se diseñaron tres casos de prueba  (\textsl{Tabla \ref{cas1}}, \textsl{Tabla \ref{cas2}}, \textsl{Tabla \ref{cas3}}), cada una con sus propios experimentos. 
 
 \subsubsection{Casos de prueba: Insertar configuración de entrenamiento}
-El proceso de crear una nueva configuración de entrenamiento se realiza al insertar un nuevo proceso (todo ocurre en la misma interfaz). Para este caso de prueba se realizaron tres experimentos:
+El proceso de crear una nueva configuración de entrenamiento se realiza al insertar un nuevo proceso (todo ocurre en la misma interfaz de usuario). Para este caso de prueba se realizaron tres experimentos:
 
 \begin{table}[H]
 \begin{center}
@@ -32,11 +32,11 @@ El proceso de crear una nueva configuración de entrenamiento se realiza al inse
 \hline
 \centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
 \hline
-Insertar configuración con campos en blanco & Una configuración de entrenamiento no puede contener información vacía & Los campos están llenos por defecto y la interfaz no debe permitir que se vacíen los campos & La interfaz no permitió que los campos fueran vaciados (\ref{fig:cb}) \\
+Insertar configuración con campos en blanco & Una configuración de entrenamiento no puede contener información vacía & Los campos están llenos por defecto y la interfaz no debe permitir que se vacíen los campos & La interfaz no permitió que los campos fueran vaciados (Anexo \ref{fig:cb}) \\
 \hline
-Insertar configuración con campos incorrectos & La única forma de introducir información incorrecta es insertando un número de intentos verídicos mayor que el número de intentos total & Debe aparecer un mensaje de error & Aparece un mensaje de error (\ref{fig:ci}) \\
+Insertar configuración con campos incorrectos & La única forma de introducir información incorrecta es insertando un número de intentos verídicos mayor que el número de intentos total & Debe aparecer un mensaje de error & Aparece un mensaje de error (Anexo \ref{fig:ci}) \\
 \hline
-Insertar configuración con campos correctos & Introducir campos correctos & Se debe introducir la configuración  & Se introdujo la nueva configuración (\ref{fig:cc}) \\
+Insertar configuración con campos correctos & Introducir campos correctos & Se debe introducir la configuración  & Se introdujo la nueva configuración (Anexo \ref{fig:cc}) \\
 \hline
 \end{tabular}
 \caption{Casos de prueba: Insertar configuración de entrenamiento}
@@ -66,7 +66,7 @@ Modificar configuración con campos correctos & Introducir campos correctos & Se
 \end{table}
 
 \subsubsection{Casos de prueba: Eliminar configuración de entrenamiento}
-Como medida de seguridad, en el sistema, el proceso de eliminar la configuración de un entrenamiento no existe de manera visual. Para eliminar la configuración de un entrenamiento, debe eliminarse el proceso al que esta pertenece. Por lo tanto, el único experimento que se puede realizar en este caso de prueba es el de eliminar un proceso.
+Como medida de seguridad en el nuevo sistema de capacitación, el proceso de eliminar la configuración de un entrenamiento no existe de manera visual. Para eliminar la configuración de un entrenamiento, debe eliminarse el proceso al que esta pertenece. Por lo tanto, el único experimento que se puede realizar en este caso es: eliminar un proceso.
 
 \begin{table}[H]
 \begin{center}
@@ -74,7 +74,7 @@ Como medida de seguridad, en el sistema, el proceso de eliminar la configuració
 \hline
 \centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
 \hline
-Eliminar proceso & Se selecciona de una tabla el proceso que se desea eliminar & Se debe eliminar el proceso & Se eliminó el proceso (\ref{fig:ce}) \\
+Eliminar proceso & Se selecciona de una tabla el proceso que se desea eliminar & Se debe eliminar el proceso & Se eliminó el proceso (Anexo \ref{fig:ce}) \\
 \hline
 \end{tabular}
 \caption{Casos de prueba: Eliminar configuración de entrenamiento}
@@ -83,6 +83,8 @@ Eliminar proceso & Se selecciona de una tabla el proceso que se desea eliminar &
 \end{table}
 
 \subsection{Casos de prueba para el entrenamiento en la etapa de las causas}
-En el sistema SECPROIT, la etapa de las causas no se evalúa correctamente. Si la variable presenta más de una causa, el sistema evalúa la primera pero no logra evaluar las demás. En cambio, si del grupo de variables, solo una se encuentra fuera de rango, la etapa de las causas no se evalúa en absoluto.
+En el sistema SECPROIT, la etapa de las causas no se evalúa correctamente. Si la variable presenta más de una causa, el sistema evalúa la primera pero no logra evaluar las demás. En cambio, si del grupo de variables solo una se encuentra fuera de rango, la etapa de las causas no se evalúa en absoluto.
 
-Sin embargo, el nuevo sistema desarrollado no presenta esta dificultad. En este software, para cada tipo de pregunta en la etapa de las causas, se evalúan un número distinto de variables (todas fuera de rango). Por ejemplo, en las preguntas de completar los espacios en blanco se evalúan cinco variables distintas (todas fuera de rango) y de cada una se preguntan las causas (\textsl{Anexo \ref{fig:c}}), mientras que en las preguntas de enlazar, solo se pregunta por una variable, pero esta posee múltiples causas (\textsl{Anexo \ref{fig:c}}).
+Sin embargo, el nuevo sistema desarrollado no presenta esta dificultad. En el software, para cada tipo de pregunta en la etapa de las causas, se evalúan un número distinto de variables (todas fuera de rango). Por ejemplo, en las preguntas de completar los espacios en blanco se evalúan cinco variables distintas (todas fuera de rango) y de cada una se preguntan sus causas (Anexo \ref{fig:pregcaus}}), mientras que en las preguntas de enlazar, solo se pregunta por una variable, pero esta posee múltiples causas.
+
+Para probar el correcto funcionamiento del entrenamiento en la etapa de las causas, se realizó una prueba por cada tipo de pregunta, es decir, se evaluaron cuatro entrenamientos de la etapa de las causas, uno por cada pregunta (verdadero o falso, completar los espacios en blanco, selección múltiple y enlazar).

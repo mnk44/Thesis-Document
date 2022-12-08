@@ -29,7 +29,7 @@ El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es m
  \label{fig:dominio} 
 \end{figure}
 
-Las entidades que contienen algunos cambios (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en las estructuras que estas seguían, es decir, variaciones en la base de datos y en las clases del sistema.
+Las entidades que contienen algunos cambios (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en las estructuras que estas seguían, es decir, variaciones en las clases del sistema.
 
 \begin{table}[H]
 \begin{center}
@@ -169,7 +169,7 @@ Entre los requisitos funcionales que debe poseer el nuevo sistema de capacitaci�
 \item \textbf{Ver resultados}: es una actividad desarrollada solo por los operarios. Permite observar, mediante una tabla, todos los resultados obtenidos en los entrenamientos realizados.
 \end{itemize}
 
-\subsection{Requisitos No Funcionales}
+\subsection{Requisitos no funcionales}
 Los requisitos no funcionales son condiciones que no se refieren directamente a las funciones específicas suministradas por un sistema (características de usuario), sino a las propiedades del mismo: rendimiento, seguridad, disponibilidad, entre otros. En palabras más sencillas, no hablan de lo que hace el sistema, sino de cómo lo hace. Alternativamente, definen restricciones del sistema tales como la capacidad de los dispositivos de entrada/salida y la representación de los datos utilizados en la interfaz del sistema \cite{Dave2022}.
 
 En este caso, los requisitos no funcionales presentes en el nuevo sistema de capacitación son los mismos del SECPROIT:
@@ -491,5 +491,5 @@ Al concluir este capítulo se pueden arribar las siguientes conclusiones:
 \item El análisis y captura de requisitos permitió conocer las restricciones funcionales y no funcionales que debía seguir el sistema, y ayudó a decidir qué tecnologías usar en su desarrollo
 \item Estructurar en paquetes las clases del nuevo sistema de capacitación permitió una mejor organización del mismo
 \item Incluir un modelo matemático para la evaluación del entrenamiento permitió poder realizar nuevas estadísticas con las notas de los usuarios
-\item El nuevo diseño de las interfaces de usuario
+\item El nuevo diseño de las interfaces de usuario brinda una mayor usabilidad al sistema en general
 \end{itemize}

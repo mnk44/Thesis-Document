@@ -29,7 +29,7 @@ El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es m
  \label{fig:dominio} 
 \end{figure}
 
-Las entidades que contienen algunos cambios (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en las estructuras que estas seguían, es decir, variaciones en la base de datos y en las clases del sistema.
+Las entidades que contienen algunos cambios (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en las estructuras que estas seguían, es decir, variaciones en las clases del sistema.
 
 \begin{table}[H]
 \begin{center}
@@ -169,7 +169,7 @@ Entre los requisitos funcionales que debe poseer el nuevo sistema de capacitaci�
 \item \textbf{Ver resultados}: es una actividad desarrollada solo por los operarios. Permite observar, mediante una tabla, todos los resultados obtenidos en los entrenamientos realizados.
 \end{itemize}
 
-\subsection{Requisitos No Funcionales}
+\subsection{Requisitos no funcionales}
 Los requisitos no funcionales son condiciones que no se refieren directamente a las funciones específicas suministradas por un sistema (características de usuario), sino a las propiedades del mismo: rendimiento, seguridad, disponibilidad, entre otros. En palabras más sencillas, no hablan de lo que hace el sistema, sino de cómo lo hace. Alternativamente, definen restricciones del sistema tales como la capacidad de los dispositivos de entrada/salida y la representación de los datos utilizados en la interfaz del sistema \cite{Dave2022}.
 
 En este caso, los requisitos no funcionales presentes en el nuevo sistema de capacitación son los mismos del SECPROIT:
@@ -480,7 +480,7 @@ Con el desarrollo del nuevo sistema de capacitación se trataron de enmendar las
 \item La configuración de un entrenamiento se realiza a partir de la acción de insertar o modificar un proceso. Los campos que se requieren completar se muestran con un valor por defecto para evitar errores de validación (Anexo \ref{fig:confEn}).
 \item Para iniciar un entrenamiento se debe escoger, mediante una tabla, el proceso que se desea evaluar. Esto se hace para evitar enlaces rotos. Además, la tabla muestra el estado actual del entrenamiento de ese proceso: no iniciado, iniciado o terminado (Anexo \ref{fig:entrenamientos}).
 \item Antes de iniciar el entrenamiento de una etapa, se le indica al usuario qué etapa va a realizar, cuántos intentos le quedan, cuántos necesita aprobar y las notas de las etapas anteriores (Anexo \ref{fig:eniniciado} y \ref{fig:einiciado}).
-\item En el nuevo sistema de capacitación se incluyeron cuatro tipos de preguntas: verdadero o falso (Anexo \ref{fig:pregvar}), completar los espacios en blanco, selección múltiple y enlazar.
+\item En el nuevo sistema de capacitación se incluyeron cuatro tipos de preguntas: verdadero o falso (Anexo \ref{fig:pregvar}), completar los espacios en blanco (Anexo \ref{fig:pregcaus}), selección múltiple y enlazar.
 \item Los resultados del entrenamiento de una etapa se muestra a partir de una barra de progreso. Además, se le incluye la nota obtenida, la cantidad de preguntas aceptadas, la descripción de si aprobó o no y se señalan las preguntas falladas (Anexo \ref{fig:notas}).
 \end{itemize}
 

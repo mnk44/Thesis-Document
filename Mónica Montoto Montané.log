@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  8 DEC 2022 10:47
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  8 DEC 2022 16:51
 entering extended mode
 **Mónica*Montoto*Montané.tex
 ("E:\Escuela\Tesis\Informe\Mónica Montoto Montané.tex"
@@ -655,20 +655,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=548, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=550, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9] [10]
-<imagen/gama.png, id=591, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=593, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [11 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [12]
-<imagen/componentes.png, id=617, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=619, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [13] [14 <E:/Escuela/Tesis/Informe/imagen/componen
-tes.png>] <imagen/rules.png, id=633, 214.55156pt x 108.405pt>
+tes.png>] <imagen/rules.png, id=635, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -677,7 +677,7 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=673, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=675, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
@@ -695,11 +695,11 @@ Overfull \hbox (0.79543pt too wide) in paragraph at lines 58--87
  [] 
  []
 
-[21] [22] <imagen/actividades.png, id=695, 465.99094pt x 433.62pt>
+[21] [22] <imagen/actividades.png, id=697, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [23 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [24] [25] <imagen/dcu.png, id=718, 575.14874pt x 408.02437pt>
+ng>] [24] [25] <imagen/dcu.png, id=720, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
 <use imagen/dcu.png> [26 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
@@ -737,7 +737,7 @@ Underfull \hbox (badness 7099) in paragraph at lines 298--298
 \OT1/cmr/m/n/12 los ope-ra-rios del
  []
 
-[28] <imagen/der.png, id=737, 410.2828pt x 305.64188pt>
+[28] <imagen/der.png, id=739, 410.2828pt x 305.64188pt>
 File: imagen/der.png Graphic file (type png)
  <use imagen/der.png>
 [29 <E:/Escuela/Tesis/Informe/imagen/der.png>]
@@ -760,11 +760,11 @@ Underfull \hbox (badness 4805) in paragraph at lines 347--347
 \OT1/cmr/m/n/12 eta-pa, tiem-po, pre-gun-tas
  []
 
-[30] <imagen/bd.png, id=752, 1836.8625pt x 1816.7875pt>
+[30] <imagen/bd.png, id=754, 1836.8625pt x 1816.7875pt>
 File: imagen/bd.png Graphic file (type png)
  <use imagen/bd.png>
 [31 <E:/Escuela/Tesis/Informe/imagen/bd.png>]
-<imagen/paquetes.png, id=760, 185.19188pt x 205.5178pt>
+<imagen/paquetes.png, id=762, 185.19188pt x 205.5178pt>
 File: imagen/paquetes.png Graphic file (type png)
 
 <use imagen/paquetes.png> [32 <E:/Escuela/Tesis/Informe/imagen/paquetes.png>]
@@ -849,6 +849,16 @@ Underfull \hbox (badness 1342) in paragraph at lines 39--40
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\OT1/cmr/m/n/12 nue-va con-fi-gu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\OT1/cmr/m/n/12 ra-cion (Anexo
+ []
+
+
 Overfull \hbox (7.6055pt too wide) in paragraph at lines 31--42
  [] 
  []
@@ -923,7 +933,7 @@ Overfull \hbox (7.6055pt too wide) in paragraph at lines 52--63
  [] 
  []
 
-
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []|\OT1/cmr/bx/n/12 Resultado 
  []
@@ -934,24 +944,29 @@ Underfull \hbox (badness 4108) in paragraph at lines 75--76
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\OT1/cmr/m/n/12 pro-ce-so
+ []
+
+
 Overfull \hbox (7.6055pt too wide) in paragraph at lines 73--80
  [] 
  []
 
-[39]
+[40]
+! Too many }'s.
+l.88 ...ntan sus causas (Anexo \ref{fig:pregcaus}}
+                                                  ), mientras que en las pre...
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-LaTeX Warning: Reference `fig:c' on page 40 undefined on input line 88.
-
-
-LaTeX Warning: Reference `fig:c' on page 40 undefined on input line 88.
-
-) [40] (E:\Escuela\Tesis\Informe\conc.tex) [41
+) [41] (E:\Escuela\Tesis\Informe\conc.tex) [42
 
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\rec.tex) [42
+(E:\Escuela\Tesis\Informe\rec.tex) [43
 
 
 
@@ -1024,7 +1039,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[43
+[44
 
 
 
@@ -1082,7 +1097,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[44] [45])
+[45] [46])
 ! Undefined control sequence.
 l.84 	\breakpage
                 
@@ -1103,96 +1118,100 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[46] (E:\Escuela\Tesis\Informe\anexo.tex
+[47] (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-<imagen/anexos/sinicono.png, id=860, 1027.58907pt x 596.2275pt>
+<imagen/anexos/sinicono.png, id=868, 1027.58907pt x 596.2275pt>
 File: imagen/anexos/sinicono.png Graphic file (type png)
 
 <use imagen/anexos/sinicono.png>
-<imagen/anexos/titulo.png, id=861, 479.54156pt x 359.84438pt>
+<imagen/anexos/titulo.png, id=869, 479.54156pt x 359.84438pt>
 File: imagen/anexos/titulo.png Graphic file (type png)
 
-<use imagen/anexos/titulo.png> [47
+<use imagen/anexos/titulo.png> [48
 
 
 
  <E:/Escuela/Tesis/Informe/imagen/anexos/sinicono.png>] <imagen/anexos/bordes.p
-ng, id=867, 645.91313pt x 435.12563pt>
+ng, id=876, 645.91313pt x 435.12563pt>
 File: imagen/anexos/bordes.png Graphic file (type png)
 
 <use imagen/anexos/bordes.png>
-<imagen/anexos/tamanno.png, id=868, 1008.01593pt x 514.17094pt>
+<imagen/anexos/tamanno.png, id=877, 1008.01593pt x 514.17094pt>
 File: imagen/anexos/tamanno.png Graphic file (type png)
 
-<use imagen/anexos/tamanno.png> [48 <E:/Escuela/Tesis/Informe/imagen/anexos/tit
+<use imagen/anexos/tamanno.png> [49 <E:/Escuela/Tesis/Informe/imagen/anexos/tit
 ulo.png> <E:/Escuela/Tesis/Informe/imagen/anexos/bordes.png>]
-<imagen/anexos/innecesario.png, id=876, 1445.4pt x 767.86874pt>
+<imagen/anexos/innecesario.png, id=884, 1445.4pt x 767.86874pt>
 File: imagen/anexos/innecesario.png Graphic file (type png)
 
-<use imagen/anexos/innecesario.png> [49 <E:/Escuela/Tesis/Informe/imagen/anexos
+<use imagen/anexos/innecesario.png> [50 <E:/Escuela/Tesis/Informe/imagen/anexos
 /tamanno.png> <E:/Escuela/Tesis/Informe/imagen/anexos/innecesario.png>]
 Anexo B.
-<imagen/anexos/login.png, id=883, 988.44281pt x 532.23843pt>
+<imagen/anexos/login.png, id=891, 988.44281pt x 532.23843pt>
 File: imagen/anexos/login.png Graphic file (type png)
 
 <use imagen/anexos/login.png>
-<imagen/anexos/principal.png, id=884, 992.20688pt x 646.66594pt>
+<imagen/anexos/principal.png, id=892, 992.20688pt x 646.66594pt>
 File: imagen/anexos/principal.png Graphic file (type png)
 
-<use imagen/anexos/principal.png> [50
+<use imagen/anexos/principal.png> [51
 
  <E:/Escuela/Tesis/Informe/imagen/anexos/login.png>] <imagen/anexos/usuarios.pn
-g, id=890, 990.70125pt x 566.115pt>
+g, id=898, 990.70125pt x 566.115pt>
 File: imagen/anexos/usuarios.png Graphic file (type png)
 
 <use imagen/anexos/usuarios.png>
-<imagen/anexos/nuevaConf.png, id=891, 985.43156pt x 561.59813pt>
+<imagen/anexos/nuevaConf.png, id=899, 985.43156pt x 561.59813pt>
 File: imagen/anexos/nuevaConf.png Graphic file (type png)
 
-<use imagen/anexos/nuevaConf.png> [51 <E:/Escuela/Tesis/Informe/imagen/anexos/p
+<use imagen/anexos/nuevaConf.png> [52 <E:/Escuela/Tesis/Informe/imagen/anexos/p
 rincipal.png> <E:/Escuela/Tesis/Informe/imagen/anexos/usuarios.png>]
-<imagen/anexos/listadeentrenamiento.png, id=898, 993.7125pt x 566.115pt>
+<imagen/anexos/listadeentrenamiento.png, id=906, 993.7125pt x 566.115pt>
 File: imagen/anexos/listadeentrenamiento.png Graphic file (type png)
 
 <use imagen/anexos/listadeentrenamiento.png>
-<imagen/anexos/eniniciado.png, id=899, 992.20688pt x 563.85657pt>
+<imagen/anexos/eniniciado.png, id=907, 992.20688pt x 563.85657pt>
 File: imagen/anexos/eniniciado.png Graphic file (type png)
 
-<use imagen/anexos/eniniciado.png> [52 <E:/Escuela/Tesis/Informe/imagen/anexos/
+<use imagen/anexos/eniniciado.png> [53 <E:/Escuela/Tesis/Informe/imagen/anexos/
 nuevaConf.png> <E:/Escuela/Tesis/Informe/imagen/anexos/listadeentrenamiento.png
->] <imagen/anexos/einiciado.png, id=906, 991.45406pt x 569.87906pt>
+>] <imagen/anexos/einiciado.png, id=914, 991.45406pt x 569.87906pt>
 File: imagen/anexos/einiciado.png Graphic file (type png)
 
 <use imagen/anexos/einiciado.png>
-<imagen/anexos/pregvar.png, id=907, 813.0375pt x 651.18282pt>
+<imagen/anexos/pregvar.png, id=915, 813.0375pt x 651.18282pt>
 File: imagen/anexos/pregvar.png Graphic file (type png)
 
-<use imagen/anexos/pregvar.png> [53 <E:/Escuela/Tesis/Informe/imagen/anexos/eni
+<use imagen/anexos/pregvar.png> [54 <E:/Escuela/Tesis/Informe/imagen/anexos/eni
 niciado.png> <E:/Escuela/Tesis/Informe/imagen/anexos/einiciado.png>]
-<imagen/anexos/notas.png, id=914, 811.53188pt x 654.19406pt>
+<imagen/anexos/pregcaus.png, id=923, 813.79031pt x 682.80093pt>
+File: imagen/anexos/pregcaus.png Graphic file (type png)
+
+<use imagen/anexos/pregcaus.png> [55 <E:/Escuela/Tesis/Informe/imagen/anexos/pr
+egvar.png>] <imagen/anexos/notas.png, id=929, 811.53188pt x 654.19406pt>
 File: imagen/anexos/notas.png Graphic file (type png)
 
-<use imagen/anexos/notas.png> [54 <E:/Escuela/Tesis/Informe/imagen/anexos/pregv
-ar.png>] [55 <E:/Escuela/Tesis/Informe/imagen/anexos/notas.png>]
+<use imagen/anexos/notas.png> [56 <E:/Escuela/Tesis/Informe/imagen/anexos/pregc
+aus.png>] [57 <E:/Escuela/Tesis/Informe/imagen/anexos/notas.png>]
 Anexo C.
 File: imagen/anexos/nuevaConf.png Graphic file (type png)
 <use imagen/anexos/nuevaConf.png>
-<imagen/anexos/errorConf.png, id=926, 986.9372pt x 566.115pt>
+<imagen/anexos/errorConf.png, id=940, 986.9372pt x 566.115pt>
 File: imagen/anexos/errorConf.png Graphic file (type png)
 
-<use imagen/anexos/errorConf.png> [56
+<use imagen/anexos/errorConf.png> [58
 
 ]
-<imagen/anexos/guardarConf.png, id=931, 994.46532pt x 563.10374pt>
+<imagen/anexos/guardarConf.png, id=945, 994.46532pt x 563.10374pt>
 File: imagen/anexos/guardarConf.png Graphic file (type png)
 
 <use imagen/anexos/guardarConf.png>
-<imagen/anexos/eliminarConf.png, id=932, 986.9372pt x 554.07pt>
+<imagen/anexos/eliminarConf.png, id=946, 986.9372pt x 554.07pt>
 File: imagen/anexos/eliminarConf.png Graphic file (type png)
 
-<use imagen/anexos/eliminarConf.png>) [57 <E:/Escuela/Tesis/Informe/imagen/anex
+<use imagen/anexos/eliminarConf.png>) [59 <E:/Escuela/Tesis/Informe/imagen/anex
 os/errorConf.png> <E:/Escuela/Tesis/Informe/imagen/anexos/guardarConf.png>]
-[58 <E:/Escuela/Tesis/Informe/imagen/anexos/eliminarConf.png>]
+[60 <E:/Escuela/Tesis/Informe/imagen/anexos/eliminarConf.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
@@ -1210,20 +1229,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package rerunfilecheck Info: File `Mónica*Montoto*Montané.out' has not changed.
 
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: There were undefined references.
-
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6503 strings out of 494019
- 97736 string characters out of 3143892
- 192759 words of memory out of 3000000
- 9306 multiletter control sequences out of 15000+200000
+ 6511 strings out of 494019
+ 97907 string characters out of 3143892
+ 192855 words of memory out of 3000000
+ 9310 multiletter control sequences out of 15000+200000
  10721 words of font info for 37 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  31i,11n,30p,1269b,567s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1236,9 +1251,9 @@ r12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Mónica Montoto Montané.pdf" (71 pages, 4715292 bytes).
+Output written on "Mónica Montoto Montané.pdf" (73 pages, 4872784 bytes).
 PDF statistics:
- 1031 PDF objects out of 1200 (max. 8388607)
- 253 named destinations out of 1000 (max. 500000)
- 674 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1047 PDF objects out of 1200 (max. 8388607)
+ 256 named destinations out of 1000 (max. 500000)
+ 679 words of extra memory for PDF output out of 10000 (max. 10000000)
 

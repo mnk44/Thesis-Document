@@ -24,7 +24,7 @@ El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es m
 
 \begin{figure}[h]
 \centering
- \includegraphics[width=0.7\linewidth]{imagen/dominio.png}
+ \includegraphics[width=0.65\linewidth]{imagen/dominio.png}
  \caption{Modelo de dominio}
  \label{fig:dominio} 
 \end{figure}
@@ -33,13 +33,13 @@ Las entidades que contienen algunos cambios (\textsl{Tabla \ref{tab:ent-amarilla
 
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{ | c | p{5cm} |  p{5.2cm} | }
+\begin{tabular}{ | c | p{5cm} |  p{5.7cm} | }
 \hline
 \textbf{Entidad} & \textbf{Descripción} & \textbf{Cambios}\\
 \hline
 Sistema SECPROIT & Representa el sistema & Cambian las clases que posee \\
 \hline
-Jefe de área & Es un tipo de usuario y se encarga de administrar los procesos & Antes era especialista y solo creaba los procesos \\
+Jefe de área & Es un tipo de usuario y administrar los procesos & Antes era especialista y solo creaba los procesos \\
 \hline
 Proceso & Representa los procesos & Se le agrega un nuevo atributo: configuración de entrenamiento \\
 \hline
@@ -338,7 +338,7 @@ Traza & ID, usuario, acción y fecha &  \\
 \cline{1-2}
 Proceso & ID, nombre, foto, base de datos, base de reglas y área &  \\
 \hline
-Usuario & ID, nombre, carnet, nivel escolar, experiencia, años como jefe, usuario, contraseña, área, rol y activo & Se agregaron nuevos atributos que permiten conocer mejor al usuario\\
+Usuario & ID, nombre, carnet, sexo, nivel escolar, experiencia, años como jefe, usuario, contraseña, área, rol y activo & Se agregaron nuevos atributos que permiten conocer mejor al usuario\\
 \hline
 Configuración & ID, proceso, tiempo, cantidad de preguntas, cantidad de preguntas aprobadas y tipos de pregunta & Se agregó con el fin de poder configurar los entrenamientos \\
 \hline
@@ -346,7 +346,7 @@ Entrenamiento & ID, operario, configuración de proceso, cantidad de intentos, c
 \hline
 Etapa-Entrenamiento & ID, entrenamiento, tipo de etapa, tiempo, preguntas acertadas y nota & Se agregó para poder tener una pausa entre etapas y poder realizar más de una prueba por etapa \\
 \hline
-Variable & ID, nombre, tipo, valor mínimo, valor máximo y proceso & Se agregó en el sistema para agilizar el proceso de lectura \\
+Variable & ID, nombre, tipo, valores y proceso & Se agregó en el sistema para agilizar el proceso de lectura \\
 \cline{1-2}
 Causa & ID y nombre &  \\
 \cline{1-2}
@@ -459,5 +459,37 @@ La fórmula utilizada para obtener el resultado final del entrenamiento de un pr
 Donde \textbf{Ng} es la calificación general del entrenamiento, \textbf{E1} es el promedio de las evaluaciones aprobadas de la etapa 1, \textbf{E2} es el promedio de las evaluaciones aprobadas de la etapa 2 y \textbf{E3} es el promedio de las evaluaciones aprobadas de la etapa 3. Nótese que el primer promedio se multiplica por 0,4 y los otros dos se multiplica por 0,3. Esto se debe a que el valor del resultado final es en base a 10 y a que la primera etapa (variables) es más extensa y más difícil que las otras dos etapas (causas y recomendaciones).
 
 \section{Interfaces de usuario}
+Algunas de las limitaciones presentes en el sistema SECPROIT se deben a sus interfaces de usuario:
+
+\begin{itemize}
+\item A pesar de ser una aplicación de escritorio, no presenta un icono de sistema que permita manejar su estado, es decir, no se puede minimizar ni encontrar con facilidad (Anexo \ref{fig:noIcono})
+\item Contiene colores oscuros que generan poco contraste con las letras, lo que provoca un menor entendimiento y un mayor desagrado en los usuarios
+\item En algunas de sus vistas los títulos aparecen cortados por los límites de la ventana (Anexo \ref{fig:titulo})
+\item Algunas interfaces de usuario no presentan bordes, impidiendo que se puedan desplazar (Anexo \ref{fig:bordes})
+\item Algunas ventanas necesitan ser ampliadas para poder visualizar todo su contenido, es decir, se muestra contenido a medias porque el tamaño de las visuales no es el adecuado (Anexo \ref{fig:tamano})
+\item Las tres etapas del entrenamiento se muestran en la misma vista, si se suspende una, aparece espacio en blanco innecesario (Anexo \ref{fig:inn})
+\end{itemize}
+
+Con el desarrollo del nuevo sistema de capacitación se trataron de enmendar las limitaciones anteriores, quedando las interfaces de usuario de la siguiente manera:
+
+\begin{itemize}
+\item Se cambiaron los colores del sistema, predominando el color naranja gracias al estudio realizado en el capítulo 1 (Anexo \ref{fig:login}).
+\item Se desarrolló una única vista central, en la que irán apareciendo las operaciones que el usuario desea realizar. Se organizó de esta manera para facilitarle al usuario las acciones y que no tenga que abrir y cerrar ventanas por cada operación (Anexo \ref{fig:principal}).
+\item Se incluyó un icono de sistema, disponible en todo momento. Además, se habilitó la opción de agrandar o minimizar la ventana del software (Anexo \ref{fig:principal}).
+\item Para la gestión de usuarios, se utiliza una tabla donde aparecen todos los usuarios del sistema, permitiendo un grupo de acciones a partir de su selección. Aplicando este método, se validan los enlaces rotos (Anexo \ref{fig:gestionUss}).
+\item La configuración de un entrenamiento se realiza a partir de la acción de insertar o modificar un proceso. Los campos que se requieren completar se muestran con un valor por defecto para evitar errores de validación (Anexo \ref{fig:confEn}).
+\item Para iniciar un entrenamiento se debe escoger, mediante una tabla, el proceso que se desea evaluar. Esto se hace para evitar enlaces rotos. Además, la tabla muestra el estado actual del entrenamiento de ese proceso: no iniciado, iniciado o terminado (Anexo \ref{fig:entrenamientos}).
+\item Antes de iniciar el entrenamiento de una etapa, se le indica al usuario qué etapa va a realizar, cuántos intentos le quedan, cuántos necesita aprobar y las notas de las etapas anteriores (Anexo \ref{fig:eniniciado} y \ref{fig:einiciado}).
+\item En el nuevo sistema de capacitación se incluyeron cuatro tipos de preguntas: verdadero o falso (Anexo \ref{fig:pregvar}), completar los espacios en blanco, selección múltiple y enlazar.
+\item Los resultados del entrenamiento de una etapa se muestra a partir de una barra de progreso. Además, se le incluye la nota obtenida, la cantidad de preguntas aceptadas, la descripción de si aprobó o no y se señalan las preguntas falladas (Anexo \ref{fig:notas}).
+\end{itemize}
 
 \section{Conclusiones parciales}
+Al concluir este capítulo se pueden arribar las siguientes conclusiones:
+\begin{itemize}
+\item El diseño de diagramas UML facilitó el proceso de desarrollo del nuevo sistema, porque brindó un vista precisa y detallada de lo que se quería obtener
+\item El análisis y captura de requisitos permitió conocer las restricciones funcionales y no funcionales que debía seguir el sistema, y ayudó a decidir qué tecnologías usar en su desarrollo
+\item Estructurar en paquetes las clases del nuevo sistema de capacitación permitió una mejor organización del mismo
+\item Incluir un modelo matemático para la evaluación del entrenamiento permitió poder realizar nuevas estadísticas con las notas de los usuarios
+\item El nuevo diseño de las interfaces de usuario brinda una mayor usabilidad al sistema en general
+\end{itemize}

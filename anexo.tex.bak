@@ -2,14 +2,116 @@
 \appendix
 \clearpage{\renewcommand{\appendixname}{Anexo}
 
-\chapter{Interfaz de usuario del sistema}
+\chapter{Interfaz de usuario del sistema SECPROIT}
 
-\section{Gestión de procesos}
-\section{Entrenamiento de un proceso}
-\subsection{Tipos de preguntas en la etapa de las variables}
-\subsection{Tipos de preguntas en la etapa de las causas}
-\subsection{Tipos de preguntas en la etapa de las recomendaciones}
-\subsection{Resultados de una etapa}
+\section{Limtaciones del SECPROIT}
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/sinicono.png}}
+ \caption{No presenta icono de sistema}
+ \label{fig:noIcono} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.6\linewidth]{imagen/anexos/titulo.png}}
+ \caption{Aparecen títulos cortados por la vista}
+ \label{fig:titulo} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/bordes.png}}
+ \caption{Visuales sin bordes}
+ \label{fig:bordes} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/tamanno.png}}
+ \caption{El contenido se muestra a medias}
+ \label{fig:tamano} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/innecesario.png}}
+ \caption{Espacios en blanco innecesarios}
+ \label{fig:inn} 
+\end{figure}
+
+\chapter{Interfaz de usuario del nuevo sistema de capacitación}
+
+\section{Nuevos colores del sistema}
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/login.png}}
+ \caption{Pantalla de inicio del sistema}
+ \label{fig:login} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/principal.png}}
+ \caption{Pantalla principal del sistema}
+ \label{fig:principal} 
+\end{figure}
+
+\section{Gestión de usuarios}
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/usuarios.png}}
+ \caption{Gestión de usuarios}
+ \label{fig:gestionUss} 
+\end{figure}
+
+
+\section{Configuración y entrenamiento}
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/nuevaConf.png}}
+ \caption{Configuración de entrenamiento de un proceso}
+ \label{fig:confEn} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/listadeentrenamiento.png}}
+ \caption{Listado de entrenamientos}
+ \label{fig:entrenamientos} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/eniniciado.png}}
+ \caption{Entrenamiento no iniciado}
+ \label{fig:eniniciado} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/einiciado.png}}
+ \caption{Entrenamiento iniciado}
+ \label{fig:einiciado} 
+\end{figure}
+
+\section{Tipos de preguntas en el entrenamiento}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/pregvar.png}}
+ \caption{Pregunta de verdadero o falso en las variables}
+ \label{fig:pregvar} 
+\end{figure}
+
+\section{Resultados obtenidos}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/notas.png}}
+ \caption{Vista de los resultados obtenidos}
+ \label{fig:notas} 
+\end{figure}
 
 \chapter{Pruebas funcionales del sistema}
 

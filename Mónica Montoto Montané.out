@@ -24,7 +24,7 @@
 \BOOKMARK [2][-]{subsection.1.5.1}{Funcionamiento del SECPROIT}{section.1.5}% 24
 \BOOKMARK [2][-]{subsection.1.5.2}{Limitaciones actuales del sistema}{section.1.5}% 25
 \BOOKMARK [1][-]{section.1.6}{Conclusiones parciales}{chapter*.12}% 26
-\BOOKMARK [0][-]{chapter*.16}{Cap\355tulo 2: Desarrollo del nuevo sistema}{}% 27
+\BOOKMARK [0][-]{chapter*.16}{Cap\355tulo 2: Desarrollo del nuevo sistema de capacitaci\363n}{}% 27
 \BOOKMARK [1][-]{section.2.1}{Descripci\363n del negocio}{chapter*.16}% 28
 \BOOKMARK [2][-]{subsection.2.1.1}{Modelo de dominio}{section.2.1}% 29
 \BOOKMARK [2][-]{subsection.2.1.2}{Reglas del negocio}{section.2.1}% 30
@@ -53,13 +53,14 @@
 \BOOKMARK [0][-]{section*.23}{Recomendaciones}{}% 53
 \BOOKMARK [0][-]{section*.25}{Referencias bibliogr\341ficas}{}% 54
 \BOOKMARK [0][-]{section*.27}{Anexos}{}% 55
-\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de usuario del sistema}{}% 56
-\BOOKMARK [1][-]{section.Alph1.1}{Gesti\363n de procesos}{appendix.Alph1}% 57
-\BOOKMARK [1][-]{section.Alph1.2}{Entrenamiento de un proceso}{appendix.Alph1}% 58
-\BOOKMARK [2][-]{subsection.Alph1.2.1}{Tipos de preguntas en la etapa de las variables}{section.Alph1.2}% 59
-\BOOKMARK [2][-]{subsection.Alph1.2.2}{Tipos de preguntas en la etapa de las causas}{section.Alph1.2}% 60
-\BOOKMARK [2][-]{subsection.Alph1.2.3}{Tipos de preguntas en la etapa de las recomendaciones}{section.Alph1.2}% 61
-\BOOKMARK [2][-]{subsection.Alph1.2.4}{Resultados de una etapa}{section.Alph1.2}% 62
-\BOOKMARK [0][-]{appendix.Alph2}{Pruebas funcionales del sistema}{}% 63
-\BOOKMARK [1][-]{section.Alph2.1}{Insertar configuraci\363n de entrenamiento}{appendix.Alph2}% 64
-\BOOKMARK [1][-]{section.Alph2.2}{Eliminar configuraci\363n de entrenamiento}{appendix.Alph2}% 65
+\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de usuario del sistema SECPROIT}{}% 56
+\BOOKMARK [1][-]{section.Alph1.1}{Limtaciones del SECPROIT}{appendix.Alph1}% 57
+\BOOKMARK [0][-]{appendix.Alph2}{Interfaz de usuario del nuevo sistema de capacitaci\363n}{}% 58
+\BOOKMARK [1][-]{section.Alph2.1}{Nuevos colores del sistema}{appendix.Alph2}% 59
+\BOOKMARK [1][-]{section.Alph2.2}{Gesti\363n de usuarios}{appendix.Alph2}% 60
+\BOOKMARK [1][-]{section.Alph2.3}{Configuraci\363n y entrenamiento}{appendix.Alph2}% 61
+\BOOKMARK [1][-]{section.Alph2.4}{Tipos de preguntas en el entrenamiento}{appendix.Alph2}% 62
+\BOOKMARK [1][-]{section.Alph2.5}{Resultados obtenidos}{appendix.Alph2}% 63
+\BOOKMARK [0][-]{appendix.Alph3}{Pruebas funcionales del sistema}{}% 64
+\BOOKMARK [1][-]{section.Alph3.1}{Insertar configuraci\363n de entrenamiento}{appendix.Alph3}% 65
+\BOOKMARK [1][-]{section.Alph3.2}{Eliminar configuraci\363n de entrenamiento}{appendix.Alph3}% 66

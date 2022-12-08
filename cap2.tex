@@ -1,7 +1,7 @@
-\chapter*{Capítulo 2 \vspace{0.5cm} \break Desarrollo del nuevo sistema}
+\chapter*{Capítulo 2 \vspace{0.5cm} \break Desarrollo del nuevo sistema de capacitación}
 \setcounter{chapter}{2}
 \setcounter{section}{0}
-\addcontentsline{toc}{chapter}{Capítulo 2: Desarrollo del nuevo sistema}
+\addcontentsline{toc}{chapter}{Capítulo 2: Desarrollo del nuevo sistema de capacitación}
 
 Para que el desarrollo de un proyecto concluya con éxitos, primero debe realizarse el diseño de lo que se pretende obtener, así como analizar los requisitos que se deben cumplir. En este capítulo se presentan los diagramas utilizados en la elaboración del nuevo sistema de capacitación, así como la estructura que posee, sus principales funcionalidades y algunas comparaciones con el modelo del sistema SECPROIT.
 
@@ -414,3 +414,50 @@ trainerLogic &  Contiene las clases que permiten el correcto funcionamiento de u
 \label{tab:paquetes}
 \end{center}
 \end{table}
+
+\section{Proceso de entrenamiento}
+Los entrenamientos están compuestos por tres etapas: variables, causas y recomendaciones. Cada etapa es decisiva en la evaluación final del entrenamiento, por lo tanto, se deben aprobar todas las etapas para afirmar que un entrenamiento fue completado. De lo contrario, el operario será notificado como suspenso en ese proceso.
+
+Una de las funcionalidades presentes en el nuevo sistema de capacitación es la configuración de entrenamiento. Gracias a esta, un operario puede realizar varios intentos en una misma etapa, acumulando puntos positivos a su promedio, es decir, si suspende, tiene la oportunidad de volverlo a intentar. También se incluyeron nuevos tipos de preguntas, lo que aumenta el método de aprendizaje del adiestrado. 
+
+Las preguntas de cada etapa se generan de forma aleatoria, incluyendo entrenamientos con todas las preguntas correctas o todas incorrectas. De esta manera se evita el fraude y el aprendizaje por memoria.
+
+\subsection{Modelo matemático de la evaluación por etapas}
+En el sistema SECPROIT, para evaluar una etapa se utiliza un método de evaluación por escala, es decir, dependiendo de la cantidad de preguntas acertadas se devuelve una evaluación de acuerdo a la escala que se tiene (muy mal, mal, regular, bien, muy bien y excelente). El sistema que utiliza para mostrar los resultados es el sistema de aprobado o no, dejando en claro el nivel de satisfacción según la escala mencionada anteriormente.
+
+Este tipo de evaluación trae como resultado la desinformación del usuario, ya que no se puede apreciar a simple vista la evolución del mismo. Por esa razón, es necesario establecer un sistema numérico que permita observar el avance del operario.
+
+En el nuevo sistema de capacitación se insertó un sistema de evaluación a base de fórmula, tomando en cuenta los parámetros de: tiempo y cantidad de preguntas correctas. El parámetro del tiempo, en este tipo de evaluación, es decisivo, porque el objetivo de este sistema es preparar a los operarios para situaciones reales y, en las industrias, mientras más rápido se resuelva una falla, menores problemas y daños ocasiona.
+
+La fórmula utilizada en el nuevo sistema de capacitación es:
+
+\vspace{0.2cm}
+\begin{center}
+\begin{Large}
+\textbf{N} = (Ca/C + (Td/T \cdot  0.1))
+\end{Large}
+\end{center}
+\vspace{0.15cm}
+
+Donde \textbf{N} es la calificación obtenida en la etapa, \textbf{Ca} es la cantidad de preguntas acertadas, \textbf{C} es la cantidad de preguntas en total, \textbf{Td} es el tiempo demorado en responder todas las preguntas (en minutos) y \textbf{T} es el tiempo total (en minutos). Nótese que el tiempo es multiplicado por 0,1. Esto se debe a que el valor del tiempo es importante, pero no debe ser tomado como requisito fundamental, es decir, afecta la evaluación, pero no influye en el aprobado o desaprobado de la misma \cite{Castrillon2021}.
+
+\subsection{Modelo matemático de la evaluación general}
+En el sistema SECPROIT no existe la evaluación general de un entrenamiento. Por cada etapa se tiene una escala (muy mal, mal, regular, bien, muy bien y excelente) y a partir de esta se determina si el usuario aprobó o no.
+
+En el nuevo sistema de capacitación se incorporó una fórmula para calcular la evaluación final de un entrenamiento a partir del promedio de las notas obtenidas por el usuario en cada una de las etapas. De esta manera se puede realizar un estudio más profundo y detallado de las habilidades de los operarios, así como extraer estadísticas generales con las notas de los usuarios.
+
+La fórmula utilizada para obtener el resultado final del entrenamiento de un proceso es la siguiente:
+
+\vspace{0.15cm}
+\begin{center}
+\begin{Large}
+\textbf{Ng} = (E1 \cdot 0.4) + (E2 \cdot  0.3) + (E3 \cdot  0.3)
+\end{Large}
+\end{center}
+\vspace{0.15cm}
+
+Donde \textbf{Ng} es la calificación general del entrenamiento, \textbf{E1} es el promedio de las evaluaciones aprobadas de la etapa 1, \textbf{E2} es el promedio de las evaluaciones aprobadas de la etapa 2 y \textbf{E3} es el promedio de las evaluaciones aprobadas de la etapa 3. Nótese que el primer promedio se multiplica por 0,4 y los otros dos se multiplica por 0,3. Esto se debe a que el valor del resultado final es en base a 10 y a que la primera etapa (variables) es más extensa y más difícil que las otras dos etapas (causas y recomendaciones).
+
+\section{Interfaces de usuario}
+
+\section{Conclusiones parciales}

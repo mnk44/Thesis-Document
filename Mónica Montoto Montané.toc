@@ -44,24 +44,29 @@
 \contentsline {subsection}{\numberline {2.4.1}Diagrama de Entidades y Relaciones (DER)}{29}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Diagrama de base de datos}{31}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Arquitectura de paquetes del nuevo sistema de capacitaci\IeC {\'o}n}{31}{section.2.5}
-\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n del nuevo sistema de capacitaci\IeC {\'o}n}{33}{chapter*.17}
-\contentsline {section}{\numberline {3.1}Pruebas funcionales}{33}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Casos de prueba para la configuraci\IeC {\'o}n entrenamientos}{33}{subsection.3.1.1}
-\contentsline {subsubsection}{Casos de prueba: Insertar configuraci\IeC {\'o}n de entrenamiento}{34}{section*.18}
-\contentsline {subsubsection}{Casos de prueba: Modificar configuraci\IeC {\'o}n de entrenamiento}{35}{section*.19}
-\contentsline {subsubsection}{Casos de prueba: Eliminar configuraci\IeC {\'o}n de entrenamiento}{35}{section*.20}
-\contentsline {subsection}{\numberline {3.1.2}Casos de prueba para el entrenamiento en la etapa de las causas}{36}{subsection.3.1.2}
-\contentsline {chapter}{Conclusiones}{37}{section*.21}
-\contentsline {chapter}{Recomendaciones}{38}{section*.23}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{39}{section*.25}
-\contentsline {chapter}{Anexos}{42}{section*.27}
-\contentsline {chapter}{\numberline {A}Interfaz de usuario del sistema}{43}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Gesti\IeC {\'o}n de procesos}{43}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Entrenamiento de un proceso}{43}{section.Alph1.2}
-\contentsline {subsection}{\numberline {A.2.1}Tipos de preguntas en la etapa de las variables}{43}{subsection.Alph1.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Tipos de preguntas en la etapa de las causas}{43}{subsection.Alph1.2.2}
-\contentsline {subsection}{\numberline {A.2.3}Tipos de preguntas en la etapa de las recomendaciones}{43}{subsection.Alph1.2.3}
-\contentsline {subsection}{\numberline {A.2.4}Resultados de una etapa}{43}{subsection.Alph1.2.4}
-\contentsline {chapter}{\numberline {B}Pruebas funcionales del sistema}{44}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Insertar configuraci\IeC {\'o}n de entrenamiento}{44}{section.Alph2.1}
-\contentsline {section}{\numberline {B.2}Eliminar configuraci\IeC {\'o}n de entrenamiento}{46}{section.Alph2.2}
+\contentsline {section}{\numberline {2.6}Proceso de entrenamiento}{33}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Modelo matem\IeC {\'a}tico de la evaluaci\IeC {\'o}n por etapas}{33}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Modelo matem\IeC {\'a}tico de la evaluaci\IeC {\'o}n general}{34}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Interfaces de usuario}{34}{section.2.7}
+\contentsline {section}{\numberline {2.8}Conclusiones parciales}{34}{section.2.8}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n del nuevo sistema de capacitaci\IeC {\'o}n}{35}{chapter*.17}
+\contentsline {section}{\numberline {3.1}Pruebas funcionales}{35}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Casos de prueba para la configuraci\IeC {\'o}n entrenamientos}{35}{subsection.3.1.1}
+\contentsline {subsubsection}{Casos de prueba: Insertar configuraci\IeC {\'o}n de entrenamiento}{36}{section*.18}
+\contentsline {subsubsection}{Casos de prueba: Modificar configuraci\IeC {\'o}n de entrenamiento}{37}{section*.19}
+\contentsline {subsubsection}{Casos de prueba: Eliminar configuraci\IeC {\'o}n de entrenamiento}{37}{section*.20}
+\contentsline {subsection}{\numberline {3.1.2}Casos de prueba para el entrenamiento en la etapa de las causas}{38}{subsection.3.1.2}
+\contentsline {chapter}{Conclusiones}{39}{section*.21}
+\contentsline {chapter}{Recomendaciones}{40}{section*.23}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{41}{section*.25}
+\contentsline {chapter}{Anexos}{44}{section*.27}
+\contentsline {chapter}{\numberline {A}Interfaz de usuario del sistema}{45}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Gesti\IeC {\'o}n de procesos}{45}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Entrenamiento de un proceso}{45}{section.Alph1.2}
+\contentsline {subsection}{\numberline {A.2.1}Tipos de preguntas en la etapa de las variables}{45}{subsection.Alph1.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Tipos de preguntas en la etapa de las causas}{45}{subsection.Alph1.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Tipos de preguntas en la etapa de las recomendaciones}{45}{subsection.Alph1.2.3}
+\contentsline {subsection}{\numberline {A.2.4}Resultados de una etapa}{45}{subsection.Alph1.2.4}
+\contentsline {chapter}{\numberline {B}Pruebas funcionales del sistema}{46}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Insertar configuraci\IeC {\'o}n de entrenamiento}{46}{section.Alph2.1}
+\contentsline {section}{\numberline {B.2}Eliminar configuraci\IeC {\'o}n de entrenamiento}{48}{section.Alph2.2}

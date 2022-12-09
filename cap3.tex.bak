@@ -66,11 +66,11 @@ Modificar configuración con campos correctos & Introducir campos correctos & Se
 \end{table}
 
 \subsubsection{Casos de prueba: Eliminar configuración de entrenamiento}
-Como medida de seguridad en el nuevo sistema de capacitación, el proceso de eliminar la configuración de un entrenamiento no existe de manera visual. Para eliminar la configuración de un entrenamiento, debe eliminarse el proceso al que esta pertenece. Por lo tanto, el único experimento que se puede realizar en este caso es: eliminar un proceso.
+Como medida de seguridad en el nuevo sistema de capacitación, el proceso de eliminar la configuración de un entrenamiento no existe de manera visual. Para eliminarla, debe eliminarse el proceso al que esta pertenece. Por lo tanto, el único experimento que se puede realizar en este caso es: eliminar un proceso.
 
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{ | p{3.3cm} | p{5.2cm} | p{3.1cm} | p{2.5cm} |}
+\begin{tabular}{ | p{2.7cm} | p{5.2cm} | p{3.1cm} | p{3.2cm} |}
 \hline
 \centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
 \hline
@@ -136,4 +136,74 @@ Selección múltiple & Se presentan 1 causa y 5 recomendaciones, y se deben sele
 \end{center}
 \end{table}
 
-\section{}
+\section{Pruebas de rango con signos}
+Las pruebas de rangos con signo de Wilcoxon permiten comparar poblaciones cuando sus distribuciones no siguen una distribución normal (muestran asimetría) o cuando tienen un tamaño demasiado reducido para poder determinar si realmente proceden de poblaciones normales. Se utilizan para comparar el rango medio de dos muestras relacionadas y determinar si existen diferencias entre ellas \cite{Turcios2015}.
+
+\subsection{Proceso de entrenamiento}
+En el sistema SECPROIT, para generar un entrenamiento, se extraen y se leen los ficheros del proceso al que pertenece, almacenados en la base de datos. A partir de la información extraída, se generan las preguntas del entrenamiento. Para calificar las pruebas, se vuelven a extraer los ficheros de la base de datos y se vuelve a leer la información escrita en ellos. Realizar el proceso de esta forma, genera una demora extra en la ejecución del software.
+
+En el nuevo sistema de capacitación, se decidió almacenar la información de los ficheros de los procesos, en nuevas tablas incorporadas en la base de datos (como ya se comentó en capítulos anteriores). Cuando se va a generar un entrenamiento, se extrae la información necesaria de las tablas, y se generan las preguntas. A la hora de evaluar el entrenamiento, se utiliza la misma información extraída anteriormente. Realizar el proceso de esta manera reduce el tiempo de ejecución del mismo.
+
+Para probar que el tiempo de ejecución del proceso de entrenamiento es menor en el nuevo sistema de capacitación desarrollado, se utilizaron las pruebas de rango con signo de Wilcoxon \cite{Turcios2015}. Cabe señalar que:
+
+\begin{itemize}
+\item Ambos sistemas se ejecutaron en la misma máquina, con las mismas características
+\item Cuando se realizaron las pruebas, solo se ejecutaba el sistema evaluado (no existía ningún otro proceso ejecutándose)
+\item Ambas pruebas fueron cronometradas dentro del propio sistema para evitar errores humanos
+\item Los ficheros de los procesos utilizados para las pruebas, son los mismos en ambos sistemas
+\end{itemize}
+
+Con esta prueba, se desea conocer la efectividad del método implementado en el nuevo sistema de capacitación para la lectura de la información de los ficheros de un nuevo entrenamiento, y para ello se toma una muestra aleatoria de 10 procesos del sistema de capacitación. Se registró el tiempo que demoró generar y evaluar un entrenamiento en el sistema SECPROIT y el tiempo que demoró en el nuevo sistema de capacitación. El tiempo se encuentra registrado en minutos. Los datos obtenidos se pueden observar en la Tabla \ref{pruebasConSigno}.
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | c | c | }
+\hline
+\centering & \textbf{Sistema SECPROIT} & \textbf{Nuevo sistema de capacitación} \\
+\centering & \textbf{(tiempo en minutos)} & \textbf{(tiempo en minutos)} \\
+\hline
+ Proceso #1 & 5:09 & 0:51 \\
+\hline
+ Proceso #2 & 5:23 & 0:55 \\
+\hline
+ Proceso #3 & 6:15 & 1:05 \\
+\hline
+ Proceso #4 & 6:01 & 1:00 \\
+\hline
+ Proceso #5 & 5:09 & 0:50 \\
+\hline
+ Proceso #6 & 5:15 & 0:52 \\
+\hline
+ Proceso #7 & 5:29 & 0:56 \\
+\hline
+ Proceso #8 & 5:23 & 0:54 \\
+\hline
+ Proceso #9 & 4:09 & 0:33 \\
+\hline
+ Proceso #10 & 5:21 & 0:50 \\
+\hline
+\end{tabular}
+\caption{Comparando el tiempo demorado en el entrenamiento de un proceso}
+\label{pruebasConSigno}
+\end{center}
+\end{table}
+
+Las hipótesis de esta prueba son: no hay diferencia en el proceso de entrenamiento entre un sistema y otro (\textbf{H}0), y el proceso de entrenamiento del nuevo sistema se ejecuta más rápido que el del sistema SECPROIT (\textbf{H}1). Se procede a calcular la solución de la prueba utilizando la herramienta R, para la función \textsl{wilcox.test()}. El resultado obtenido es el siguiente (\textsl{Figura \ref{fig:herrR}}):
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth]{imagen/erre.png}
+ \caption{Resultados con la herramienta R}
+ \label{fig:herrR} 
+\end{figure}
+
+El estadístico de prueba es 100 y el valor \textbf{p} correspondiente es 0.0001796. Dado que este valor \textbf{p} es menor que 0.05, se rechaza la hipótesis nula (\textbf{H}0). Existe una diferencia estadísticamente significativa entre el tiempo demorado en el sistema SECPROIT y el tiempo demorado en el nuevo sistema de capacitación. Por lo tanto, se puede afirmar que el nuevo método incorporado es mejor que el método anterior utilizado.
+
+\section{Conclusiones parciales}
+Al concluir este capítulo se pueden arribar las siguientes conclusiones:
+\begin{itemize}
+\item Se logró resolver la limitación existente en el proceso de entrenamiento de la etapa de las causas
+\item Se logró resolver la limitación existente en el proceso de entrenamiento de la etapa de las recomendaciones
+\item Se agregaron configuraciones al entrenamiento, lo que permite un mejor control de los mismos y una mejor evaluación
+\item Se implementó un nuevo método para extraer la información de los ficheros de los procesos, que resulta más rápido que el método anterior
+\end{itemize}

@@ -57,20 +57,22 @@
 \contentsline {subsubsection}{Casos de prueba: Eliminar configuraci\IeC {\'o}n de entrenamiento}{39}{section*.20}
 \contentsline {subsection}{\numberline {3.1.2}Casos de prueba para el entrenamiento en la etapa de las causas}{40}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Casos de prueba para el entrenamiento en la etapa de las recomendaciones}{41}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}}{41}{section.3.2}
-\contentsline {chapter}{Conclusiones}{42}{section*.21}
-\contentsline {chapter}{Recomendaciones}{43}{section*.23}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{44}{section*.25}
-\contentsline {chapter}{Anexos}{47}{section*.27}
-\contentsline {chapter}{\numberline {A}Interfaz de usuario del sistema SECPROIT}{48}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Limtaciones del SECPROIT}{48}{section.Alph1.1}
-\contentsline {chapter}{\numberline {B}Interfaz de usuario del nuevo sistema de capacitaci\IeC {\'o}n}{51}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Nuevos colores del sistema}{51}{section.Alph2.1}
-\contentsline {section}{\numberline {B.2}Gesti\IeC {\'o}n de usuarios}{52}{section.Alph2.2}
-\contentsline {section}{\numberline {B.3}Configuraci\IeC {\'o}n y entrenamiento}{53}{section.Alph2.3}
-\contentsline {section}{\numberline {B.4}Tipos de preguntas en el entrenamiento}{55}{section.Alph2.4}
-\contentsline {section}{\numberline {B.5}Resultados obtenidos}{57}{section.Alph2.5}
-\contentsline {chapter}{\numberline {C}Pruebas funcionales del sistema}{58}{appendix.Alph3}
-\contentsline {section}{\numberline {C.1}Insertar configuraci\IeC {\'o}n de entrenamiento}{58}{section.Alph3.1}
-\contentsline {section}{\numberline {C.2}Eliminar configuraci\IeC {\'o}n de entrenamiento}{60}{section.Alph3.2}
-\contentsline {section}{\numberline {C.3}Entrenamiento en la etapa de las recomendaciones}{60}{section.Alph3.3}
+\contentsline {section}{\numberline {3.2}Pruebas de rango con signos}{41}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Proceso de entrenamiento}{42}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Conclusiones parciales}{44}{section.3.3}
+\contentsline {chapter}{Conclusiones}{45}{section*.21}
+\contentsline {chapter}{Recomendaciones}{46}{section*.23}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{47}{section*.25}
+\contentsline {chapter}{Anexos}{50}{section*.27}
+\contentsline {chapter}{\numberline {A}Interfaz de usuario del sistema SECPROIT}{51}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Limtaciones del SECPROIT}{51}{section.Alph1.1}
+\contentsline {chapter}{\numberline {B}Interfaz de usuario del nuevo sistema de capacitaci\IeC {\'o}n}{54}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Nuevos colores del sistema}{54}{section.Alph2.1}
+\contentsline {section}{\numberline {B.2}Gesti\IeC {\'o}n de usuarios}{55}{section.Alph2.2}
+\contentsline {section}{\numberline {B.3}Configuraci\IeC {\'o}n y entrenamiento}{56}{section.Alph2.3}
+\contentsline {section}{\numberline {B.4}Tipos de preguntas en el entrenamiento}{58}{section.Alph2.4}
+\contentsline {section}{\numberline {B.5}Resultados obtenidos}{59}{section.Alph2.5}
+\contentsline {chapter}{\numberline {C}Pruebas funcionales del sistema}{60}{appendix.Alph3}
+\contentsline {section}{\numberline {C.1}Insertar configuraci\IeC {\'o}n de entrenamiento}{60}{section.Alph3.1}
+\contentsline {section}{\numberline {C.2}Eliminar configuraci\IeC {\'o}n de entrenamiento}{62}{section.Alph3.2}
+\contentsline {section}{\numberline {C.3}Entrenamiento en la etapa de las recomendaciones}{62}{section.Alph3.3}

@@ -27,19 +27,19 @@ Sin embargo, es necesario probar el correcto funcionamiento de este nueva entida
 El proceso de crear una nueva configuración de entrenamiento se realiza al insertar un nuevo proceso (todo ocurre en la misma interfaz de usuario). Para este caso de prueba se realizaron tres experimentos:
 
 \begin{table}[H]
+\caption{Casos de prueba: Insertar configuración de entrenamiento}
 \begin{center}
 \begin{tabular}{ | p{4cm} | p{3.8cm} | p{3.1cm} | p{3.2cm} |}
 \hline
 \centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
 \hline
-Insertar configuración con campos en blanco & Una configuración de entrenamiento no puede contener información vacía & Los campos están llenos por defecto y la interfaz no debe permitir que se vacíen los campos & La interfaz no permitió que los campos fueran vaciados (Anexo \ref{fig:cb}) \\
+Insertar configuración con campos en blanco & Una configuración de entrenamiento no puede contener información vacía & Los campos están llenos por defecto y la interfaz no debe permitir que se vacíen & La interfaz no permitió que los campos fueran vaciados (Anexo \ref{fig:cb}) \\
 \hline
-Insertar configuración con campos incorrectos & La única forma de introducir información incorrecta es insertando un número de intentos verídicos mayor que el número de intentos total & Debe aparecer un mensaje de error & Aparece un mensaje de error (Anexo \ref{fig:ci}) \\
+Insertar configuración con campos incorrectos & Para introducir información incorrecta se debe insertar un número de intentos verídicos mayor que el número de intentos & Debe aparecer un mensaje de error & Aparece un mensaje de error (Anexo \ref{fig:ci}) \\
 \hline
 Insertar configuración con campos correctos & Introducir campos correctos & Se debe introducir la configuración  & Se introdujo la nueva configuración (Anexo \ref{fig:cc}) \\
 \hline
 \end{tabular}
-\caption{Casos de prueba: Insertar configuración de entrenamiento}
 \label{cas1}
 \end{center}
 \end{table}
@@ -48,6 +48,7 @@ Insertar configuración con campos correctos & Introducir campos correctos & Se 
 El proceso de modificar la configuración de un entrenamiento se realiza al modificar un proceso (todo ocurre en la misma interfaz). Para este caso de prueba se realizaron tres experimentos:
 
 \begin{table}[H]
+\caption{Casos de prueba: Modificar configuración de entrenamiento}
 \begin{center}
 \begin{tabular}{ | p{4cm} | p{4cm} | p{3.1cm} | p{3cm} |}
 \hline
@@ -60,24 +61,23 @@ Modificar configuración con campos incorrectos & La única forma de introducir 
 Modificar configuración con campos correctos & Introducir campos correctos & Se debe modificar la configuración  & Se modificó la configuración \\
 \hline
 \end{tabular}
-\caption{Casos de prueba: Modificar configuración de entrenamiento}
 \label{cas2}
 \end{center}
 \end{table}
 
 \subsubsection{Casos de prueba: Eliminar configuración de entrenamiento}
-Como medida de seguridad en el nuevo sistema de capacitación, el proceso de eliminar la configuración de un entrenamiento no existe de manera visual. Para eliminarla, debe eliminarse el proceso al que esta pertenece. Por lo tanto, el único experimento que se puede realizar en este caso es: eliminar un proceso.
+Como medida de seguridad, el proceso de eliminar la configuración de un entrenamiento no existe. Para eliminarla, debe eliminarse el proceso al que esta pertenece. Por lo tanto, el único experimento que se puede realizar es: eliminar un proceso.
 
 \begin{table}[H]
+\caption{Casos de prueba: Eliminar configuración de entrenamiento}
 \begin{center}
-\begin{tabular}{ | p{2.7cm} | p{5.2cm} | p{3.1cm} | p{3.2cm} |}
+\begin{tabular}{ | c | p{4.7cm} | p{3.1cm} | p{4.1cm} |}
 \hline
 \centering\textbf{Prueba} & \textbf{Descripción} & \textbf{Resultado \break esperado} & \textbf{Resultado \break obtenido} \\
 \hline
-Eliminar proceso & Se selecciona de una tabla el proceso que se desea eliminar & Se debe eliminar el proceso & Se eliminó el proceso (Anexo \ref{fig:ce}) \\
+Eliminar & Se selecciona el proceso & Se debe eliminar & Se eliminó (Anexo \ref{fig:ce}) \\
 \hline
 \end{tabular}
-\caption{Casos de prueba: Eliminar configuración de entrenamiento}
 \label{cas3}
 \end{center}
 \end{table}
@@ -90,6 +90,7 @@ Sin embargo, el nuevo sistema desarrollado no presenta esta dificultad. En el so
 Para probar el correcto funcionamiento del entrenamiento en la etapa de las causas, se evaluaron cuatro entrenamientos de esta etapa (\textsl{Tabla \ref{cas:causa}}), uno por cada pregunta (verdadero o falso, completar los espacios en blanco, selección múltiple y enlazar). Como las preguntas que se generan en los entrenamientos son aleatorias, para estos casos de prueba el valor de datos de entrada no es relevante. Para afirmar que las respuestas son correctas, se establece una comparación entre las respuestas dadas por el sistema y las respuestas que brinda el motor de reglas (\textsl{JDrools}).
 
 \begin{table}[H]
+\caption{Casos de prueba para el entrenamiento en la etapa de las causas}
 \begin{center}
 \begin{tabular}{ | p{3cm} | p{5.9cm} | p{2.6cm} | p{2.6cm} |}
 \hline
@@ -97,14 +98,13 @@ Para probar el correcto funcionamiento del entrenamiento en la etapa de las caus
 \hline
 Verdadero o \break falso & Se presentan 5 variables con sus causas y se debe indicar si la afirmación es verdadera o falsa & Se acertaron 2 afirmaciones &  Se acertaron 2 afirmaciones \\
 \hline
-Completar los espacios en blanco & Se presentan 5 variables y de 1 a 5 causas, y se debe rellenar el espacio en blanco de manera que quede una expresión verdadera & Se acertaron 3 expresiones &  Se acertaron 3 expresiones \\
+Completar los espacios en blanco & Se presentan 5 variables y de 1 a 5 causas, y se debe rellenar el espacio en blanco de manera que quede una expresión verdadera & Se acertaron 3 expresiones &  Se acertaron 3 expresiones (Anexo \ref{fig:causres}) \\
 \hline
 Enlazar & Se presenta 1 variable y 5 causas, y se deben enlazar las que correspondan a esa variable & Se acertaron 4 &  Se acertaron 4 \\
 \hline
 Selección múltiple & Se presenta 1 variable y 5 causas, y se deben seleccionar las que correspondan a esa variable & Se acertó 1 selección &  Se acertó 1 selección \\
 \hline
 \end{tabular}
-\caption{Casos de prueba para el entrenamiento en la etapa de las causas}
 \label{cas:causa}
 \end{center}
 \end{table}
@@ -117,6 +117,7 @@ Sin embargo, en el nuevo sistema desarrollado si se evalúan las recomendaciones
 Para probar el correcto funcionamiento del entrenamiento en la etapa de las recomendaciones, se evaluaron cuatro entrenamientos de esta etapa (\textsl{Tabla \ref{cas:reco}}), uno por cada pregunta. Como las preguntas que se generan en los entrenamientos son aleatorias, para estos casos de prueba el valor de datos de entrada no es relevante. Para afirmar que las respuestas son correctas, se establece una comparación entre las respuestas dadas por el sistema y las respuestas que brinda el motor de reglas (\textsl{JDrools}).
 
 \begin{table}[H]
+\caption{Casos de prueba para el entrenamiento en la etapa de las recomendaciones}
 \begin{center}
 \begin{tabular}{ | p{2.7cm} | p{6.2cm} | p{2.6cm} | p{2.6cm} |}
 \hline
@@ -131,13 +132,12 @@ Enlazar & Se presenta 1 causa y 5 recomendaciones, y se deben enlazar las que co
 Selección múltiple & Se presentan 1 causa y 5 recomendaciones, y se deben seleccionar las que correspondan a esa causa & Se acertaron 2 selecciones &  Se acertaron 2 selecciones \\
 \hline
 \end{tabular}
-\caption{Casos de prueba para el entrenamiento en la etapa de las recomendaciones}
 \label{cas:reco}
 \end{center}
 \end{table}
 
-\section{Pruebas de rango con signos}
-Las pruebas de rangos con signo de Wilcoxon permiten comparar poblaciones cuando sus distribuciones no siguen una distribución normal (muestran asimetría) o cuando tienen un tamaño demasiado reducido para poder determinar si realmente proceden de poblaciones normales. Se utilizan para comparar el rango medio de dos muestras relacionadas y determinar si existen diferencias entre ellas \cite{Turcios2015}.
+\section{Pruebas de rendimiento}
+Las pruebas de rendimiento son una técnica de prueba de software no funcional que determina cómo la estabilidad, la velocidad, la escalabilidad y la capacidad de respuesta de una aplicación se mantiene bajo una determinada carga de trabajo. Es un paso clave para asegurar la calidad del software. Los objetivos de estas pruebas incluyen la evaluación de la salida de la aplicación, la velocidad de procesamiento, la velocidad de transferencia de datos, el uso del ancho de banda de la red, el máximo de usuarios concurrentes, la utilización de la memoria, la eficiencia de la carga de trabajo y los tiempos de respuesta de los comandos \cite{Medina2014}.
 
 \subsection{Proceso de entrenamiento}
 En el sistema SECPROIT, para generar un entrenamiento, se extraen y se leen los ficheros del proceso al que pertenece, almacenados en la base de datos. A partir de la información extraída, se generan las preguntas del entrenamiento. Para calificar las pruebas, se vuelven a extraer los ficheros de la base de datos y se vuelve a leer la información escrita en ellos. Realizar el proceso de esta forma, genera una demora extra en la ejecución del software.
@@ -156,6 +156,7 @@ Para probar que el tiempo de ejecución del proceso de entrenamiento es menor en
 Con esta prueba, se desea conocer la efectividad del método implementado en el nuevo sistema de capacitación para la lectura de la información de los ficheros de un nuevo entrenamiento, y para ello se toma una muestra aleatoria de 10 procesos del sistema de capacitación. Se registró el tiempo que demoró generar y evaluar un entrenamiento en el sistema SECPROIT y el tiempo que demoró en el nuevo sistema de capacitación. El tiempo se encuentra registrado en minutos. Los datos obtenidos se pueden observar en la Tabla \ref{pruebasConSigno}.
 
 \begin{table}[H]
+\caption{Comparando el tiempo demorado en el entrenamiento de un proceso}
 \begin{center}
 \begin{tabular}{ | c | c | c | }
 \hline
@@ -183,27 +184,26 @@ Con esta prueba, se desea conocer la efectividad del método implementado en el 
  Proceso #10 & 5:21 & 0:50 \\
 \hline
 \end{tabular}
-\caption{Comparando el tiempo demorado en el entrenamiento de un proceso}
 \label{pruebasConSigno}
 \end{center}
 \end{table}
 
-Las hipótesis de esta prueba son: no hay diferencia en el proceso de entrenamiento entre un sistema y otro (\textbf{H}0), y el proceso de entrenamiento del nuevo sistema se ejecuta más rápido que el del sistema SECPROIT (\textbf{H}1). Se procede a calcular la solución de la prueba utilizando la herramienta R, para la función \textsl{wilcox.test()}. El resultado obtenido es el siguiente (\textsl{Figura \ref{fig:herrR}}):
+Las hipótesis de esta prueba son: no hay diferencia en el proceso de entrenamiento entre un sistema y otro (\textbf{H}0), y el tiempo de ejecución del nuevo sistema de capacitación es menor que el del sistema SECPROIT (\textbf{H}1). Se procede a calcular su solución utilizando la herramienta R, para la función \textsl{wilcox.test()}:
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\linewidth]{imagen/erre.png}
+\includegraphics[width=0.8\linewidth]{imagen/erre.png}
  \caption{Resultados con la herramienta R}
  \label{fig:herrR} 
 \end{figure}
 
-El estadístico de prueba es 100 y el valor \textbf{p} correspondiente es 0.0001796. Dado que este valor \textbf{p} es menor que 0.05, se rechaza la hipótesis nula (\textbf{H}0). Existe una diferencia estadísticamente significativa entre el tiempo demorado en el sistema SECPROIT y el tiempo demorado en el nuevo sistema de capacitación. Por lo tanto, se puede afirmar que el nuevo método incorporado es mejor que el método anterior utilizado.
+El estadístico de prueba es 55 y el valor \textbf{p} correspondiente es 0,0009766. Dado que este valor \textbf{p} es menor que 0,05, se rechaza la hipótesis nula (\textbf{H}0) y se acepta la alternativa que el tiempo de antes es mayor que el tiempo de después. Por lo tanto, se puede afirmar que el nuevo método incorporado es más rápido que el método anterior utilizado.
 
 \section{Conclusiones parciales}
 Al concluir este capítulo se pueden arribar las siguientes conclusiones:
 \begin{itemize}
 \item Se logró resolver la limitación existente en el proceso de entrenamiento de la etapa de las causas
 \item Se logró resolver la limitación existente en el proceso de entrenamiento de la etapa de las recomendaciones
-\item Se agregaron configuraciones al entrenamiento, lo que permite un mejor control de los mismos y una mejor evaluación
-\item Se implementó un nuevo método para extraer la información de los ficheros de los procesos, que resulta más rápido que el método anterior
+\item Se agregaron configuraciones al entrenamiento que permiten un mejor control de los mismos y una mejor evaluación
+\item Se implementó un nuevo método para extraer la información de los ficheros de los procesos que resulta más rápido que el método anterior
 \end{itemize}

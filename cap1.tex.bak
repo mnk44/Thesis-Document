@@ -222,7 +222,7 @@ Actualmente el sistema SECPROIT posee ciertas limitaciones que impiden que sea i
 \item La etapa de las causas presenta problemas en la evaluación
 \item La etapa de las recomendaciones nunca se llega a evaluar
 \item Las etapas aparecen de forma continúa, sin oportunidad de una pausa
-\item Aparecen todas las etapas en una misma vista, si se suspende una, se muestra un espacio en blanco innecesariamente
+\item Aparecen todas las etapas en una misma vista, si se suspende una, se muestra un espacio en blanco innecesario
 \item El resultado de las evaluaciones no se muestra de forma numérica, lo que impide conocer con exactitud el progreso del usuario
 \item Por cada etapa existe un único entrenamiento
 \item A pesar de ser una aplicación de escritorio, no existe icono del sistema, es decir, no se puede minimizar

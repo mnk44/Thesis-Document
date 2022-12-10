@@ -40,39 +40,40 @@
 \contentsline {subsection}{\numberline {2.3.1}Diagrama de casos de uso}{26}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Actores del sistema}{27}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Especificaci\IeC {\'o}n de los casos de uso}{27}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Modelo de datos}{29}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Diagrama de Entidades y Relaciones (DER)}{29}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Diagrama de base de datos}{31}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Arquitectura de paquetes del nuevo sistema de capacitaci\IeC {\'o}n}{31}{section.2.5}
-\contentsline {section}{\numberline {2.6}Proceso de entrenamiento}{33}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Modelo matem\IeC {\'a}tico de la evaluaci\IeC {\'o}n por etapas}{33}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Modelo matem\IeC {\'a}tico de la evaluaci\IeC {\'o}n general}{34}{subsection.2.6.2}
-\contentsline {section}{\numberline {2.7}Interfaces de usuario}{34}{section.2.7}
-\contentsline {section}{\numberline {2.8}Conclusiones parciales}{36}{section.2.8}
-\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n del nuevo sistema de capacitaci\IeC {\'o}n}{37}{chapter*.17}
-\contentsline {section}{\numberline {3.1}Pruebas funcionales}{37}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Casos de prueba para la configuraci\IeC {\'o}n entrenamientos}{37}{subsection.3.1.1}
-\contentsline {subsubsection}{Casos de prueba: Insertar configuraci\IeC {\'o}n de entrenamiento}{38}{section*.18}
-\contentsline {subsubsection}{Casos de prueba: Modificar configuraci\IeC {\'o}n de entrenamiento}{39}{section*.19}
-\contentsline {subsubsection}{Casos de prueba: Eliminar configuraci\IeC {\'o}n de entrenamiento}{39}{section*.20}
-\contentsline {subsection}{\numberline {3.1.2}Casos de prueba para el entrenamiento en la etapa de las causas}{40}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Casos de prueba para el entrenamiento en la etapa de las recomendaciones}{41}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Pruebas de rango con signos}{41}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Proceso de entrenamiento}{42}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Conclusiones parciales}{44}{section.3.3}
-\contentsline {chapter}{Conclusiones}{45}{section*.21}
-\contentsline {chapter}{Recomendaciones}{46}{section*.23}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{47}{section*.25}
-\contentsline {chapter}{Anexos}{50}{section*.27}
-\contentsline {chapter}{\numberline {A}Interfaz de usuario del sistema SECPROIT}{51}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Limtaciones del SECPROIT}{51}{section.Alph1.1}
-\contentsline {chapter}{\numberline {B}Interfaz de usuario del nuevo sistema de capacitaci\IeC {\'o}n}{54}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Nuevos colores del sistema}{54}{section.Alph2.1}
-\contentsline {section}{\numberline {B.2}Gesti\IeC {\'o}n de usuarios}{55}{section.Alph2.2}
-\contentsline {section}{\numberline {B.3}Configuraci\IeC {\'o}n y entrenamiento}{56}{section.Alph2.3}
-\contentsline {section}{\numberline {B.4}Tipos de preguntas en el entrenamiento}{58}{section.Alph2.4}
-\contentsline {section}{\numberline {B.5}Resultados obtenidos}{59}{section.Alph2.5}
-\contentsline {chapter}{\numberline {C}Pruebas funcionales del sistema}{60}{appendix.Alph3}
-\contentsline {section}{\numberline {C.1}Insertar configuraci\IeC {\'o}n de entrenamiento}{60}{section.Alph3.1}
-\contentsline {section}{\numberline {C.2}Eliminar configuraci\IeC {\'o}n de entrenamiento}{62}{section.Alph3.2}
-\contentsline {section}{\numberline {C.3}Entrenamiento en la etapa de las recomendaciones}{62}{section.Alph3.3}
+\contentsline {subsection}{\numberline {2.3.4}Caso de uso especial}{29}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Modelo de datos}{30}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Diagrama de Entidades y Relaciones (DER)}{30}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Diagrama de base de datos}{32}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Arquitectura de paquetes del nuevo sistema de capacitaci\IeC {\'o}n}{33}{section.2.5}
+\contentsline {section}{\numberline {2.6}Proceso de entrenamiento}{34}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Modelo matem\IeC {\'a}tico de la evaluaci\IeC {\'o}n por etapas}{34}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Modelo matem\IeC {\'a}tico de la evaluaci\IeC {\'o}n general}{35}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Interfaces de usuario}{35}{section.2.7}
+\contentsline {section}{\numberline {2.8}Conclusiones parciales}{37}{section.2.8}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo 3: Validaci\IeC {\'o}n del nuevo sistema de capacitaci\IeC {\'o}n}{39}{chapter*.17}
+\contentsline {section}{\numberline {3.1}Pruebas funcionales}{39}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Casos de prueba para la configuraci\IeC {\'o}n entrenamientos}{39}{subsection.3.1.1}
+\contentsline {subsubsection}{Casos de prueba: Insertar configuraci\IeC {\'o}n de entrenamiento}{40}{section*.18}
+\contentsline {subsubsection}{Casos de prueba: Modificar configuraci\IeC {\'o}n de entrenamiento}{41}{section*.19}
+\contentsline {subsubsection}{Casos de prueba: Eliminar configuraci\IeC {\'o}n de entrenamiento}{41}{section*.20}
+\contentsline {subsection}{\numberline {3.1.2}Casos de prueba para el entrenamiento en la etapa de las causas}{42}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Casos de prueba para el entrenamiento en la etapa de las recomendaciones}{43}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Pruebas de rendimiento}{44}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Proceso de entrenamiento}{44}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Conclusiones parciales}{46}{section.3.3}
+\contentsline {chapter}{Conclusiones}{47}{section*.21}
+\contentsline {chapter}{Recomendaciones}{48}{section*.23}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{49}{section*.25}
+\contentsline {chapter}{Anexos}{52}{section*.27}
+\contentsline {chapter}{\numberline {A}Interfaz de usuario del sistema SECPROIT}{53}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Limtaciones del SECPROIT}{53}{section.Alph1.1}
+\contentsline {chapter}{\numberline {B}Interfaz de usuario del nuevo sistema de capacitaci\IeC {\'o}n}{56}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Gesti\IeC {\'o}n de usuarios}{56}{section.Alph2.1}
+\contentsline {section}{\numberline {B.2}Configuraci\IeC {\'o}n y entrenamiento}{57}{section.Alph2.2}
+\contentsline {section}{\numberline {B.3}Tipos de preguntas en el entrenamiento}{59}{section.Alph2.3}
+\contentsline {section}{\numberline {B.4}Resultados obtenidos}{60}{section.Alph2.4}
+\contentsline {chapter}{\numberline {C}Pruebas funcionales del sistema}{61}{appendix.Alph3}
+\contentsline {section}{\numberline {C.1}Insertar configuraci\IeC {\'o}n de entrenamiento}{61}{section.Alph3.1}
+\contentsline {section}{\numberline {C.2}Eliminar configuraci\IeC {\'o}n de entrenamiento}{63}{section.Alph3.2}
+\contentsline {section}{\numberline {C.3}Entrenamiento en la etapa de las causas}{63}{section.Alph3.3}
+\contentsline {section}{\numberline {C.4}Entrenamiento en la etapa de las recomendaciones}{64}{section.Alph3.4}

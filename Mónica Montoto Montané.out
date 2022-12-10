@@ -36,36 +36,37 @@
 \BOOKMARK [2][-]{subsection.2.3.1}{Diagrama de casos de uso}{section.2.3}% 36
 \BOOKMARK [2][-]{subsection.2.3.2}{Actores del sistema}{section.2.3}% 37
 \BOOKMARK [2][-]{subsection.2.3.3}{Especificaci\363n de los casos de uso}{section.2.3}% 38
-\BOOKMARK [1][-]{section.2.4}{Modelo de datos}{chapter*.16}% 39
-\BOOKMARK [2][-]{subsection.2.4.1}{Diagrama de Entidades y Relaciones \(DER\)}{section.2.4}% 40
-\BOOKMARK [2][-]{subsection.2.4.2}{Diagrama de base de datos}{section.2.4}% 41
-\BOOKMARK [1][-]{section.2.5}{Arquitectura de paquetes del nuevo sistema de capacitaci\363n}{chapter*.16}% 42
-\BOOKMARK [1][-]{section.2.6}{Proceso de entrenamiento}{chapter*.16}% 43
-\BOOKMARK [2][-]{subsection.2.6.1}{Modelo matem\341tico de la evaluaci\363n por etapas}{section.2.6}% 44
-\BOOKMARK [2][-]{subsection.2.6.2}{Modelo matem\341tico de la evaluaci\363n general}{section.2.6}% 45
-\BOOKMARK [1][-]{section.2.7}{Interfaces de usuario}{chapter*.16}% 46
-\BOOKMARK [1][-]{section.2.8}{Conclusiones parciales}{chapter*.16}% 47
-\BOOKMARK [0][-]{chapter*.17}{Cap\355tulo 3: Validaci\363n del nuevo sistema de capacitaci\363n}{}% 48
-\BOOKMARK [1][-]{section.3.1}{Pruebas funcionales}{chapter*.17}% 49
-\BOOKMARK [2][-]{subsection.3.1.1}{Casos de prueba para la configuraci\363n entrenamientos}{section.3.1}% 50
-\BOOKMARK [2][-]{subsection.3.1.2}{Casos de prueba para el entrenamiento en la etapa de las causas}{section.3.1}% 51
-\BOOKMARK [2][-]{subsection.3.1.3}{Casos de prueba para el entrenamiento en la etapa de las recomendaciones}{section.3.1}% 52
-\BOOKMARK [1][-]{section.3.2}{Pruebas de rango con signos}{chapter*.17}% 53
-\BOOKMARK [2][-]{subsection.3.2.1}{Proceso de entrenamiento}{section.3.2}% 54
-\BOOKMARK [1][-]{section.3.3}{Conclusiones parciales}{chapter*.17}% 55
-\BOOKMARK [0][-]{section*.21}{Conclusiones}{}% 56
-\BOOKMARK [0][-]{section*.23}{Recomendaciones}{}% 57
-\BOOKMARK [0][-]{section*.25}{Referencias bibliogr\341ficas}{}% 58
-\BOOKMARK [0][-]{section*.27}{Anexos}{}% 59
-\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de usuario del sistema SECPROIT}{}% 60
-\BOOKMARK [1][-]{section.Alph1.1}{Limtaciones del SECPROIT}{appendix.Alph1}% 61
-\BOOKMARK [0][-]{appendix.Alph2}{Interfaz de usuario del nuevo sistema de capacitaci\363n}{}% 62
-\BOOKMARK [1][-]{section.Alph2.1}{Nuevos colores del sistema}{appendix.Alph2}% 63
-\BOOKMARK [1][-]{section.Alph2.2}{Gesti\363n de usuarios}{appendix.Alph2}% 64
-\BOOKMARK [1][-]{section.Alph2.3}{Configuraci\363n y entrenamiento}{appendix.Alph2}% 65
-\BOOKMARK [1][-]{section.Alph2.4}{Tipos de preguntas en el entrenamiento}{appendix.Alph2}% 66
-\BOOKMARK [1][-]{section.Alph2.5}{Resultados obtenidos}{appendix.Alph2}% 67
+\BOOKMARK [2][-]{subsection.2.3.4}{Caso de uso especial}{section.2.3}% 39
+\BOOKMARK [1][-]{section.2.4}{Modelo de datos}{chapter*.16}% 40
+\BOOKMARK [2][-]{subsection.2.4.1}{Diagrama de Entidades y Relaciones \(DER\)}{section.2.4}% 41
+\BOOKMARK [2][-]{subsection.2.4.2}{Diagrama de base de datos}{section.2.4}% 42
+\BOOKMARK [1][-]{section.2.5}{Arquitectura de paquetes del nuevo sistema de capacitaci\363n}{chapter*.16}% 43
+\BOOKMARK [1][-]{section.2.6}{Proceso de entrenamiento}{chapter*.16}% 44
+\BOOKMARK [2][-]{subsection.2.6.1}{Modelo matem\341tico de la evaluaci\363n por etapas}{section.2.6}% 45
+\BOOKMARK [2][-]{subsection.2.6.2}{Modelo matem\341tico de la evaluaci\363n general}{section.2.6}% 46
+\BOOKMARK [1][-]{section.2.7}{Interfaces de usuario}{chapter*.16}% 47
+\BOOKMARK [1][-]{section.2.8}{Conclusiones parciales}{chapter*.16}% 48
+\BOOKMARK [0][-]{chapter*.17}{Cap\355tulo 3: Validaci\363n del nuevo sistema de capacitaci\363n}{}% 49
+\BOOKMARK [1][-]{section.3.1}{Pruebas funcionales}{chapter*.17}% 50
+\BOOKMARK [2][-]{subsection.3.1.1}{Casos de prueba para la configuraci\363n entrenamientos}{section.3.1}% 51
+\BOOKMARK [2][-]{subsection.3.1.2}{Casos de prueba para el entrenamiento en la etapa de las causas}{section.3.1}% 52
+\BOOKMARK [2][-]{subsection.3.1.3}{Casos de prueba para el entrenamiento en la etapa de las recomendaciones}{section.3.1}% 53
+\BOOKMARK [1][-]{section.3.2}{Pruebas de rendimiento}{chapter*.17}% 54
+\BOOKMARK [2][-]{subsection.3.2.1}{Proceso de entrenamiento}{section.3.2}% 55
+\BOOKMARK [1][-]{section.3.3}{Conclusiones parciales}{chapter*.17}% 56
+\BOOKMARK [0][-]{section*.21}{Conclusiones}{}% 57
+\BOOKMARK [0][-]{section*.23}{Recomendaciones}{}% 58
+\BOOKMARK [0][-]{section*.25}{Referencias bibliogr\341ficas}{}% 59
+\BOOKMARK [0][-]{section*.27}{Anexos}{}% 60
+\BOOKMARK [0][-]{appendix.Alph1}{Interfaz de usuario del sistema SECPROIT}{}% 61
+\BOOKMARK [1][-]{section.Alph1.1}{Limtaciones del SECPROIT}{appendix.Alph1}% 62
+\BOOKMARK [0][-]{appendix.Alph2}{Interfaz de usuario del nuevo sistema de capacitaci\363n}{}% 63
+\BOOKMARK [1][-]{section.Alph2.1}{Gesti\363n de usuarios}{appendix.Alph2}% 64
+\BOOKMARK [1][-]{section.Alph2.2}{Configuraci\363n y entrenamiento}{appendix.Alph2}% 65
+\BOOKMARK [1][-]{section.Alph2.3}{Tipos de preguntas en el entrenamiento}{appendix.Alph2}% 66
+\BOOKMARK [1][-]{section.Alph2.4}{Resultados obtenidos}{appendix.Alph2}% 67
 \BOOKMARK [0][-]{appendix.Alph3}{Pruebas funcionales del sistema}{}% 68
 \BOOKMARK [1][-]{section.Alph3.1}{Insertar configuraci\363n de entrenamiento}{appendix.Alph3}% 69
 \BOOKMARK [1][-]{section.Alph3.2}{Eliminar configuraci\363n de entrenamiento}{appendix.Alph3}% 70
-\BOOKMARK [1][-]{section.Alph3.3}{Entrenamiento en la etapa de las recomendaciones}{appendix.Alph3}% 71
+\BOOKMARK [1][-]{section.Alph3.3}{Entrenamiento en la etapa de las causas}{appendix.Alph3}% 71
+\BOOKMARK [1][-]{section.Alph3.4}{Entrenamiento en la etapa de las recomendaciones}{appendix.Alph3}% 72

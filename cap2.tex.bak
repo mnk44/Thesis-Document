@@ -31,8 +31,10 @@ El modelo de dominio de este sistema (\textsl{Figura \ref{fig:dominio}}) no es m
 
 Las entidades que contienen algunos cambios (\textsl{Tabla \ref{tab:ent-amarilla}}), indican que también se realizaron arreglos en las estructuras que estas seguían, es decir, variaciones en las clases del sistema.
 
+
 \begin{table}[H]
 \begin{center}
+\caption{Modelo de dominio: entidades que sufrieron cambios}
 \begin{tabular}{ | c | p{5cm} |  p{5.7cm} | }
 \hline
 \textbf{Entidad} & \textbf{Descripción} & \textbf{Cambios}\\
@@ -46,7 +48,6 @@ Proceso & Representa los procesos & Se le agrega un nuevo atributo: configuraci�
 Entrenamiento & Representa el entrenamiento del usuario & Se le agrega nuevos intentos por cada etapa \\
 \hline
 \end{tabular}
-\caption{Modelo de dominio: entidades que sufrieron cambios}
 \label{tab:ent-amarilla}
 \end{center}
 \end{table}
@@ -55,6 +56,7 @@ La entidades que no fueron modificadas (\textsl{Tabla \ref{tab:ent-azul}}),  no 
 
 \begin{table}[H]
 \begin{center}
+\caption{Modelo de dominio: entidades que no sufrieron cambios}
 \begin{tabular}{ | c | p{12cm} | }
 \hline
 \textbf{Entidad} & \textbf{Descripción} \\
@@ -77,14 +79,13 @@ Variable & Forma parte de la base de datos del proceso y contiene la informació
 \hline
 Causa & Forma parte de la base de datos del proceso y contiene la información que se evalúa en la segunda etapa \\
 \hline
-Recm. & Forma parte de la base de datos del proceso, representa las recomendaciones y contiene la información que se evalúa en la tercera etapa \\
+Recm. & Forma parte de la base de datos del proceso (recomendaciones) y contiene la información que se evalúa en la tercera etapa \\
 \hline
 Variable-Causa & Forma parte de la base de reglas del proceso y contiene la información que se evalúa en la primera y segunda etapa \\
 \hline
 Causa-Recm. & Forma parte de la base de reglas del proceso y contiene la información que se evalúa en la tercera etapa \\
 \hline
 \end{tabular}
-\caption{Modelo de dominio: entidades que no sufrieron cambios}
 \label{tab:ent-azul}
 \end{center}
 \end{table}
@@ -92,6 +93,7 @@ Causa-Recm. & Forma parte de la base de reglas del proceso y contiene la informa
 Por último, las entidades nuevas (\textsl{Tabla \ref{tab:ent-verde}}) son clases que fueron incluidas con el fin de enmendar alguna limitación.
 
 \begin{table}[H]
+\caption{Modelo de dominio: entidades nuevas}
 \begin{center}
 \begin{tabular}{ | c | p{12cm} | }
 \hline
@@ -108,7 +110,6 @@ E-Causa & Es la segunda etapa, donde se evalúan las causas \\
 E-Recm. & Es la tercera etapa, donde se evalúan las recomendaciones \\
 \hline
 \end{tabular}
-\caption{Modelo de dominio: entidades nuevas}
 \label{tab:ent-verde}
 \end{center}
 \end{table}
@@ -180,8 +181,8 @@ En este caso, los requisitos no funcionales presentes en el nuevo sistema de cap
 \item \textbf{Confiabilidad}: se deben evitar los enlaces rotos, los ficheros de los procesos deben ser validados antes de usarlos y se debe garantizar la confidencialidad de la información
 \item \textbf{Disponibilidad}: la aplicación de mecanismos de seguridad no debe constituir un retraso para el uso del sistema, el software siempre debe estar disponible, así como brindar su información actualizada
 \item \textbf{Software}: se debe tener instalado el JDK versión 1.8 y la aplicación PostgreSQL versión 9.1 (mínimo) para el manejo de la base de datos
-\item \textbf{Hardware}: se necesitan 64MB de memoria RAM, un microprocesador Pentium II a 450 MHz (mínimo), un disco duro con capacidad libre de 4GB (mínimo) y un sistema operativo de entorno gráfico como Windows y Linux
-\item \textbf{Portabilidad}: debe ser utilizado bajo sistemas operativos Windows o Linux, por lo que su desarrollo debe realizarse con un lenguaje y tecnologías capaces de brindar este soporte
+\item \textbf{Hardware}: se necesitan 64MB de memoria RAM (el software no debe utilizar más de esta capacidad), un microprocesador Pentium II a 450 MHz (mínimo), un disco duro con capacidad libre de 4GB (mínimo) y un sistema operativo de entorno gráfico como Windows
+\item \textbf{Portabilidad}: debe ser utilizado bajo sistemas operativos Windows, por lo que su desarrollo debe realizarse con un lenguaje y tecnologías capaces de brindar este soporte
 \item \textbf{Restricciones en el diseño y la implementación}: debe desarrollarse sobre plataformas de software libre y código abierto y su lenguaje de programación debe ser Java, debido al uso de la herramienta \textsl{Drools}
 \item \textbf{Políticos/Culturales}: debe encontrarse en idioma español
 \end{itemize}
@@ -209,6 +210,7 @@ El Sistema Generador de Bases de Conocimiento (SGBC) es el encargado de confecci
 Los actores presentes en el nuevo sistema de capacitación (\textsl{Tabla \ref{tab:actores}}) están representados por tres roles: administrador, jefe de área u operario.
 
 \begin{table}[H]
+\caption{Actores del sistema}
 \begin{center}
 \begin{tabular}{ | c | p{11cm} | }
 \hline
@@ -223,7 +225,6 @@ Jefe de área & Actor que incluye los procesos a un área, decide cómo será el
 Administrador & Actor que gestiona las áreas, gestiona los usuarios y tiene acceso a un reporte de las acciones en el sistema \\
 \hline
 \end{tabular}
-\caption{Actores del sistema}
 \label{tab:actores}
 \end{center}
 \end{table}
@@ -231,6 +232,7 @@ Administrador & Actor que gestiona las áreas, gestiona los usuarios y tiene acc
 \subsection{Especificación de los casos de uso}
 
 \begin{table}[H]
+\caption{Casos de uso del administrador}
 \begin{center}
 \begin{tabular}{ | c | p{3.5cm} |  p{7.5cm} |}
 \hline
@@ -243,11 +245,11 @@ Administrador & Gestionar áreas & El actor puede introducir, modificar o elimin
 & Ver acciones de los usuarios & El actor puede visualizar un registro con todas las acciones realizadas en el sistema \\
 \hline
 \end{tabular}
-\caption{Casos de uso del administrador}
 \end{center}
 \end{table}
 
 \begin{table}[H]
+\caption{Casos de uso del usuario}
 \begin{center}
 \begin{tabular}{ | c | p{3.8cm} |  p{8cm} |}
 \hline
@@ -258,11 +260,11 @@ Usuario & Iniciar sesión en el sistema & El actor debe introducir su nombre de 
 & Cambiar contraseña personal  & El actor puede cambiar la contraseña que posee por defecto, por una de su preferencia \\
 \hline
 \end{tabular}
-\caption{Casos de uso del usuario}
 \end{center}
 \end{table}
 
 \begin{table}[H]
+\caption{Casos de uso del operario}
 \begin{center}
 \begin{tabular}{ | c | p{3cm} |  p{8.5cm} |}
 \hline
@@ -279,13 +281,13 @@ Operario & Entrenar & El actor inicia el entrenamiento de un proceso \\
 & Ver resultados & El actor puede visualizar un registro con todos los resultados que ha obtenido \\
 \hline
 \end{tabular}
-\caption{Casos de uso del operario}
 \end{center}
 \end{table}
 
 \begin{table}[H]
+\caption{Casos de uso del jefe de área}
 \begin{center}
-\begin{tabular}{ | c | p{3.5cm} |  p{7.5cm} |}
+\begin{tabular}{ | c | p{3.7cm} |  p{7.7cm} |}
 \hline
 \textbf{Actor} & \textbf{Caso de uso} & \textbf{Descripción}\\
 \hline
@@ -295,12 +297,24 @@ Jefe de área & Gestionar procesos & El actor puede introducir, modificar o elim
 \cline{2-3}
 & Añadir usuarios & El actor decide para cada proceso los usuarios que lo pueden realizar \\
 \cline{2-3}
-& Ver resultados de los operarios del área & El actor puede visualizar un registro con todas las evaluaciones de los operarios de su área \\
+& Ver resultados de los operarios del área & El actor puede visualizar un registro con las evaluaciones de los operarios de su área \\
 \hline
 \end{tabular}
-\caption{Casos de uso del jefe de área}
 \end{center}
 \end{table}
+
+\subsection{Caso de uso especial}
+En el sistema de entrenamiento SECPROIT, para que un fichero pueda ser almacenado en la base de datos es necesario convertirlo a una cadena de  \textsl{bytes} y, para leerlo, ese fichero debe ser transformado a \textsl{Object}, ser abierto y, por último, extraer su información. El proceso descrito anteriormente se realiza cada vez que se desea generar una pregunta y cada vez que se desea evaluar una etapa, lo que resulta una demora extra en la ejecución del software. Por esta razón, en el nuevo sistema de capacitación, se decidió registrar la información contenida en los ficheros dentro de tablas en la base de datos, para que el proceso de extracción de la información se ejecutara de manera más simple y más rápida. Esta nueva acción se reconoce como un caso de uso especial, llamado: cargar base de conocimiento.
+
+Sin embargo, este proceso no fue tan sencillo como se imaginaba en un inicio. Por cada regla contenida en un fichero, se debe registrar en la base de datos, su información y los elementos con los que tiene relación. Por ejemplo: si se desea incluir una regla de variable-causa, además de incluir la regla en sí, se debe introducir la variable y la causa a las que esta regla hace mención. Por lo tanto, por cada proceso, se guarda en la base de datos la cantidad de reglas que contiene, además de la cantidad de variables, causas y recomendaciones del mismo. Por ejemplo: si se tiene un fichero con 10 variables, 5 causas, 5 recomendaciones, 15 reglas del tipo variable-causa y 15 reglas del tipo causa-recomendación, se deberán almacenar en la base de datos, 50 nuevas filas.
+
+Cada regla registrada en la base de datos debe contener el identificador de la variable, causa o recomendación a la que hace referencia. Para ello, estas deben insertarse antes. Se pudiera pensar que se pueden insertar todas las variables, causas y recomendaciones en un inicio, y luego, por cada regla, consultar con la base de datos cuáles son los identificadores que necesita para registrarla y, una vez encontrado esos identificadores, insertarla.
+
+El problema es que una conexión estándar con PostgreSQL (herramienta que se utiliza para la gestión de la base de datos) permite hasta 150 consultas. Entiéndase por consulta: cada uno de los llamados a la base de datos. De esta manera, si un fichero contiene 100 reglas del tipo variable-causa y 50 reglas del tipo causa-recomendación, las consultas se saturarían y la conexión con el PostgreSQL se perdería.
+
+Una forma de solucionar este problema es aumentando el número de consultas, pero esto provoca que la cantidad de memoria RAM necesitada para ejecutar las acciones sea mayor. Entre los requisitos no funcionales mencionados anteriormente, se explicaba que la cantidad de memoria RAM no puede exceder a la que ya se tiene, por lo que esta solución no es factible. Otra solución sería implementar una herramienta que junte las consultas antes de enviarlas a la base de datos, pero la implementación de la misma violaría los requisitos no funcionales antes descritos. Como solución final, se implementó un método que funciona de manera semajante a la herramienta mencionada.
+
+El método implementado, genera clases locales con la información de las variables, causas y recomendaciones. A partir de esa información, genera nuevas clases con las reglas variable-causa y causa-recomendación. Una vez obtenida toda la información del fichero, se tiene en clases locales la misma información que se va a almacenar en la base de datos. A partir de esas clases, se crea una sola sentencia (bastante larga) donde se inserta toda la información contenida en las clases locales (información de los ficheros), obteniendo como resultado, el registro de toda la información usando una sola consulta a la base de datos.
 
 \section{Modelo de datos}
 Para el desarrollo de este sistema se utiliza, como gestor de base de datos, la herramienta PostgreSQL. En ella se almacena toda la información con la que se va a trabajar, incluyendo los ficheros \textsl{anm} y \textsl{drl} de los procesos. Por momentos determinados, esta información también se encuentra almacenada, de forma local y temporal, en clases del propio sistema, lo que permite un mejor manejo y control de los datos.
@@ -308,17 +322,11 @@ Para el desarrollo de este sistema se utiliza, como gestor de base de datos, la 
 \subsection{Diagrama de Entidades y Relaciones (DER)}
 Un Diagrama de Entidades y Relaciones (DER) es una herramienta que permite representar de manera simplificada los componentes que participan en un proceso, y el modo en el que estos se relacionan entre sí. Posee tres elementos principales: las entidades, los atributos y las relaciones \cite{Li2009}.
 
-El diagrama de entidades de este nuevo sistema de capacitación (\textsl{Figura \ref{fig:der}}) contiene varias modificaciones con respecto al diagrama presente en el sistema SECPROIT. Para una mejor representación de los cambios, se tuvieron en cuenta una serie de colores:
+El diagrama de entidades de este nuevo sistema de capacitación (\textsl{Figura \ref{fig:der}}) contiene varias modificaciones con respecto al diagrama presente en el SECPROIT. Para una mejor representación de los cambios, se tuvieron en cuenta una serie de colores: azul para las entidades que no fueron afectadas, amarillo para las que sufrieron algún cambio y verde para las nuevas.
 
-\begin{itemize}
-\item \textbf{Azul}: representa aquellas entidades que no sufrieron ningún cambio significativo con respecto al sistema SECPROIT
-\item \textbf{Amarillo}: representa aquellas entidades que fueron modificadas, pero que siguen cumpliendo las mismas funciones
-\item \textbf{Verde}: representa las entidades que son totalmente nuevas
-\end{itemize}
-
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
- \includegraphics[width=0.65\linewidth]{imagen/der.png}
+ \includegraphics[width=0.47\linewidth]{imagen/der.png}
  \caption{Diagrama de Entidades y Relaciones (DER)}
  \label{fig:der} 
 \end{figure}
@@ -327,6 +335,7 @@ En este diagrama no solo se cambiaron y se agregaron nuevas entidades, también 
 
 \begin{table}[H]
 \centering
+\caption{Entidades del nuevo sistema de capacitación}
 \begin{center}
 \begin{tabular}{ | c | p{5cm} |  p{5cm} | }
 \hline
@@ -338,7 +347,7 @@ Traza & ID, usuario, acción y fecha &  \\
 \cline{1-2}
 Proceso & ID, nombre, foto, base de datos, base de reglas y área &  \\
 \hline
-Usuario & ID, nombre, carnet, sexo, nivel escolar, experiencia, años como jefe, usuario, contraseña, área, rol y activo & Se agregaron nuevos atributos que permiten conocer mejor al usuario\\
+Usuario & ID, nombre, carnet, sexo, escolaridad, experiencia, años de jefe, usuario, contraseña, área, rol y activo & Se agregaron nuevos atributos que permiten conocer mejor al usuario\\
 \hline
 Configuración & ID, proceso, tiempo, cantidad de preguntas, cantidad de preguntas aprobadas y tipos de pregunta & Se agregó con el fin de poder configurar los entrenamientos \\
 \hline
@@ -357,7 +366,6 @@ Variable-Causa & ID, variable y causa &  \\
 Causa-Recomendación & ID, causa y recomendación &  \\
 \hline
 \end{tabular}
-\caption{Entidades del nuevo sistema de capacitación}
 \label{tab:entidades}
 \end{center}
 \end{table}
@@ -367,7 +375,7 @@ La herramienta utilizada para crear y gestionar la base de datos del nuevo siste
 
 \begin{figure}[H]
 \centering
- \includegraphics[width=0.9\linewidth]{imagen/bd.png}
+ \includegraphics[width=1.0\linewidth]{imagen/bd.png}
  \caption{Diagrama de base de datos}
  \label{fig:bd} 
 \end{figure}
@@ -379,23 +387,24 @@ En este nuevo sistema de capacitación, se crearon un conjunto de paquetes  (\te
 
 \begin{figure}[H]
 \centering
- \includegraphics[width=0.27\linewidth]{imagen/paquetes.png}
+ \includegraphics[width=0.25\linewidth]{imagen/paquetes.png}
  \caption{Arquitectura de los paquetes de clases}
  \label{fig:paquetes} 
 \end{figure}
 
 \begin{table}[H]
 \centering
+\caption{Descripción de los paquetes de clases}
 \begin{center}
-\begin{tabular}{ | c | p{11.5cm} | }
+\begin{tabular}{ | c | p{11.6cm} | }
 \hline
 \textbf{Paquete} & \textbf{Descripción}\\
 \hline
-classes & Contiene las clases que representan las entidades registradas en la base de datos \\
+classes & Contiene las clases que representadas en la base de datos \\
 \hline
-dbConnection & Contiene las clases que permiten establecer una conexión con la base de datos \\
+dbConnection & Contiene las clases que conectan con la base de datos \\
 \hline
-extras & Contiene las clases que auxilian el proceso de generar las interfaces del sistema y clases que poseen funciones de validación \\
+extras & Contiene las clases que auxilian los procesos del sistema \\
 \hline
 images & Contiene las imágenes utilizadas en el sistema \\
 \hline
@@ -403,14 +412,13 @@ interfaces & Contiene las interfaces visuales del sistema \\
 \hline
 knowledgeBase & Contiene las clases que permiten establecer una conexión con el \textsl{JDrools}, así como las clases que auxilian el proceso de cargar y leer un fichero (todo lo relacionado con el sistema experto) \\
 \hline
-services & Contiene las clases que brindan un servicio a la base de datos (insertar, leer, modificar o eliminar) \\
+services & Contiene las clases que brindan un servicio a la base de datos \\
 \hline
-trainerInterfaces & Contiene las interfaces visuales relacionadas con las etapas del entrenamiento \\
+trainerInterfaces & Contiene las interfaces visuales relacionadas con el entrenamiento \\
 \hline
 trainerLogic &  Contiene las clases que permiten el correcto funcionamiento de una etapa de entrenamiento \\
 \hline
 \end{tabular}
-\caption{Descripción de los paquetes de clases}
 \label{tab:paquetes}
 \end{center}
 \end{table}
@@ -480,9 +488,23 @@ Con el desarrollo del nuevo sistema de capacitación se trataron de enmendar las
 \item La configuración de un entrenamiento se realiza a partir de la acción de insertar o modificar un proceso. Los campos que se requieren completar se muestran con un valor por defecto para evitar errores de validación (Anexo \ref{fig:confEn}).
 \item Para iniciar un entrenamiento se debe escoger, mediante una tabla, el proceso que se desea evaluar. Esto se hace para evitar enlaces rotos. Además, la tabla muestra el estado actual del entrenamiento de ese proceso: no iniciado, iniciado o terminado (Anexo \ref{fig:entrenamientos}).
 \item Antes de iniciar el entrenamiento de una etapa, se le indica al usuario qué etapa va a realizar, cuántos intentos le quedan, cuántos necesita aprobar y las notas de las etapas anteriores (Anexo \ref{fig:eniniciado} y \ref{fig:einiciado}).
-\item En el nuevo sistema de capacitación se incluyeron cuatro tipos de preguntas: verdadero o falso (Anexo \ref{fig:pregvar}), completar los espacios en blanco, selección múltiple y enlazar.
+\item En el nuevo sistema de capacitación se incluyeron cuatro tipos de preguntas: verdadero o falso (Anexo \ref{fig:pregvar}), completar los espacios en blanco (Anexo \ref{fig:pregcaus}), selección múltiple y enlazar.
 \item Los resultados del entrenamiento de una etapa se muestra a partir de una barra de progreso. Además, se le incluye la nota obtenida, la cantidad de preguntas aceptadas, la descripción de si aprobó o no y se señalan las preguntas falladas (Anexo \ref{fig:notas}).
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/login.png}}
+ \caption{Pantalla de inicio del sistema}
+ \label{fig:login} 
+\end{figure}
+
+\begin{figure}[H]
+\centering
+ \frame{\includegraphics[width=0.9\linewidth]{imagen/anexos/principal.png}}
+ \caption{Pantalla principal del sistema}
+ \label{fig:principal} 
+\end{figure}
 
 \section{Conclusiones parciales}
 Al concluir este capítulo se pueden arribar las siguientes conclusiones:

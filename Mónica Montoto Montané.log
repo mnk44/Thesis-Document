@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  8 DEC 2022 20:08
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2022.4.4)  9 DEC 2022 12:47
 entering extended mode
 **MÛnica*Montoto*MontanÈ.tex
 ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.tex"
@@ -566,7 +566,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 
 (E:\Escuela\Tesis\Informe\portada.tex
-<imagen/cujae.png, id=287, 202.356pt x 125.0271pt>
+<imagen/cujae.png, id=291, 202.356pt x 125.0271pt>
 File: imagen/cujae.png Graphic file (type png)
  <use imagen/cujae.png>
 [1
@@ -581,9 +581,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
 
-<imagen/firma.png, id=300, 126.4725pt x 82.80937pt>
+<imagen/firma.png, id=304, 126.4725pt x 82.80937pt>
 File: imagen/firma.png Graphic file (type png)
- <use imagen/firma.png>)pdfTeX warning (ext4): destination with the same identi
+ <use imagen/firma.png>
+<imagen/raisa.png, id=305, 503.63156pt x 328.22626pt>
+File: imagen/raisa.png Graphic file (type png)
+ <use imagen/raisa.png>)pdfTeX warning (ext4): destination with the same identi
 fier (name{page.I}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -592,48 +595,55 @@ l.31 	\include{decAutoria}
 
 
 
- <E:/Escuela/Tesis/Informe/imagen/firma.png (PNG copy)>] (E:\Escuela\Tesis\Info
-rme\opinion.tex) [2
+ <E:/Escuela/Tesis/Informe/imagen/firma.png (PNG copy)> <E:/Escuela/Tesis/Infor
+me/imagen/raisa.png>]
+(E:\Escuela\Tesis\Informe\opinion.tex
+<imagen/opinion.png, id=312, 1068.24094pt x 234.1247pt>
+File: imagen/opinion.png Graphic file (type png)
+
+<use imagen/opinion.png> [2
+
+
+
+ <E:/Escuela/Tesis/Informe/imagen/opinion.png>]
+File: imagen/raisa.png Graphic file (type png)
+
+<use imagen/raisa.png>) [3] (E:\Escuela\Tesis\Informe\dedicatoria.tex) [4
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\dedicatoria.tex) [3
+(E:\Escuela\Tesis\Informe\agradecimientos.tex [5
+
+
+
+]) [6]
+(E:\Escuela\Tesis\Informe\resumen.tex) [7
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\agradecimientos.tex [4
-
-
-
-]) [5]
-(E:\Escuela\Tesis\Informe\resumen.tex) [6
+(E:\Escuela\Tesis\Informe\abstrac.tex) [8
 
 
 
 ]
-(E:\Escuela\Tesis\Informe\abstrac.tex) [7
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.toc" [9
 
 
-
-]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.toc" [8
-
-
-] [9])
+] [10])
 \tf@toc=\write5
- [10]
+ [11]
 ("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.lot")
 \tf@lot=\write6
- [11
+ [12
 
 ]
-("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.lof" [12
+("E:\Escuela\Tesis\Informe\MÛnica Montoto MontanÈ.lof" [13
 
 ])
 \tf@lof=\write7
- [13]
+ [14]
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
@@ -655,20 +665,20 @@ and I'll forget about whatever was undefined.
 
 
 ] [6]
-<imagen/fases-proceso-evaluacion.jpg, id=590, 722.7pt x 406.51875pt>
+<imagen/fases-proceso-evaluacion.jpg, id=605, 722.7pt x 406.51875pt>
 File: imagen/fases-proceso-evaluacion.jpg Graphic file (type jpg)
 
 <use imagen/fases-proceso-evaluacion.jpg> [7 <E:/Escuela/Tesis/Informe/imagen/f
 ases-proceso-evaluacion.jpg>] [8] [9] [10]
-<imagen/gama.png, id=633, 593.21625pt x 382.42876pt>
+<imagen/gama.png, id=649, 593.21625pt x 382.42876pt>
 File: imagen/gama.png Graphic file (type png)
  <use imagen/gama.png>
 [11 <E:/Escuela/Tesis/Informe/imagen/gama.png>] [12]
-<imagen/componentes.png, id=659, 464.4853pt x 166.37157pt>
+<imagen/componentes.png, id=674, 464.4853pt x 166.37157pt>
 File: imagen/componentes.png Graphic file (type png)
 
 <use imagen/componentes.png> [13] [14 <E:/Escuela/Tesis/Informe/imagen/componen
-tes.png>] <imagen/rules.png, id=675, 214.55156pt x 108.405pt>
+tes.png>] <imagen/rules.png, id=690, 214.55156pt x 108.405pt>
 File: imagen/rules.png Graphic file (type png)
 
 <use imagen/rules.png> [15 <E:/Escuela/Tesis/Informe/imagen/rules.png (PNG copy
@@ -677,47 +687,42 @@ File: imagen/rules.png Graphic file (type png)
 
 
 ]
-<imagen/dominio.png, id=715, 441.14813pt x 412.54124pt>
+<imagen/dominio.png, id=730, 441.14813pt x 412.54124pt>
 File: imagen/dominio.png Graphic file (type png)
 
 <use imagen/dominio.png>
-Underfull \hbox (badness 1142) in paragraph at lines 42--43
+Underfull \hbox (badness 1142) in paragraph at lines 44--45
 []|\OT1/cmr/m/n/12 Antes era es-pe-cia-lis-ta y so-lo
  []
 
 
-Overfull \hbox (3.45372pt too wide) in paragraph at lines 36--49
+Overfull \hbox (3.45372pt too wide) in paragraph at lines 38--52
  [] 
  []
 
 [20 <E:/Escuela/Tesis/Informe/imagen/dominio.png>]
-Overfull \hbox (0.79543pt too wide) in paragraph at lines 58--87
+Overfull \hbox (0.79543pt too wide) in paragraph at lines 60--90
  [] 
  []
 
-[21] [22] <imagen/actividades.png, id=737, 465.99094pt x 433.62pt>
+[21] [22] <imagen/actividades.png, id=753, 465.99094pt x 433.62pt>
 File: imagen/actividades.png Graphic file (type png)
 
 <use imagen/actividades.png> [23 <E:/Escuela/Tesis/Informe/imagen/actividades.p
-ng>] [24] [25] <imagen/dcu.png, id=760, 575.14874pt x 408.02437pt>
+ng>] [24] [25] <imagen/dcu.png, id=775, 575.14874pt x 408.02437pt>
 File: imagen/dcu.png Graphic file (type png)
 
 <use imagen/dcu.png> [26 <E:/Escuela/Tesis/Informe/imagen/dcu.png>]
-Underfull \hbox (badness 1087) in paragraph at lines 256--256
+Underfull \hbox (badness 1087) in paragraph at lines 258--258
 []|\OT1/cmr/m/n/12 Iniciar se-sion en el
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 258--258
+Underfull \hbox (badness 2293) in paragraph at lines 260--260
 []|\OT1/cmr/m/n/12 Cambiar con-tra-se~na
  []
 
 [27]
-Underfull \hbox (badness 2277) in paragraph at lines 273--273
-[]|\OT1/cmr/m/n/12 Entrenar en la
- []
-
-
 Underfull \hbox (badness 2277) in paragraph at lines 275--275
 []|\OT1/cmr/m/n/12 Entrenar en la
  []
@@ -728,60 +733,55 @@ Underfull \hbox (badness 2277) in paragraph at lines 277--277
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 298--298
-[]|\OT1/cmr/m/n/12 Ver re-sul-ta-dos de
+Underfull \hbox (badness 2277) in paragraph at lines 279--279
+[]|\OT1/cmr/m/n/12 Entrenar en la
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 298--298
-\OT1/cmr/m/n/12 los ope-ra-rios del
+Underfull \hbox (badness 1147) in paragraph at lines 296--296
+[]|\OT1/cmr/m/n/12 Configurar en-tre-na-
  []
 
-[28] <imagen/der.png, id=779, 410.2828pt x 305.64188pt>
+[28] [29] <imagen/der.png, id=799, 410.2828pt x 305.64188pt>
 File: imagen/der.png Graphic file (type png)
- <use imagen/der.png>
-[29 <E:/Escuela/Tesis/Informe/imagen/der.png>]
-Underfull \hbox (badness 2617) in paragraph at lines 341--341
-\OT1/cmr/m/n/12 ni-vel es-co-lar, ex-pe-rien-cia,
+
+<use imagen/der.png> [30 <E:/Escuela/Tesis/Informe/imagen/der.png>]
+Underfull \hbox (badness 6445) in paragraph at lines 350--350
+[]|\OT1/cmr/m/n/12 ID, nom-bre, car-net, se-
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 341--341
-\OT1/cmr/m/n/12 a~nos co-mo je-fe, usua-rio,
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 345--346
+Underfull \hbox (badness 3250) in paragraph at lines 354--355
 []|\OT1/cmr/m/n/12 Se eli-mi-na-ron los demas
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 347--347
+Underfull \hbox (badness 4805) in paragraph at lines 356--356
 \OT1/cmr/m/n/12 eta-pa, tiem-po, pre-gun-tas
  []
 
-[30] <imagen/bd.png, id=794, 1836.8625pt x 1816.7875pt>
+[31] <imagen/bd.png, id=813, 1836.8625pt x 1816.7875pt>
 File: imagen/bd.png Graphic file (type png)
  <use imagen/bd.png>
-[31 <E:/Escuela/Tesis/Informe/imagen/bd.png>]
-<imagen/paquetes.png, id=802, 185.19188pt x 205.5178pt>
+[32 <E:/Escuela/Tesis/Informe/imagen/bd.png>]
+<imagen/paquetes.png, id=821, 185.19188pt x 205.5178pt>
 File: imagen/paquetes.png Graphic file (type png)
 
-<use imagen/paquetes.png> [32 <E:/Escuela/Tesis/Informe/imagen/paquetes.png>]
+<use imagen/paquetes.png> [33 <E:/Escuela/Tesis/Informe/imagen/paquetes.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.437 \textbf{N} = (Ca/C + (Td/T \cdot
+l.445 \textbf{N} = (Ca/C + (Td/T \cdot
                                         0.1))
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 437.
+(Font)              <17.28> on input line 445.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.438 \end{Large}
+l.446 \end{Large}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -789,11 +789,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[33]
+[34]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.454 \textbf{Ng} = (E1 \cdot
+l.462 \textbf{Ng} = (E1 \cdot
                               0.4) + (E2 \cdot  0.3) + (E3 \cdot  0.3)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -801,7 +801,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.455 \end{Large}
+l.463 \end{Large}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -809,176 +809,175 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[34] [35]) [36] (E:\Escuela\Tesis\Informe\cap3.tex [37
+[35] <imagen/anexos/login.png, id=855, 988.44281pt x 532.23843pt>
+File: imagen/anexos/login.png Graphic file (type png)
+
+<use imagen/anexos/login.png> [36]
+<imagen/anexos/principal.png, id=860, 992.20688pt x 646.66594pt>
+File: imagen/anexos/principal.png Graphic file (type png)
+
+<use imagen/anexos/principal.png> [37 <E:/Escuela/Tesis/Informe/imagen/anexos/l
+ogin.png> <E:/Escuela/Tesis/Informe/imagen/anexos/principal.png>]) [38]
+(E:\Escuela\Tesis\Informe\cap3.tex [39
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 []|\OT1/cmr/bx/n/12 Resultado 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 []|\OT1/cmr/bx/n/12 Resultado 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/12 Una con-fi-gu-ra-cion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/12 de en-tre-na-mien-to
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 35--35
+Underfull \hbox (badness 5008) in paragraph at lines 36--36
 \OT1/cmr/m/n/12 no pue-de con-te-ner
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 []|\OT1/cmr/m/n/12 La in-ter-faz no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 \OT1/cmr/m/n/12 cam-pos fue-ran
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 35--36
+Underfull \hbox (badness 4765) in paragraph at lines 36--37
 \OT1/cmr/m/n/12 va-cia-dos (Anexo
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 37--37
-\OT1/cmr/m/n/12 in-co-rrec-ta es in-ser-
+Underfull \hbox (badness 2644) in paragraph at lines 38--38
+[]|\OT1/cmr/m/n/12 Para in-tro-du-cir in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\OT1/cmr/m/n/12 tan-do un nume-ro
+Underfull \hbox (badness 1418) in paragraph at lines 38--38
+\OT1/cmr/m/n/12 nume-ro de in-ten-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \OT1/cmr/m/n/12 sa-je de error
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/12 Introducir cam-pos
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 39--40
+Underfull \hbox (badness 5607) in paragraph at lines 40--41
 []|\OT1/cmr/m/n/12 Se in-tro-du-jo la
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 39--40
+Underfull \hbox (badness 4254) in paragraph at lines 40--41
 \OT1/cmr/m/n/12 nue-va con-fi-gu-ra-
  []
 
 
-Overfull \hbox (7.60548pt too wide) in paragraph at lines 31--42
+Overfull \hbox (7.60548pt too wide) in paragraph at lines 32--44
  [] 
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 []|\OT1/cmr/bx/n/12 Resultado 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 []|\OT1/cmr/bx/n/12 Resultado 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 []|\OT1/cmr/m/n/12 Modificar con-fi-gu-ra-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 56--56
+Underfull \hbox (badness 1221) in paragraph at lines 57--57
 \OT1/cmr/m/n/12 cion con cam-pos en
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 56--57
+Underfull \hbox (badness 3989) in paragraph at lines 57--58
 []|\OT1/cmr/m/n/12 La in-ter-faz no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 \OT1/cmr/m/n/12 cam-pos fue-ran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 []|\OT1/cmr/m/n/12 Modificar con-fi-gu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 \OT1/cmr/m/n/12 ra-cion con cam-pos
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 58--58
+Underfull \hbox (badness 6961) in paragraph at lines 59--59
 \OT1/cmr/m/n/12 tro-du-cir in-for-ma-cion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 []|\OT1/cmr/m/n/12 Modificar con-fi-gu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 \OT1/cmr/m/n/12 ra-cion con cam-pos
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 60--60
+Underfull \hbox (badness 1043) in paragraph at lines 61--61
 []|\OT1/cmr/m/n/12 Se de-be mo-di-fi-
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 60--61
+Underfull \hbox (badness 3849) in paragraph at lines 61--62
 []|\OT1/cmr/m/n/12 Se mo-di-fico la
  []
 
 
-Overfull \hbox (7.6055pt too wide) in paragraph at lines 52--63
+Overfull \hbox (7.6055pt too wide) in paragraph at lines 53--65
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\OT1/cmr/bx/n/12 Resultado 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 []|\OT1/cmr/bx/n/12 Resultado 
  []
 
-
-Underfull \hbox (badness 5533) in paragraph at lines 77--77
-[]|\OT1/cmr/m/n/12 Eliminar pro-
- []
-
-
-Overfull \hbox (10.4505pt too wide) in paragraph at lines 73--80
- [] 
- []
-
-[39]
+[41]
 ! Too many }'s.
 l.88 ...ntan sus causas (Anexo \ref{fig:pregcaus}}
                                                   ), mientras que en las pre...
@@ -986,83 +985,93 @@ You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 []|\OT1/cmr/bx/n/12 Resultado
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []|\OT1/cmr/bx/n/12 Resultado
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/cmr/m/n/12 Verdadero o 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\OT1/cmr/m/n/12 Completar los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 es-pa-cios en
  []
 
 
-Overfull \hbox (7.60548pt too wide) in paragraph at lines 94--107
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+[]|\OT1/cmr/m/n/12 Se acer-ta-ron
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 101--102
+\OT1/cmr/m/n/12 3 ex-pre-sio-nes
+ []
+
+
+Overfull \hbox (7.60548pt too wide) in paragraph at lines 95--109
  [] 
  []
 
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []|\OT1/cmr/bx/n/12 Resultado
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 []|\OT1/cmr/bx/n/12 Resultado
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 125--125
+Underfull \hbox (badness 2150) in paragraph at lines 126--126
 []|\OT1/cmr/m/n/12 Verdadero o 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []|\OT1/cmr/m/n/12 Se acerto 1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 []|\OT1/cmr/m/n/12 Se acerto 1
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 127--127
+Underfull \hbox (badness 1616) in paragraph at lines 128--128
 []|\OT1/cmr/m/n/12 Completar los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \OT1/cmr/m/n/12 es-pa-cios en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\OT1/cmr/m/n/12 Seleccion
  []
 
 
-Overfull \hbox (7.60548pt too wide) in paragraph at lines 121--134
+Overfull \hbox (7.60548pt too wide) in paragraph at lines 122--136
  [] 
  []
 
-[41]
+[43] [44]
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.165  Proceso #
+l.166  Proceso #
                 1 & 5:09 & 0:51 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1070,7 +1079,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.167  Proceso #
+l.168  Proceso #
                 2 & 5:23 & 0:55 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1078,7 +1087,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.169  Proceso #
+l.170  Proceso #
                 3 & 6:15 & 1:05 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1086,7 +1095,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.171  Proceso #
+l.172  Proceso #
                 4 & 6:01 & 1:00 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1094,7 +1103,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.173  Proceso #
+l.174  Proceso #
                 5 & 5:09 & 0:50 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1102,7 +1111,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.175  Proceso #
+l.176  Proceso #
                 6 & 5:15 & 0:52 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1110,7 +1119,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.177  Proceso #
+l.178  Proceso #
                 7 & 5:29 & 0:56 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1118,7 +1127,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.179  Proceso #
+l.180  Proceso #
                 8 & 5:23 & 0:54 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1126,7 +1135,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.181  Proceso #
+l.182  Proceso #
                 9 & 4:09 & 0:33 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1134,24 +1143,24 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in restricted horizontal mode.
-l.183  Proceso #
+l.184  Proceso #
                 10 & 5:21 & 0:50 \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[42] <imagen/erre.png, id=892, 540.51938pt x 389.95688pt>
+<imagen/erre.png, id=920, 459.21562pt x 243.91125pt>
 File: imagen/erre.png Graphic file (type png)
-
-<use imagen/erre.png> [43 <E:/Escuela/Tesis/Informe/imagen/erre.png>]) [44]
-(E:\Escuela\Tesis\Informe\conc.tex) [45
+ <use imagen/erre.png>
+[45 <E:/Escuela/Tesis/Informe/imagen/erre.png>]) [46]
+(E:\Escuela\Tesis\Informe\conc.tex) [47
 
 
 
 
 ] (E:\Escuela\Tesis\Informe\rec.tex)
-[46
+[48
 
 
 
@@ -1223,7 +1232,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[47
+[49
 
 
 
@@ -1281,9 +1290,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[48] [49]
+[50] [51]
 ! Misplaced alignment tab character &.
-l.198 ...EXICANA DE ENDOCRINOLOG√çA, METABOLISMO &
+l.203 ...EXICANA DE ENDOCRINOLOG√çA, METABOLISMO &
                                                    NUTRICI√ìN}, vol.~1,
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1313,105 +1322,101 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[50] (E:\Escuela\Tesis\Informe\anexo.tex
+[52] (E:\Escuela\Tesis\Informe\anexo.tex
 Anexo A.
-<imagen/anexos/sinicono.png, id=931, 1027.58907pt x 596.2275pt>
+<imagen/anexos/sinicono.png, id=960, 1027.58907pt x 596.2275pt>
 File: imagen/anexos/sinicono.png Graphic file (type png)
 
 <use imagen/anexos/sinicono.png>
-<imagen/anexos/titulo.png, id=932, 479.54156pt x 359.84438pt>
+<imagen/anexos/titulo.png, id=961, 479.54156pt x 359.84438pt>
 File: imagen/anexos/titulo.png Graphic file (type png)
 
-<use imagen/anexos/titulo.png> [51
+<use imagen/anexos/titulo.png> [53
 
 
 
  <E:/Escuela/Tesis/Informe/imagen/anexos/sinicono.png>] <imagen/anexos/bordes.p
-ng, id=938, 645.91313pt x 435.12563pt>
+ng, id=967, 645.91313pt x 435.12563pt>
 File: imagen/anexos/bordes.png Graphic file (type png)
 
 <use imagen/anexos/bordes.png>
-<imagen/anexos/tamanno.png, id=939, 1008.01593pt x 514.17094pt>
+<imagen/anexos/tamanno.png, id=968, 1008.01593pt x 514.17094pt>
 File: imagen/anexos/tamanno.png Graphic file (type png)
 
-<use imagen/anexos/tamanno.png> [52 <E:/Escuela/Tesis/Informe/imagen/anexos/tit
+<use imagen/anexos/tamanno.png> [54 <E:/Escuela/Tesis/Informe/imagen/anexos/tit
 ulo.png> <E:/Escuela/Tesis/Informe/imagen/anexos/bordes.png>]
-<imagen/anexos/innecesario.png, id=946, 1445.4pt x 767.86874pt>
+<imagen/anexos/innecesario.png, id=975, 1445.4pt x 767.86874pt>
 File: imagen/anexos/innecesario.png Graphic file (type png)
 
-<use imagen/anexos/innecesario.png> [53 <E:/Escuela/Tesis/Informe/imagen/anexos
+<use imagen/anexos/innecesario.png> [55 <E:/Escuela/Tesis/Informe/imagen/anexos
 /tamanno.png> <E:/Escuela/Tesis/Informe/imagen/anexos/innecesario.png>]
 Anexo B.
-<imagen/anexos/login.png, id=954, 988.44281pt x 532.23843pt>
-File: imagen/anexos/login.png Graphic file (type png)
-
-<use imagen/anexos/login.png>
-<imagen/anexos/principal.png, id=955, 992.20688pt x 646.66594pt>
-File: imagen/anexos/principal.png Graphic file (type png)
-
-<use imagen/anexos/principal.png> [54
-
- <E:/Escuela/Tesis/Informe/imagen/anexos/login.png>] <imagen/anexos/usuarios.pn
-g, id=961, 990.70125pt x 566.115pt>
+<imagen/anexos/usuarios.png, id=982, 990.70125pt x 566.115pt>
 File: imagen/anexos/usuarios.png Graphic file (type png)
 
 <use imagen/anexos/usuarios.png>
-<imagen/anexos/nuevaConf.png, id=962, 985.43156pt x 561.59813pt>
+<imagen/anexos/nuevaConf.png, id=983, 985.43156pt x 561.59813pt>
 File: imagen/anexos/nuevaConf.png Graphic file (type png)
 
-<use imagen/anexos/nuevaConf.png> [55 <E:/Escuela/Tesis/Informe/imagen/anexos/p
-rincipal.png> <E:/Escuela/Tesis/Informe/imagen/anexos/usuarios.png>]
-<imagen/anexos/listadeentrenamiento.png, id=969, 993.7125pt x 566.115pt>
+<use imagen/anexos/nuevaConf.png> [56
+
+ <E:/Escuela/Tesis/Informe/imagen/anexos/usuarios.png>]
+<imagen/anexos/listadeentrenamiento.png, id=989, 993.7125pt x 566.115pt>
 File: imagen/anexos/listadeentrenamiento.png Graphic file (type png)
 
 <use imagen/anexos/listadeentrenamiento.png>
-<imagen/anexos/eniniciado.png, id=970, 992.20688pt x 563.85657pt>
+<imagen/anexos/eniniciado.png, id=990, 992.20688pt x 563.85657pt>
 File: imagen/anexos/eniniciado.png Graphic file (type png)
 
-<use imagen/anexos/eniniciado.png> [56 <E:/Escuela/Tesis/Informe/imagen/anexos/
+<use imagen/anexos/eniniciado.png> [57 <E:/Escuela/Tesis/Informe/imagen/anexos/
 nuevaConf.png> <E:/Escuela/Tesis/Informe/imagen/anexos/listadeentrenamiento.png
->] <imagen/anexos/einiciado.png, id=977, 991.45406pt x 569.87906pt>
+>] <imagen/anexos/einiciado.png, id=997, 991.45406pt x 569.87906pt>
 File: imagen/anexos/einiciado.png Graphic file (type png)
 
 <use imagen/anexos/einiciado.png>
-<imagen/anexos/pregvar.png, id=978, 813.0375pt x 651.18282pt>
+<imagen/anexos/pregvar.png, id=998, 813.0375pt x 651.18282pt>
 File: imagen/anexos/pregvar.png Graphic file (type png)
 
-<use imagen/anexos/pregvar.png> [57 <E:/Escuela/Tesis/Informe/imagen/anexos/eni
+<use imagen/anexos/pregvar.png> [58 <E:/Escuela/Tesis/Informe/imagen/anexos/eni
 niciado.png> <E:/Escuela/Tesis/Informe/imagen/anexos/einiciado.png>]
-<imagen/anexos/pregcaus.png, id=985, 813.79031pt x 682.80093pt>
+<imagen/anexos/pregcaus.png, id=1006, 813.79031pt x 682.80093pt>
 File: imagen/anexos/pregcaus.png Graphic file (type png)
 
 <use imagen/anexos/pregcaus.png>
-<imagen/anexos/notas.png, id=986, 811.53188pt x 654.19406pt>
+<imagen/anexos/notas.png, id=1007, 811.53188pt x 654.19406pt>
 File: imagen/anexos/notas.png Graphic file (type png)
 
-<use imagen/anexos/notas.png> [58 <E:/Escuela/Tesis/Informe/imagen/anexos/pregv
-ar.png> <E:/Escuela/Tesis/Informe/imagen/anexos/pregcaus.png>] [59 <E:/Escuela/
+<use imagen/anexos/notas.png> [59 <E:/Escuela/Tesis/Informe/imagen/anexos/pregv
+ar.png> <E:/Escuela/Tesis/Informe/imagen/anexos/pregcaus.png>] [60 <E:/Escuela/
 Tesis/Informe/imagen/anexos/notas.png>]
 Anexo C.
 File: imagen/anexos/nuevaConf.png Graphic file (type png)
 <use imagen/anexos/nuevaConf.png>
-<imagen/anexos/errorConf.png, id=999, 986.9372pt x 566.115pt>
+<imagen/anexos/errorConf.png, id=1019, 986.9372pt x 566.115pt>
 File: imagen/anexos/errorConf.png Graphic file (type png)
 
-<use imagen/anexos/errorConf.png> [60
+<use imagen/anexos/errorConf.png> [61
 
 ]
-<imagen/anexos/guardarConf.png, id=1004, 994.46532pt x 563.10374pt>
+<imagen/anexos/guardarConf.png, id=1024, 994.46532pt x 563.10374pt>
 File: imagen/anexos/guardarConf.png Graphic file (type png)
 
 <use imagen/anexos/guardarConf.png>
-<imagen/anexos/eliminarConf.png, id=1005, 986.9372pt x 554.07pt>
+<imagen/anexos/eliminarConf.png, id=1025, 986.9372pt x 554.07pt>
 File: imagen/anexos/eliminarConf.png Graphic file (type png)
 
-<use imagen/anexos/eliminarConf.png> [61 <E:/Escuela/Tesis/Informe/imagen/anexo
+<use imagen/anexos/eliminarConf.png> [62 <E:/Escuela/Tesis/Informe/imagen/anexo
 s/errorConf.png> <E:/Escuela/Tesis/Informe/imagen/anexos/guardarConf.png>]
-<imagen/anexos/errorRec.png, id=1012, 1009.52156pt x 572.1375pt>
+<imagen/anexos/causres.png, id=1032, 811.53188pt x 671.50874pt>
+File: imagen/anexos/causres.png Graphic file (type png)
+
+<use imagen/anexos/causres.png>
+<imagen/anexos/errorRec.png, id=1033, 1009.52156pt x 572.1375pt>
 File: imagen/anexos/errorRec.png Graphic file (type png)
 
-<use imagen/anexos/errorRec.png>) [62 <E:/Escuela/Tesis/Informe/imagen/anexos/e
-liminarConf.png> <E:/Escuela/Tesis/Informe/imagen/anexos/errorRec.png>]
+<use imagen/anexos/errorRec.png>) [63 <E:/Escuela/Tesis/Informe/imagen/anexos/e
+liminarConf.png> <E:/Escuela/Tesis/Informe/imagen/anexos/causres.png>] [64 <E:/
+Escuela/Tesis/Informe/imagen/anexos/errorRec.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
@@ -1435,13 +1440,13 @@ Package rerunfilecheck Info: File `MÛnica*Montoto*MontanÈ.out' has not changed.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6547 strings out of 494019
- 98455 string characters out of 3143892
- 193324 words of memory out of 3000000
- 9330 multiletter control sequences out of 15000+200000
+ 6570 strings out of 494019
+ 98875 string characters out of 3143892
+ 194427 words of memory out of 3000000
+ 9345 multiletter control sequences out of 15000+200000
  10721 words of font info for 37 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,11n,30p,1269b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,11n,30p,1269b,567s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
@@ -1451,9 +1456,9 @@ r12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "MÛnica Montoto MontanÈ.pdf" (76 pages, 5444985 bytes).
+Output written on "MÛnica Montoto MontanÈ.pdf" (79 pages, 5668306 bytes).
 PDF statistics:
- 1109 PDF objects out of 1200 (max. 8388607)
- 270 named destinations out of 1000 (max. 500000)
- 729 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1137 PDF objects out of 1200 (max. 8388607)
+ 276 named destinations out of 1000 (max. 500000)
+ 752 words of extra memory for PDF output out of 10000 (max. 10000000)
 

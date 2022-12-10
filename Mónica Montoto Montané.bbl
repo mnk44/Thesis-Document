@@ -8,7 +8,7 @@ F.~R. Casamitjana, ``Tendencias tecnológicas para el sector industrial en el
 S.~Rani, A.~Kataria, and M.~Chauhan, {\em Fog Computing in Industry 4.0:
   Applications and Challenges}, vol.~1 of {\em 2}, resreport A
   Research Roadmap, pp.~173--190.
-\newblock Singapore: Springer Singapore, 4~ed., Sept. 2022.
+\newblock Singapore: Springer Singapore, cuarta edición~ed., Sept. 2022.
 
 \bibitem{Yong2021}
 L.~Yong, ``Informe de desarrollo industrial 2022,'' techreport 450,
@@ -62,7 +62,7 @@ E.~E.~G. Páez, ``¿cómo crear un buen plan de capacitación laboral?,'' {\em
 \bibitem{RogelioE.Martinez2002}
 R.~E.~M. R., G.~R. J., and K.~H. C., {\em Sistema de capacitación asistido por
   computadora, accesible vía Internet}, vol.~26 of {\em 42}.
-\newblock México: Aplicaciones tecnológicas, iii~ed., May 2002.
+\newblock México: Aplicaciones tecnológicas, tercera edición~ed., May 2002.
 
 \bibitem{Jacobs2012}
 R.~L. Jacobs and M.~J. Bu‐Rahmah, ``Developing employee expertise through
@@ -118,7 +118,7 @@ P.~Terrón-López, ``El uso del color en la interfaz gráfica de los
 A.~J. L and C.~M. J, {\em Expert systems: concepts and examples}, vol.~62 of
   {\em 2}.
 \newblock New York, United States: John Wiley and Sons Inc., New York, NY,
-  v~ed., Jan. 1984.
+  quinta edición~ed., Jan. 1984.
 \newblock 99 GENERAL AND MISCELLANEOUS//MATHEMATICS, COMPUTING, AND INFORMATION
   SCIENCE; EXPERT SYSTEMS; REVIEWS; ARTIFICIAL INTELLIGENCE; C CODES; COMPUTER
   CALCULATIONS; COMPUTER CODES; DATA PROCESSING; I CODES; M CODES; P CODES; R
@@ -160,7 +160,7 @@ H.~Herchi and W.~B. Abdessalem, ``From user requirements to uml class
 M.~Chisholm, {\em How to build a business rules engine: Extending application
   functionality through metadata engineering}, vol.~9 of {\em 42}.
 \newblock 500 Sansome Street, San Fransisco, United States: Morgan Kaufmann,
-  kristin landon~ed., Feb. 2007.
+  tercera edición~ed., Feb. 2007.
 
 \bibitem{Eriksson2000}
 H.-E. Eriksson and M.~Penker, ``Business modeling with uml,'' {\em New York},
@@ -182,7 +182,8 @@ S.~Kalaivani, L.~Dong, H.~Behrouz, and A.~Eberlein, ``Ucda: Use case driven
 
 \bibitem{Li2009}
 Q.~Li and Y.-L. Chen, {\em Entity-relationship diagram}, vol.~IV of {\em 42}.
-\newblock Heidelberg, Berlin, Alemania: Springer, springer link~ed., June 2009.
+\newblock Heidelberg, Berlin, Alemania: Springer, primera edición~ed., June
+  2009.
 
 \bibitem{Buehler2008}
 O.~B{\"u}hler and J.~Wegener, ``Evolutionary functional testing,'' {\em
@@ -192,6 +193,10 @@ O.~B{\"u}hler and J.~Wegener, ``Evolutionary functional testing,'' {\em
 S.~Nidhra and J.~Dondeti, ``Black box and white box testing techniques-a
   literature review,'' {\em International Journal of Embedded Systems and
   Applications (IJESA)}, vol.~2, pp.~29--50, June 2012.
+
+\bibitem{Medina2014}
+J.~Medina, {\em Pruebas de rendimiento TIC}, vol.~II of {\em IV}.
+\newblock Madrid, España: lulu. com, segunda edición~ed., June 2014.
 
 \bibitem{Turcios2015}
 R.~A.~S. Turcios, ``Prueba de wilcoxon-mann-whitney: mitos y realidades,'' {\em
